@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 04:58:54 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIzLTEwLTE3OyIwNDo1MTozMyAiOzI5NDg="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIzLTEwLTE3OyIwNDo1ODo1NCAiOzE7MzA2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Chi sei? (inserisci il numero corrispondente)&quot;" newline="True"/>
+            <output expression="&quot;1) bambino con et&#224; inferiore a 6 anni&quot;" newline="True"/>
+            <output expression="&quot;2) studente&quot;" newline="True"/>
+            <output expression="&quot;3) pensionato&quot;" newline="True"/>
+            <output expression="&quot;4) altro&quot;" newline="True"/>
+            <input variable="x"/>
+            <if expression="x = 1">
+                <then>
+                    <output expression="&quot;il biglietto &#232; gratuito&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x = 2">
+                        <then>
+                            <output expression="&quot;costo del biglietto: 8&#8364;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="x = 3">
+                                <then>
+                                    <output expression="&quot;costo del biglietto: 10&#8364;&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="x = 4">
+                                        <then>
+                                            <output expression="&quot;costo del biglietto: 15&#8364;&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;ERRORE: opzione non valida&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

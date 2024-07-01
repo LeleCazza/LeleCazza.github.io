@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-22 05:01:51 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIzLTEwLTIyOyIwNDozOToyNCAiOzI5NTA="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIzLTEwLTIyOyIwNTowMTo1MSAiOzE7MzA0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="km, cod" type="Integer" array="False" size=""/>
+            <declare name="tot" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci i km percorsi&quot;" newline="True"/>
+            <input variable="km"/>
+            <output expression="&quot;inserisci il codice tariffa: (0=Nord, 1=Centro, 2=Sud)&quot;" newline="True"/>
+            <input variable="cod"/>
+            <if expression="cod = 0">
+                <then>
+                    <assign variable="tot" expression="0.150 * km"/>
+                </then>
+                <else>
+                    <if expression="cod = 1">
+                        <then>
+                            <assign variable="tot" expression="0.125 * km"/>
+                        </then>
+                        <else>
+                            <if expression="cod = 2">
+                                <then>
+                                    <assign variable="tot" expression="0.100 * km"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;il codice inserito non &#232; valido&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="cod = 1 or cod = 2 or cod = 3">
+                <then>
+                    <if expression="km &gt;= 100">
+                        <then>
+                            <assign variable="tot" expression="tot + (100 * 0.010) + ((km - 100) * 0.005)"/>
+                        </then>
+                        <else>
+                            <assign variable="tot" expression="tot + km * 0.010"/>
+                        </else>
+                    </if>
+                    <output expression="&quot;prezzo totale da pagare: &quot; &amp; tot" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

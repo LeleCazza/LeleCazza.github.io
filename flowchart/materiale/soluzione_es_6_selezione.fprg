@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-03 05:48:26 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTExLTAzOyIwNTo0MToyMiAiOzI5NDE="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTExLTAzOyIwNTo0ODoyNiAiOzE7MzA2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NOME" type="String" array="False" size=""/>
+            <declare name="PREZZO" type="Integer" array="False" size=""/>
+            <output expression="&quot;INSERISCI IL NOME DI UN VIDEOGIOCO&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;INSERISCI IL PREZZO DEL VIDEOGIOCO&quot;" newline="True"/>
+            <input variable="PREZZO"/>
+            <if expression="NOME = &quot;pokemon&quot; and PREZZO &gt;= 50">
+                <then>
+                    <output expression="&quot;COSTA TROPPO!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="PREZZO &lt;= 20">
+                        <then>
+                            <output expression="NOME &amp; &quot; lo comprer&#242;&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

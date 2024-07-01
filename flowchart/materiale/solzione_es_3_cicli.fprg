@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cazzaniga.gabriele"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-18 07.14.44 "/>
+        <attribute name="created" value="Y2F6emFuaWdhLmdhYnJpZWxlO1BDMTg1OzIwMjItMTEtMTg7IjA3LjA0LjM2ICI7MzI5OA=="/>
+        <attribute name="edited" value="Y2F6emFuaWdhLmdhYnJpZWxlO1BDMTg1OzIwMjItMTEtMTg7IjA3LjE0LjQ0ICI7MzszNDA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, x, min" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un valore&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="min" expression="x"/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <output expression="&quot;Inserisci un valore&quot;" newline="True"/>
+                <input variable="x"/>
+                <if expression="x &lt; min">
+                    <then>
+                        <assign variable="min" expression="x"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Il minimo tra i valori inseriti &#232;: &quot; &amp; min" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

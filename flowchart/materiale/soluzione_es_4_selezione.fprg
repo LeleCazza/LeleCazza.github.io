@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 02:03:51 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTEwLTI1OyIwMTo1NzowNyAiOzI5NTA="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTEwLTI1OyIwMjowMzo1MSAiOzE7MzA0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TEMPERATURA" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci il valore della temperatura della serra&quot;" newline="True"/>
+            <input variable="TEMPERATURA"/>
+            <if expression="TEMPERATURA &lt; 5">
+                <then>
+                    <output expression="&quot;STATO: DANNI IRREPARABILI&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="TEMPERATURA &lt; 18">
+                        <then>
+                            <output expression="&quot;STATO: PERICOLO&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;STATO: NORMALE&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

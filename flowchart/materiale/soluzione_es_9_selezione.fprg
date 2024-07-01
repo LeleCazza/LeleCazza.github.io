@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 04:51:02 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIzLTEwLTE3OyIwNDo0NjoxMSAiOzI5NDg="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIzLTEwLTE3OyIwNDo1MTowMiAiOzE7MzA1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ore" type="Integer" array="False" size=""/>
+            <declare name="costoMateriale, totale" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci il costo del materiale: &quot;" newline="True"/>
+            <input variable="costoMateriale"/>
+            <output expression="&quot;Inserisci il numero di ore di lavoro: &quot;" newline="True"/>
+            <input variable="ore"/>
+            <assign variable="totale" expression="(40 * ore) + costoMateriale"/>
+            <if expression="totale &lt; 140">
+                <then>
+                    <output expression="&quot;all'importo totale: &quot; &amp; totale &amp; &quot;&#8364; devi aggiungere: &quot; &amp; 140 - totale &amp; &quot;&#8364; per raggiungere la soglia minima&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;totale da pagare: &quot; &amp; totale &amp; &quot;&#8364;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

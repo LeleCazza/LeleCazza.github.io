@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="leyel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-23 05:48:35 "/>
+        <attribute name="created" value="bGV5ZWw7VFJFWlpBOzIwMjQtMDUtMjM7IjA1OjQ0OjUzICI7MjIxMw=="/>
+        <attribute name="edited" value="bGV5ZWw7VFJFWlpBOzIwMjQtMDUtMjM7IjA1OjQ4OjM1ICI7NjsyMzMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numDado, count, totale, i" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <assign variable="totale" expression="0"/>
+            <for variable="i" start="1" end="50" direction="inc" step="1">
+                <assign variable="numDado" expression="random(20) + 1"/>
+                <assign variable="totale" expression="totale + numDado"/>
+                <if expression="numDado = 10">
+                    <then>
+                        <assign variable="count" expression="count + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Il totale dei numeri estratti &#232;: &quot; &amp; totale" newline="True"/>
+            <output expression="&quot;Il numero 10 &#232; uscito &quot; &amp; count &amp; &quot; volte&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

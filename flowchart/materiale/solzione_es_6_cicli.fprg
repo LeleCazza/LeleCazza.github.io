@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cazzaniga.gabriele"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-15 11:25:41 "/>
+        <attribute name="created" value="Y2F6emFuaWdhLmdhYnJpZWxlO1BDMjI1OzIwMjItMTEtMTU7IjExOjIyOjEwICI7MzMwMQ=="/>
+        <attribute name="edited" value="Y2F6emFuaWdhLmdhYnJpZWxlO1BDMjI1OzIwMjItMTEtMTU7IjExOjI1OjQxICI7MTszNDE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="2" end="200" direction="inc" step="2">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

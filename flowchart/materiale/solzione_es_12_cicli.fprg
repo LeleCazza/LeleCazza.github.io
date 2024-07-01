@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-30 07:07:25 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTExLTMwOyIwNjo0OTozMiAiOzI5NTE="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTExLTMwOyIwNzowNzoyNSAiOzU7MzA2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un numero multiplo di 14&quot;" newline="True"/>
+            <input variable="num"/>
+            <while expression="num % 14 != 0">
+                <output expression="&quot;Il numero inserito non &#232; un multiplo di 14, inserisci un multiplo di 14!&quot;" newline="True"/>
+                <input variable="num"/>
+            </while>
+            <output expression="&quot;NUMERO ACCETTATO&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

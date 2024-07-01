@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="leyel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-23 05:53:49 "/>
+        <attribute name="created" value="bGV5ZWw7VFJFWlpBOzIwMjQtMDUtMjM7IjA1OjQ4OjQ1ICI7MjIxOA=="/>
+        <attribute name="edited" value="bGV5ZWw7VFJFWlpBOzIwMjQtMDUtMjM7IjA1OjUzOjQ5ICI7MzsyMzI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="scelta" type="String" array="False" size=""/>
+            <declare name="colore" type="Integer" array="False" size=""/>
+            <output expression="&quot;Scegli un colore: giallo, blu, rosso&quot;" newline="True"/>
+            <input variable="scelta"/>
+            <assign variable="colore" expression="random(3)"/>
+            <if expression="colore = 0">
+                <then>
+                    <output expression="&quot;&#232; stato estratto il GIALLO&quot;" newline="True"/>
+                    <if expression="scelta = &quot;giallo&quot;">
+                        <then>
+                            <output expression="&quot;VITTORIA&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;SCONFITTA&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="colore = 1">
+                        <then>
+                            <output expression="&quot;&#232; stato estratto il BLU&quot;" newline="True"/>
+                            <if expression="scelta = &quot;blu&quot;">
+                                <then>
+                                    <output expression="&quot;VITTORIA&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;SCONFITTA&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#232; stato estratto il ROSSO&quot;" newline="True"/>
+                            <if expression="scelta = &quot;rosso&quot;">
+                                <then>
+                                    <output expression="&quot;VITTORIA&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;SCONFITTA&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

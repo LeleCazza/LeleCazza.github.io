@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-01 04:39:03 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTEyLTAxOyIwNDozNDoxOSAiOzI5NDc="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTEyLTAxOyIwNDozOTowMyAiOzM7MzA1NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="voto" type="Integer" array="False" size=""/>
+            <output expression="&quot;inserisci un voto&quot;" newline="True"/>
+            <input variable="voto"/>
+            <while expression="voto &lt; 6">
+                <output expression="&quot;MI DISPIACE, LA VERIFICA NON E' SUFFICIENTE&quot;" newline="True"/>
+                <output expression="&quot;inserisci un voto&quot;" newline="True"/>
+                <input variable="voto"/>
+            </while>
+            <output expression="&quot;DAJE!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="trezza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-03 05:34:46 "/>
+        <attribute name="created" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTExLTAzOyIwNToyNDozOSAiOzI5NTA="/>
+        <attribute name="edited" value="dHJlenphO0RFU0tUT1AtUjZRQ1BWODsyMDIyLTExLTAzOyIwNTozNDo0NiAiOzE7MzA1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X, Y, SOMM, SOTTR, PROD" type="Integer" array="False" size=""/>
+            <output expression="&quot;INSERISCI IL PRIMO VALORE&quot;" newline="True"/>
+            <input variable="X"/>
+            <output expression="&quot;INSERISCI IL SECONDO VALORE&quot;" newline="True"/>
+            <input variable="Y"/>
+            <if expression="X = Y">
+                <then>
+                    <assign variable="SOMM" expression="X + Y"/>
+                    <output expression="&quot;la somma dei due valori inseriti &#232;: &quot; &amp; SOMM" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="SOTTR" expression="X - Y"/>
+                    <output expression="&quot;la differenza dei due valori inseriti &#232;: &quot; &amp; SOTTR" newline="True"/>
+                </else>
+            </if>
+            <if expression="X &gt;= 10 and Y &gt;= 10">
+                <then>
+                    <assign variable="PROD" expression="X * Y"/>
+                    <output expression="&quot;il prodotto dei due valori inseriti &#232;: &quot; &amp; PROD" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
