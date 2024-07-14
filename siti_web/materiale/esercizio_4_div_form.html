@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="IT">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="esercizio body font stile e allineamento">
+	<meta name="author" content="Prof.">
+	<title>SIGN IN</title>
+</head>
+<body>
+	<div align="center">
+		<h1>FORM DI REGISTRAZIONE AL SITO</h1>
+		<p>inserisci i tuoi dati per registrarti al sito</p>
+	</div>
+	<form action="">
+		<fieldset>
+    	<legend>REGISTRAZIONE</legend>
+			<!-- CAMPO NOME -->
+			<label>NOME:</label>
+			<input type="text" name="nome">
+			<br><br>
+
+			<!-- CAMPO COGNOME -->
+			<label>COGNOME:</label>
+			<input type="text" name="cognome">
+			<br><br>
+
+			<!-- CAMPO GENERE -->
+			<div>
+				<label>GENERE:</label>
+				<br>
+				<input type="radio" name="genere" value="uomo">
+				<label>UOMO</label>
+				<br>
+				<input type="radio" name="genere" value="donna">
+				<label>DONNA</label>
+				<br>
+				<input type="radio" name="genere" value="altro">
+				<label>ALTRO</label>
+				<br>
+				<input type="radio" name="genere" value="non_dichiarato">
+				<label>PREFERISCO NON DICHIARARLO</label>
+				<br><br>
+			</div>
+
+			<!-- CAMPO SPORT -->
+			<label>SPORT PRATICATI:</label>
+			<br>
+			<input type="checkbox" name="sport" value="bob">
+			<label> BOB</label>
+			<br>
+			<input type="checkbox" name="sport" value="sci">
+			<label> SCI</label>
+			<br>
+			<input type="checkbox" name="sport" value="curling">
+			<label> CURLING</label>
+			<br><br>
+
+			<!-- CAMPO SPORT PEGGIORE -->
+			<label>SEGLI LO SPORT CHE TI PIACE MENO:</label>
+			<select name="sport_peggiore">
+				<option value="calcio">CALCIO</option>
+				<option value="pallavolo">PALLAVOLO</option>
+				<option value="pugilato">PUGILATO</option>
+				<option value="trail_running">TRAIL RUNNING</option>
+				<option value="nessuno" selected></option>
+			</select>
+			<br><br>
+
+			<!-- CAMPO DESCRIZIONE -->
+			<label>INSERISCI UNA BREVE DESCRIZIONE:</label>
+			<textarea name="descrizione" rows="2" cols="50"></textarea>
+			<br><br>
+
+			<!-- CAMPO MAIL -->
+			<label>MAIL:</label>
+			<input type="email" name="mail">
+			<br><br>
+
+			<!-- CAMPO PASSWORD -->
+			<label>PASSWORD:</label>
+			<input type="password" name="password">
+			<br><br>
+
+			<!-- SUBMIT -->
+			<input type="submit" value="REGISTRATI">
+		</fieldset>
+	</form>
+</body>
+</html>
