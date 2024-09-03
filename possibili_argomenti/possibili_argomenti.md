@@ -1,0 +1,255 @@
+# RETE
+- STORIA DI INTERNET E SUA STRUTTURA
+    - https://attivissimo.blogspot.com/2022/01/hacker-nel-far-west.html
+    - https://www.isoc.it/storia-di-internet
+    - https://attivissimo.blogspot.com/2022/04/podcast-rsi-la-dannazione-del-default.html
+    - https://www.submarinecablemap.com/
+    - https://www.geopop.it/serie/cavi-sottomarini/
+    - https://blog.google/intl/it-it/prodotti/esplora-trova-risposte/project-loon-accesso-internet-tramite/
+    - https://www.ilpost.it/2021/01/22/alphabet-loon-palloni-aerostatici/
+    - https://www.geopop.it/5g-vs-4g-quali-sono-le-differenze-e-i-vantaggi-della-nuova-generazione/
+    - https://www.ilpost.it/2023/10/07/domini-siti-web-anguilla-tuvalu/
+- SPLINTERNET E ROTTURA DELLA RETE
+    - https://www.cybersecurity360.it/cybersecurity-nazionale/lera-di-splinternet-cosi-la-geopolitica-sta-fratturando-il-cyberspazio/
+    - https://www.ilpost.it/massimomantellini/2021/10/11/internet-in-effetti-si-e-rotta/
+    - https://archive.org/
+    - http://www.deadmedia.org/index.html
+    - https://www.linkedin.com/pulse/ai-content-apocalypse-death-internet-we-know-chad-barendse-pqptc
+- DIFFERENZE WEB 1.0, 2.0, 3.0
+- DECENTRALIZZAZIONE DELLA RETE E RENDERE RISORSE PERMAMENTI
+    - https://www.insidemarketing.it/ipfs-come-funziona/
+    - https://www.fastweb.it/fastweb-plus/digital-magazine/come-funziona-il-web-permanente-dell-ipfs/
+    - https://it.wikipedia.org/wiki/ActivityPub
+    - https://attivissimo.blogspot.com/2022/11/podcast-rsi.html
+- METAVERSO
+    - https://letmetell.it/roblox-e-gia-il-metaverso/
+- IDENTIFICARE FAKE NEWS E SCAM, RIMUOVERE CONTENUTI INDESIDERATI
+    - https://toolbox.google.com/factcheck/explorer/search/list:recent;hl=it
+    - https://www.scamadviser.com/it/check-email-for-phishing-viruses-scams
+    - https://takeitdown.ncmec.org/it/
+    - https://www.pandasecurity.com/it/mediacenter/disinformazione-deep-fake/
+    - https://haveibeenpwned.com/
+    - https://getgophish.com/
+    - https://www.wired.it/article/meta-chiude-crowdtangle-disinformazione/
+    - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-panico-per-la-guerra.html?m=1
+- UTILIZZO CORRETTO DELLA RETE E DEI SOCIAL NETWORK
+    - https://www.youtube.com/watch?v=UVo9DsmaexE
+    - https://joinmastodon.org/it
+    - https://lucysullacultura.com/linformazione-sta-sparendo-dai-social-ed-e-un-problema/
+
+# INQUINAMENTO E CAMBIAMENTO CLIMATICO
+- INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
+    - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
+    - https://formiche.net/2021/08/climate-tech/#content
+
+# INTELLIGENZA ARTIFICIALE
+- PROBLEMI CREAZIONE IA
+    - https://www.ilpost.it/2016/03/25/tay-microsoft-ai-razzista/
+    - https://www.agi.it/lifestyle/news/2016-03-25/tay_utente_virtuale_microsoft_diventa_ninfomane_e_nazista-643587/
+    - https://forbes.it/2019/06/19/intelligenza-artificiale-e-lavoro-etichettatori-nuovi-schiavi-silicon-valley/
+    - https://www.ai-aware.eu/https-spectrum-ieee-org-the-alignment-problem-openaiutm_sourcetldrai/
+    - https://www.wired.it/attualita/tech/2020/12/10/google-censura-intelligenza-artificiale-ricercatrice-timnit-gebru/
+    - Etica itelligenza artificiale attivisti: Timnit Gebru, Joy Buolamwini, Kate Crawford, Emily M. Bender
+    - https://www.geopop.it/le-ai-hanno-un-grosso-problema-con-i-dati-e-con-i-copyright-cosa-sta-succedendo/
+    - https://www.wired.it/article/chatgpt-lavoratori-umani-addestramento-intelligenza-artificiale/
+    - https://www.dday.it/redazione/44807/il-lato-oscuro-di-chatgpt-lavoratori-pagati-meno-di-2-dollari-lora-ed-esposti-alle-peggiori-nefandezze-di-internet
+    - https://medium.com/pagopa-spa/effetto-bruxelles-europa-hub-globale-per-policy-sul-digitale-anu-bradford-28a6d4f729bd
+    - https://www.cefriel.com/news/intelligenza-artificiale-come-progettarla-e-svilupparla-nelle-imprese-e-nelle-pa/
+    - https://www.fondazioneleonardo.com/stories/postumanesimo-metaumanesimo-transumanesimo-come-andare-oltre-lumano
+    - https://www.ingenio-web.it/articoli/intelligenza-artificiale-e-transumanesimo-l-ambizione-umana-di-sostituire-dio/
+    - https://disf.org/educational/faq/grion-transumanesimo-cyborg
+    - https://www.iltascabile.com/scienze/superintelligenza-artificiale/
+    - https://www.we-wealth.com/news/intelligenza-artificiale-diritto-autore
+    - https://www.mondoemissione.it/giugno-luglio/gli-schiavi-di-chatgpt/
+    - https://www.andreaminini.com/
+    - https://www.ai4business.it/intelligenza-artificiale/i-bias-nellintelligenza-artificiale-quando-i-dati-diventano-discriminatori/
+- PROBLEMI UTILIZZO IA
+    - https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/
+    - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
+    - https://siamomine.com/solitudine-salute-mentale-chat-bot-ia-artificiale/
+    - https://medium.com/@austin-stubbs/llm-security-types-of-prompt-injection-d7ad8d7d75a3
+    - https://digitalinnovationdays.com/news/digital-afterlife-continuare-a-vivere-oltre-la-morte
+    - https://detectfakes.kellogg.northwestern.edu/
+    - https://www.ninja.it/la-campagna-the-shotline-le-vittime-di-armi-con-l-ai/
+    - https://www.wired.it/article/alexa-imita-voci-morti/
+    - https://www.ilpost.it/2024/05/07/griefbot-lutto-intelligenza-artificiale/
+    - https://www.wired.it/article/intelligenza-artificiale-avatar-persone-morte-cina-griefbot/
+    - https://www.agendadigitale.eu/cultura-digitale/lascesa-dei-virtual-influencer-cosa-ci-dicono-sul-concetto-di-umanita/
+    - https://www.agendadigitale.eu/scuola-digitale/lia-in-classe-cambia-tutto-esempi-e-approcci-per-preparare-docenti-e-studenti/
+    - https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
+    - https://www.wired.it/article/amazon-personale-intelligenza-artificiale/
+    - https://www.wired.it/article/minority-report-20-anni-analisi/
+    - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-perche-le-tesla.html
+    - https://www.agendadigitale.eu/sicurezza/lintelligenza-artificiale-al-servizio-degli-hacker-cosa-rischiamo-con-chatgpt/
+    - https://attivissimo.blogspot.com/2023/12/podcast-rsi-influencer-virtuali-da.html
+    - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
+    - https://www.lavorodirittieuropa.it/dottrina/principi-e-fonti/1524-le-discriminazioni-algoritmiche
+    - https://www.agendadigitale.eu/cultura-digitale/algoritmi-troppo-invasivi-contro-le-frodi-fiscali-la-lezione-delle-dimissioni-del-governo-olandese/
+- REGOLAMENTAZIONE DELL'IA
+    - https://www.youtube.com/watch?v=j2GcfGXg5wo
+    - https://www.caidp.org/
+    - https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
+    - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
+    - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
+- STORIA DELL'IA
+    - https://www.youtube.com/watch?v=C3B_OqDKJXQ&list=PLE2sPzBZPl7ABcaFLrQfE5Jt-8P0k724H
+    - https://www.wired.it/article/marvin-minsky-intelligenza-artificiale/
+    - https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
+    - https://www.ai4business.it/intelligenza-artificiale/yann-lecun-chi-e-il-pioniere-dellintelligenza-artificiale-e-del-deep-learning/
+    - https://it.wikipedia.org/wiki/AlphaZero
+    - https://www.notizie.ai/i-red-team-alla-prova-dellai/
+    - https://www.geopop.it/il-test-di-turing-e-da-considerarsi-superato-per-valutare-lintelligenza-artificiale/
+    - https://forbes.it/2023/11/03/elon-musk-domani-prima-intelligenza-artificiale-xai/
+    - https://www.masayume.it/blog9/web/content/la-mossa-37-google-deepmind-alphago
+    - https://www.ultimouomo.com/intelligenza-artificiale-go/
+    - https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
+    - https://www.ansa.it/osservatorio_intelligenza_artificiale/notizie/approfondimenti/2024/04/23/ecco-minerva-la-prima-famiglia-di-llm-addestrati-da-zero-in-italiano_ac6cc4b0-6c65-4cef-a7e3-dfca7bc3c2c4.html
+    - https://ilmanifesto.it/minerva-lia-italiana-al-bivio-tra-vannacci-e-manzoni
+    - https://www.rivistastudio.com/chatgpt-nuova-versione/
+    - https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html
+    - https://tecnicafotografica.dndcom.com/articoli/fotografia-computazionale.html
+    - https://it.wikipedia.org/wiki/Amazon_Mechanical_Turk
+    - https://docs.aws.amazon.com/it_it/sagemaker/latest/dg/sms-workforce-management-public.html
+- GAN (Generative Adversarial Networks)
+    - https://deepdreamgenerator.com/
+    - https://openai.com/
+    - https://deepmind.google/
+    - https://midjourney.com/
+    - https://www.anthropic.com/
+    - https://www.anthropic.com/research/mapping-mind-language-model
+- TOOL DI IA 
+    - VOCE
+        - https://www.voicemod.net/it/
+        - https://speechify.com/it/
+    - EDITOR IMMAGINI
+        - https://cleanup.pictures/
+    - BROWSER
+        - https://arc.net/
+    - FILTRI
+        - https://www.deborahmilano.com/it/products/virtual-try-on/
+
+# PRIVACY, LIBERTA' E PROFILAZIONE
+- https://attivissimo.blogspot.com/2022/07/stanno-arrivando-dma-e-dsa-due-leggi-ue.html
+- https://www.agendadigitale.eu/sicurezza/privacy/dark-pattern-cosi-le-aziende-ingannano-gli-utenti-le-nuove-linee-guida-edpb/
+- https://protezionedatipersonali.it/pubblicita-comportamentale
+- https://forbes.it/2023/05/23/come-funziona-wechat-cinese-musk/
+- https://www.gameifications.com/gamification-per-la-vita-dei-cittadini-cinesi/
+- https://www.studiolegaledelliponti.eu/chi-bello-vuole-apparire-la-privacy-deve-seguire-il-caso-douglas/#Veniamo_al_Caso_Douglas
+- https://www.ictsecuritymagazine.com/articoli/una-volta-che-la-privacy-e-invasa-la-privacy-e-perduta/
+- https://www.geopop.it/lesperimento-di-asch-sul-conformismo-sociale-e-la-volonta-di-essere-uguali-agli-altri/
+- https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
+- https://ilmanifesto.it/privacy-lignoranza-non-e-una-virtu
+- https://www.insightful.io/ (controllo dipendenti, quantificare la produttività)
+- https://privacy-network.it/
+- https://www.garanteprivacy.it/
+- https://algorithmwatch.org/
+- https://www.sorprendo.it/ (futuro lavorativo bambini?)
+- https://www.wired.it/attualita/media/2018/08/27/reality-winner-whistleblower-trump-russiagate/
+- https://www.enbilab.com/it/blog/pubblicita-comportamentale-o-contestuale-ecco-le-differenze
+- https://www.fanpage.it/innovazione/tecnologia/multa-da-520-milioni-di-dollari-per-fortnite-usava-schemi-oscuri-per-costringere-a-fare-acquisti/
+- https://www.ilpost.it/2023/10/19/shadow-ban-palestina-instagram/
+- https://www.wired.it/article/facebook-peggiori-scandali-cambridge-analytica-pubblicita-trump/
+- https://www.guerredirete.it/le-leggi-che-vogliono-regolare-laccesso-social-ai-minori/#:~:text=L'Italia%2C%20dal%20canto%20suo,abbia%20meno%20di%2014%20anni
+- https://www.edpb.europa.eu/edpb_it
+- https://transparency.meta.com/it-it/researchtools/meta-content-library/
+- https://www.riskmanagement360.it/analisti-ed-esperti/sanzioni-gdpr-ecco-le-maggiori-degli-ultimi-dodici-mesi/
+- https://www.garanteprivacy.it/data-breach
+- https://protezionedatipersonali.it/finalita-del-trattamento
+- https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/#:~:text=Il%20PSN%20ospiter%C3%A0%20dati%20e,Ulteriori%20misure%20urgenti%20per%20la
+- https://www.geopop.it/tim-vende-parte-della-sua-rete-al-fondo-usa-kkr-per-circa-20-miliardi-di-euro-cosa-succedera-ora/#:~:text=12%3A00-,TIM%20vende%20parte%20della%20sua%20rete%20al%20fondo%20USA%20KKR,TIM%2C%20per%20circa%2020%20miliardi.
+- https://neurorightsfoundation.org/
+- https://www.wired.it/article/mente-lettura-cervello-progetti-big-tech/
+- https://www.altalex.com/documents/news/2022/10/11/neurodiritti-cile-prima-legge-tutelarli
+- https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9992700
+- https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
+- https://sites.google.com/berniericonsulting.com/berniericonsulting/home
+- https://www.corrierecomunicazioni.it/digital-economy/cloud/polo-strategico-nazionale-fra-ricorsi-e-polemiche-cui-prodest/
+- https://www.agendadigitale.eu/infrastrutture/polo-strategico-nazionale-il-difficile-viene-ora-perche-la-migrazione-delle-pa-non-sara-semplice/
+- https://techtalking.it/windows-recall-microsoft-corre-ai-ripari/
+- https://www.wired.it/article/stella-assange-wired-next-fest-2024-milano/
+- https://protezionedatipersonali.it/data-protection-officer
+- https://www.altalex.com/documents/news/2023/08/31/la-privacy-a-scuola
+- https://arenaphilosophika.it/linferno-sono-gli-altri/
+- https://www.redhotcyber.com/post/pavel-durov-telegram-la-liberta-di-espressione-non-e-priva-di-responsabilta/
+- https://www.cybersecurity360.it/news/il-pay-or-okay-non-va-bene-dalledpb-stretta-sul-nodo-del-consenso-per-le-grandi-piattaforme-online/
+- https://attivissimo.blogspot.com/2024/06/podcast-rsi-strana-mail-di-meta-windows.html
+
+# VIDEOGAMES E MUSICA
+- CRACK E CURIOSITA'
+    - https://balotta.org/event/cracktro
+    - https://www.theguardian.com/technology/2004/jan/24/games.gameswatch
+    - https://www.vigamusacademy.com/videogiochi-aaa-la-storia-e-come-riconoscerli/#:~:text=In%20contrapposizione%20ai%20titoli%20AAA,fasi%20di%20vita%20del%20prodotto
+    - https://www.mariocastle.it/super-mario-bros-nuovo-tas-col-minor-numero-di-pressioni-del-pulsante-a/#:~:text=Un%20%22TAS%22%20o%20%22Tool,input%20per%20riprodurli%20in%20seguito.
+    - https://www.wired.it/gadget/videogiochi/2018/12/21/pokemon-plaguemon-rom-hacking/
+    - https://www.smwcentral.net/
+    - https://multiplayer.it/articoli/doom-e-le-sue-mod-una-lunga-storia-damore-e-condivisione-nel-segno-delletica-hacker.html
+    - https://www.romhacking.net/
+    - https://www.mamedev.org/
+    - https://www.insertcoinbologna.it/
+    - https://www.gamesoul.it/roguelike-e-roguelite-cosa-significano-e-qual-e-la-differenza/
+    - https://iideassociation.com/
+    - https://oldgamesitalia.net/content/intervista-paolo-paglianti
+    - https://romhack.io/
+    - https://www.cybersaiyan.it/
+    - https://www.forteprenestino.net/attivita/3085-zona-warpa-2024
+    - https://video.zonawarpa.it/w/1BAe35P5Basokqd1Nzm2yV
+    - https://www.pigneto.it/eventi/incontri/che-senso-ha-videogiocare-in-un-mondo-che-e-sullorlo-del-collasso-conversazioni-con-ex-machina/
+- COMPETIZIONI
+    - https://demozoo.org/
+    - https://www.demoparty.net/
+    - https://indiecup.net/
+- MUSICA
+    - https://www.rockit.it/intervista/solar-kenobit-game-boy-contro-capitalismo
+- CREAZIONE VIDEOGAMES
+    - https://twinery.org/
+- VIDEOGIOCHI
+    - https://multiplayer.it/articoli/il-ritorno-di-dys4ia-uno-dei-videogiochi-che-hanno-definito-la-rivoluzione-indie.html
+    - https://www.exposalutementale.it/bluethroot-un-videogioco-per-le-scuole-sulla-salute-mentale-intervista-a-fortuna-imperatore/
+    - http://callofsalveenee.it/wordpress/product/call-of-salveenee/
+    - https://giochipenosi.it/
+    - https://ifdb.org/
+    - https://www.playgwent.com/it/play-gog
+    - https://it.wikipedia.org/wiki/MOBA
+
+# REALTA' VIRTUALE E AUMENTATA
+- https://www.artsteps.com/
+- https://www.wired.it/article/teoria-della-simulazione/
+
+# CRITTOGRAFIA E SICUREZZA INFORMATICA
+- TEORIA
+    - https://it.wikipedia.org/wiki/Blockchain
+    - https://it.wikipedia.org/wiki/Criptovaluta
+    - https://it.wikipedia.org/wiki/Non-fungible_token    
+    - https://www.insic.it/privacy-e-sicurezza/information-security/passkey-lalternativa-alla-password-cose-e-come-funziona/#:~:text=La%20vera%20grande%20differenza%20tra,facciale%20o%20tramite%20impronta%20digitale.
+    - https://it.wikipedia.org/wiki/0-day
+- CURIOSITA' E ATTACCHI INFORMATICI
+    - https://inchiostrovirtuale.it/crittografia-maria-stuarda/
+    - https://www.ilpost.it/2024/03/28/sam-bankman-fried-condanna-frode/
+    - https://www.agendadigitale.eu/sanita/data-breach-cosa-rischia-il-responsabile-del-trattamento-e-come-puo-tutelarsi-le-indicazioni-del-garante/
+    - https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware/
+    - https://attivissimo.blogspot.com/2022/09/podcast-rsi-story-big-rick-storia-di-un.html
+    - https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
+    - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-uno-scandalo.html
+    - https://flipperzero.one/
+- CYPHERPUNK
+    - https://it.wikipedia.org/wiki/Cypherpunk
+- SICUREZZA INFORMATICA
+    - https://defcon.org/
+    - https://www.shodan.io/
+    - https://www.commissariatodips.it/notizie/articolo/report-safer-internet-day-2024/index.html
+    - https://www.ncsc.admin.ch/ncsc/it/home.html
+    - https://attivissimo.blogspot.com/2024/05/podcast-rsi-svizzera-rapporto-federale.html
+    - https://attivissimo.blogspot.com/2024/05/podcast-rsi-svizzera-rapporto-federale_16.html
+
+# COMPUTER QUANTISTICI
+- https://www.wired.it/article/computer-quantistico-semiconduttori-italia-napoli/
+
+# ALGORITMI
+- https://en.m.wikipedia.org/wiki/Weissman_score
+
+# STORIA INFORMATICA
+- https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
+- Donne nella tecnologia: Ada Lovelace, Hedy Lamarr, Elizabeth Feinler, Annie Easley
+- https://www.wired.it/gadget/computer/2019/03/02/storia-tastiera-qwerty/
+- https://disf.org/files/doc/longo-test-turing.pdf
+- https://attivissimo.blogspot.com/2024/06/podcast-rsi-nasa-monitor-giganti-piatti.html
