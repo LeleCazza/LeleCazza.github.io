@@ -173,6 +173,8 @@
 - https://www.redhotcyber.com/post/pavel-durov-telegram-la-liberta-di-espressione-non-e-priva-di-responsabilta/
 - https://www.cybersecurity360.it/news/il-pay-or-okay-non-va-bene-dalledpb-stretta-sul-nodo-del-consenso-per-le-grandi-piattaforme-online/
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-strana-mail-di-meta-windows.html
+- https://open.spotify.com/episode/1VYvKAe2se8jh2gGnE7Edk
+- https://open.spotify.com/episode/5y8sRzZkyk63sDPo5bkFMf
 
 # VIDEOGAMES E MUSICA
 - CRACK E CURIOSITA'
