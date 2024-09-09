@@ -41,7 +41,7 @@
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
     - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
     - https://formiche.net/2021/08/climate-tech/#content
-- https://luissuniversitypress.it/inquinamento-cloud-articolo-andrea-daniele-signorelli-digitalizzazione-lmdp/
+    - https://luissuniversitypress.it/inquinamento-cloud-articolo-andrea-daniele-signorelli-digitalizzazione-lmdp/
 
 # INTELLIGENZA ARTIFICIALE
 - PROBLEMI CREAZIONE IA
