@@ -36,11 +36,14 @@
     - https://www.youtube.com/watch?v=UVo9DsmaexE
     - https://joinmastodon.org/it
     - https://lucysullacultura.com/linformazione-sta-sparendo-dai-social-ed-e-un-problema/
+    - https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
+    - https://www.feltrinellieducation.it/magazine/l-economia-dell-attenzione-e-il-paradosso-che-sta-uccidendo-i-giornali
 
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
     - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
     - https://formiche.net/2021/08/climate-tech/#content
+    - Infomaniak.com
 
 # INTELLIGENZA ARTIFICIALE
 - PROBLEMI CREAZIONE IA
@@ -85,6 +88,12 @@
     - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
     - https://www.lavorodirittieuropa.it/dottrina/principi-e-fonti/1524-le-discriminazioni-algoritmiche
     - https://www.agendadigitale.eu/cultura-digitale/algoritmi-troppo-invasivi-contro-le-frodi-fiscali-la-lezione-delle-dimissioni-del-governo-olandese/
+    - https://www.who.int/campaigns/s-a-r-a-h
+    - https://www.wired.it/article/chatgpt-diffamazione-molestie-problema/
+    - https://www.irpa.eu/riconoscimento-facciale-secondo-uno-studio-la-polizia-del-regno-unito-non-rispetta-gli-standard-minimi-etici-e-legali/
+    - https://www.wired.com/story/moscow-safe-city-ntechlab/
+    - https://valori.it/wp-content/uploads/2024/04/Lintelligenza-artificiale-va-al-fronte.pdf
+    - https://www.corriere.it/esteri/24_giugno_23/mcdonalds-abbandona-intelligenza-artificiale-e67cd9a6-7ebd-4436-9ff0-de55eb486xlk.shtml
 - REGOLAMENTAZIONE DELL'IA
     - https://www.youtube.com/watch?v=j2GcfGXg5wo
     - https://www.caidp.org/
@@ -175,6 +184,7 @@
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-strana-mail-di-meta-windows.html
 - https://open.spotify.com/episode/1VYvKAe2se8jh2gGnE7Edk
 - https://open.spotify.com/episode/5y8sRzZkyk63sDPo5bkFMf
+- https://signalfoundation.org/it/
 
 # VIDEOGAMES E MUSICA
 - CRACK E CURIOSITA'
