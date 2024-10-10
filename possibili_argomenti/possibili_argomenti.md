@@ -32,6 +32,8 @@
     - https://getgophish.com/
     - https://www.wired.it/article/meta-chiude-crowdtangle-disinformazione/
     - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-panico-per-la-guerra.html?m=1
+    - https://www.newsguardtech.com/it/
+    - https://www.permessonegato.it/
 - UTILIZZO CORRETTO DELLA RETE E DEI SOCIAL NETWORK
     - https://www.youtube.com/watch?v=UVo9DsmaexE
     - https://joinmastodon.org/it
@@ -44,6 +46,8 @@
     - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
     - https://formiche.net/2021/08/climate-tech/#content
     - Infomaniak.com
+    - https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
+    - https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
 
 # INTELLIGENZA ARTIFICIALE
 - PROBLEMI CREAZIONE IA
@@ -66,6 +70,9 @@
     - https://www.mondoemissione.it/giugno-luglio/gli-schiavi-di-chatgpt/
     - https://www.andreaminini.com/
     - https://www.ai4business.it/intelligenza-artificiale/i-bias-nellintelligenza-artificiale-quando-i-dati-diventano-discriminatori/
+    - https://www.ilgiornale.it/news/nuove-frontiere/meta-ha-lanciato-e-poi-ritirato-galactica-l-enciclopedia-2088036.html
+    - https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry
+    - https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
 - PROBLEMI UTILIZZO IA
     - https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/
     - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
@@ -94,6 +101,7 @@
     - https://www.wired.com/story/moscow-safe-city-ntechlab/
     - https://valori.it/wp-content/uploads/2024/04/Lintelligenza-artificiale-va-al-fronte.pdf
     - https://www.corriere.it/esteri/24_giugno_23/mcdonalds-abbandona-intelligenza-artificiale-e67cd9a6-7ebd-4436-9ff0-de55eb486xlk.shtml
+    - https://deepfakelab.theglassroom.org/index-it_IT.html
 - REGOLAMENTAZIONE DELL'IA
     - https://www.youtube.com/watch?v=j2GcfGXg5wo
     - https://www.caidp.org/
@@ -119,6 +127,7 @@
     - https://tecnicafotografica.dndcom.com/articoli/fotografia-computazionale.html
     - https://it.wikipedia.org/wiki/Amazon_Mechanical_Turk
     - https://docs.aws.amazon.com/it_it/sagemaker/latest/dg/sms-workforce-management-public.html
+    - https://www.wired.it/article/joseph-weizenbaum-chatbot-eliza/
 - GAN (Generative Adversarial Networks)
     - https://deepdreamgenerator.com/
     - https://openai.com/
@@ -185,6 +194,7 @@
 - https://open.spotify.com/episode/1VYvKAe2se8jh2gGnE7Edk
 - https://open.spotify.com/episode/5y8sRzZkyk63sDPo5bkFMf
 - https://signalfoundation.org/it/
+- https://attivissimo.blogspot.com/2024/09/podcast-rsi-gli-smartphone-ci-ascoltano.html
 
 # VIDEOGAMES E MUSICA
 - CRACK E CURIOSITA'
@@ -243,6 +253,9 @@
     - https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
     - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-uno-scandalo.html
     - https://flipperzero.one/
+    - https://www.ilsole24ore.com/art/l-app-criptata-era-controllata-dall-fbi-centinaia-arresti-mondo-AErrgCP?refresh_ce=1
+    - https://www.bugbountyhunter.com/
+    - https://www.cybersecitalia.it/carmelo-miano-storia-di-un-hacker-molto-poco-romantico-e-se-il-male-fosse-anche-la-cura/39524/
 - CYPHERPUNK
     - https://it.wikipedia.org/wiki/Cypherpunk
 - SICUREZZA INFORMATICA
@@ -252,12 +265,20 @@
     - https://www.ncsc.admin.ch/ncsc/it/home.html
     - https://attivissimo.blogspot.com/2024/05/podcast-rsi-svizzera-rapporto-federale.html
     - https://attivissimo.blogspot.com/2024/05/podcast-rsi-svizzera-rapporto-federale_16.html
+    - https://attivissimo.blogspot.com/2024/07/podcast-rsi-svizzera-allarme-per-la.html
+    - https://www.nationalcrimeagency.gov.uk/news/nca-shuts-down-major-fraud-platform-responsible-for-1-8-million-scam-calls
+    - https://www.wired.com/story/hacker-lexicon-what-is-a-supply-chain-attack/
+    - https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
+    - https://www.ibm.com/it-it/topics/digital-operational-resilience-act
+    - https://www.tomshw.it/videogioco/allarme-pedofilia-su-roblox-il-rapporto-shock-di-hindenburg-research-2024-10-09
+    
 
 # COMPUTER QUANTISTICI
 - https://www.wired.it/article/computer-quantistico-semiconduttori-italia-napoli/
 
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score
+- https://apply.42firenze.it/users/sign_up
 
 # STORIA INFORMATICA
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
@@ -265,3 +286,4 @@
 - https://www.wired.it/gadget/computer/2019/03/02/storia-tastiera-qwerty/
 - https://disf.org/files/doc/longo-test-turing.pdf
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-nasa-monitor-giganti-piatti.html
+- https://leonardo-supercomputer.cineca.eu/it/top500-leonardo-quarto/
