@@ -1,6 +1,9 @@
 # RETE
 - STORIA DI INTERNET E SUA STRUTTURA
     - https://attivissimo.blogspot.com/2022/01/hacker-nel-far-west.html
+    - https://www.geopop.it/la-prima-chiamata-transatlantica-7-gennaio-1927-come-cambiata-la-telefonia-quasi-100-anni-dopo/
+    - https://www.geopop.it/cose-e-come-funziona-la-rete-cellulare-dalla-prima-generazione-al-5g/
+    - https://www.fastweb.it/fastweb-plus/digital-dev-security/cosa-sono-e-come-funzionano-le-telecomunicazioni/
     - https://www.isoc.it/storia-di-internet
     - https://attivissimo.blogspot.com/2022/04/podcast-rsi-la-dannazione-del-default.html
     - https://www.submarinecablemap.com/
