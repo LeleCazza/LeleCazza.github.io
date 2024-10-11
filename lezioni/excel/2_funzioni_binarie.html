@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title> EXCEL </title>
+        <script src="../../js/randomcolor.js"></script>
+    </head>
+    <body> 
+        <header class="w3-container colore ">
+            <h1> EXCEL </h1>
+        </header>
+        <div class="w3-container w3-black">
+            <h2>ESERCIZIO 1</h2>
+            <p>
+                Scegli 4 numeri decimali compresi tra 0 e 255 e convertili in binario mostrando
+                il procedimento effettuato tramite un foglio di calcolo
+                (<a href="materiale/funzioni_binarie_1.png" style="color: red;" target="_blank">esempio</a>).
+                <br>   
+                Mostra lo stato della memoria contenente il valore da te scelto:
+                <ul>
+                    <li>Se la cella di memoria è piena, allora equivale al simbolo binario 1</li>
+                    <li>Se la cella di memoria è vuota, allora equivale al simbolo binario 0</li>
+                </ul>         
+                Effettua il procedimento inverso trasfomando la rappresentazione binaria delle memoria in un numero decimale,
+                confronta il risultato ottenuto e verifica che sia lo stesso valore del numero di partenza.
+                <br>
+                Consegna un file in formato .xlsx.
+            </p>
+        </div>
+        <div class="w3-container w3-black">
+            <h2>ESERCIZIO 2</h2>
+            <p>
+                Modifica il foglio di calcolo seguente: 
+                <a href="materiale/funzioni_binarie_2.xlsx" style="color: red;" target="_blank">foglio di calcolo</a>.
+                <br>   
+                compilando le tabelle in modo opportuno per scoprire che parola è contenuta nella memoria rappresentata.
+                <br>
+                Consegna un file in formato .xlsx.
+            </p>
+        </div>
+        <div class="w3-container w3-black">
+            <h2>ESERCIZIO 3</h2>
+            <p>
+                Crea una foglio di calcolo nella quale mostri come verrebbe salvato in memoria il tuo nome.
+                Formatta il tuo foglio di calcolo come nell'immagine seguente: 
+                <a href="materiale/funzioni_binarie_3.png" style="color: red;" target="_blank">immagine</a>.
+                <br>
+                Parti dai caratteri del tuo nome, convertili in binario, mostra la memoria corrispondente,
+                ritrasforma la memoria nei simboli binari corrispondenti, converti il binario in decimale,
+                codifica i decimali ottenuti nei caratteri corrispondenti.
+                <br>
+                <ul>
+                    <li>Il nome utilizzato può essere scelto a piacere</li>
+                    <li>Non eseguire i calcoli con la calcolatrice o a mano</li>
+                    <li>Non utilizzare la tabella ASCII</li>
+                    <li>Utilizza le funzioni binarie e di manipolazione del testo per eseguire le conversioni e trasformazioni necessarie</li>
+                    <li>
+                        <i style="color: yellow;">FUNZIONI BINARIE</i>
+                        <ul>
+                            <li>Trasforma un carattere nel numero decimale corrispondente: =CODICE(cella)</li>
+                            <li>Converte un numero decimale in un numero binario: =DECIMALE.BINARIO(cella)</li>
+                            <li>Converte un numero binario in un numero decimale: =BINARIO.DECIMALE(cella)</li>
+                            <li>Trasforma un numero decimale nel carattere corrispondente: =CARATT.UNI(cella)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <i style="color: yellow;">FUNZIONI MANIPOLAZIONE DEL TESTO</i>
+                        <ul>
+                            <li>Estrai caratteri da una cella: =STRINGA.ESTRAI(cella ; posizione_iniziale ; numero_caratteri)</li>
+                            <li>Unisci il contenuto di più celle: =TESTO.UNISCI(delimitatore ; ignore_empty ; cella1 : cellaN)</li>
+                        </ul>
+                    </li>
+                </ul>
+                Consegna un file in formato .xlsx.
+            </p>
+        </div>
+        <footer class="w3-container w3-right-align colore">
+            <p>Gabriele Cazzaniga</p>
+        </footer>
+    </body>
+</html>
