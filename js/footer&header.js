@@ -6,7 +6,7 @@ function createColor(){
 }
 
 function openMenu() {
-    $("#menu").load("../menu.html");
+    $("#menu").load("../../menu.html");
     document.getElementById("menu").style.display = "block";
     document.getElementById("overlay").style.display = "block"; 
     var color = createColor();
@@ -30,6 +30,6 @@ $(document.addEventListener("DOMContentLoaded",function() {
 }))
 
 $(function(){
-    $("#footer").load("../footer.html");
-    $("#header").load("../header.html"); 
+    $("#footer").load("../../footer.html");
+    $("#header").load("../../header.html"); 
 });
