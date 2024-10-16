@@ -10,7 +10,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="../../js/footer&header.js"></script>
         <script src="../../js/slideshow.js"></script>
-        <style>.slides {display:none;}</style>
+        <style>
+            button {
+                background: none;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+            .slides {display:none;}
+        </style>
     </head>
     <body>
         <div class="wrapper">
@@ -20,9 +28,9 @@
             <div class="w3-cell-row w3-center main">                
                 <div class="w3-container w3-cell w3-mobile">
                     <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                        <div class="w3-container" onclick="open_close('modello_von_neumann')">
+                        <div class="w3-container">
                             <p>
-                                <b>MODELLO DI VON NEUMANN</b>
+                                <button onclick="open_close('modello_von_neumann')"><b>MODELLO DI VON NEUMANN</b></button>
                                 <a href="materiale/lezione_1_modello_von_neumann.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
                             </p>
                             <div id="modello_von_neumann" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
