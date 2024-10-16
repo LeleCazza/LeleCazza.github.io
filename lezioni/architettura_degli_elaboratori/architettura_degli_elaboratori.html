@@ -21,11 +21,11 @@
                 <div class="w3-container w3-cell w3-mobile">
                     <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                         <div class="w3-container">
-                            <p>
+                            <p onclick="open_close('modello_von_neumann')">
                                 <b>MODELLO DI VON NEUMANN</b>
                                 <a href="materiale/lezione_1_modello_von_neumann.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
                             </p>
-                            <div class="w3-content w3-display-container" style="max-width:800px;">
+                            <div id="modello_von_neumann" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
                                 <img class="slides" src="materiale/lezione_1_modello_von_neumann/1.jpg" style="width:100%; display: block;;">
                                 <img class="slides" src="materiale/lezione_1_modello_von_neumann/2.jpg" style="width:100%">
                                 <img class="slides" src="materiale/lezione_1_modello_von_neumann/3.jpg" style="width:100%">
@@ -47,8 +47,8 @@
                                 <img class="slides" src="materiale/lezione_1_modello_von_neumann/19.jpg" style="width:100%">
                                 <img class="slides" src="materiale/lezione_1_modello_von_neumann/20.jpg" style="width:100%">
                                 <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                    <div class="w3-left w3-hover-text-khaki w3-black" onclick="plusDivs(-1)">&#10094;</div>
-                                    <div class="w3-right w3-hover-text-khaki w3-black" onclick="plusDivs(1)">&#10095;</div>
+                                    <div class="w3-left w3-black" onclick="plusDivs(-1)">&#10094;</div>
+                                    <div class="w3-right w3-black" onclick="plusDivs(1)">&#10095;</div>
                                 </div>
                             </div>
                         </div>
@@ -57,6 +57,9 @@
             </div>
 
             <div id="footer" class="colore"></div>
+            <div class="w3-container colore" style="text-align: right;">
+                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+            </div>
         </div>
     </body>
 </html>
