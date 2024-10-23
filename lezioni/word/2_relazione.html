@@ -2,91 +2,142 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title> WORD </title>
-        <script src="../../js/randomcolor.js"></script>
+        <link rel="shortcut icon" href="../../images/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="../../js/footer&header.js"></script>
+        <script src="../../js/showTeoria.js"></script>
     </head>
-    <body> 
-        <header class="w3-container colore">
-            <h1> WORD </h1>
-        </header>
-        <div class="w3-container w3-black">
-            <p>
-                Crea una relazione che tratti un solo argomento a scelta tra i seguenti:
-                <ul>
-                    <li>Hardware e software di uno smartphone</li>
-                    <li>Il modello di Von Neumann e i componenti hardware di un elaboratore</li>
-                </ul>
-                Tutte le pagine della relazione (tranne il frontespizio e la pagina vuota) dovranno possedere:
-                <ul>
-                    <li>intestazione con logo e dati della scuola</li>
-                    <li>
-                        piè di pagina allineato a destra con: nome, cognome, classe, 
-                        indirizzo di studi e numero di pagina.
-                    </li>
-                </ul>
-                La relazione dovrà essere composta dalle seguenti sezioni (<a href="materiale/struttura_relazione.pdf" style="color: red;" target="_blank">vedi esempio struttura relazione</a>):
-                <ul>
-                    <li>
-                        <i style="color: yellow;">FRONTESPIZIO</i> (preimpostato o creato manualmente senza intestazione né piè di pagina)
-                        <ul>
-                            <li>titolo della relazione (dimensione carattere 36)</li>
-                            <li>copertina con una o più immagini</li>
-                            <li>nome, cognome, classe e data (dimensioni carattere 16 in maiuscolo)</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <i style="color: yellow;">PAGINA VUOTA</i>
-                    </li>
-                    <li>
-                        <i style="color: yellow;">SOMMARIO</i> (creato utilizzando le funzionalità automatiche,
-                        <a href="materiale/struttura_sommario.png" style="color: red;" target="_blank">vedi struttura sommario</a>)
-                        <ul>
-                            <li>titolo del sommario: "SOMMARIO" (dimensione carattere 36)</li>
-                            <li>elenco dei capitoli e sotto-capitoli con numero di pagina (dimensioni carattere 16)</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <i style="color: yellow;">INTRODUZIONE</i> (utilizzando lo stile appropriato)
-                        <ul>
-                            <li>titolo dell'introduzione: "INTRODUZIONE" (dimensione carattere 36)</li>
-                            <li>testo dell'introduzione (minimo 5 righe, dimensioni carattere 16, interlinea 1.5, allineamento giustificato)</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <i style="color: yellow;">3 CAPITOLI</i> (utilizzando lo stile appropriato)
-                        <ul>
-                            <li>titolo del capitolo a scelta (dimensione carattere 36)</li>
-                            <li><i style="color: yellow;">2 SOTTO-CAPITOLI</i> per ogni capitolo (utilizzando lo stile appropriato)</li>
-                            <ul>
-                                <li>titolo del sotto-capitolo a scelta (dimensione carattere 28)</li>
-                                <li>
-                                    testo dei sotto-capitoli (minimo 10 righe per ogni sotto-capitolo, dimensioni carattere 16,
-                                    interlinea 1.5, allineamento giustificato, presenza di immagini/tabelle/elenchi)
-                                </li>
-                            </ul>
-                        </ul>
-                    </li>
-                    <li>
-                        <i style="color: yellow;">CONCLUSIONE</i> (utilizzando lo stile appropriato)
-                        <ul>
-                            <li>titolo della conclusione: "CONCLUSIONE" (dimensione carattere 36)</li>
-                            <li>testo della conclusione (minimo 5 righe, dimensioni carattere 16, interlinea 1.5, allineamento giustificato)</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <i style="color: yellow;">SITOGRAFIA</i> (utilizzando lo stile appropriato)
-                        <ul>
-                            <li>titolo della sitografia: "SITOGRAFIA" (dimensione carattere 36)</li>
-                            <li>link con collegamenti ipertestuali alle fonti utilizzate (dimensione carattere 16)</li>
-                        </ul>
-                    </li>
-                </ul>
-                Consegna un file in formato pdf (<a href="materiale/gliglia_relazione.png" style="color: red;" target="_blank">vedi griglia di valutazione</a>)
-            </p>
+    <body>
+        <div class="wrapper">
+            
+            <div id="header" class="colore"></div>
+
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <p>
+                                <table width="100%">
+                                    <tr>
+                                        <td>
+                                            <a href="https://support.google.com/docs/topic/9046002?hl=it" style="text-decoration: none;">
+                                                <button display="block" class="w3-btn w3-block w3-teal w3-round-large" style="margin-bottom: 10px;">GUIDA DOCS</button>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="https://support.microsoft.com/it-it/word" style="text-decoration: none;">
+                                                <button display="block" class="w3-btn w3-block w3-teal w3-round-large" style="margin-bottom: 10px;">GUIDA WORD</button>
+                                            </a> 
+                                        </td>
+                                    </tr>
+                                </table>
+                                Crea una relazione che tratti <b>un solo argomento a scelta tra le seguenti proposte</b>:
+                                <ul>
+                                    <li><b>Personaggio legato al mondo dell'informatica</b>;</li>
+                                    <li><b>Personaggio famoso attuale</b> (cantante, artista, regista, ecc...);</li>
+                                    <li><b>Film o serie TV</b>;</li>
+                                    <li><b>Libro o serie di libri</b>.</li>
+                                </ul>
+                                La relazione deve essere composta dalle seguenti <b>SEZIONI</b>:
+                                <ol>
+                                    <li><b>FRONTESPIZIO</b> 
+                                    <li><b>PAGINA VUOTA</b></li>
+                                    <li><b>SOMMARIO</b></li>
+                                    <li><b>INTRODUZIONE</b></li>
+                                    <li><b>almeno 3 CAPITOLI</b>
+                                        <ul>
+                                            <li><b>almeno 2 PARAGRAFI per ogni capitolo</b></li>  
+                                        </ul>
+                                    </li>
+                                    <li><b>CONCLUSIONE</b></li>
+                                    <li><b>SITOGRAFIA</b></li>
+                                </ol>
+                                La relazione deve rispettare le seguenti <b>IMPOSTAZIONI</b>:
+                                <ul>
+                                    <li>
+                                        <b>MARGINI</b>:
+                                        <ul>
+                                            <li>superiore e inferiore: 2cm</li>
+                                            <li>sinistro 3cm (2cm + 1cm per la rilegatura) </li>
+                                            <li>destro 2cm</li>
+                                        </ul>
+                                    </li>
+                                    <lI>
+                                        <b>PAGINE</b>: per creare una nuova pagina utilizzare le interruzioni di pagina in modo opportuno.
+                                    </lI>
+                                    <li>
+                                        <b>TESTO</b>: deve avere interlinea 1.5 righe, allineamento giustificato, grandezza carattere 16 e deve 
+                                        contenere elementi grafici quali tabelle, elenchi puntati o numerati.
+                                    </li>
+                                    <li>
+                                        <b>IMMAGINI</b>: ogni immagine inserita deve avere una didascalia che riporta la numerazione dell'immagine 
+                                        all'interno della relazione, una breve descrizione dell'immagine e il riferimento alla fonte di provenienza.
+                                    </li>
+                                    <li>
+                                        <b>INTESTAZIONE</b>: deve essere presente in ogni pagina e deve contenere il logo e i dati della scuola. 
+                                        La grandezza dell'intestazione deve essere regolata in modo da non risultare invadente all'interno delle
+                                        pagine. Non dovrà essere visibile sul frontespizio.
+                                    </li>
+                                    <li>
+                                        <b>PI&Egrave; DI PAGINA</b>: deve essere presente in ogni pagina, allineato a destra, e deve contenere 
+                                        il numero di pagina, il nome, cognome, classe e indirizzo di studi dell'autore della relazione.  Non dovrà 
+                                        essere visibile sul frontespizio.
+                                    </li>
+                                    <li>
+                                        <b>FRONTESPIZIO</b>: deve contenere il titolo della relazione, una copertina con 
+                                        una o più immagini, il nome, il cognome e la classe dell'autore della relazione.
+                                    </li>
+                                    <li>
+                                        <b>SOMMARIO</b>: deve essere creato utilizzando le funzionalità automatiche e non 
+                                        manualmente.
+                                    </li>
+                                    <li>
+                                        <b>INTRODUZIONE</b>: deve contenere l'introduzione (di almeno 10 righe) alla relazione effettuata: di cosa 
+                                        tratta la relazione? Per quale motivo si è scelto di trattare questo specifico tema? ecc...
+                                    </li>
+                                    <li>
+                                        <b>CAPITOLO</b>: deve contenere il nome del capitolo preceduto dal numero del capitolo. Ogni titolo 
+                                        deve essere ottenuto scegliendo uno stile comune (personalizzabile), non modificando l'aspetto del singolo titolo. 
+                                        Il carattere deve essere impostato con grandezza 24. Ogni capitolo deve iniziare in una nuova pagina.
+                                    </li>
+                                    <li>
+                                        <b>PARAGRAFO</b>: deve contenere il nome del paragrafo preceduto dal numero del paragrafo. gli aspetti scelti per 
+                                        i paragrafi devono essere coerenti. Ad esempio, due paragrafi non potranno avere un tipo di carattere diverso, i titoli 
+                                        dei pragrafi non potranno essere di dimensioni differenti, ecc... Ogni nuovo paragrafo non deve necessariamente 
+                                        iniziare in una nuova pagina e deve contenere almeno 10 righe.
+                                    </li>
+                                    <li>
+                                        <b>NOTE PAGINA</b>: ogni paragrafo deve possedere almeno una nota di pagina.
+                                    </li>
+                                    <li>
+                                        <b>CONCLUSIONE</b>: deve contenere la conclusione della relazione effettuata (di almeno 10 righe): qual è il significato del lavoro svolto? 
+                                            Cosa posso concludere dalle ricerche effettuate sul tema scelto? ecc...
+                                    </li>
+                                    <li>
+                                        <b>SITOGRAFIA:</b> deve contenere le fonti utilizzate, numerate e in ordine alfabetico secondo il 
+                                        nome del sito utilizzato/autore citato. Le fonti devono inoltre contenere un titolo e il link da cui 
+                                        provengono.
+                                    </li>
+                                </ul>
+
+                                VEDI ESEMPIO DI <a href="materiale/struttura_relazione.pdf" target="_blank">STRUTTURA RELAZIONE</a><br><br>
+                                <b>Consegna</b> il documento in due copie:
+                                <ol>
+                                    <li>Nel <b>formato dell'editor di testo</b> utilizzato</li>
+                                    <lI>Nel <b>formato .pdf (Portable Document Format)</b></lI>
+                                </ol>
+                                <a href="materiale/gliglia_relazione.png" target="_blank">girglia di valutazione</a><br><br>
+                            </p>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer" class="colore"></div>
         </div>
-        <footer class="w3-container w3-right-align colore">
-            <p>Gabriele Cazzaniga</p>
-        </footer>
     </body>
 </html>
