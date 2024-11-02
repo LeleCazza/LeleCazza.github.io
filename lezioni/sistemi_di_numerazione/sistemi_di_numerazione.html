@@ -9,70 +9,244 @@
         <link rel="shortcut icon" href="../../images/logo.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="../../js/footer&header.js"></script>
+        <script src="../../js/slideshow.js"></script>
+        <style>
+            button {
+                background: none;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <div class="wrapper">
             
-            <div id="header" class="colore"></div>   
+            <div id="header" class="colore"></div> 
 
-            <div class="w3-cell-row w3-center main">
-                <a href="materiale/lezione_1_binario_introduzione.pdf" style="text-decoration: none;">
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p><b>INTRODUZIONE</b></p>
+            <div class="w3-cell-row w3-center main">  
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button onclick="open_close('introduzione','slides_1')"><b>INTRODUZIONE</b></button>
+                                <a href="materiale/lezione_1_binario_introduzione.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="introduzione" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/1.jpg" style="width:100%; display: block;">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/2.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/3.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/4.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/5.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/6.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/7.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/8.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/9.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/10.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/11.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/12.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/13.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/14.jpg" style="width:100%">
+                                <img class="slides_1" src="materiale/lezione_1_binario_introduzione/15.jpg" style="width:100%">
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                    <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_1')">&#10094;</div>
+                                    <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_1')">&#10095;</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/lezione_2_da_binario_a_decimale.pdf" style="text-decoration: none;">
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p><b>DA BINARIO A DECIMALE</b></p>
+                </div>
+            </div>
+
+                            
+            <div class="w3-container w3-cell w3-mobile">
+                <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                    <div class="w3-container">
+                        <p>
+                            <button onclick="open_close('binario_decimale','slides_2')"><b>DA BINARIO A DECIMALE</b></button>
+                            <a href="materiale/lezione_2_da_binario_a_decimale.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                        </p>
+                        <div id="binario_decimale" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/1.jpg" style="width:100%; display: block;">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/2.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/3.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/4.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/5.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/6.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/7.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/8.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/9.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/10.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/11.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/12.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/13.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/14.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/15.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/16.jpg" style="width:100%;">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/17.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/18.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/19.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/20.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/21.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/22.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/23.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/24.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/25.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/26.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/27.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/28.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/29.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/30.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/31.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/32.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/33.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/34.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/35.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/36.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/37.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/38.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/39.jpg" style="width:100%">
+                            <img class="slides_2" src="materiale/lezione_2_da_binario_a_decimale/40.jpg" style="width:100%">
+                            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_2')">&#10094;</div>
+                                <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_2')">&#10095;</div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/lezione_3_da_decimale_a_binario.pdf" style="text-decoration: none;">
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p><b>DA DECIMALE A BINARIO</b></p>
+                </div>
+            </div>
+    
+
+            <div class="w3-cell-row w3-center main">                
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button onclick="open_close('decimale_binario','slides_3')"><b>DA DECIMALE A BINARIO</b></button>
+                                <a href="materiale/lezione_3_da_decimale_a_binario.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="decimale_binario" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/1.jpg" style="width:100%; display: block;">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/2.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/3.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/4.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/5.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/6.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/7.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/8.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/9.jpg" style="width:100%">
+                                <img class="slides_3" src="materiale/lezione_3_da_decimale_a_binario/10.jpg" style="width:100%">
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                    <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_3')">&#10094;</div>
+                                    <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_3')">&#10095;</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/lezione_4_ASCII.pdf" style="text-decoration: none;">
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p><b>CODIFICA ASCII</b></p>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center main">                
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button onclick="open_close('ascii','slides_4')"><b>ASCII</b></button>
+                                <a href="materiale/lezione_4_ASCII.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="ascii" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/1.jpg" style="width:100%; display: block;">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/2.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/3.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/4.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/5.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/6.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/7.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/8.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/9.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/10.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/11.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/12.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/13.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/14.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/15.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/16.jpg" style="width:100%;">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/17.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/18.jpg" style="width:100%">
+                                <img class="slides_4" src="materiale/lezione_4_ASCII/19.jpg" style="width:100%">
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                    <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_4')">&#10094;</div>
+                                    <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_4')">&#10095;</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/lezione_5_esadecimale.pdf" style="text-decoration: none;">
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p><b>ESADECIMALE</b></p>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center main">                
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button onclick="open_close('esadecimale','slides_5')"><b>ESADECIMALE</b></button>
+                                <a href="materiale/lezione_5_esadecimale.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="esadecimale" class="w3-content w3-display-container w3-hide" style="max-width:800px;">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/1.jpg" style="width:100%; display: block;">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/2.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/3.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/4.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/5.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/6.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/7.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/8.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/9.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/10.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/11.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/12.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/13.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/14.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/15.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/16.jpg" style="width:100%;">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/17.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/18.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/19.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/20.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/21.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/22.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/23.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/24.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/25.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/26.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/27.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/28.jpg" style="width:100%">
+                                <img class="slides_5" src="materiale/lezione_5_esadecimale/29.jpg" style="width:100%">
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                    <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_5')">&#10094;</div>
+                                    <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_5')">&#10095;</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/esercizio_ripasso_a_quiz_1_vs_1.pdf" style="text-decoration: none;">
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p><b>RIPASSO 1 VS 1</b></p>
-                            </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center main">                
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <a href="materiale/esercizio_ripasso_a_quiz_1_vs_1.pdf" style="text-decoration: none;"><p><b>RIPASSO 1 VS 1</b></p></a>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             
             <div id="footer" class="colore"></div>
+            
+            <div class="w3-container colore" style="text-align: right;">
+                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+            </div>
         </div>
     </body>
 </html>
