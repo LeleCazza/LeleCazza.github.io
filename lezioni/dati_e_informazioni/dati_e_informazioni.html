@@ -9,51 +9,197 @@
         <link rel="shortcut icon" href="../../images/logo.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="../../js/footer&header.js"></script>
+        <script src="../../js/slideshow.js"></script>
+        <style>
+            button {
+                background: none;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+            .slides {display:none;}
+        </style>
     </head>
     <body>
         <div class="wrapper">
+
             <div id="header" class="colore"></div>  
 
-            <div class="w3-cell-row w3-center main">
-                <a href="materiale/lezione_1_interfaccia_grafica.pdf" style="text-decoration: none;">
+            <div class="main">
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>INTRODUZIONE</b></p>
+                                <p>
+                                    <button onclick="open_close('introduzione','slides_1')"><b>INTRODUZIONE</b></button>
+                                    <a href="materiale/lezione_1_interfaccia_grafica.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                                </p>
+                                <div id="introduzione" class="w3-content w3-display-container w3-hide">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/1.jpg" style="width:100%; display: block;">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/2.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/3.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/4.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/5.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/6.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/7.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/8.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/9.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/10.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/11.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/12.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/13.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/14.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/15.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/16.jpg" style="width:100%;">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/17.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/18.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/19.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/20.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/21.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/22.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/23.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/24.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/25.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/26.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/27.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/28.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/29.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/30.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/31.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/32.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/33.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/34.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/35.jpg" style="width:100%">
+                                    <img class="slides_1" src="materiale/lezione_1_interfaccia_grafica/36.jpg" style="width:100%">
+                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                        <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_1')">&#10094;</div>
+                                        <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_1')">&#10095;</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/lezione_2_file.pdf" style="text-decoration: none;">
+                </div>
+
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>FILE E IMMAGINI</b></p>
+                                <p>
+                                    <button onclick="open_close('file','slides_2')"><b>FILE E IMMAGINI</b></button>
+                                    <a href="materiale/lezione_2_file.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                                </p>
+                                <div id="file" class="w3-content w3-display-container w3-hide">
+                                    <img class="slides_2" src="materiale/lezione_2_file/1.jpg" style="width:100%; display: block;">
+                                    <img class="slides_2" src="materiale/lezione_2_file/2.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/3.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/4.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/5.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/6.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/7.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/8.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/9.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/10.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/11.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/12.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/13.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/14.jpg" style="width:100%">
+                                    <img class="slides_2" src="materiale/lezione_2_file/15.jpg" style="width:100%">
+                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                        <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_2')">&#10094;</div>
+                                        <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_2')">&#10095;</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/lezione_3_file_compressi.pdf" style="text-decoration: none;">
+                </div>
+
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>FILE COMPRESSI</b></p>
+                                <p>
+                                    <button onclick="open_close('file_compressi','slides_3')"><b>COMPRESSIONE FILE</b></button>
+                                    <a href="materiale/lezione_3_file_compressi.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                                </p>
+                                <div id="file_compressi" class="w3-content w3-display-container w3-hide">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/1.jpg" style="width:100%; display: block;">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/2.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/3.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/4.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/5.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/6.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/7.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/8.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/9.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/10.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/11.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/12.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/13.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/14.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/15.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/16.jpg" style="width:100%;">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/17.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/18.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/19.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/20.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/21.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/22.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/23.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/24.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/25.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/26.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/27.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/28.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/29.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/30.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/31.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/32.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/33.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/34.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/35.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/36.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/37.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/38.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/39.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/40.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/41.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/42.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/43.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/44.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/45.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/46.jpg" style="width:100%">
+                                    <img class="slides_3" src="materiale/lezione_3_file_compressi/47.jpg" style="width:100%">
+                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                        <div class="w3-left w3-black" onclick="plusDivs(-1, 'slides_3')">&#10094;</div>
+                                        <div class="w3-right w3-black" onclick="plusDivs(1, 'slides_3')">&#10095;</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="esercizi_RLE.html" style="text-decoration: none;">
+                </div>
+        
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>ESERCIZI ALGORITMO RLE</b></p>
+                                <p>
+                                    <a href="esercizi_RLE.html" style="text-decoration: none;">
+                                        <p><b>ESERCIZI ALGORITMO RLE</b></p>
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
-            
+
             <div id="footer" class="colore"></div>
+            <div class="w3-container colore" style="text-align: right;">
+                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+            </div>
         </div>
     </body>
 </html>
