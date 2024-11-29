@@ -8,62 +8,107 @@
         <title> INFORMATICA </title>
         <link rel="shortcut icon" href="../../images/logo.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
         <script src="../../js/footer&header.js"></script>
+        <script src="../../js/slideshow.js"></script>
+        <style>
+            .titolo {
+                background: none;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <div class="wrapper">
+            
+            <div id="header" class="colore"></div>  
 
-            <div id="header" class="colore"></div>        
-            
-            <div class="w3-cell-row w3-center main">
-                <a href="materiale/lezione_1_introduzione.pdf" style="text-decoration: none;">
+            <div class="main">
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>INTRODUZIONE</b></p>
+                                <p>
+                                    <button onclick="inizialize('materiale/lezione_1_introduzione.pdf', 'pdf-1'); open_close('introduzione')" class="titolo"><b>INTRODUZIONE</b></button>
+                                    <a href="materiale/lezione_1_introduzione.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                                </p>
+                                <div id="introduzione" class="w3-content w3-display-container w3-hide">
+                                    <div id="pdf-container">
+                                        <canvas class="w3-mobile" id="pdf-1"></canvas>
+                                    </div>
+                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                        <button id="prevPage" onclick="prevPage('pdf-1')" class="w3-left w3-black">&#10094;</button>
+                                        <button id="nextPage" onclick="nextPage('pdf-1')" class="w3-right w3-black">&#10095;</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="1_html.html" style="text-decoration: none;">
+                </div>
+
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>ESERCIZI HTML</b></p>
+                                <p>
+                                    <a href="1_html.html" style="text-decoration: none;">
+                                        <p><b>ESERCIZI HTML</b></p>
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="2_css.html" style="text-decoration: none;">
+                </div>
+
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>ESERCIZI CSS</b></p>
+                                <p>
+                                    <a href="2_css.html" style="text-decoration: none;">
+                                        <p><b>ESERCIZI CSS</b></p>
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/esercizio_concerti&canzoni.pdf" style="text-decoration: none;">
+                </div>
+
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>SITO WEB HTML/CSS</b></p>
+                                <p>
+                                    <a href="materiale/esercizio_concerti&canzoni.pdf" style="text-decoration: none;">
+                                        <p><b>SITO WEB HTML/CSS</b></p>
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="materiale/esercizio_ristorante.pdf" style="text-decoration: none;">
+                </div>
+
+                <div class="w3-cell-row w3-center">  
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
                             <div class="w3-container">
-                                <p><b>SITO WEB CMS</b></p>
+                                <p>
+                                    <a href="materiale/esercizio_ristorante.pdf" style="text-decoration: none;">
+                                        <p><b>SITO WEB CMS</b></p>
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
-            
+
             <div id="footer" class="colore"></div>
+            <div class="w3-container colore" style="text-align: right;">
+                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+            </div>
         </div>
     </body>
 </html>
