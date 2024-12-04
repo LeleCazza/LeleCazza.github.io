@@ -2,149 +2,191 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title> FLOWCHART </title>
-        <script src="../../js/randomcolor.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> INFORMATICA </title>
+        <link rel="shortcut icon" href="../../images/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="../../js/footer&header.js"></script>
+        <script src="../../js/showTeoria.js"></script>
     </head>
-    <body> 
-        <header class="w3-container colore ">
-            <h1> FLOWCHART </h1>
-        </header>
-        <div class="w3-container w3-black">
-            <p>
-                Utilizzando Flowgorithm: 
-                <a href="http://www.flowgorithm.org/download/index.html" style="color: red;" target="_blank">download software </a>
-                risolvi i seguenti esericizi.<br>
-                Una volta terminato l'esercizio consegna un file in formato .fprg 
-                (formato di flowgorithm) e un file in formato .png contenente la stampa del 
-                diagramma di flusso creato per risolvere ognuno dei seguenti esercizi:
-                <br>
-                <i style="color: yellow;">CREARE FILE .fprg</i>:
-                <ol>
-                    <li>Nel menu in alto di flowgorithm selezionare "File"</li>
-                    <li>Selezionare "Salva"</li>
-                </ol>
-                <i style="color: yellow;">CREARE FILE .png</i>:
-                <ol>
-                    <li>Nel menu in alto di flowgorithm selezionare "Strumenti"</li>
-                    <li>Selezionare "Esporta immagine in un file"</li>
-                    <li>Cliccare su "Crea"</li>
-                </ol>
+    <body>
+        <div class="wrapper">
+            
+            <div id="header" class="colore"></div>
 
-                <h2>ESERCIZIO 1</h2>
-                Calcola la somma di due numeri forniti in input.<br>
-                
-                <h2>ESERCIZIO 2</h2>
-                Calcola il doppio di un numero fornito in input.<br>
-                
-                <h2>ESERCIZIO 3</h2>
-                Calcola la media di due numeri forniti in input.<br>
-                
-                <h2>ESERCIZIO 4</h2>
-                Calcola il perimetro e l'area di un quadrato di cui è fornita in input la lunghezza del suo lato.<br>
-                (<a href="materiale/solzione_es_4_flusso_unico.fprg" style="color: red;" target="_blank">soluzione</a>)
-                
-                <h2>ESERCIZIO 5</h2>
-                Calcola l'area di un triangolo fornite in input le lunghezze della base e dell'altezza.
-                
-                <h2>ESERCIZIO 6</h2>
-                Calcola l'area di un rettangolo data la misura del perimetro e dell'altezza.
-                
-                <h2>ESERCIZIO 7</h2>
-                Crea un algoritmo che dati tre numeri X, Y e Z calcoli il risultato di (X+Y+Z)<sup>2</sup>.
-                
-                <h2>ESERCIZIO 8</h2>
-                Crea un algoritmo che fornito in input un orario (ore, minuti e secondi) ne calcoli il valore totale
-                in secondi.
-                
-                <h2>ESERCIZIO 9</h2>
-                Forniti in input i km che una moto percorre con un litro di benzina e il prezzo della benzina al litro, 
-                calcolare la spesa necessaria per percorrere 100km.
-                
-                <h2>ESERCIZIO 10</h2>
-                Crea un algoritmo che data l'altezza, il peso, l'età e il nome di due persone ne calcoli l'affinità 
-                (puoi utilizzare la funzione Random(n) per creare numeri casuali tra 0 e (n-1)).
-                
-                <h1>ESERCIZI CON FUNZIONI INTRINSECHE</h1>
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <p>
+                                Utilizzando Flowgorithm: 
+                                <a href="http://www.flowgorithm.org/download/index.html" target="_blank">download software </a>
+                                risolvi i seguenti esericizi.<br>
+                                Una volta terminato l'esercizio consegna un file in formato .fprg 
+                                (formato di flowgorithm) e un file in formato .png contenente la stampa del 
+                                diagramma di flusso creato per risolvere ognuno dei seguenti esercizi:
+                                <br>
+                                <i><b>CREARE FILE .fprg</b></i>:
+                                <ol>
+                                    <li>Nel menu in alto di flowgorithm selezionare "File"</li>
+                                    <li>Selezionare "Salva"</li>
+                                </ol>
+                                <i><b>CREARE FILE .png</b></i>:
+                                <ol>
+                                    <li>Nel menu in alto di flowgorithm selezionare "Strumenti"</li>
+                                    <li>Selezionare "Esporta immagine in un file"</li>
+                                    <li>Cliccare su "Crea"</li>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <h2>ESERCIZIO 11</h2>
-                Forniti in input il dividendo e il divisore, restituisci in output il resto della divisione tra i due numeri.
-                
-                <h2>ESERCIZIO 12</h2>
-                Fornito in input un numero reale restituisci in output la sua parte intera.
-                
-                <h2>ESERCIZIO 13</h2>
-                Fornito un numero intero in input considerane il valore assoluto (numero senza segno) e restituisci la sua radice quadrata in output.
-                
-                <h2>ESERCIZIO 14</h2>
-                Fornito in input un testo restituisci il numero dei caratteri presenti nel testo.
-                
-                <h2>ESERCIZIO 15</h2>
-                Calcolare il totale dell'acquisto di tre prodotti forniti in input dall'utente.
-                Il prezzo di ogni prodotto è dato dal numero di caratteri del nome del prodotto inserito dall'utente
-                moltiplicato per un valore casuale compreso tra 1 e 5.
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <p>
+                                <h2>ESERCIZIO 1</h2>
+                                Calcola la somma di due numeri forniti in input.<br>                
+                                
+                                <h2>ESERCIZIO 2</h2>
+                                Calcola il doppio di un numero fornito in input.<br>
+                                
+                                <h2>ESERCIZIO 3</h2>
+                                Calcola la media di due numeri forniti in input.<br>
+                                
+                                <h2>ESERCIZIO 4</h2>
+                                Calcola il perimetro e l'area di un quadrato di cui è fornita in input la lunghezza del suo lato.<br>
+                                (<a href="materiale/solzione_es_4_flusso_unico.fprg" target="_blank">soluzione</a>)
+                                
+                                <h2>ESERCIZIO 5</h2>
+                                Calcola l'area di un triangolo fornite in input le lunghezze della base e dell'altezza.
+                                
+                                <h2>ESERCIZIO 6</h2>
+                                Calcola l'area di un rettangolo data la misura del perimetro e dell'altezza.
+                                
+                                <h2>ESERCIZIO 7</h2>
+                                Crea un algoritmo che dati tre numeri X, Y e Z calcoli il risultato di (X+Y+Z)<sup>2</sup>.
+                                
+                                <h2>ESERCIZIO 8</h2>
+                                Crea un algoritmo che fornito in input un orario (ore, minuti e secondi) ne calcoli il valore totale
+                                in secondi.
+                                
+                                <h2>ESERCIZIO 9</h2>
+                                Forniti in input i km che una moto percorre con un litro di benzina e il prezzo della benzina al litro, 
+                                calcolare la spesa necessaria per percorrere 100km.
+                                
+                                <h2>ESERCIZIO 10</h2>
+                                Crea un algoritmo che data l'altezza, il peso, l'età e il nome di due persone ne calcoli l'affinità 
+                                (puoi utilizzare la funzione Random(n) per creare numeri casuali tra 0 e (n-1)).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <h1>ESERCIZI COMPLETI</h1>
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <P>
+                                <h1>ESERCIZI CON FUNZIONI INTRINSECHE</h1>
 
-                <h2>ESERCIZIO 16</h2>
-                Crea un programma che controlli la validità di una valutazione inserita in input da parte dell'utente. Il programma una volta chiesto il valore,
-                restituisce "true" se la valutazione è compresa tra 0 (escluso) e 10 (incluso), altrimenti restituisce "false".
-                <br><br>
-                Per la stampa utilizza lo stesso formato output del seguente esempio:
-                <br><br>
-                input: valutazione: 5.5
-                <br>
-                output: true
+                                <h2>ESERCIZIO 11</h2>
+                                Forniti in input il dividendo e il divisore, restituisci in output il resto della divisione tra i due numeri.
+                                
+                                <h2>ESERCIZIO 12</h2>
+                                Fornito in input un numero reale restituisci in output la sua parte intera.
+                                
+                                <h2>ESERCIZIO 13</h2>
+                                Fornito un numero intero in input considerane il valore assoluto (numero senza segno) e restituisci la sua radice quadrata in output.
+                                
+                                <h2>ESERCIZIO 14</h2>
+                                Fornito in input un testo restituisci il numero dei caratteri presenti nel testo.
+                                
+                                <h2>ESERCIZIO 15</h2>
+                                Calcolare il totale dell'acquisto di tre prodotti forniti in input dall'utente.
+                                Il prezzo di ogni prodotto è dato dal numero di caratteri del nome del prodotto inserito dall'utente
+                                moltiplicato per un valore casuale compreso tra 1 e 5.
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <h2>ESERCIZIO 17</h2>
-                Crea un programma per tenere traccia del numero di passi effettuato dall'utente nelle ultime 24 ore. Il programma deve chidere all'utente di inserire la propria 
-                altezza in cm e la distanza effettuata in km. la lunghezza del passo di un utente può essere calcolata moltiplicando l'altezza dell'utente per la costante 0.413.   
-                Il programma stamperà in output il numero di passi arrotondato per difetto.
-                <br><br>
-                Per la stampa utilizza lo stesso formato output del seguente esempio:
-                <br><br>
-                input: altezza: 173, km effettutati: 2
-                <br>
-                output: il numero di passi effettuati nelle ultime 24 ore è di: 2799 passi.
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <p>
+                                <h1>ESERCIZI COMPLETI</h1>
 
-                <h2>ESERCIZIO 18</h2>
-                Crea un programma per calcolare il guadagno totale dei biglietti di una proiezione cinematografica. L'utente del programma dovrà inserire il numero dei biglietti ridotti, 
-                il prezzo dei biglietti ridotti, il numero dei biglietti interi e il prezzo dei biglietti interi. Il programma stamperà in output il totale del guadagno effettuato 
-                tenendo in considerazione il fatto che il film ha un costo di noleggio di 10€ per proiezione.
-                <br><br>
-                Per la stampa utilizza lo stesso formato output del seguente esempio:
-                <br><br>
-                input: numero biglietti ridotti: 20, prezzo biglietti ridotti: 5€, numero biglietti interi 50, prezzo biglietti interi: 10€
-                <br>
-                output: Grazie alla vendita di 20 biglietti ridotti e 50 biglietti interi, il guadagno totale della proiezione è stato di 590€
-                
-                <h2>ESERCIZIO 19</h2>
-                Crea un programma per calcolare il risparmio o la perdita che potresti ottenere in un anno supponendo di mangiare un panino portato da casa invece 
-                che comprato al bar della scuola per ogni giorno di scuola (200 giorni).
-                Il prezzo del panino portato da casa deve essere un numero casuale compreso tra 1€ e 1.50€ (compresi), il prezzo del panino comprato al bar è un importo inserito
-                in input dall'utente del programma.
-                <br><br>
-                Per la stampa utilizza lo stesso formato output del seguente esempio:
-                <br><br>
-                input: costo del panino se portato da casa: 1.20€, costo del panino se preso al bar della scuola: 2.5€ù
-                <br>
-                output: totale risparmio/perdita in un anno: 260€
+                                <h2>ESERCIZIO 16</h2>
+                                Crea un programma che controlli la validità di una valutazione inserita in input da parte dell'utente. Il programma una volta chiesto il valore,
+                                restituisce "true" se la valutazione è compresa tra 0 (escluso) e 10 (incluso), altrimenti restituisce "false".
+                                <br><br>
+                                Per la stampa utilizza lo stesso formato output del seguente esempio:
+                                <br><br>
+                                input: valutazione: 5.5
+                                <br>
+                                output: true
 
-                <h2>ESERCIZIO 20</h2>
-                Crea un programma per la creazione di uno scontrino di un supermercato nella quale il prezzo dei prodotti dipende dalla lunghezza dei nomi dei prodotti. 
-                L'utente del programma dovrà inserire i nomi di tre prodotti acquistati. Il programma determinerà il prezzo di ogni prodotto in base alla lunghezza del 
-                suo nome (ogni lettera aumenterà il prezzo di 1.20€). Al prezzo finale dovrà essere aggiunta una tassa pari al 10% del prezzo totale. 
-                Infine il prezzo finale viene arrotondato per difetto al numero intero più vicino.
-                <br><br>
-                Per la stampa utilizza lo stesso formato output del seguente esempio:
-                <br><br>
-                input: melanzana, carota, peperone
-                <br>
-                output: melanzana = 10.8€, carota = 7,2€, peperone = 9,6€. Importo = 27,6€. L'importo totale tassato al 10% e arrotondato per difetto è di: 30€.                 
-            </p>
+                                <h2>ESERCIZIO 17</h2>
+                                Crea un programma per tenere traccia del numero di passi effettuato dall'utente nelle ultime 24 ore. Il programma deve chidere all'utente di inserire la propria 
+                                altezza in cm e la distanza effettuata in km. la lunghezza del passo di un utente può essere calcolata moltiplicando l'altezza dell'utente per la costante 0.413.   
+                                Il programma stamperà in output il numero di passi arrotondato per difetto.
+                                <br><br>
+                                Per la stampa utilizza lo stesso formato output del seguente esempio:
+                                <br><br>
+                                input: altezza: 173, km effettutati: 2
+                                <br>
+                                output: il numero di passi effettuati nelle ultime 24 ore è di: 2799 passi.
+
+                                <h2>ESERCIZIO 18</h2>
+                                Crea un programma per calcolare il guadagno totale dei biglietti di una proiezione cinematografica. L'utente del programma dovrà inserire il numero dei biglietti ridotti, 
+                                il prezzo dei biglietti ridotti, il numero dei biglietti interi e il prezzo dei biglietti interi. Il programma stamperà in output il totale del guadagno effettuato 
+                                tenendo in considerazione il fatto che il film ha un costo di noleggio di 10€ per proiezione.
+                                <br><br>
+                                Per la stampa utilizza lo stesso formato output del seguente esempio:
+                                <br><br>
+                                input: numero biglietti ridotti: 20, prezzo biglietti ridotti: 5€, numero biglietti interi 50, prezzo biglietti interi: 10€
+                                <br>
+                                output: Grazie alla vendita di 20 biglietti ridotti e 50 biglietti interi, il guadagno totale della proiezione è stato di 590€
+                                
+                                <h2>ESERCIZIO 19</h2>
+                                Crea un programma per calcolare il risparmio o la perdita che potresti ottenere in un anno supponendo di mangiare un panino portato da casa invece 
+                                che comprato al bar della scuola per ogni giorno di scuola (200 giorni).
+                                Il prezzo del panino portato da casa deve essere un numero casuale compreso tra 1€ e 1.50€ (compresi), il prezzo del panino comprato al bar è un importo inserito
+                                in input dall'utente del programma.
+                                <br><br>
+                                Per la stampa utilizza lo stesso formato output del seguente esempio:
+                                <br><br>
+                                input: costo del panino se portato da casa: 1.20€, costo del panino se preso al bar della scuola: 2.5€ù
+                                <br>
+                                output: totale risparmio/perdita in un anno: 260€
+
+                                <h2>ESERCIZIO 20</h2>
+                                Crea un programma per la creazione di uno scontrino di un supermercato nella quale il prezzo dei prodotti dipende dalla lunghezza dei nomi dei prodotti. 
+                                L'utente del programma dovrà inserire i nomi di tre prodotti acquistati. Il programma determinerà il prezzo di ogni prodotto in base alla lunghezza del 
+                                suo nome (ogni lettera aumenterà il prezzo di 1.20€). Al prezzo finale dovrà essere aggiunta una tassa pari al 10% del prezzo totale. 
+                                Infine il prezzo finale viene arrotondato per difetto al numero intero più vicino.
+                                <br><br>
+                                Per la stampa utilizza lo stesso formato output del seguente esempio:
+                                <br><br>
+                                input: melanzana, carota, peperone
+                                <br>
+                                output: melanzana = 10.8€, carota = 7,2€, peperone = 9,6€. Importo = 27,6€. L'importo totale tassato al 10% e arrotondato per difetto è di: 30€.    
+                            </p>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+
+            <div id="footer" class="colore"></div>
         </div>
-        <footer class="w3-container w3-right-align colore">
-            <p>Gabriele Cazzaniga</p>
-        </footer>
     </body>
 </html>
