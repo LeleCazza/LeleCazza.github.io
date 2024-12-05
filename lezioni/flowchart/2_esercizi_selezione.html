@@ -2,103 +2,126 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title> FLOWCHART </title>
-        <script src="../../js/randomcolor.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> INFORMATICA </title>
+        <link rel="shortcut icon" href="../../images/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="../../js/footer&header.js"></script>
+        <script src="../../js/showTeoria.js"></script>
     </head>
-    <body> 
-        <header class="w3-container colore ">
-            <h1> FLOWCHART </h1>
-        </header>
-        <div class="w3-container w3-black">
-            <p>
-                Utilizzando Flowgorithm: 
-                <a href="http://www.flowgorithm.org/download/index.html" style="color: red;" target="_blank">download software</a>
-                <br>
-                Una volta terminato l'esercizio consegna un file in formato .fprg 
-                (formato di flowgorithm) e un file in formato .png contenente la stampa del 
-                diagramma di flusso creato per risolvere ognuno dei seguenti esercizi:
-                <br>
-                <i style="color: yellow;">CREARE FILE .fprg</i>:
-                <ol>
-                    <li>Nel menu in alto di flowgorithm selezionare "File"</li>
-                    <li>Selezionare "Salva"</li>
-                </ol>
-                <i style="color: yellow;">CREARE FILE .png</i>:
-                <ol>
-                    <li>Nel menu in alto di flowgorithm selezionare "Strumenti"</li>
-                    <li>Selezionare "Esporta immagine in un file"</li>
-                    <li>Cliccare su "Crea"</li>
-                </ol>
-                <h2>ESERCIZIO 1</h2>
-                Ricevute in ingresso le lunghezze dei tre lati di un triangolo, determina se si tratta 
-                di un triangolo equilatero, isoscele, scaleno.<br>
-                (<a href="materiale/soluzione_es_1_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 2</h2>
-                Ricevuti in ingresso due valori, fanne la sottrazione se il primo è maggiore del secondo o 
-                fanne la somma se il primo è minore del secondo. Se sono uguali segnalalo a video.<br>
-                (<a href="materiale/soluzione_es_2_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 3</h2>
-                Determina se un voto ricevuto in ingresso è sufficiente o insufficiente.<br>
-                (<a href="materiale/soluzione_es_3_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 4</h2>
-                In una serra si considera normale la temperatura di 18° o più, sotto i 5° si hanno danni 
-                irreparabili, tra i 5°-18° compresi vi è una situazione di pericolo. Scrivi un 
-                algoritmo che, letta la temperatura della serra, indichi lo stato della serra.<br> 
-                (<a href="materiale/soluzione_es_4_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 5</h2>
-                Dati due numeri A e B verificare se A è il quadrato di B.<br>
-                (<a href="materiale/soluzione_es_5_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 6</h2>
-                Chiedi all'utente di inserire prima il nome di un videogioco e poi il suo prezzo.<br>
-                <ol>
-                    <li>Se il nome del videogioco è “pokemon” e il prezzo è maggiore o uguale a 50 stampa: “COSTA TROPPO!”</li>
-                    <li>Per qualsiasi altro videogioco (compreso pokemon) se il prezzo è minore o uguale a 20 stampa il nome del videogioco inserito dall'utente seguito dalla scritta “lo comprerò”.
-                    </li>
-                </ol>
-                (<a href="materiale/soluzione_es_6_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 7</h2>
-                Realizza un programma che, dato il prezzo di un prodotto e la quantità acquistata, 
-                calcola il prezzo totale, tenendo conto che il venditore applica uno sconto del 10% se 
-                si acquistano più di 5 pezzi, del 15% se si acquistano più di 10 pezzi o del 20% se si 
-                acquistano più di 20 pezzi. Il prezzo totale viene infine arrotondato per difetto.<br>
-                (<a href="materiale/soluzione_es_7_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 8</h2>
-                Ricevuti in input due numeri interi effettuare i seguenti calcoli:<br>
-                <ol>
-                    <li>Se i numeri sono uguali stampa la loro somma, in alternativa stampa la loro differenza</li>
-                    <li>Se i numeri sono entrambi maggiori o uguali a 10 stampa il loro prodotto</li>
-                </ol>
-                (<a href="materiale/soluzione_es_8_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 9</h2>
-                Un idraulico chiede 40€ per un'ora di lavoro, più il costo del materiale, con un minimo di 
-                140€ per ogni lavoro. Scrivi un programma che legge come dati in input il costo del materiale e 
-                il numero di ore lavorative determinando l'importo da pagare: se è inferiore al minimo previsto 
-                deve essere notificato il valore di incremento previsto per il raggiungimento del minimo di 140€.<br>
-                (<a href="materiale/soluzione_es_9_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 10</h2>
-                Il biglietto di ingresso a un museo ha le seguenti tariffe. Per i bambini di età inferiore a 6 anni 
-                l'ingresso è gratuito (opzione 1), per gli studenti è di 8 euro (opzione 2), per i pensionati di 10 euro 
-                (opzione 3), per tutti gli altri di 15 euro (opzione 4). Scrivi un programma in cui l'utente inserisce un 
-                numero tra 1 e 4 e viene comunicato il prezzo relativo all'opzione scelta. Se il numero non è un'opzione 
-                valida viene mostrato un messaggio di errore.<br>
-                (<a href="materiale/soluzione_es_10_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-                <h2>ESERCIZIO 11</h2>
-                Scrivere un programma che consenta la elaborazione di una ipotetica scheda di pedaggio autostradale. 
-                Il programma deve quindi prevedere l'immissione dei chilometri percorsi; del codice tariffa: 
-                (0=Nord, 1=Centro, 2=Sud), il calcolo del pedaggio sulla base della tariffa scelta e cioè:
-                <ul>
-                    <li>€ 0,150 al km per il Nord</li>
-                    <li>€ 0,125 al km per il Centro</li>
-                    <li>€ 0,100 al km per il Sud</li>
-                </ul>
-                Al valore ottenuto dovrà essere aggiunto un supplemento di spese in ragione di € 0,010 al km 
-                per i primi 100 km e € 0,005 al km per i successivi km percorsi.<br>
-                (<a href="materiale/soluzione_es_11_selezione.fprg" style="color: red;" target="_blank">soluzione</a>)
-            </p>
+    <body>
+        <div class="wrapper">
+            
+            <div id="header" class="colore"></div>
+
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <p>
+                                Utilizzando Flowgorithm: 
+                                <a href="http://www.flowgorithm.org/download/index.html" target="_blank">download software </a>
+                                risolvi i seguenti esericizi.<br>
+                                Una volta terminato l'esercizio consegna un file in formato .fprg 
+                                (formato di flowgorithm) e un file in formato .png contenente la stampa del 
+                                diagramma di flusso creato per risolvere ognuno dei seguenti esercizi:
+                                <br>
+                                <i><b>CREARE FILE .fprg</b></i>:
+                                <ol>
+                                    <li>Nel menu in alto di flowgorithm selezionare "File"</li>
+                                    <li>Selezionare "Salva"</li>
+                                </ol>
+                                <i><b>CREARE FILE .png</b></i>:
+                                <ol>
+                                    <li>Nel menu in alto di flowgorithm selezionare "Strumenti"</li>
+                                    <li>Selezionare "Esporta immagine in un file"</li>
+                                    <li>Cliccare su "Crea"</li>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row main">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-round-large">
+                        <div class="w3-container" style="text-align: justify;">
+                            <p>
+                                <h2>ESERCIZIO 1</h2>
+                                Ricevute in ingresso le lunghezze dei tre lati di un triangolo, determina se si tratta 
+                                di un triangolo equilatero, isoscele, scaleno.<br>
+                                (<a href="materiale/soluzione_es_1_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 2</h2>
+                                Ricevuti in ingresso due valori, fanne la sottrazione se il primo è maggiore del secondo o 
+                                fanne la somma se il primo è minore del secondo. Se sono uguali segnalalo a video.<br>
+                                (<a href="materiale/soluzione_es_2_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 3</h2>
+                                Determina se un voto ricevuto in ingresso è sufficiente o insufficiente.<br>
+                                (<a href="materiale/soluzione_es_3_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 4</h2>
+                                In una serra si considera normale la temperatura di 18° o più, sotto i 5° si hanno danni 
+                                irreparabili, tra i 5°-18° compresi vi è una situazione di pericolo. Scrivi un 
+                                algoritmo che, letta la temperatura della serra, indichi lo stato della serra.<br> 
+                                (<a href="materiale/soluzione_es_4_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 5</h2>
+                                Dati due numeri A e B verificare se A è il quadrato di B.<br>
+                                (<a href="materiale/soluzione_es_5_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 6</h2>
+                                Chiedi all'utente di inserire prima il nome di un videogioco e poi il suo prezzo.<br>
+                                <ol>
+                                    <li>Se il nome del videogioco è “pokemon” e il prezzo è maggiore o uguale a 50 stampa: “COSTA TROPPO!”</li>
+                                    <li>Per qualsiasi altro videogioco (compreso pokemon) se il prezzo è minore o uguale a 20 stampa il nome del videogioco inserito dall'utente seguito dalla scritta “lo comprerò”.
+                                    </li>
+                                </ol>
+                                (<a href="materiale/soluzione_es_6_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 7</h2>
+                                Realizza un programma che, dato il prezzo di un prodotto e la quantità acquistata, 
+                                calcola il prezzo totale, tenendo conto che il venditore applica uno sconto del 10% se 
+                                si acquistano più di 5 pezzi, del 15% se si acquistano più di 10 pezzi o del 20% se si 
+                                acquistano più di 20 pezzi. Il prezzo totale viene infine arrotondato per difetto.<br>
+                                (<a href="materiale/soluzione_es_7_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 8</h2>
+                                Ricevuti in input due numeri interi effettuare i seguenti calcoli:<br>
+                                <ol>
+                                    <li>Se i numeri sono uguali stampa la loro somma, in alternativa stampa la loro differenza</li>
+                                    <li>Se i numeri sono entrambi maggiori o uguali a 10 stampa il loro prodotto</li>
+                                </ol>
+                                (<a href="materiale/soluzione_es_8_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 9</h2>
+                                Un idraulico chiede 40€ per un'ora di lavoro, più il costo del materiale, con un minimo di 
+                                140€ per ogni lavoro. Scrivi un programma che legge come dati in input il costo del materiale e 
+                                il numero di ore lavorative determinando l'importo da pagare: se è inferiore al minimo previsto 
+                                deve essere notificato il valore di incremento previsto per il raggiungimento del minimo di 140€.<br>
+                                (<a href="materiale/soluzione_es_9_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 10</h2>
+                                Il biglietto di ingresso a un museo ha le seguenti tariffe. Per i bambini di età inferiore a 6 anni 
+                                l'ingresso è gratuito (opzione 1), per gli studenti è di 8 euro (opzione 2), per i pensionati di 10 euro 
+                                (opzione 3), per tutti gli altri di 15 euro (opzione 4). Scrivi un programma in cui l'utente inserisce un 
+                                numero tra 1 e 4 e viene comunicato il prezzo relativo all'opzione scelta. Se il numero non è un'opzione 
+                                valida viene mostrato un messaggio di errore.<br>
+                                (<a href="materiale/soluzione_es_10_selezione.fprg" target="_blank">soluzione</a>)
+                                <h2>ESERCIZIO 11</h2>
+                                Scrivere un programma che consenta la elaborazione di una ipotetica scheda di pedaggio autostradale. 
+                                Il programma deve quindi prevedere l'immissione dei chilometri percorsi; del codice tariffa: 
+                                (0=Nord, 1=Centro, 2=Sud), il calcolo del pedaggio sulla base della tariffa scelta e cioè:
+                                <ul>
+                                    <li>€ 0,150 al km per il Nord</li>
+                                    <li>€ 0,125 al km per il Centro</li>
+                                    <li>€ 0,100 al km per il Sud</li>
+                                </ul>
+                                Al valore ottenuto dovrà essere aggiunto un supplemento di spese in ragione di € 0,010 al km 
+                                per i primi 100 km e € 0,005 al km per i successivi km percorsi.<br>
+                                (<a href="materiale/soluzione_es_11_selezione.fprg" target="_blank">soluzione</a>)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer" class="colore"></div>
         </div>
-        <footer class="w3-container w3-right-align colore">
-            <p>Gabriele Cazzaniga</p>
-        </footer>
     </body>
 </html>
