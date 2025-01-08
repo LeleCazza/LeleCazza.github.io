@@ -12,12 +12,15 @@
     - https://www.ilpost.it/2021/01/22/alphabet-loon-palloni-aerostatici/
     - https://www.geopop.it/5g-vs-4g-quali-sono-le-differenze-e-i-vantaggi-della-nuova-generazione/
     - https://www.ilpost.it/2023/10/07/domini-siti-web-anguilla-tuvalu/
+    - https://www.wired.it/article/stati-uniti-pallone-spia-cinese/
+    - https://www.linkiesta.it/blog/2015/11/la-storia-della-regola-34-di-internet/
 - SPLINTERNET E ROTTURA DELLA RETE
     - https://www.cybersecurity360.it/cybersecurity-nazionale/lera-di-splinternet-cosi-la-geopolitica-sta-fratturando-il-cyberspazio/
     - https://www.ilpost.it/massimomantellini/2021/10/11/internet-in-effetti-si-e-rotta/
     - https://archive.org/
     - http://www.deadmedia.org/index.html
     - https://www.linkedin.com/pulse/ai-content-apocalypse-death-internet-we-know-chad-barendse-pqptc
+    - https://quantsmagazine.com/2024/10/e-ancora-possibile-salvare-internet/
 - DIFFERENZE WEB 1.0, 2.0, 3.0
 - DECENTRALIZZAZIONE DELLA RETE E RENDERE RISORSE PERMAMENTI
     - https://www.insidemarketing.it/ipfs-come-funziona/
@@ -37,6 +40,8 @@
     - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-panico-per-la-guerra.html?m=1
     - https://www.newsguardtech.com/it/
     - https://www.permessonegato.it/
+    - https://www.bufale.net/
+    - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9845178
 - UTILIZZO CORRETTO DELLA RETE E DEI SOCIAL NETWORK
     - https://www.youtube.com/watch?v=UVo9DsmaexE
     - https://joinmastodon.org/it
@@ -51,6 +56,7 @@
     - Infomaniak.com
     - https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
     - https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
+    - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
 
 # INTELLIGENZA ARTIFICIALE
 - PROBLEMI CREAZIONE IA
@@ -76,6 +82,7 @@
     - https://www.ilgiornale.it/news/nuove-frontiere/meta-ha-lanciato-e-poi-ritirato-galactica-l-enciclopedia-2088036.html
     - https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry
     - https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
+    - https://www.macsis.unimib.it/wp-content/uploads/sites/105/2021/05/Automation-Bias_WP_1_2020.pdf
 - PROBLEMI UTILIZZO IA
     - https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/
     - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
@@ -105,6 +112,13 @@
     - https://valori.it/wp-content/uploads/2024/04/Lintelligenza-artificiale-va-al-fronte.pdf
     - https://www.corriere.it/esteri/24_giugno_23/mcdonalds-abbandona-intelligenza-artificiale-e67cd9a6-7ebd-4436-9ff0-de55eb486xlk.shtml
     - https://deepfakelab.theglassroom.org/index-it_IT.html
+    - https://dirittoaldigitale.com/2024/08/22/rischio-ai/
+    - https://privacy-network.it/news/segnalazione/segnalazione-a-character-ai/
+    - https://www.wired.it/article/lavender-intelligenza-artificiale-israele-palestina/
+    - https://open.spotify.com/episode/1aqGqKWSveG3KICcO8aPmS
+    - https://www.giornalelavoce.it/news/italia/550942/la-mascotte-del-giubileo-luce-trasformata-in-icona-porno-dallintelligenza-artificiale.html
+    - https://www.ferpress.it/nel-luglio-2021-nella-metro-di-mosca-il-sistema-di-riconoscimento-facciale-sfera-ha-identificato-piu-di-200-persone-nella-lista-dei-ricercati/
+    - https://www.wired.it/attualita/tech/2018/05/21/cina-scuola-attenzione-studenti-riconoscimento-facciale/
 - REGOLAMENTAZIONE DELL'IA
     - https://www.youtube.com/watch?v=j2GcfGXg5wo
     - https://www.caidp.org/
@@ -131,6 +145,11 @@
     - https://it.wikipedia.org/wiki/Amazon_Mechanical_Turk
     - https://docs.aws.amazon.com/it_it/sagemaker/latest/dg/sms-workforce-management-public.html
     - https://www.wired.it/article/joseph-weizenbaum-chatbot-eliza/
+    - https://open.spotify.com/episode/1p9hsiQuAzTsFfKu91z4pV
+    - https://lucysullacultura.com/da-outsider-a-nobel-storia-dei-pionieri-dellintelligenza-artificiale/
+    - https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
+    - https://it.wikipedia.org/wiki/TESCREAL
+    - https://www.wired.it/article/jerry-kaplan-intervista-ai-generativa/
 - GAN (Generative Adversarial Networks)
     - https://deepdreamgenerator.com/
     - https://openai.com/
@@ -139,6 +158,8 @@
     - https://www.anthropic.com/
     - https://www.anthropic.com/research/mapping-mind-language-model
 - TOOL DI IA 
+    - CHAT
+        - https://www.perplexity.ai/
     - VOCE
         - https://www.voicemod.net/it/
         - https://speechify.com/it/
@@ -198,6 +219,11 @@
 - https://open.spotify.com/episode/5y8sRzZkyk63sDPo5bkFMf
 - https://signalfoundation.org/it/
 - https://attivissimo.blogspot.com/2024/09/podcast-rsi-gli-smartphone-ci-ascoltano.html
+- https://garantepiracy.it/
+- [Ddb Life Is a game, rider e algoritmi (ia governa già l'uomo)](https://openddb.it/film/life-is-a-game/)
+- https://www.wired.it/attualita/tech/2020/11/24/citofono-smart-amazon-ring-sorveglianza/
+- https://www.futuroprossimo.it/2024/03/starshield-musk-allestisce-una-rete-di-satelliti-spia-per-gli-usa/
+- https://www.wired.it/internet/regole/2020/05/25/gdpr-privacy/
 
 # VIDEOGAMES E MUSICA
 - CRACK E CURIOSITA'
@@ -239,6 +265,7 @@
 # REALTA' VIRTUALE E AUMENTATA
 - https://www.artsteps.com/
 - https://www.wired.it/article/teoria-della-simulazione/
+- https://mergeedu.com/cube?cr=3709
 
 # CRITTOGRAFIA E SICUREZZA INFORMATICA
 - TEORIA
@@ -274,7 +301,13 @@
     - https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
     - https://www.ibm.com/it-it/topics/digital-operational-resilience-act
     - https://www.tomshw.it/videogioco/allarme-pedofilia-su-roblox-il-rapporto-shock-di-hindenburg-research-2024-10-09
-    
+    - https://open.spotify.com/episode/3m0YsD0xPXzqE5RGzFfIlr
+    - https://www.augustsolution.it/servizi/cyber-security/penetration-test/
+    - https://www.wired.it/article/equalize-aziende-clienti-dossier-erg-barilla/
+    - https://www.keepersecurity.com/blog/it/2024/08/20/qr-code-scams-you-should-be-aware-of/
+    - https://www.ultralytics.com/it/blog/how-to-tell-if-an-image-is-ai-generated
+    - https://ugo.legal/lo-schema-ponzi-digitale-le-nuove-frontiere-della-truffa-piu-vecchia-del-mondo/
+    - https://www.ncsc.admin.ch/ncsc/it/home/aktuell/im-fokus/2024/2024-meteosuisse.html
 
 # COMPUTER QUANTISTICI
 - https://www.wired.it/article/computer-quantistico-semiconduttori-italia-napoli/
@@ -282,6 +315,7 @@
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score
 - https://apply.42firenze.it/users/sign_up
+- https://www.gameludere.it/2021/05/05/teoria-informazione-primo-teorema-di-shannon/
 
 # STORIA INFORMATICA
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
@@ -290,3 +324,4 @@
 - https://disf.org/files/doc/longo-test-turing.pdf
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-nasa-monitor-giganti-piatti.html
 - https://leonardo-supercomputer.cineca.eu/it/top500-leonardo-quarto/
+- https://www.redhotcyber.com/post/la-macchina-di-turing-realizzata-con-i-mattoncini-lego-il-progetto-pubblicato-su-lego-ideas/#:~:text=Un%20designer%20conosciuto%20con%20lo,e%20abilit%C3%A0%20tecnica%20dell'autore.

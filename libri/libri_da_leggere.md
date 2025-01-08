@@ -39,12 +39,18 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 *   Zero, uno (Sadie Plant)
 *   Xenofemminismo (Helen Hester)
 *   La matematica degli dei e gli algoritmi degli uomini (Paolo Zellini)
+*   Logicomix (Apostolos Doxiadis)
 
 SAGGI
 -----
 
 ### 2024
 
+*   Sopravvivere nell'era dell'intelligenza artificiale (Walter Ferri)
+*   La mente dell'hacker. (Bruce Schneier)
+*   Intelligenza artificiale e democrazia. (Oreste Pollicino)
+*   L’etica dell’intelligenza artificiale spiegata a mio figlio (Enrico Panai)
+*   Geopolitica dello spazio (Emilio Cozzi)
 *   Noi e la macchina (Paolo Benanti, Sebastiano Maffettone)
 *   2100 (Simone Pieranni)
 *   La società della ricompensa (Adrian Hon)
@@ -66,6 +72,7 @@ SAGGI
 
 ### 2023
 
+*   Black Box (Laura Carrer)
 *   Il visconte cibernetico (Andrea Prencipe, Massimo Sideri)
 *   La guerra dei metalli rari (Guillaume Pitron)
 *   Divertirsi da morire (Neil Postman)
@@ -108,6 +115,7 @@ SAGGI
 
 ### PRIMA DEL 2020
 
+*   Capitalismo immateriale (Stefano Quintarelli)
 *   Armi di distruzione matematica (Cathy O'Neil)
 *   #Cybercrime (Carola Frediani)
 *   Capitalismo immateriale. Le tecnologie digitali e il nuovo conflitto sociale (Stefano Quintarelli)
@@ -145,6 +153,7 @@ INFORMATICA
 *   Hackers sulle tracce di Kevin (Shimomura Tsutomu)
 *   La rivoluzione elettronica (Andrea Frova)
 *   Il manuale della crittografia. Applicazioni pratiche dei protocolli crittografici (Niels Ferguson, Bruce Schneier, Tadayoshi Kohno)
+*   The Chinese Computer: A Global History of the Information Age (Thomas S. Mullaney)
 
 VIDEOGIOCHI
 -----------
@@ -175,3 +184,5 @@ LINK
 *   [https://www.ibs.it/libri/autori/gabriel-garcía-márquez](https://www.ibs.it/libri/autori/gabriel-garc%C3%ADa-m%C3%A1rquez)
 *   [https://www.ibs.it/libri/autori/nello-cristianini](https://www.ibs.it/libri/autori/nello-cristianini)
 *   [https://www.ibs.it/libri/autori/frank-herbert](https://www.ibs.it/libri/autori/frank-herbert)
+*   [https://www.ibs.it/libri/autori/carlo-rovelli](https://www.ibs.it/libri/autori/carlo-rovelli)
+*   [https://www.ibs.it/libri/autori/nello-cristianini](https://www.ibs.it/libri/autori/nello-cristianini)
