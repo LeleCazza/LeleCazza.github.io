@@ -14,6 +14,13 @@
     - https://www.ilpost.it/2023/10/07/domini-siti-web-anguilla-tuvalu/
     - https://www.wired.it/article/stati-uniti-pallone-spia-cinese/
     - https://www.linkiesta.it/blog/2015/11/la-storia-della-regola-34-di-internet/
+    - https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
+    - https://www.wired.it/article/trump-scarcerazione-ross-ulbricht-silk-road/
+    - https://it.wikipedia.org/wiki/Social_network
+    - https://www.wired.it/article/cavi-sottomarini-baltico-russia/
+    - https://www.startmag.it/economia/worldline-problemi-pagamenti-pos/
+    - https://techcrunch.com/2024/11/29/meta-plans-to-build-a-10b-subsea-cable-spanning-the-world-sources-say/
+    - https://www.ilpost.it/2024/12/02/data-center-mancano-norme/
 - SPLINTERNET E ROTTURA DELLA RETE
     - https://www.cybersecurity360.it/cybersecurity-nazionale/lera-di-splinternet-cosi-la-geopolitica-sta-fratturando-il-cyberspazio/
     - https://www.ilpost.it/massimomantellini/2021/10/11/internet-in-effetti-si-e-rotta/
@@ -21,12 +28,14 @@
     - http://www.deadmedia.org/index.html
     - https://www.linkedin.com/pulse/ai-content-apocalypse-death-internet-we-know-chad-barendse-pqptc
     - https://quantsmagazine.com/2024/10/e-ancora-possibile-salvare-internet/
+    - https://open.spotify.com/episode/0vajlrlJDlfzg7PieL2sXt
 - DIFFERENZE WEB 1.0, 2.0, 3.0
 - DECENTRALIZZAZIONE DELLA RETE E RENDERE RISORSE PERMAMENTI
     - https://www.insidemarketing.it/ipfs-come-funziona/
     - https://www.fastweb.it/fastweb-plus/digital-magazine/come-funziona-il-web-permanente-dell-ipfs/
     - https://it.wikipedia.org/wiki/ActivityPub
     - https://attivissimo.blogspot.com/2022/11/podcast-rsi.html
+    - https://mastodon.it/
 - METAVERSO
     - https://letmetell.it/roblox-e-gia-il-metaverso/
 - IDENTIFICARE FAKE NEWS E SCAM, RIMUOVERE CONTENUTI INDESIDERATI
@@ -42,12 +51,17 @@
     - https://www.permessonegato.it/
     - https://www.bufale.net/
     - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9845178
+    - https://it.wikipedia.org/wiki/Operazione_Doppelg%C3%A4nger
+    - https://www.wired.it/article/meta-fine-fact-checking-reazioni-partner/
 - UTILIZZO CORRETTO DELLA RETE E DEI SOCIAL NETWORK
     - https://www.youtube.com/watch?v=UVo9DsmaexE
     - https://joinmastodon.org/it
     - https://lucysullacultura.com/linformazione-sta-sparendo-dai-social-ed-e-un-problema/
     - https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
     - https://www.feltrinellieducation.it/magazine/l-economia-dell-attenzione-e-il-paradosso-che-sta-uccidendo-i-giornali
+    - https://downdetector.it/
+    - https://www.wired.it/article/australia-divieto-social-network-minori-16-anni/
+    - https://www.wired.it/article/meta-indagini-multa-evasione-fiscale/
 
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
@@ -83,6 +97,7 @@
     - https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry
     - https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
     - https://www.macsis.unimib.it/wp-content/uploads/sites/105/2021/05/Automation-Bias_WP_1_2020.pdf
+    - https://www.rsi.ch/cultura/La-pericolosa-filosofia-dei-giganti-dell%E2%80%99IA--2423004.html
 - PROBLEMI UTILIZZO IA
     - https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/
     - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
@@ -119,6 +134,13 @@
     - https://www.giornalelavoce.it/news/italia/550942/la-mascotte-del-giubileo-luce-trasformata-in-icona-porno-dallintelligenza-artificiale.html
     - https://www.ferpress.it/nel-luglio-2021-nella-metro-di-mosca-il-sistema-di-riconoscimento-facciale-sfera-ha-identificato-piu-di-200-persone-nella-lista-dei-ricercati/
     - https://www.wired.it/attualita/tech/2018/05/21/cina-scuola-attenzione-studenti-riconoscimento-facciale/
+    - https://www.aiopenmind.it/ArtificialIntelligence/pubblicita-su-perplexity-un-nuovo-modello-per-sostenere-la-curiosita-globale/#:~:text=Perplexity%2C%20piattaforma%20di%20ricerca%20basata,delle%20risposte%20fornite%20agli%20utenti.
+    - https://www.wired.it/article/gesu-virtuale-ai-svizzera/
+    - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9751323
+    - https://www.tomshw.it/hardware/arriva-la-mascherina-digitale-inganna-i-sistemi-biometrici-2024-12-02
+    - https://www.agendadigitale.eu/sanita/intelligenza-artificiale-per-le-assicurazioni-sanitarie-in-italia-e-negli-usa-il-quadro-luci-e-ombre/
+    - https://open.spotify.com/episode/0kzpygrXdTSJQmryfxynwd
+    - https://www.ansa.it/canale_tecnologia/notizie/future_tech/2023/11/27/riapre-way-of-the-future-la-chiesa-che-venera-gli-algoritmi_a5077e2f-7f13-410a-ad5d-5052988040dc.html
 - REGOLAMENTAZIONE DELL'IA
     - https://www.youtube.com/watch?v=j2GcfGXg5wo
     - https://www.caidp.org/
@@ -150,6 +172,10 @@
     - https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
     - https://it.wikipedia.org/wiki/TESCREAL
     - https://www.wired.it/article/jerry-kaplan-intervista-ai-generativa/
+    - https://www.economyup.it/automotive/ecco-come-le-auto-senza-conducente-sono-in-realta-guidate-da-umani-ma-da-remoto/
+    - https://open.spotify.com/episode/5C0ybbZMqT9WuVMXMPCExx
+    - https://it.cointelegraph.com/news/elon-musk-xai-colossus-ai-training-cluster
+    - https://it.wikipedia.org/wiki/Singolarit%C3%A0_tecnologica
 - GAN (Generative Adversarial Networks)
     - https://deepdreamgenerator.com/
     - https://openai.com/
@@ -224,6 +250,16 @@
 - https://www.wired.it/attualita/tech/2020/11/24/citofono-smart-amazon-ring-sorveglianza/
 - https://www.futuroprossimo.it/2024/03/starshield-musk-allestisce-una-rete-di-satelliti-spia-per-gli-usa/
 - https://www.wired.it/internet/regole/2020/05/25/gdpr-privacy/
+- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
+- https://www.wired.it/article/glovo-multa-gdpr/
+- https://open.spotify.com/episode/6Dqr5ENrZZAwh41IATKICt
+- https://open.spotify.com/episode/090JLO9EyCr4FSuW80ZRlC
+- https://irpimedia.irpi.eu/spiarelowcost/
+- https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10074840
+- https://nintendon.it/2024/11/20/niantic-utilizza-i-dati-di-pokemon-go-per-addestrare-lia-alla-navigazione-del-mondo-reale-298709
+- https://www.motoricerca.net/contextual-marketing/
+- https://www.wired.it/article/fuga-dati-posizione-volkswagen/
+- https://privacy-network.it/digital-literacy/privacy-kit/
 
 # VIDEOGAMES E MUSICA
 - CRACK E CURIOSITA'
@@ -253,6 +289,7 @@
     - https://www.rockit.it/intervista/solar-kenobit-game-boy-contro-capitalismo
 - CREAZIONE VIDEOGAMES
     - https://twinery.org/
+    - https://archive.org/details/art-of-atari
 - VIDEOGIOCHI
     - https://multiplayer.it/articoli/il-ritorno-di-dys4ia-uno-dei-videogiochi-che-hanno-definito-la-rivoluzione-indie.html
     - https://www.exposalutementale.it/bluethroot-un-videogioco-per-le-scuole-sulla-salute-mentale-intervista-a-fortuna-imperatore/
@@ -308,6 +345,13 @@
     - https://www.ultralytics.com/it/blog/how-to-tell-if-an-image-is-ai-generated
     - https://ugo.legal/lo-schema-ponzi-digitale-le-nuove-frontiere-della-truffa-piu-vecchia-del-mondo/
     - https://www.ncsc.admin.ch/ncsc/it/home/aktuell/im-fokus/2024/2024-meteosuisse.html
+    - https://www.cybersecurity360.it/nuove-minacce/pegasus-continua-a-diffondersi-i-motivi-e-le-best-practice-per-difendersi/
+    - https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
+    - https://www.agendadigitale.eu/cultura-digitale/ransomware-gang-leconomia-segreta-della-mala-digitale/
+    - https://www.wired.it/article/attacco-ransomware-bologna-fc/
+    - https://www.cybersecurity360.it/news/attacco-a-inps-servizi-non-ce-rivendicazione-ma-la-grande-assente-e-la-trasparenza/
+    - https://thesubmarine.it/2017/07/16/australia-il-paese-dove-la-matematica-non-vale/
+    - https://www.geopop.it/arriva-il-trojan-delle-app-bancarie-su-android-che-svuota-il-conto-come-difendersi-da-droidbot/
 
 # COMPUTER QUANTISTICI
 - https://www.wired.it/article/computer-quantistico-semiconduttori-italia-napoli/
@@ -316,6 +360,7 @@
 - https://en.m.wikipedia.org/wiki/Weissman_score
 - https://apply.42firenze.it/users/sign_up
 - https://www.gameludere.it/2021/05/05/teoria-informazione-primo-teorema-di-shannon/
+- https://adventofcode.com/
 
 # STORIA INFORMATICA
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/

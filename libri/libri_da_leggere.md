@@ -46,6 +46,12 @@ SAGGI
 
 ### 2024
 
+*   L’algoritmo di Babele (Andrea Colamedici)
+*   Welcome to the cyber jungle (Marco Schiaffino)
+*   Violenza virtuale (Francesco Striano)
+*   Machina Sapiens (Nello Cristianini)
+*   Nexus (Yuval Noah Harari) 
+*   Chip war (Chris Miller)
 *   Sopravvivere nell'era dell'intelligenza artificiale (Walter Ferri)
 *   La mente dell'hacker. (Bruce Schneier)
 *   Intelligenza artificiale e democrazia. (Oreste Pollicino)
@@ -112,6 +118,8 @@ SAGGI
 *   Arte e intelligenza artificiale(Alice Barale)
 *   Insegnare a trasgredire. L'educazione come pratica della libertà (hooks bell)
 *   Novacene. L'età dell'iperintelligenza (James Lovelock)
+*   Propaganda. Come manipolare l’opinione pubblica (Edward L. Bernays)
+*   Collasso (Nick Land)
 
 ### PRIMA DEL 2020
 
@@ -128,6 +136,7 @@ SAGGI
 *   Cyber intelligence. Tra libertà e sicurezza (Mario Caligiuri)
 *   Sapiens. Da animali a dèi. Breve storia dell'umanità (Yuval Noah Harari)
 *   La singolarità è più vicina (Ray Kurzweil)
+*   Abolish Silicon Valley (Wendy Liu)
 
 INFORMATICA
 -----------
@@ -186,3 +195,4 @@ LINK
 *   [https://www.ibs.it/libri/autori/frank-herbert](https://www.ibs.it/libri/autori/frank-herbert)
 *   [https://www.ibs.it/libri/autori/carlo-rovelli](https://www.ibs.it/libri/autori/carlo-rovelli)
 *   [https://www.ibs.it/libri/autori/nello-cristianini](https://www.ibs.it/libri/autori/nello-cristianini)
+*   [https://www.ibs.it/libri/autori/luciano-floridi](https://www.ibs.it/libri/autori/luciano-floridi)
