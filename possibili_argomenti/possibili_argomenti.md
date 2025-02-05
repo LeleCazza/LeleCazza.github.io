@@ -30,6 +30,7 @@
     - https://quantsmagazine.com/2024/10/e-ancora-possibile-salvare-internet/
     - https://open.spotify.com/episode/0vajlrlJDlfzg7PieL2sXt
 - DIFFERENZE WEB 1.0, 2.0, 3.0
+- LATENZA E LARGHEZZA DI BANDA
 - DECENTRALIZZAZIONE DELLA RETE E RENDERE RISORSE PERMAMENTI
     - https://www.insidemarketing.it/ipfs-come-funziona/
     - https://www.fastweb.it/fastweb-plus/digital-magazine/come-funziona-il-web-permanente-dell-ipfs/
@@ -62,6 +63,7 @@
     - https://downdetector.it/
     - https://www.wired.it/article/australia-divieto-social-network-minori-16-anni/
     - https://www.wired.it/article/meta-indagini-multa-evasione-fiscale/
+    - https://www.youtube.com/watch?v=TozMwhgf50U&ab_channel=Rai
 
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
@@ -98,6 +100,7 @@
     - https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
     - https://www.macsis.unimib.it/wp-content/uploads/sites/105/2021/05/Automation-Bias_WP_1_2020.pdf
     - https://www.rsi.ch/cultura/La-pericolosa-filosofia-dei-giganti-dell%E2%80%99IA--2423004.html
+    - https://www.hwupgrade.it/news/web/meta-sotto-accusa-avrebbe-usato-contenuti-pirata-ottenuti-via-torrent-per-allenare-l-ia_134519.html
 - PROBLEMI UTILIZZO IA
     - https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/
     - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
@@ -197,10 +200,7 @@
         - https://www.deborahmilano.com/it/products/virtual-try-on/
 
 # PRIVACY, LIBERTA' E PROFILAZIONE
-- https://attivissimo.blogspot.com/2022/07/stanno-arrivando-dma-e-dsa-due-leggi-ue.html
-- https://www.agendadigitale.eu/sicurezza/privacy/dark-pattern-cosi-le-aziende-ingannano-gli-utenti-le-nuove-linee-guida-edpb/
-- https://protezionedatipersonali.it/pubblicita-comportamentale
-- https://forbes.it/2023/05/23/come-funziona-wechat-cinese-musk/
+  
 - https://www.gameifications.com/gamification-per-la-vita-dei-cittadini-cinesi/
 - https://www.studiolegaledelliponti.eu/chi-bello-vuole-apparire-la-privacy-deve-seguire-il-caso-douglas/#Veniamo_al_Caso_Douglas
 - https://www.ictsecuritymagazine.com/articoli/una-volta-che-la-privacy-e-invasa-la-privacy-e-perduta/
