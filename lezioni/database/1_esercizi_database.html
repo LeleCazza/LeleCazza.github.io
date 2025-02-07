@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> INFORMATICA </title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="../../js/footer&header.js"></script>
+    <script src="../../js/slideshow.js"></script>
+    <script src="../../js/blocchi&testo.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header" class="colore"></div>
+        <div class="main">
+
+            <script>
+                function CaricaSoluzioni(numEsercizio) {
+                    var div = document.getElementById("soluzioni" + numEsercizio);
+                    div.innerHTML +=
+                        '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzioneER.png">Soluzione modello concettuale</a></i><br>' +
+                        '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione_logico.png">Soluzione modello logico</a></i><br>' +
+                        '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione.sql">Soluzione database</a></i><br><br>';
+                }
+            </script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 1</h2>
+            <div id="esercizio1"></div>
+            <div id="soluzioni1"></div>
+            <script>Testo("esercizio1", "materiale/esercizi/esercizio1/esercizio.html")</script>
+            <script>CaricaSoluzioni("1")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 2</h2>
+            <div id="esercizio2"></div>
+            <div id="soluzioni2"></div>
+            <script>Testo("esercizio2", "materiale/esercizi/esercizio2/esercizio.html")</script>
+            <script>CaricaSoluzioni("2")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 3</h2>
+            <div id="esercizio3"></div>
+            <div id="soluzioni3"></div>
+            <script>Testo("esercizio3", "materiale/esercizi/esercizio3/esercizio.html")</script>
+            <script>CaricaSoluzioni("3")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 4</h2>
+            <div id="esercizio4"></div>
+            <div id="soluzioni4"></div>
+            <script>Testo("esercizio4", "materiale/esercizi/esercizio4/esercizio.html")</script>
+            <script>CaricaSoluzioni("4")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 5</h2>
+            <div id="esercizio5"></div>
+            <div id="soluzioni5"></div>
+            <script>Testo("esercizio5", "materiale/esercizi/esercizio5/esercizio.html")</script>
+            <script>CaricaSoluzioni("5")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 6</h2>
+            <div id="esercizio6"></div>
+            <div id="soluzioni6"></div>
+            <script>Testo("esercizio6", "materiale/esercizi/esercizio6/esercizio.html")</script>
+            <script>CaricaSoluzioni("6")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 7</h2>
+            <div id="esercizio7"></div>
+            <div id="soluzioni7"></div>
+            <script>Testo("esercizio7", "materiale/esercizi/esercizio7/esercizio.html")</script>
+            <script>CaricaSoluzioni("7")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 8</h2>
+            <div id="esercizio8"></div>
+            <div id="soluzioni8"></div>
+            <script>Testo("esercizio8", "materiale/esercizi/esercizio8/esercizio.html")</script>
+            <script>CaricaSoluzioni("8")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 9</h2>
+            <div id="esercizio9"></div>
+            <div id="soluzioni9"></div>
+            <script>Testo("esercizio9", "materiale/esercizi/esercizio9/esercizio.html")</script>
+            <script>CaricaSoluzioni("9")</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBlocco()</script>
+            <h2>ESERCIZIO 10</h2>
+            <div id="esercizio10"></div>
+            <div id="soluzioni10"></div>
+            <script>Testo("esercizio10", "materiale/esercizi/esercizio10/esercizio.html")</script>
+            <script>CaricaSoluzioni("10")</script>
+            <script>FineBlocco()</script>
+
+            <div id="footer" class="colore"></div>
+        </div>
+    </div>
+</body>
+
+</html>

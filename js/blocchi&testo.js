@@ -11,11 +11,6 @@ function Testo(nomeEsercizio, pathEsercizio) {
     $("#" + nomeEsercizio).load(pathEsercizio);
 }
 
-function Soluzione(nomeSoluzione, pathSoluzione) {
-    var p = document.getElementById(nomeSoluzione);
-    p.innerHTML = "Soluzione esercizio: <a href=\""+pathSoluzione+"\" target=\"_blank\">soluzione</a>."
-}
-
 function FineBlocco() {
     var codiceHTML = '</div></div></div></div>'
     document.write(codiceHTML);

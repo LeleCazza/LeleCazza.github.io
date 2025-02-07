@@ -1,217 +1,227 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title> INFORMATICA </title>
-        <link rel="shortcut icon" href="../../images/logo.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-        <script src="../../js/footer&header.js"></script>
-        <script src="../../js/slideshow.js"></script>
-    </head>
-    <body>
-        <div class="wrapper">
-            
-            <div id="header" class="colore"></div> 
 
-            <div class="main">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> INFORMATICA </title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="../../js/footer&header.js"></script>
+    <script src="../../js/slideshow.js"></script>
+    <script src="../../js/blocchi&testo.js"></script>
+</head>
 
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_1_introduzione.pdf', 'pdf-1'); open_close('introduzione')" class="titolo"><b>INTRODUZIONE</b></button>
-                                    <a href="materiale/lezione_1_introduzione.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="introduzione" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-1"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-1')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-1')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
+<body>
+    <div class="wrapper">
+        <div id="header" class="colore"></div>
+        <div class="main">
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button
+                                    onclick="inizialize('materiale/lezione_1_introduzione.pdf', 'pdf-1'); open_close('introduzione')"
+                                    class="titolo"><b>INTRODUZIONE</b></button>
+                                <a href="materiale/lezione_1_introduzione.pdf"><img src="../../images/floppy_logo.png"
+                                        alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="introduzione" class="w3-content w3-display-container w3-hide">
+                                <div id="pdf-container">
+                                    <canvas class="w3-mobile" id="pdf-1"></canvas>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_2_database_relazionali.pdf', 'pdf-2'); open_close('db_relazionali')" class="titolo"><b>DATABASE RELAZIONALI</b></button>
-                                    <a href="materiale/lezione_2_database_relazionali.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="db_relazionali" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-2"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-2')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-2')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                                    style="width:100%">
+                                    <button id="prevPage" onclick="prevPage('pdf-1')"
+                                        class="w3-left w3-black">&#10094;</button>
+                                    <button id="nextPage" onclick="nextPage('pdf-1')"
+                                        class="w3-right w3-black">&#10095;</button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_3_modello_concettuale.pdf', 'pdf-3'); open_close('progettazione')" class="titolo"><b>PROGETTAZIONE CONCETTUALE</b></button>
-                                    <a href="materiale/lezione_3_modello_concettuale.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="progettazione" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-3"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-3')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-3')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_4_gerarchie_generalizzazione.pdf', 'pdf-4'); open_close('generalizzazione')" class="titolo"><b>GERARCHIE DI GENERALIZZAZIONE</b></button>
-                                    <a href="materiale/lezione_4_gerarchie_generalizzazione.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="generalizzazione" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-4"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-4')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-4')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="1_modello_concettuale.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI MODELLO CONCETTUALE</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_5_regole_di_conversione.pdf', 'pdf-5'); open_close('conversione_logica')" class="titolo"><b>REGOLE DI CONVERSIONE</b></button>
-                                    <a href="materiale/lezione_5_regole_di_conversione.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="conversione_logica" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-5"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-5')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-5')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_6_eliminazione_gerarchie.pdf', 'pdf-6'); open_close('conversione_generalizzazione')" class="titolo"><b>CONVERSIONE GENERALIZZAZIONE</b></button>
-                                    <a href="materiale/lezione_6_eliminazione_gerarchie.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="conversione_generalizzazione" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-6"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-6')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-6')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="2_modello_logico.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI MODELLO LOGICO</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="3_modello_fisico.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI MODELLO FISICO</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="4_SQL.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI SQL</b></p>
-                                    </a>
-                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="footer" class="colore"></div>
-            <div class="w3-container colore" style="text-align: right;">
-                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button
+                                    onclick="inizialize('materiale/lezione_2_database_relazionali.pdf', 'pdf-2'); open_close('db_relazionali')"
+                                    class="titolo"><b>DATABASE RELAZIONALI</b></button>
+                                <a href="materiale/lezione_2_database_relazionali.pdf"><img
+                                        src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="db_relazionali" class="w3-content w3-display-container w3-hide">
+                                <div id="pdf-container">
+                                    <canvas class="w3-mobile" id="pdf-2"></canvas>
+                                </div>
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                                    style="width:100%">
+                                    <button id="prevPage" onclick="prevPage('pdf-2')"
+                                        class="w3-left w3-black">&#10094;</button>
+                                    <button id="nextPage" onclick="nextPage('pdf-2')"
+                                        class="w3-right w3-black">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button
+                                    onclick="inizialize('materiale/lezione_3_modello_concettuale.pdf', 'pdf-3'); open_close('progettazione')"
+                                    class="titolo"><b>PROGETTAZIONE CONCETTUALE</b></button>
+                                <a href="materiale/lezione_3_modello_concettuale.pdf"><img
+                                        src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="progettazione" class="w3-content w3-display-container w3-hide">
+                                <div id="pdf-container">
+                                    <canvas class="w3-mobile" id="pdf-3"></canvas>
+                                </div>
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                                    style="width:100%">
+                                    <button id="prevPage" onclick="prevPage('pdf-3')"
+                                        class="w3-left w3-black">&#10094;</button>
+                                    <button id="nextPage" onclick="nextPage('pdf-3')"
+                                        class="w3-right w3-black">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button
+                                    onclick="inizialize('materiale/lezione_4_gerarchie_generalizzazione.pdf', 'pdf-4'); open_close('generalizzazione')"
+                                    class="titolo"><b>GERARCHIE DI GENERALIZZAZIONE</b></button>
+                                <a href="materiale/lezione_4_gerarchie_generalizzazione.pdf"><img
+                                        src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="generalizzazione" class="w3-content w3-display-container w3-hide">
+                                <div id="pdf-container">
+                                    <canvas class="w3-mobile" id="pdf-4"></canvas>
+                                </div>
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                                    style="width:100%">
+                                    <button id="prevPage" onclick="prevPage('pdf-4')"
+                                        class="w3-left w3-black">&#10094;</button>
+                                    <button id="nextPage" onclick="nextPage('pdf-4')"
+                                        class="w3-right w3-black">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button
+                                    onclick="inizialize('materiale/lezione_5_regole_di_conversione.pdf', 'pdf-5'); open_close('conversione_logica')"
+                                    class="titolo"><b>REGOLE DI CONVERSIONE</b></button>
+                                <a href="materiale/lezione_5_regole_di_conversione.pdf"><img
+                                        src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="conversione_logica" class="w3-content w3-display-container w3-hide">
+                                <div id="pdf-container">
+                                    <canvas class="w3-mobile" id="pdf-5"></canvas>
+                                </div>
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                                    style="width:100%">
+                                    <button id="prevPage" onclick="prevPage('pdf-5')"
+                                        class="w3-left w3-black">&#10094;</button>
+                                    <button id="nextPage" onclick="nextPage('pdf-5')"
+                                        class="w3-right w3-black">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <button
+                                    onclick="inizialize('materiale/lezione_6_eliminazione_gerarchie.pdf', 'pdf-6'); open_close('conversione_generalizzazione')"
+                                    class="titolo"><b>CONVERSIONE GENERALIZZAZIONE</b></button>
+                                <a href="materiale/lezione_6_eliminazione_gerarchie.pdf"><img
+                                        src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
+                            </p>
+                            <div id="conversione_generalizzazione" class="w3-content w3-display-container w3-hide">
+                                <div id="pdf-container">
+                                    <canvas class="w3-mobile" id="pdf-6"></canvas>
+                                </div>
+                                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                                    style="width:100%">
+                                    <button id="prevPage" onclick="prevPage('pdf-6')"
+                                        class="w3-left w3-black">&#10094;</button>
+                                    <button id="nextPage" onclick="nextPage('pdf-6')"
+                                        class="w3-right w3-black">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <a href="1_esercizi_database.html" style="text-decoration: none;">
+                                    <p><b>ESERCIZI DATABASE</b></p>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-cell-row w3-center">
+                <div class="w3-container w3-cell w3-mobile">
+                    <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
+                        <div class="w3-container">
+                            <p>
+                                <a href="2_esercizi_SQL.html" style="text-decoration: none;">
+                                    <p><b>ESERCIZI SQL</b></p>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </body>
+
+        <div id="footer" class="colore"></div>
+        <div class="w3-container colore" style="text-align: right;">
+            <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+        </div>
+    </div>
+</body>
+
 </html>
