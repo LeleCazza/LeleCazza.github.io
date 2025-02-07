@@ -11,3 +11,10 @@ body {
 .main {
     flex-grow: 1;
 }
+
+.titolo {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}

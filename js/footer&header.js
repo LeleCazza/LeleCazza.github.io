@@ -31,5 +31,5 @@ $(document.addEventListener("DOMContentLoaded",function() {
 
 $(function(){
     $("#footer").load("../../footer.html");
-    $("#header").load("../../header.html"); 
+    $("#header").load("../../header.html");
 });
