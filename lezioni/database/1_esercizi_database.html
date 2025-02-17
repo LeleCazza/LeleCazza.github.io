@@ -15,103 +15,142 @@
     <script src="../../js/blocchi&testo.js"></script>
 </head>
 
+<script>
+    function CaricaEsercizio(numEsercizio) {
+        CaricaIntro(numEsercizio);
+        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizio" + numEsercizio + "/esercizio.html");
+        CaricaSoluzione(numEsercizio)
+    }
+
+    function CaricaIntro(numIntro) {
+        var div = document.getElementById("intro" + numIntro);
+        div.innerHTML +=
+            '<ol>' +
+            '    <li>' +
+            '        <i>' +
+            '            Utilizza il software:' +
+            '            <a href="https://app.diagrams.net/" target="_blank">diagrams.net</a>' +
+            '            per realizzare lo schema ER concettuale del contesto seguente.' +
+            '            <b>Consegna un file .drawio e un file .png contenente il diagramma ER</b>;' +
+            '        </i>' +
+            '    </li>' +
+            '    <li>' +
+            '        <i>' +
+            '            Utilizza un software di videoscrittura per convertire lo schema ER concettuale (vedi soluzione modello' +
+            '            concettuale)' +
+            '            nello schema logico corrispondente.' +
+            '            <b>Consegna un file di testo contenente lo schema logico</b>;' +
+            '        </i>' +
+            '    </li>' +
+            '    <li>' +
+            '        <i>' +
+            '            Utilizza l\'ambiente di sviluppo:' +
+            '            <a href="https://laragon.org/" target="_blank">laragon.org</a>' +
+            '            per implementare il database del modello logico creato precedentemente.' +
+            '            <b>Consegna un file .sql contenente il database</b>;' +
+            '        </i>' +
+            '    </li>' +
+            '</ol>';
+    };
+
+    function CaricaSoluzione(numEsercizio) {
+        var div = document.getElementById("soluzione" + numEsercizio);
+        div.innerHTML +=
+            '<br>' +
+            '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzioneER.png" target="_blank">Soluzione modello concettuale</a></i><br>' +
+            '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione_logico.png" target="_blank">Soluzione modello logico</a></i><br>' +
+            '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione.sql" target="_blank">Soluzione database</a></i><br><br>';
+    }
+</script>
+
 <body>
     <div class="wrapper">
         <div id="header" class="colore"></div>
         <div class="main">
 
-            <script>
-                function CaricaSoluzioni(numEsercizio) {
-                    var div = document.getElementById("soluzioni" + numEsercizio);
-                    div.innerHTML +=
-                        '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzioneER.png">Soluzione modello concettuale</a></i><br>' +
-                        '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione_logico.png">Soluzione modello logico</a></i><br>' +
-                        '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione.sql">Soluzione database</a></i><br><br>';
-                }
-            </script>
-
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 1</h2>
+            <div id="intro1"></div>
             <div id="esercizio1"></div>
-            <div id="soluzioni1"></div>
-            <script>Testo("esercizio1", "materiale/esercizi/esercizio1/esercizio.html")</script>
-            <script>CaricaSoluzioni("1")</script>
+            <div id="soluzione1"></div>
+            <script>CaricaEsercizio(1)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 2</h2>
+            <div id="intro2"></div>
             <div id="esercizio2"></div>
-            <div id="soluzioni2"></div>
-            <script>Testo("esercizio2", "materiale/esercizi/esercizio2/esercizio.html")</script>
-            <script>CaricaSoluzioni("2")</script>
+            <div id="soluzione2"></div>
+            <script>CaricaEsercizio(2)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 3</h2>
+            <div id="intro3"></div>
             <div id="esercizio3"></div>
-            <div id="soluzioni3"></div>
-            <script>Testo("esercizio3", "materiale/esercizi/esercizio3/esercizio.html")</script>
-            <script>CaricaSoluzioni("3")</script>
+            <div id="soluzione3"></div>
+            <script>CaricaEsercizio(3)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 4</h2>
+            <div id="intro4"></div>
             <div id="esercizio4"></div>
-            <div id="soluzioni4"></div>
-            <script>Testo("esercizio4", "materiale/esercizi/esercizio4/esercizio.html")</script>
-            <script>CaricaSoluzioni("4")</script>
+            <div id="soluzione4"></div>
+            <script>CaricaEsercizio(4)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 5</h2>
+            <div id="intro5"></div>
             <div id="esercizio5"></div>
-            <div id="soluzioni5"></div>
-            <script>Testo("esercizio5", "materiale/esercizi/esercizio5/esercizio.html")</script>
-            <script>CaricaSoluzioni("5")</script>
+            <div id="soluzione5"></div>
+            <script>CaricaEsercizio(5)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 6</h2>
+            <div id="intro6"></div>
             <div id="esercizio6"></div>
-            <div id="soluzioni6"></div>
-            <script>Testo("esercizio6", "materiale/esercizi/esercizio6/esercizio.html")</script>
-            <script>CaricaSoluzioni("6")</script>
+            <div id="soluzione6"></div>
+            <script>CaricaEsercizio(6)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 7</h2>
+            <div id="intro7"></div>
             <div id="esercizio7"></div>
-            <div id="soluzioni7"></div>
-            <script>Testo("esercizio7", "materiale/esercizi/esercizio7/esercizio.html")</script>
-            <script>CaricaSoluzioni("7")</script>
+            <div id="soluzione7"></div>
+            <script>CaricaEsercizio(7)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 8</h2>
+            <div id="intro8"></div>
             <div id="esercizio8"></div>
-            <div id="soluzioni8"></div>
-            <script>Testo("esercizio8", "materiale/esercizi/esercizio8/esercizio.html")</script>
-            <script>CaricaSoluzioni("8")</script>
+            <div id="soluzione8"></div>
+            <script>CaricaEsercizio(8)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 9</h2>
+            <div id="intro9"></div>
             <div id="esercizio9"></div>
-            <div id="soluzioni9"></div>
-            <script>Testo("esercizio9", "materiale/esercizi/esercizio9/esercizio.html")</script>
-            <script>CaricaSoluzioni("9")</script>
+            <div id="soluzione9"></div>
+            <script>CaricaEsercizio(9)</script>
             <script>FineBlocco()</script>
 
             <script>InizioBlocco()</script>
             <h2>ESERCIZIO 10</h2>
+            <div id="intro10"></div>
             <div id="esercizio10"></div>
-            <div id="soluzioni10"></div>
-            <script>Testo("esercizio10", "materiale/esercizi/esercizio10/esercizio.html")</script>
-            <script>CaricaSoluzioni("10")</script>
+            <div id="soluzione10"></div>
+            <script>CaricaEsercizio(10)</script>
             <script>FineBlocco()</script>
 
-            <div id="footer" class="colore"></div>
         </div>
+
+        <div id="footer" class="colore"></div>
     </div>
 </body>
 

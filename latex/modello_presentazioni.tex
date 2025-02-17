@@ -1,14 +1,28 @@
-\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=1610]{beamer}
 \usepackage[utf8]{inputenc}
-\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
 \setbeamertemplate{frame numbering}[fraction]
-\metroset{background=dark}
-\definecolor{primary}{RGB}{255, 0, 0}
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
 \definecolor{giallo}{RGB}{254,212,23}
-\setbeamercolor{palette primary}{bg=giallo, fg=black}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
 \setbeamercolor{background canvas}{bg=white}
 \setbeamercolor{normal text}{fg=black}
-\setbeamercolor{progress bar}{use=palette primary,fg=primary}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo} 
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
 
 \title{TITOLO DELLA PRESENTAZIONE}
 \subtitle{Sottotitolo della presentazione}
