@@ -1,6 +1,6 @@
 \documentclass[aspectratio=1610]{beamer}
 \usepackage[utf8]{inputenc}
-\usepackage{hyperref}
+\usepackage{ragged2e}
 \usepackage{xcolor}
 \usepackage[italian]{babel}
 \usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
@@ -14,24 +14,26 @@
 \setbeamercolor{normal text}{fg=black}
 \setbeamercolor{progress bar}{fg=rosso}
 \setbeamercolor{framesubtitle}{fg=rosso}
-\setbeamercolor{normal text .dimmed}{fg=giallo} 
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
 \setbeamerfont{caption}{size=\tiny}
 \setbeamerfont{caption name}{size=\tiny}
 \setlength{\abovecaptionskip}{0pt}
 \makeatletter
+\metroset{block=fill}
 \setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
 \setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
 \setlength{\metropolis@titleseparator@linewidth}{1pt}
 \makeatother
 
-\title{TITOLO DELLA PRESENTAZIONE}
-\subtitle{Sottotitolo della presentazione}
+\title{TITOLO}
+\subtitle{sottotitolo}
 \date{}
 \institute{\textit{
         Fonti:
         \begin{itemize}
-            \item[-] prima fonte
-            \item[-] seconda fonte
+            \item[-] \href{www.nomefonte1.it}{NOME FONTE 1}
+            \item[-] \href{www.nomefonte2.it}{NOME FONTE 2}
         \end{itemize}
     }
 }
@@ -42,16 +44,91 @@
     \titlepage
 \end{frame}
 
-\section{PRIMA SEZIONE}
+\section{SEZIONE 1: IMMAGINE CENTRATA}
 
 \begin{frame}{TITOLO SLIDE}
-    
+%    \begin{columns}
+%        \column{.5\textwidth}
+%        \begin{figure}
+%            \includegraphics[width=\linewidth]{img/immagine.png}
+%            \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%        \end{figure}
+%    \end{columns}
 \end{frame}
 
-\section{SECONDA SEZIONE}
+\section{SEZIONE 2: ELENCO PUNTATO}
 
 \begin{frame}{TITOLO SLIDE}
+%    \begin{itemize}
+%        \item \textbf{NOME}: descrizione;
+%        \pause
+%        \item \textbf{NOME}: descrizione;
+%        \pause
+%        \item \textbf{NOME}: descrizione;
+%    \end{itemize}
+\end{frame}
 
+\section{SEZIONE 3: TABELLA}
+
+\begin{frame}{TITOLO SLIDE}
+%    \centering
+%    \begin{tabular}{c||c}
+%        \textbf{TITOLO COLONNA 1} & \textbf{TITOLO COLONNA 2} \\
+%        \hline
+%        \hline
+%        \pause
+%        ELEMENTO SINISTRA & ELEMENTO DESTRA \\
+%        \hline
+%        \pause
+%        ELEMENTO SINISTRA & ELEMENTO DESTRA \\
+%        \hline
+%    \end{tabular}
+\end{frame}
+
+\section{SEZIONE 4: SEQUENZA IMMAGINI}
+
+\begin{frame}{TITOLO SLIDE}
+%   \only<1>{\begin{figure}
+%       \includegraphics[width=\linewidth]{img/immagine1.png}
+%       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%   \end{figure}}
+%   \only<2>{\begin{figure}
+%       \includegraphics[width=\linewidth]{img/immagine2.png}
+%       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%   \end{figure}}
+%   \only<3>{\begin{figure}
+%       \includegraphics[width=\linewidth]{img/immagine3.png}
+%       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%   \end{figure}}
+\end{frame}
+
+\section{SEZIONE 5: DEFINIZIONE}
+
+\begin{frame}{TITOLO SLIDE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            % testo definizione
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{SEZIONE 6: DUE COLONNE (testo, immagine)}
+
+\begin{frame}{TITOLO SLIDE}
+    \begin{columns}
+        \column{.5\textwidth}
+            \justifying
+%           testo a sinistra dell'immagine
+%           \bigskip
+%           \tiny{\textbf{curiosità}}\\
+%           \tiny{LINK CURIOSITA'}{TITOLO CURIOSITA'}}
+        \column{.5\textwidth}
+%           \begin{figure}
+%               \includegraphics[width=\linewidth]{img/immagine1.png}
+%               \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%           \end{figure}
+    \end{columns}
 \end{frame}
 
 \end{document}

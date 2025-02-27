@@ -262,6 +262,8 @@
 - https://privacy-network.it/digital-literacy/privacy-kit/
 
 # VIDEOGAMES E MUSICA
+-DIPENDENZA
+    - https://it.wikipedia.org/wiki/Dipendenza_da_videogiochi
 - CRACK E CURIOSITA'
     - https://balotta.org/event/cracktro
     - https://www.theguardian.com/technology/2004/jan/24/games.gameswatch

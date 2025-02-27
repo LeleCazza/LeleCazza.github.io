@@ -15,13 +15,26 @@
     <script src="../../js/blocchi&testo.js"></script>
 </head>
 
+<script>
+    function CaricaEsercizio(numEsercizio) {
+        Testo("esercizio" + numEsercizio, "materiale/esercizi_SQL/esercizio" + numEsercizio + "/esercizio.html");
+    }
+</script>
+
 <body>
     <div class="wrapper">
         <div id="header" class="colore"></div>
-        <div class="main"></div>
+        <div class="main">
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 1</h2>
+            <div id="esercizio1"></div>
+            <script>CaricaEsercizio(1)</script>
+            <script>FineBlocco()</script>
+
+        </div>
 
         <div id="footer" class="colore"></div>
-    </div>
     </div>
 </body>
 

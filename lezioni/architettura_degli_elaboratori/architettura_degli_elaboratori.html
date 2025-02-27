@@ -15,38 +15,19 @@
     <script src="../../js/blocchi&testo.js"></script>
 </head>
 
-<script>
-    function CaricaSlides(idSlides, pathSlides, titoloSlides) {
-        var div = document.getElementById("slides" + idSlides);
-        div.innerHTML +=
-            '<p>' +
-            '   <button onclick="inizialize(\'' + pathSlides + '\', \'' + idSlides + '\'); open_close(\'' + titoloSlides + '\')"' +
-            '       class="titolo"><b>' + titoloSlides + '</b>' +
-            '   </button>' +
-            '   <a href="' + pathSlides + '"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>' +
-            '</p>' +
-            '<div id="' + titoloSlides + '" class="w3-content w3-display-container w3-hide">' +
-            '   <div id="pdf-container">' +
-            '       <canvas class="w3-mobile" id="' + idSlides + '"></canvas>' +
-            '   </div>' +
-            '   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">' +
-            '       <button id="prevPage" onclick="prevPage(\'' + idSlides + '\')" class="w3-left w3-black">&#10094;</button>' +
-            '       <button id="nextPage" onclick="nextPage(\'' + idSlides + '\')" class="w3-right w3-black">&#10095;</button>' +
-            '   </div>' +
-            '</div>'
-    }
-</script>
-
 <body>
     <div class="wrapper">
         <div id="header" class="colore"></div>
+
         <div class="main">
 
-            <script>InizioBloccoSlide()</script>
-            <div id="slides1"></div>
-            <script>CaricaSlides("1", "materiale/lezione_1_modello_von_neumann.pdf", "INTRODUZIONE")</script>
-            <script>FineBlocco()</script>
-
+            <div class="w3-cell-row">
+                <script>InizioBloccoSlide("Blocco1")</script>
+                <div id="slides1"></div>
+                <script>CaricaSlides("1", "Blocco1", "materiale/lezioni/1_modello_von_neumann/slides.pdf", "INTRODUZIONE")</script>
+                <script>FineBloccoSlide()</script>
+            </div>
+            
         </div>
 
         <div id="footer" class="colore"></div>
