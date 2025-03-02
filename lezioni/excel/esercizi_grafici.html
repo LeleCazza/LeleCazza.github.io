@@ -16,8 +16,15 @@
 </head>
 
 <script>
-    function CaricaEsercizio(numEsercizio) {
-        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_SQL/esercizio" + numEsercizio + "/esercizio.html");
+    function CaricaTesto(numEsercizio) {
+        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_grafici/esercizio" + numEsercizio + "/esercizio.html");
+    }
+    
+    function CaricaImmagine(numEsercizio) {
+        var img = document.getElementById("immagine" + numEsercizio);
+        img.src = "materiale/esercizi/esercizi_grafici/esercizio" + numEsercizio + "/esercizio.png";
+        img.style.width = "100%";
+        img.style.maxWidth = "700px";
     }
 </script>
 
@@ -29,8 +36,11 @@
             <script>InizioBloccoEsercizio()</script>
             <h2>ESERCIZIO 1</h2>
             <div id="esercizio1"></div>
-            <script>CaricaEsercizio(1)</script>
+            <div style="text-align: center;"><img id="immagine1"/></div><br>
+            <script>CaricaTesto(1)</script>
+            <script>CaricaImmagine(1)</script>
             <script>FineBlocco()</script>
+            <p>
 
         </div>
 

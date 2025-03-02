@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> INFORMATICA </title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="../../js/footer&header.js"></script>
+    <script src="../../js/slideshow.js"></script>
+    <script src="../../js/blocchi&testo.js"></script>
+</head>
+
+<script>
+    function CaricaTesto(numEsercizio) {
+        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_funzioni_condizionali/esercizio" + numEsercizio + "/esercizio.html");
+    }
+
+    function CaricaExcel(numIntro) {
+        var div = document.getElementById("intro" + numIntro);
+        div.innerHTML +=
+            '<p>'+
+            '   Completa il seguente <a href="materiale/esercizi/esercizi_funzioni_condizionali/esercizio' + numIntro + '/esercizio.xlsx">'+
+            '   <b>foglio di calcolo</b></a> inserendo i dati e le funzioni necessarie.'+
+            '</p>'; 
+    };
+</script>
+
+<body>
+    <div class="wrapper">
+        <div id="header" class="colore"></div>
+        <div class="main">
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 1</h2>
+            <div id="intro1"></div>
+            <div id="esercizio1"></div>
+            <script>CaricaExcel(1)</script>
+            <script>CaricaTesto(1)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 2</h2>
+            <div id="intro2"></div>
+            <div id="esercizio2"></div>
+            <script>CaricaExcel(2)</script>
+            <script>CaricaTesto(2)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 3</h2>
+            <div id="intro3"></div>
+            <script>CaricaExcel(3)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 4</h2>
+            <div id="intro4"></div>
+            <script>CaricaExcel(4)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 5</h2>
+            <div id="intro5"></div>
+            <script>CaricaExcel(5)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 6</h2>
+            <div id="intro6"></div>
+            <script>CaricaExcel(6)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 7</h2>
+            <div id="intro7"></div>
+            <div id="esercizio7"></div>
+            <script>CaricaExcel(7)</script>
+            <script>CaricaTesto(7)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 8</h2>
+            <div id="intro8"></div>
+            <div id="esercizio8"></div>
+            <script>CaricaExcel(8)</script>
+            <script>CaricaTesto(8)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 9</h2>
+            <div id="esercizio9"></div>
+            <script>CaricaTesto(9)</script>
+            <script>FineBlocco()</script>
+        
+        </div>
+        
+        <div id="footer" class="colore"></div>
+    </div>
+</body>
+</html>

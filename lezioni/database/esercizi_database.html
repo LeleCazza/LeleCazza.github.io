@@ -18,7 +18,7 @@
 <script>
     function CaricaEsercizio(numEsercizio) {
         CaricaIntro(numEsercizio);
-        Testo("esercizio" + numEsercizio, "materiale/esercizi_database/esercizio" + numEsercizio + "/esercizio.html");
+        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_database/esercizio" + numEsercizio + "/esercizio.html");
         CaricaSoluzione(numEsercizio)
     }
 
@@ -57,9 +57,9 @@
         var div = document.getElementById("soluzione" + numEsercizio);
         div.innerHTML +=
             '<br>' +
-            '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzioneER.png" target="_blank">Soluzione modello concettuale</a></i><br>' +
-            '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione_logico.png" target="_blank">Soluzione modello logico</a></i><br>' +
-            '<i><a href="materiale/esercizi/esercizio' + numEsercizio + '/soluzione.sql" target="_blank">Soluzione database</a></i><br><br>';
+            '<i><a href="materiale/esercizi/esercizi_database/esercizio' + numEsercizio + '/soluzioneER.png" target="_blank">Soluzione modello concettuale</a></i><br>' +
+            '<i><a href="materiale/esercizi/esercizi_database/esercizio' + numEsercizio + '/soluzione_logico.png" target="_blank">Soluzione modello logico</a></i><br>' +
+            '<i><a href="materiale/esercizi/esercizi_database/esercizio' + numEsercizio + '/soluzione.sql" target="_blank">Soluzione database</a></i><br><br>';
     }
 </script>
 

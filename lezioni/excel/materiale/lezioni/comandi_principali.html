@@ -1,0 +1,105 @@
+<b><u>FORMATI BASE</u></b>
+<ul>
+    <li><b>VALUTA (€)</b> esempio: 23,01€ (ventitré euro e un centesimo)</li>
+    <li><b>DURATA (hh.mm.ss)</b> esempio: 2.30.00 (due ore, 30 minuti, 0 secondi)</li>
+    <li><b>PERCENTUALE (%)</b> esempio: 15% (quindici percento)</li>
+</ul>
+
+<b><u>OPERATORI BASE</u></b>
+<ul>
+    <li><b>Somma tra due celle:</b> = cella1 + cella2</li>
+    <li><b>Sottrazione tra due celle:</b> = cella1 - cella2</li>
+    <li><b>Moltiplicazione tra due celle:</b> = cella1 * cella2</li>
+    <li><b>Divisione tra due celle:</b> = cella1 / cella2</li>
+</ul>
+
+<b><u>FUNZIONI BASE</u></b>
+<ul>
+    <li><b>Somma tra N celle:</b> = SOMMA (cella1 : cellaN)</li>
+    <li><b>Media tra N celle:</b> = MEDIA (cella1 : cellaN)</li>
+    <li><b>Massimo tra N celle:</b> = MAX (cella1 : cellaN)</li>
+    <li><b>Minimo tra N celle:</b> = MIN (cella1 : cellaN)</li>
+</ul>
+
+<b><u>RIFERIMENTI</u></b>
+<ul>
+    <li>
+        <b>Relativi:</b> riferimenti semplici alle celle (es. A1, B2, C3). I riferimenti relativi 
+        cambiano in base alla direzione del completamento automatico.
+    </li>
+    <li>
+        <b>Assoluti:</b> riferimenti assoluti alle celle (es. $A$1, $B$2, $C$3). I riferimenti assoluti 
+        in caso di completamenti automatici rimangono invariati.
+    </li>
+</ul>
+
+<b><u>OPERATORI DI CONFRONTO</u></b>
+<ul>
+    <li><b>Confronta se la prima cella è uguale alla seconda cella:</b> = cella1 = cella2</li>
+    <li><b>Confronta se la prima cella è maggiore della seconda cella:</b> = cella1 > cella2</li>
+    <li><b>Confronta se la prima cella è maggiore o uguale alla seconda cella:</b> = cella1 >= cella2</li>
+    <li><b>Confronta se la prima cella è minore della seconda cella:</b> = cella1 &lt cella2</li>
+    <li><b>Confronta se la prima cella è minore o uguale alla seconda cella:</b> = cella1 &lt= cella2</li>
+</ul>
+
+<b><u>FUNZIONI LOGICHE</u></b>
+<ul>
+    <li><b>Restituisce VERO se tutte le condizioni hanno valore VERO, FALSO altrimenti:</b> = E (condizione1 ; condizione2 ; ecc.)</li>
+    <li><b>Restituisce VERO se una delle condizioni ha valore VERO, FALSO altrimenti:</b> = O (condizione1 ; condizione2 ; ecc.)</li>
+    <li><b>Inverte in valore logico dell'argomento, restituisce FALSO per un argomento VERO e VERO per un argomento FALSO:</b> = NON (argomento)</li>
+</ul>
+
+<b><u>FUNZIONE CASUALE E DI SCELTA</u></b>
+<ul>
+    <li><b>Numero casuale compreso tra due valori:</b> = CASUALE.TRA (num1 ; num2)</li>
+    <li><b>Seleziona un valore o un'azione da eseguire da un elenco di valori in base a un'indice:</b> = SCEGLI ( indice ; valore1 ; valore2 ; ecc.)</li>
+</ul>
+
+<b><u>FORMATTAZIONE CONDIZIONALE</u></b>
+<ul>
+    <li>
+        <b>Formatta le celle desiderate in base a determinate condizioni:</b> 
+        la creazione delle regole di formattazione deve essere impostata utilizzando gli strumenti messi 
+        a disposizione dal software per la gestione del foglio di calcolo.
+    </li>
+</ul>
+
+<b><u>FUNZIONI CONDIZIONALI</u></b>
+<ul>
+    <li>
+        <b>
+            Nel caso la condizione sia verificata, effettua i comandi presenti nella sezione vero, 
+            in alternativa, effettua i comandi presenti nella sezione falso:
+        </b><br>
+        = SE ( condizione ; vero ; falso )
+    </li>
+    <li>
+        <b>
+            Somma le celle specificate secondo una condizione assegnata a un determinato intervallo di celle:
+        </b><br>
+        = SOMMA.SE ( intervallo_da_considerare ; criterio_per_la_somma ; intervallo_effettivo_da_sommare)
+    </li>
+    <li>
+        <b>
+            Conta il numero di celle di un determinato intervallo che soddisfano la condizione espressa 
+            nel campo criterio:
+        </b><br>
+        = CONTA.SE ( intervallo ; criterio )
+    </li>
+</ul>
+
+<b><u>FUNZIONI AGGREGATE CONDIZIONALI</u></b>
+<ul>
+    <li>
+        <b>
+            Somma le celle presenti in un intervallo specificato solamente nel caso in cui 
+            vengano soddisfatte un determinato insieme di condizioni su determinati intervalli di celle:</b><br>
+        = SOMMA.PI&Ugrave;.SE ( intervallo_effettivo_da_sommare ; intervallo_criterio_1 ; criterio_1 ; intervallo_criterio_2 ; criterio_2 ; ecc. )                                    
+    </li>
+    <li>
+        <b>
+            Conta il numero di celle presenti in intervalli specificati solamente nel caso in cui 
+            vengano soddisfatte un determinato insieme di condizioni su determinati intervalli di celle:</b><br>
+        =CONTA.PI&Ugrave;.SE ( intervallo_criterio_1 ; criterio_1 ; intervallo_criterio_2 ; criterio_2 ; ecc.)  
+    </li>
+</ul>

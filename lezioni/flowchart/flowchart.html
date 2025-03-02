@@ -1,136 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title> INFORMATICA </title>
-        <link rel="shortcut icon" href="../../images/logo.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-        <script src="../../js/footer&header.js"></script>
-        <script src="../../js/slideshow.js"></script>
-        <style>
-            .titolo {
-                background: none;
-                border: none;
-                padding: 0;
-                cursor: pointer;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="wrapper">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> INFORMATICA </title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="../../js/footer&header.js"></script>
+    <script src="../../js/slideshow.js"></script>
+    <script src="../../js/blocchi&testo.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header" class="colore"></div>
+
+        <div class="main">
+
+            <div class="w3-cell-row">
+                
+                <script>InizioBloccoSlide("blocco1")</script>
+                <div id="slides1"></div>
+                <script>CaricaSlides("1", "blocco1", "materiale/lezioni/1_definizione_algoritmo/slides.pdf", "INTRODUZIONE AGLI ALGORITMI")</script>
+                <script>FineBloccoSlide()</script>
+
+                <script>InizioBloccoSlide("blocco2")</script>
+                <div id="slides2"></div>
+                <script>CaricaSlides("2", "blocco2", "materiale/lezioni/2_elementi_base/slides.pdf", "DIAGRAMMI DI FLUSSO")</script>
+                <script>FineBloccoSlide()</script>
             
-            <div id="header" class="colore"></div>  
-
-            <div class="main">
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_1_definizione_algoritmo.pdf', 'pdf-1'); open_close('introduzione')" class="titolo"><b>INTRODUZIONE</b></button>
-                                    <a href="materiale/lezione_1_definizione_algoritmo.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="introduzione" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-1"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-1')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-1')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_2_elementi_base.pdf', 'pdf-2'); open_close('elementi_base')" class="titolo"><b>ELEMENTI BASE</b></button>
-                                    <a href="materiale/lezione_2_elementi_base.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="elementi_base" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-2"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-2')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-2')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="1_esercizi_flusso_unico.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI FLUSSO UNICO</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="2_esercizi_selezione.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI SELEZIONE</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="3_esercizi_cicli.html" style="text-decoration: none;">
-                                        <p><b>ESERCIZI CICLI</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <a href="4_avventura_testuale.html" style="text-decoration: none;">
-                                        <p><b>AVVENTURA TESTUALE</b></p>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-            
-            <div id="footer" class="colore"></div>
-            <div class="w3-container colore" style="text-align: right;">
-                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
-            </div>
+
+            <script>InizioBloccoLink()</script> 
+            <a href="esercizi_flusso_unico.html" style="text-decoration: none;"><p><b>ESERCIZI FLUSSO UNICO</b></p></a>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoLink()</script> 
+            <a href="esercizi_selezione.html" style="text-decoration: none;"><p><b>ESERCIZI SELEZIONE</b></p></a>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoLink()</script> 
+            <a href="esercizi_cicli.html" style="text-decoration: none;"><p><b>ESERCIZI CICLI</b></p></a>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoLink()</script> 
+            <a href="avventura_testuale.html" style="text-decoration: none;"><p><b>AVVENTURA TESTUALE</b></p></a>
+            <script>FineBlocco()</script>
         </div>
-    </body>
+            
+        <div id="footer" class="colore"></div>
+        <div class="w3-container colore" style="text-align: right;">
+                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+        </div>
+    </div>
+</body>
 </html>
