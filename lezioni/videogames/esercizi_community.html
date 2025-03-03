@@ -15,33 +15,26 @@
     <script src="../../js/blocchi&testo.js"></script>
 </head>
 
+<script>
+    function CaricaTesto(numEsercizio) {
+        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_presentazioni/esercizio" + numEsercizio + "/esercizio.html");
+    }
+</script>
+
 <body>
     <div class="wrapper">
         <div id="header" class="colore"></div>
-
         <div class="main">
-            
-            <div class="w3-cell-row">
-                <script>InizioBloccoSlide("blocco1")</script>
-                <div id="slides1"></div>
-                <script>CaricaSlides("1", "blocco1", "materiale/lezioni/1_usi_e_abusi/slides.pdf", "USO E ABUSO DEI VIDEOGIOCHI")</script>
-                <script>FineBloccoSlide()</script>
-            </div>
 
-            <script>InizioBloccoLink()</script> 
-            <a href="esercizi_community.html" style="text-decoration: none;"><p><b>ESERCIZI COMMUNITY</b></p></a>
-            <script>FineBlocco()</script>
-
-            <script>InizioBloccoLink()</script> 
-            <a href="esercizi_competizione.html" style="text-decoration: none;"><p><b>ESERCIZI COMPETIZIONE</b></p></a>
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 1</h2>
+            <div id="esercizio1"></div>
+            <script>CaricaTesto(1)</script>
             <script>FineBlocco()</script>
 
         </div>
-
+        
         <div id="footer" class="colore"></div>
-        <div class="w3-container colore" style="text-align: right;">
-            <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
-        </div>
     </div>
 </body>
 
