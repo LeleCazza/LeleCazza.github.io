@@ -1,0 +1,62 @@
+<ol>
+    <li>DIVIDETEVI IN N GRUPPI DI MASSIMO 3 PERSONE</li>
+    <li>SCEGLIETE UNA CHIAVE SEGRETA</li>
+    <li>SCEGLIETE UNA FRASE SEGRETA</li>
+    <li>CRIPTATE LA FRASE SEGRETA SCELTA UTILIZZANDO LA CHIAVE SEGRETA SCELTA</li>
+    <li>SCRIVETE SU N FOGLIETTI LA FRASE CRIPTATA OTTENUTA</li>
+    <li>CONSEGNATE UN FOGLIETTO CON LA VOSTRA FRASE CRIPTATA AD OGNI GRUPPO</li>
+    <li>DECIFRATE LE FRASI CRIPTATE DEGLI ALTRI GRUPPI</li>
+    <li>OGNI VOLTA CHE RIUSCITE A DECRIPTARE UNA FRASE VI AGGIUDICATE 1 PUNTO</li>
+    <li>QUANDO TUTTE LE FRASI SARANNO STATE DECRIPTATE VINCE IL GRUPPO CON PI&Uacute; PUNTI</li>
+</ol>   
+Esempio codice di forza bruta  
+(<a href="https://www.onlinegdb.com/online_csharp_compiler" target="_blank">compilatore online</a>):
+<br><br>
+<code>
+    using System;
+    namespace cifrario_cesare
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                char[] frase;
+                int chiave = 1;
+                string risposta;
+                bool trovato = true;
+                Console.WriteLine("INSERISCI LA FRASE DA DECIFRARE: ");
+                frase = Console.ReadLine().ToLower().ToCharArray();
+                while (trovato)
+                {
+                    int i = 0;
+                    foreach (char c in frase)
+                    {
+                        if(((int)c) >= (int)'a' && ((int)c) <= (int)'z')
+                        {
+                            int x = (int)c + 1;
+                            if (x >= 123)
+                                x -= 26;
+                            frase[i] = (char)(x);
+                        }
+                        i++;
+                    }
+                    Console.WriteLine("UTILIZZO CHIAVE = " + chiave);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine(frase);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("LA DECODIFICA E' CORRETTA?");
+                    risposta = Console.ReadLine();
+                    if (risposta.Contains("s"))
+                    {
+                        trovato = false;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine(frase);
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                    else
+                        chiave++;
+                }
+            }
+        }
+    }
+</code>

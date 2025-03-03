@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> INFORMATICA </title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="../../js/footer&header.js"></script>
+    <script src="../../js/slideshow.js"></script>
+    <script src="../../js/blocchi&testo.js"></script>
+</head>
+
+<script>
+    function CaricaEsercizio(numEsercizio) {
+        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_social_engineering/esercizio" + numEsercizio + "/esercizio.html");
+    }
+</script>
+
+<body>
+    <div class="wrapper">
+        <div id="header" class="colore"></div>
+        
+        <div class="main">
+            
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 1</h2>
+            <div id="esercizio1"></div><br>
+            <script>CaricaEsercizio(1)</script>
+            <script>FineBlocco()</script>
+
+        </div>
+
+        <div id="footer" class="colore"></div>
+    </div>
+</body>
+
+</html>
