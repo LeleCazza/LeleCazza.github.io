@@ -1,176 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title> INFORMATICA </title>
-        <link rel="shortcut icon" href="../../images/logo.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-        <script src="../../js/footer&header.js"></script>
-        <script src="../../js/slideshow.js"></script>
-        <style>
-            .titolo {
-                background: none;
-                border: none;
-                padding: 0;
-                cursor: pointer;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="wrapper">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> INFORMATICA </title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="../../js/footer&header.js"></script>
+    <script src="../../js/slideshow.js"></script>
+    <script src="../../js/blocchi&testo.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header" class="colore"></div>
+
+        <div class="main">
             
-            <div id="header" class="colore"></div> 
+            <div class="w3-cell-row">
+                <script>InizioBloccoSlide("blocco1")</script>
+                <div id="slides1"></div>
+                <script>CaricaSlides("1", "blocco1", "materiale/lezioni/1_introduzione/slides.pdf", "INTRODUZIONE AL SISTEMA BINARIO")</script>
+                <script>FineBloccoSlide()</script>
 
-            <div class="main">
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_1_binario_introduzione.pdf', 'pdf-1'); open_close('introduzione')" class="titolo"><b>INTRODUZIONE</b></button>
-                                    <a href="materiale/lezione_1_binario_introduzione.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="introduzione" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-1"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-1')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-1')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <script>InizioBloccoSlide("blocco2")</script>
+                <div id="slides2"></div>
+                <script>CaricaSlides("2", "blocco2", "materiale/lezioni/2_da_binario_a_decimale/slides.pdf", "DA BINARIO A DECIMALE")</script>
+                <script>FineBloccoSlide()</script>
 
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_2_da_binario_a_decimale.pdf', 'pdf-2'); open_close('binario_decimale')" class="titolo"><b>DA BINARIO A DECIMALE</b></button>
-                                    <a href="materiale/lezione_2_da_binario_a_decimale.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="binario_decimale" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-2"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-2')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-2')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <script>InizioBloccoSlide("blocco3")</script>
+                <div id="slides3"></div>
+                <script>CaricaSlides("3", "blocco3", "materiale/lezioni/3_da_decimale_a_binario/slides.pdf", "DA DECIMALE A BINARIO")</script>
+                <script>FineBloccoSlide()</script>
 
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_3_da_decimale_a_binario.pdf', 'pdf-3'); open_close('decimale_binario')" class="titolo"><b>DA DECIMALE A BINARIO</b></button>
-                                    <a href="materiale/lezione_3_da_decimale_a_binario.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="decimale_binario" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-3"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-3')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-3')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <script>InizioBloccoSlide("blocco4")</script>
+                <div id="slides4"></div>
+                <script>CaricaSlides("4", "blocco4", "materiale/lezioni/4_codifica_ASCII/slides.pdf", "LA CODIFICA ASCII")</script>
+                <script>FineBloccoSlide()</script>
 
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_4_ASCII.pdf', 'pdf-4'); open_close('ascii')" class="titolo"><b>ASCII</b></button>
-                                    <a href="materiale/lezione_4_ASCII.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="ascii" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-4"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-4')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-4')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">  
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <p>
-                                    <button onclick="inizialize('materiale/lezione_5_esadecimale.pdf', 'pdf-5'); open_close('esadecimale')" class="titolo"><b>ESADECIMALE</b></button>
-                                    <a href="materiale/lezione_5_esadecimale.pdf"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>
-                                </p>
-                                <div id="esadecimale" class="w3-content w3-display-container w3-hide">
-                                    <div id="pdf-container">
-                                        <canvas class="w3-mobile" id="pdf-5"></canvas>
-                                    </div>
-                                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                                        <button id="prevPage" onclick="prevPage('pdf-5')" class="w3-left w3-black">&#10094;</button>
-                                        <button id="nextPage" onclick="nextPage('pdf-5')" class="w3-right w3-black">&#10095;</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="w3-cell-row w3-center">                
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <a href="materiale/esercizio_ripasso_a_quiz_1_vs_1.pdf" style="text-decoration: none;"><p><b>RIPASSO 1 VS 1</b></p></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">                
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <a href="materiale/esercizi_coversioni_1.pdf" style="text-decoration: none;"><p><b>ESERCIZI DECIMALE/BINARIO/ESADECIMALE</b></p></a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-cell-row w3-center">                
-                    <div class="w3-container w3-cell w3-mobile">
-                        <div class="w3-panel w3-card-4 colore w3-center w3-round-large">
-                            <div class="w3-container">
-                                <a href="materiale/esercizi_coversioni_2.pdf" style="text-decoration: none;"><p><b>ESERCIZI ESADECIMALE/BINARIO/CARATTERE</b></p></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <script>InizioBloccoSlide("blocco5")</script>
+                <div id="slides5"></div>
+                <script>CaricaSlides("5", "blocco5", "materiale/lezioni/5_sistema_esadecimale/slides.pdf", "IL SISTEMA ESADECIMALE")</script>
+                <script>FineBloccoSlide()</script>
             </div>
-            
-            <div id="footer" class="colore"></div>
-            <div class="w3-container colore" style="text-align: right;">
-                <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+
+            <div class="w3-cell-row">
+                <script>InizioBloccoSlide("blocco6")</script>
+                <div id="slides6"></div>
+                <script>CaricaSlides("6", "blocco6", "materiale/esercizi/esercizi_conversioni/esercizio1/esercizio.pdf", "CONVERSIONI BINARIO/DECIMALE")</script>
+                <script>FineBloccoSlide()</script>
             </div>
+
+            <div class="w3-cell-row">
+                <script>InizioBloccoSlide("blocco7")</script>
+                <div id="slides7"></div>
+                <script>CaricaSlides("7", "blocco7", "materiale/esercizi/esercizi_conversioni/esercizio2/esercizio.pdf", "CONVERSIONI ESADECIMALE")</script>
+                <script>FineBloccoSlide()</script>
+            </div>
+
+            <div class="w3-cell-row">
+                <script>InizioBloccoSlide("blocco8")</script>
+                <div id="slides8"></div>
+                <script>CaricaSlides("8", "blocco8", "materiale/esercizi/esercizi_ripasso/esercizio1/ripasso.pdf", "RIPASSO 1 VS 1")</script>
+                <script>FineBloccoSlide()</script>
+            </div>
+
         </div>
-    </body>
+
+        <div id="footer" class="colore"></div>
+        <div class="w3-container colore" style="text-align: right;">
+            <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+        </div>
+    </div>
+</body>
+
 </html>
