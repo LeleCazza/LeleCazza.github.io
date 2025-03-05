@@ -17,8 +17,30 @@
 
 <script>
     function CaricaEsercizio(numEsercizio) {
+        CaricaIntro(numEsercizio);
         Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_SQL/esercizio" + numEsercizio + "/esercizio.html");
     }
+
+    function CaricaIntro(numIntro) {
+        var div = document.getElementById("intro" + numIntro);
+        div.innerHTML +=
+            '<ol>' +
+            '    <li>' +
+            '        <i>' +
+            '            Utilizza il software:' +
+            '            <a href="https://laragon.org/" target="_blank">laragon.org</a>' +
+            '            per creare le query sql che estraggano i dati necessari a risolvere i seguenti esercizi.' +
+            '        </i>' +
+            '    </li>' +
+            '    <li>' +
+            '        <i>' +
+            '            Teoria MySql:' +
+            '            <a href="https://www.w3schools.com/mysql/" target="_blank">w3schools.com</a>' +
+            '        </i>' +
+            '    </li>' +
+            '</ol>'+
+            'CONSEGNA UN FILE DI TESTO CONTENENTE LE QUERY SQL REALIZZATE';
+    };
 </script>
 
 <body>
@@ -27,14 +49,32 @@
         <div class="main">
 
             <script>InizioBloccoEsercizio()</script>
+            <p><b>DUMP DEL DATABASE PER SVOLGERE GLI ESERCIZI</b>: <a href="materiale/esercizi/esercizi_SQL/pokemon.sql" target="_blank">pokemon</a></p>
+            
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
             <h2>ESERCIZIO 1</h2>
+            <div id="intro1"></div>
             <div id="esercizio1"></div>
             <script>CaricaEsercizio(1)</script>
+            <script>FineBlocco()</script>
+
+            <script>InizioBloccoEsercizio()</script>
+            <h2>ESERCIZIO 2</h2>
+            <div id="intro2"></div>
+            <div id="esercizio2"></div>
+            <script>CaricaEsercizio(2)</script>
             <script>FineBlocco()</script>
 
         </div>
 
         <div id="footer" class="colore"></div>
+        <div class="w3-container colore" style="text-align: right;">
+            <p style="font-size: 10px; margin-top: 0px;">Fonte database: <a href="https://www.mycompiler.io/view/9MdCC3C">pokemon</a></p>
+        </div>
+
+        
     </div>
 </body>
 
