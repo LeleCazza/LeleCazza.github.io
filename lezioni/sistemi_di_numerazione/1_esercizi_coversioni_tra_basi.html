@@ -26,34 +26,7 @@
 
     <div class="main">
     <script>
-
-        const NOMI_CARTELLE_LEZIONI = ["NULL"];
-
-        const NOMI_PAGINE_ESERCIZI = [
-            "1_esercizi_introduzione",
-            "2_esercizi_relazione",
-            "3_esercizi_depliant",
-            "4_esercizi_stampa_unione"
-        ];
-
-        const numCartelleLezioni = NOMI_CARTELLE_LEZIONI.length;
-
-        if(NOMI_CARTELLE_LEZIONI[0] != "NULL"){
-            CreaNuovaRiga();
-            for (let i = 1; i <= numCartelleLezioni; i++) {
-                CreaBloccoSlides(i);
-                CaricaSlides(i,NOMI_CARTELLE_LEZIONI[i-1]);    
-                TerminaOCreaNuovaRiga(i, numCartelleLezioni);
-            }
-            TerminaRiga(numCartelleLezioni);
-        }
-        if(NOMI_PAGINE_ESERCIZI[0] != "NULL"){
-            for (let i = 1; i <= NOMI_PAGINE_ESERCIZI.length; i++) {  
-                IniziaTemplateBloccoLink();
-                Crea_CaricaLink(i, NOMI_PAGINE_ESERCIZI[i-1]);
-                FineTemplateBloccoLink();
-            }
-        }
+          window.location.href = "materiale/esercizi/esercizi_conversioni/esercizio1/esercizio.pdf";
     </script>
     </div>
 

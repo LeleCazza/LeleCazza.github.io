@@ -1,104 +1,76 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <title> lelecazza </title>
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title> INFORMATICA </title>
-    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-    <script src="../../js/footer&header.js"></script>
-    <script src="../../js/slideshow.js"></script>
-    <script src="../../js/blocchi&testo.js"></script>
+    <script src="/js/footer&header.js"></script>
+    <script src="/js/slideshow.js"></script>
+    <script src="/js/blocchi&testo.js"></script>
 </head>
 
-<body>
-    <div class="wrapper">
-        <div id="header" class="colore"></div>
+<style> h1 {font-family: "Monofett", monospace;}</style>
 
-        <div class="main">
-            
-            <div class="w3-cell-row">
-                
-                <script>InizioBloccoSlide("blocco1")</script>
-                <div id="slides1"></div>
-                <script>CaricaSlides("1", "blocco1", "materiale/lezioni/1_introduzione/slides.pdf", "INTRODUZIONE ALLA SICUREZZA")</script>
-                <script>FineBloccoSlide()</script>
+<body class="w3-monospace">
+<div class="wrapper">
+    <div id="header"></div>
 
-                <script>InizioBloccoSlide("blocco2")</script>
-                <div id="slides2"></div>
-                <script>CaricaSlides("2", "blocco2", "materiale/lezioni/2_protezione_sociale/slides.pdf", "PROTEZIONE SOCIALE")</script>
-                <script>FineBloccoSlide()</script>
+    <div class="main">
+    <script>
 
-                <script>InizioBloccoSlide("blocco3")</script>
-                <div id="slides3"></div>
-                <script>CaricaSlides("3", "blocco3", "materiale/lezioni/3_crittografia/slides.pdf", "SISTEMI DI CRITTOGRAFIA")</script>
-                <script>FineBloccoSlide()</script>
+        const NOMI_CARTELLE_LEZIONI = [
+            "1_introduzione",
+            "2_protezione_sociale",
+            "3_crittografia",
+            "4_modello_RSA",
+            "5_identità_digitale",
+            "6_certificato_digitale",
+            "7_password",
+            "8_privacy",
+            "9_profilazione",
+            "10_tips&tricks",
+            "11_malware&attack"
+        ];
 
-                <script>InizioBloccoSlide("blocco4")</script>
-                <div id="slides4"></div>
-                <script>CaricaSlides("4", "blocco4", "materiale/lezioni/4_modello_RSA/slides.pdf", "MODELLO DI CRITTOGRAFIA RSA")</script>
-                <script>FineBloccoSlide()</script>
+        const NOMI_PAGINE_ESERCIZI = [
+            "1_esercizi_crittografia",
+            "2_esercizi_social_engineering"
+        ];
 
-                <script>InizioBloccoSlide("blocco5")</script>
-                <div id="slides5"></div>
-                <script>CaricaSlides("5", "blocco5", "materiale/lezioni/5_identita_digitale/slides.pdf", "IDENTIT&Agrave DIGITALE")</script>
-                <script>FineBloccoSlide()</script>
+        const numCartelleLezioni = NOMI_CARTELLE_LEZIONI.length;
 
-                <script>InizioBloccoSlide("blocco6")</script>
-                <div id="slides6"></div>
-                <script>CaricaSlides("6", "blocco6", "materiale/lezioni/6_certificato_digitale/slides.pdf", "CERTIFICATO DIGITALE")</script>
-                <script>FineBloccoSlide()</script>  
-
-            </div>
-
-            <div class="w3-cell-row">
-
-                <script>InizioBloccoSlide("blocco7")</script>
-                <div id="slides7"></div>
-                <script>CaricaSlides("7", "blocco7", "materiale/lezioni/7_password/slides.pdf", "GESTIONE DELLE PASSWORD")</script>
-                <script>FineBloccoSlide()</script>  
-
-                <script>InizioBloccoSlide("blocco8")</script>
-                <div id="slides8"></div>
-                <script>CaricaSlides("8", "blocco8", "materiale/lezioni/8_privacy/slides.pdf", "GESTIONE DELLA PRIVACY")</script>
-                <script>FineBloccoSlide()</script>  
-
-                <script>InizioBloccoSlide("blocco9")</script>
-                <div id="slides9"></div>
-                <script>CaricaSlides("9", "blocco9", "materiale/lezioni/9_profilazione/slides.pdf", "GESTIONE DELLA PROFILAZIONE")</script>
-                <script>FineBloccoSlide()</script>  
-                
-                <script>InizioBloccoSlide("blocco10")</script>
-                <div id="slides10"></div>
-                <script>CaricaSlides("10", "blocco10", "materiale/lezioni/10_tips&tricks/slides.pdf", "BEST TIPS & TRICKS")</script>
-                <script>FineBloccoSlide()</script>  
-
-                <script>InizioBloccoSlide("blocco11")</script>
-                <div id="slides11"></div>
-                <script>CaricaSlides("11", "blocco11", "materiale/lezioni/11_malware&attack/slides.pdf", "MALWARE & ATTACK")</script>
-                <script>FineBloccoSlide()</script>  
-
-            </div>
-
-            <script>InizioBloccoLink()</script> 
-            <a href="esercizi_social_engineering.html" style="text-decoration: none;"><p><b>ESERCIZI SOCIAL ENGINEERING</b></p></a>
-            <script>FineBlocco()</script>
-
-            <script>InizioBloccoLink()</script> 
-            <a href="esercizi_crittografia.html" style="text-decoration: none;"><p><b>ESERCIZI CRITTOGRAFIA</b></p></a>
-            <script>FineBlocco()</script>
-
-        </div>
-
-        <div id="footer" class="colore"></div>
-        <div class="w3-container colore" style="text-align: right;">
-            <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
-        </div>
+        if(NOMI_CARTELLE_LEZIONI[0] != "NULL"){
+            CreaNuovaRiga();
+            for (let i = 1; i <= numCartelleLezioni; i++) {
+                CreaBloccoSlides(i);
+                CaricaSlides(i,NOMI_CARTELLE_LEZIONI[i-1]);    
+                TerminaOCreaNuovaRiga(i, numCartelleLezioni);
+            }
+            TerminaRiga(numCartelleLezioni);
+        }
+        if(NOMI_PAGINE_ESERCIZI[0] != "NULL"){
+            for (let i = 1; i <= NOMI_PAGINE_ESERCIZI.length; i++) {  
+                IniziaTemplateBloccoLink();
+                Crea_CaricaLink(i, NOMI_PAGINE_ESERCIZI[i-1]);
+                FineTemplateBloccoLink();
+            }
+        }
+    </script>
     </div>
-</body>
 
+    <div id="footer"></div>
+    <div class="w3-container" style="text-align: right; color: white;">
+        <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+    </div>
+</div>
+</body>
 </html>

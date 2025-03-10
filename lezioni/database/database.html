@@ -1,73 +1,71 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <title> lelecazza </title>
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title> INFORMATICA </title>
-    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-    <script src="../../js/footer&header.js"></script>
-    <script src="../../js/slideshow.js"></script>
-    <script src="../../js/blocchi&testo.js"></script>
+    <script src="/js/footer&header.js"></script>
+    <script src="/js/slideshow.js"></script>
+    <script src="/js/blocchi&testo.js"></script>
 </head>
 
-<body>
-    <div class="wrapper">
-        <div id="header" class="colore"></div>
+<style> h1 {font-family: "Monofett", monospace;}</style>
 
-        <div class="main">
-            
-            <div class="w3-cell-row">
-                <script>InizioBloccoSlide("blocco1")</script>
-                <div id="slides1"></div>
-                <script>CaricaSlides("1", "blocco1", "materiale/lezioni/1_introduzione/slides.pdf", "INTRODUZIONE AI DATABASE")</script>
-                <script>FineBloccoSlide()</script>
+<body class="w3-monospace">
+<div class="wrapper">
+    <div id="header"></div>
 
-                <script>InizioBloccoSlide("blocco2")</script>
-                <div id="slides2"></div>
-                <script>CaricaSlides("2", "blocco2", "materiale/lezioni/2_database_relazionali/slides.pdf", "DATABASE RELAZIONALI")</script>
-                <script>FineBloccoSlide()</script>
+    <div class="main">
+    <script>
 
-                <script>InizioBloccoSlide("blocco3")</script>
-                <div id="slides3"></div>
-                <script>CaricaSlides("3", "blocco3", "materiale/lezioni/3_modello_concettuale/slides.pdf", "PROGETTAZIONE CONCETTUALE")</script>
-                <script>FineBloccoSlide()</script>
+        const NOMI_CARTELLE_LEZIONI = [
+            "1_introduzione_ai_database",
+            "2_database_relazionali",
+            "3_modello_concettuale",
+            "4_gerarchie_di_generalizzazione",
+            "5_regole_di_conversione",
+            "6_eliminazione_delle_gerarchie"
+        ];
 
-                <script>InizioBloccoSlide("blocco4")</script>
-                <div id="slides4"></div>
-                <script>CaricaSlides("4", "blocco4", "materiale/lezioni/4_gerarchie_generalizzazione/slides.pdf", "GERARCHIE DI GENERALIZZAZIONE")</script>
-                <script>FineBloccoSlide()</script>
+        const NOMI_PAGINE_ESERCIZI = [
+            "1_esercizi_database",
+            "2_esercizi_SQL"
+        ];
 
-                <script>InizioBloccoSlide("blocco5")</script>
-                <div id="slides5"></div>
-                <script>CaricaSlides("5", "blocco5", "materiale/lezioni/5_regole_di_conversione/slides.pdf", "REGOLE DI CONVERSIONE")</script>
-                <script>FineBloccoSlide()</script>
+        const numCartelleLezioni = NOMI_CARTELLE_LEZIONI.length;
 
-                <script>InizioBloccoSlide("blocco6")</script>
-                <div id="slides6"></div>
-                <script>CaricaSlides("6", "blocco6", "materiale/lezioni/6_eliminazione_gerarchie/slides.pdf", "CONVERSIONE GENERALIZZAZIONE")</script>
-                <script>FineBloccoSlide()</script>  
-            </div>
-
-            <script>InizioBloccoLink()</script> 
-            <a href="esercizi_database.html" style="text-decoration: none;"><p><b>ESERCIZI DATABASE</b></p></a>
-            <script>FineBlocco()</script>
-
-            <script>InizioBloccoLink()</script> 
-            <a href="esercizi_SQL.html" style="text-decoration: none;"><p><b>ESERCIZI SQL</b></p></a>
-            <script>FineBlocco()</script>
-
-        </div>
-
-        <div id="footer" class="colore"></div>
-        <div class="w3-container colore" style="text-align: right;">
-            <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
-        </div>
+        if(NOMI_CARTELLE_LEZIONI[0] != "NULL"){
+            CreaNuovaRiga();
+            for (let i = 1; i <= numCartelleLezioni; i++) {
+                CreaBloccoSlides(i);
+                CaricaSlides(i,NOMI_CARTELLE_LEZIONI[i-1]);    
+                TerminaOCreaNuovaRiga(i, numCartelleLezioni);
+            }
+            TerminaRiga(numCartelleLezioni);
+        }
+        if(NOMI_PAGINE_ESERCIZI[0] != "NULL"){
+            for (let i = 1; i <= NOMI_PAGINE_ESERCIZI.length; i++) {  
+                IniziaTemplateBloccoLink();
+                Crea_CaricaLink(i, NOMI_PAGINE_ESERCIZI[i-1]);
+                FineTemplateBloccoLink();
+            }
+        }
+    </script>
     </div>
-</body>
 
+    <div id="footer"></div>
+    <div class="w3-container" style="text-align: right; color: white;">
+        <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
+    </div>
+</div>
+</body>
 </html>

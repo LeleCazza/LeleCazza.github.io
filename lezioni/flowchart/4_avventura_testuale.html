@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <title> lelecazza </title>
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title> INFORMATICA </title>
-    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-    <script src="../../js/footer&header.js"></script>
-    <script src="../../js/slideshow.js"></script>
-    <script src="../../js/blocchi&testo.js"></script>
+    <script src="/js/footer&header.js"></script>
+    <script src="/js/slideshow.js"></script>
+    <script src="/js/blocchi&testo.js"></script>
 </head>
 
-<body>
-    <div class="wrapper">
-        <div id="header" class="colore"></div>
-        <div class="main">
+<style> h1 {font-family: "Monofett", monospace;}</style>
 
-            <script>InizioBloccoEsercizio()</script>
+<body class="w3-monospace">
+<div class="wrapper">
+    <div id="header"></div>
+
+    <div class="main">
+
+        <script>IniziaTemplateBloccoEsercizio()</script>
+        <p>
             Utilizza il software: <a href="http://www.flowgorithm.org/download/index.html" target="_blank">Flowgorithm</a> 
             per creare un'avventura testuale.<br>
             <ul>
@@ -38,14 +45,12 @@
             <ul>
                 <li><a href="materiale/avventura_testuale/avventura_testuale.fprg" target="_blank">esempio avventura testuale (.fprg)</a></li>
                 <li><a href="materiale/avventura_testuale/avventura_testuale.exe" target="_blank">esempio avventura testuale (.exe)</a></li>
-            </ul>    
-        </p>
-        
-        <script>FineBlocco()</script>;
+            </ul> 
+        </p>  
+        <script>FineTemplateBloccoEsercizio()</script>;
     </div>
-        
-    <div id="footer" class="colore"></div>
+
+    <div id="footer"></div>
 </div>
 </body>
-
 </html>

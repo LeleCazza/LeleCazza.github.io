@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <title> lelecazza </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="/js/footer&header.js"></script>
+    <script src="/js/slideshow.js"></script>
+    <script src="/js/blocchi&testo.js"></script>
+</head>
+
+<style> h1 {font-family: "Monofett", monospace;}</style>
+
+<body class="w3-monospace">
+<div class="wrapper">
+    <div id="header"></div>
+
+    <div class="main">
+    <script>
+
+        const NOME_CARTELLA_ESERCIZI = "esercizi_stampaunione";
+        const NUMERO_DI_ESERCIZI = 2;
+        
+        CreaBloccoIntro();
+        CaricaIntro();
+        for (let i = 1; i <= NUMERO_DI_ESERCIZI; i++) {
+            CreaBloccoEsercizio(i);
+            CaricaEsercizio(i);                  
+        }
+
+        function CaricaIntro() {
+            var div = document.getElementById("intro");
+            div.innerHTML +=
+                '<br><table width="100%">'+
+                '    <tr>'+
+                '        <td>'+
+                '            <a href="https://support.google.com/docs/topic/9046002?hl=it" style="text-decoration: none;">'+
+                '                <button display="block" class="w3-btn w3-block w3-border w3-round-large" style="margin-bottom: 10px;">GUIDA DOCS</button>'+
+                '            </a>'+
+                '        </td>'+
+                '        <td>'+
+                '            <a href="https://support.microsoft.com/it-it/word" style="text-decoration: none;">'+
+                '                <button display="block" class="w3-btn w3-block w3-border w3-round-large" style="margin-bottom: 10px;">GUIDA WORD</button>'+
+                '            </a>'+ 
+                '        </td>'+
+                '    </tr>'+
+                '</table><br>';
+        };
+
+        function CaricaEsercizio(numEsercizio) {
+            $("#esercizio" + numEsercizio).load("materiale/esercizi/"+NOME_CARTELLA_ESERCIZI+"/esercizio" + numEsercizio + "/esercizio.html");
+        }
+    </script>
+    </div>
+
+    <div id="footer"></div>
+</div>
+</body>
+</html>

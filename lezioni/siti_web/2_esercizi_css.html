@@ -27,40 +27,37 @@
     <div class="main">
     <script>
 
-        const NOMI_CARTELLE_LEZIONI = ["NULL"];
-
-        const NOMI_PAGINE_ESERCIZI = [
-            "1_esercizi_introduzione",
-            "2_esercizi_relazione",
-            "3_esercizi_depliant",
-            "4_esercizi_stampa_unione"
-        ];
-
-        const numCartelleLezioni = NOMI_CARTELLE_LEZIONI.length;
-
-        if(NOMI_CARTELLE_LEZIONI[0] != "NULL"){
-            CreaNuovaRiga();
-            for (let i = 1; i <= numCartelleLezioni; i++) {
-                CreaBloccoSlides(i);
-                CaricaSlides(i,NOMI_CARTELLE_LEZIONI[i-1]);    
-                TerminaOCreaNuovaRiga(i, numCartelleLezioni);
-            }
-            TerminaRiga(numCartelleLezioni);
+        const NOME_CARTELLA_ESERCIZI = "esercizi_css";
+        const NUMERO_DI_ESERCIZI = 2;
+        
+        CreaBloccoIntro();
+        CaricaIntro();
+        for (let i = 1; i <= NUMERO_DI_ESERCIZI; i++) {
+            CreaBloccoEsercizio(i);
+            CaricaEsercizio(i);
+            if(i==2)
+                CaricaSoluzione(i);                    
         }
-        if(NOMI_PAGINE_ESERCIZI[0] != "NULL"){
-            for (let i = 1; i <= NOMI_PAGINE_ESERCIZI.length; i++) {  
-                IniziaTemplateBloccoLink();
-                Crea_CaricaLink(i, NOMI_PAGINE_ESERCIZI[i-1]);
-                FineTemplateBloccoLink();
-            }
+
+        function CaricaIntro() {
+            var div = document.getElementById("intro");
+            div.innerHTML +=
+                '<br><i>Sito di riferimento per svolgere gli esercizi: <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">W3schools</a></i><br><br>';
+        };
+
+        function CaricaEsercizio(numEsercizio) {
+            $("#esercizio" + numEsercizio).load("materiale/esercizi/"+NOME_CARTELLA_ESERCIZI+"/esercizio" + numEsercizio + "/esercizio.html");
+        }
+
+        function CaricaSoluzione(numEsercizio) {
+            var div = document.getElementById("soluzione" + numEsercizio);
+            div.innerHTML +=
+                '<i><a href="materiale/esercizi/'+NOME_CARTELLA_ESERCIZI+'/esercizio' + numEsercizio + '/soluzione.zip" target="_blank">Soluzione</a></i><br><br>';
         }
     </script>
     </div>
 
     <div id="footer"></div>
-    <div class="w3-container" style="text-align: right; color: white;">
-        <p style="font-size: 10px; margin-top: 0px;">immagini: <a href="https://emojipedia.org/">Emojipedia</a></p>
-    </div>
 </div>
 </body>
 </html>
