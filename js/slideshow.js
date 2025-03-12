@@ -4,7 +4,7 @@ let currentPage = 1;
 let totalPages = 0;
 let bloccoVisibile = null;
 
-function inizialize(url, id){
+function inizializzaSlides(url, id){
     currentPage = 1;
     totalPages = 0;
     pdfUrl = url;

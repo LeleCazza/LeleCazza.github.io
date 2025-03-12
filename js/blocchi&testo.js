@@ -98,7 +98,7 @@ function CaricaSlides(idBloccoSlides, nomeCartellaSlides) {
     let div = document.getElementById("slides" + idBloccoSlides);
     div.innerHTML +=
         '<p>' +
-        '   <button onclick="inizialize(\'' + pathSlides + '\', \'' + idBloccoSlides + '\'); open_close(\'blocco' + idBloccoSlides + '\', \'' + titoloSlides + '\', \'' + pathSlides + '\');" class="titolo">'+
+        '   <button onclick="inizializzaSlides(\'' + pathSlides + '\', \'' + idBloccoSlides + '\'); open_close(\'blocco' + idBloccoSlides + '\', \'' + titoloSlides + '\', \'' + pathSlides + '\');" class="titolo">'+
         '   <b>' + titoloSlides + '</b>' +
         '   </button>' +
         '   <a href="' + pathSlides + '">&#128196</a>' +
