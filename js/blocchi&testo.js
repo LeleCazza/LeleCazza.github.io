@@ -93,6 +93,7 @@ function Crea_CaricaLink(i,pathEsercizio){
 
 function CaricaSlides(idBloccoSlides, nomeCartellaSlides) {
     let pathSlides = "materiale/lezioni/"+nomeCartellaSlides+"/slides.pdf";
+    let pathHandout  = "materiale/lezioni/"+nomeCartellaSlides+"/handout.pdf";
     let titoloSlides = GeneraTitolo(nomeCartellaSlides);
     let div = document.getElementById("slides" + idBloccoSlides);
     div.innerHTML +=
@@ -100,7 +101,8 @@ function CaricaSlides(idBloccoSlides, nomeCartellaSlides) {
         '   <button onclick="inizialize(\'' + pathSlides + '\', \'' + idBloccoSlides + '\'); open_close(\'blocco' + idBloccoSlides + '\', \'' + titoloSlides + '\', \'' + pathSlides + '\');" class="titolo">'+
         '   <b>' + titoloSlides + '</b>' +
         '   </button>' +
-        '   <a href="' + pathSlides + '">&#128190</a>' +
+        '   <a href="' + pathSlides + '">&#128196</a>' +
+        '   <a href="' + pathHandout + '">&#128424</a>' +
         '</p>' +
         '<div id="' + titoloSlides + '" class="w3-content w3-display-container" style="display:none">' +
         '   <div id="pdf-container">' +
