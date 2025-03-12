@@ -97,7 +97,7 @@ function CaricaSlides(idBloccoSlides, nomeCartellaSlides) {
     let div = document.getElementById("slides" + idBloccoSlides);
     div.innerHTML +=
         '<p>' +
-        '   <button onclick="inizialize(\'' + pathSlides + '\', \'' + idBloccoSlides + '\'); open_close(\'blocco' + idBloccoSlides + '\', \'' + titoloSlides + '\');" class="titolo">'+
+        '   <button onclick="inizialize(\'' + pathSlides + '\', \'' + idBloccoSlides + '\'); open_close(\'blocco' + idBloccoSlides + '\', \'' + titoloSlides + '\', \'' + pathSlides + '\');" class="titolo">'+
         '   <b>' + titoloSlides + '</b>' +
         '   </button>' +
         '   <a href="' + pathSlides + '"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>' +
