@@ -100,7 +100,7 @@ function CaricaSlides(idBloccoSlides, nomeCartellaSlides) {
         '   <button onclick="inizialize(\'' + pathSlides + '\', \'' + idBloccoSlides + '\'); open_close(\'blocco' + idBloccoSlides + '\', \'' + titoloSlides + '\', \'' + pathSlides + '\');" class="titolo">'+
         '   <b>' + titoloSlides + '</b>' +
         '   </button>' +
-        '   <a href="' + pathSlides + '"><img src="../../images/floppy_logo.png" alt="scarica" style="width: 18px"></a>' +
+        '   <a href="' + pathSlides + '">&#128190</a>' +
         '</p>' +
         '<div id="' + titoloSlides + '" class="w3-content w3-display-container" style="display:none">' +
         '   <div id="pdf-container">' +
