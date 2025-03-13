@@ -1,0 +1,202 @@
+\documentclass[aspectratio=1610]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{TRASMISSIONE DATI}
+\subtitle{wired VS wireless, tipologie di trasmissione}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://it.wikipedia.org/wiki/FTTx}{Wikipedia}
+            \item[-] \href{https://www.edises.it/concorsi/scienze-e-tecnologie-informatiche-2020.html}{Manuale scienze e tecnologie informatiche}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+
+\section{WIRED VS WIRELESS}
+
+\begin{frame}{VELOCIT\'A DI TRASMISSIONE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            In informatica e telecomunicazioni, \textbf{la velocità di trasmissione} 
+            (detta anche \textbf{banda} o \textbf{bit-rate}), 
+            è la grandezza indicante la quantità di informazione trasferita 
+            attraverso un canale di comunicazione in un dato intervallo di tempo. 
+            L'unità di misura associata è il bit per secondo (\textbf{bps}).\\
+            \bigskip
+            \tiny{\textbf{Fonte}}\\
+            \tiny{\href{https://it.wikipedia.org/wiki/Velocit\%C3\%A0\_di\_trasmissione}{Wikipedia}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{MEZZI DI TRASMISSIONE DATI (\href{https://www.fastweb.it/fastweb-plus/digital-magazine/velocita-connessione-internet-c-e-un-nuovo-record/}{record speed}, \href{https://misurainternet.it/misura-speedtest/}{speed test})}
+    \begin{center}
+        \centering
+        \setlength{\tabcolsep}{30pt}
+        \begin{tabular}{c|c}
+            \textbf{TRASMISSIONE WIRED} & \textbf{BIT-RATE} \\
+            \hline
+            \hline
+            \uncover<1->{Doppino telefonico (ADSL)} & \uncover<1->{fino a 24 Mbps (effettivo)} \\
+            \hline
+            \uncover<2->{Cavo UTP/STP (Ethernet)} & \uncover<2->{4 Mbps - 40Gbps (teorico)} \\ 
+            \hline
+            \uncover<3->{Fibra Ottica FTTC (Cabinet)} & \uncover<3->{50 Mbps - 200 Mbps (effettivo)} \\
+            \hline
+            \uncover<4->{Fibra Ottica FTTH (Home)} & \uncover<4->{50 Mbps - 2,5Gbps (effettivo)} \\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{frame}
+
+\begin{frame}{FREQUENZA}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            In fisica \textbf{la frequenza} di un fenomeno che presenta un andamento costituito da 
+            eventi che nel tempo si ripetono (identici o quasi identici), viene data dal numero 
+            degli eventi che vengono ripetuti in una data unità di tempo. Nel misurare la frequenza 
+            di onde elettromagnetiche (come le onde radio o la luce), la frequenza in \textbf{hertz} è il numero 
+            di cicli della forma d'onda ripetitiva per secondo.\\
+            \bigskip
+            \tiny{\textbf{Fonte}}\\
+            \tiny{\href{https://it.wikipedia.org/wiki/Frequenza}{Wikipedia}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{SPETTRO ELETTROMAGNETICO}
+    \begin{columns}
+        \column{.65\textwidth}
+        \begin{figure}
+            \includegraphics[width=\textwidth]{img/Spettro_Elettromagnetico.png}
+            \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+\section{SEZIONE 1: IMMAGINE CENTRATA}
+
+\begin{frame}{TITOLO SLIDE}
+%    \begin{columns}
+%        \column{.5\textwidth}
+%        \begin{figure}
+%            \includegraphics[width=\linewidth]{img/immagine.png}
+%            \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%        \end{figure}
+%    \end{columns}
+\end{frame}
+
+\section{SEZIONE 2: ELENCO PUNTATO}
+
+\begin{frame}{TITOLO SLIDE}
+%    \begin{itemize}
+%        \item \textbf{NOME}: descrizione;
+%        \pause
+%        \item \textbf{NOME}: descrizione;
+%        \pause
+%        \item \textbf{NOME}: descrizione;
+%    \end{itemize}
+\end{frame}
+
+\section{SEZIONE 3: TABELLA}
+
+\begin{frame}{TITOLO SLIDE}
+%    \centering
+%    \begin{tabular}{c||c}
+%        \textbf{TITOLO COLONNA 1} & \textbf{TITOLO COLONNA 2} \\
+%        \hline
+%        \hline
+%        \pause
+%        ELEMENTO SINISTRA & ELEMENTO DESTRA \\
+%        \hline
+%        \pause
+%        ELEMENTO SINISTRA & ELEMENTO DESTRA \\
+%        \hline
+%    \end{tabular}
+\end{frame}
+
+\section{SEZIONE 4: SEQUENZA IMMAGINI}
+
+\begin{frame}{TITOLO SLIDE}
+%   \only<1>{\begin{figure}
+%       \includegraphics[width=\linewidth]{img/immagine1.png}
+%       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%   \end{figure}}
+%   \only<2>{\begin{figure}
+%       \includegraphics[width=\linewidth]{img/immagine2.png}
+%       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%   \end{figure}}
+%   \only<3>{\begin{figure}
+%       \includegraphics[width=\linewidth]{img/immagine3.png}
+%       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%   \end{figure}}
+\end{frame}
+
+\section{SEZIONE 5: DEFINIZIONE}
+
+\begin{frame}{TITOLO SLIDE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            % testo definizione\\
+            %\bigskip
+            %\tiny{\textbf{Curiosità}}\\
+            %\tiny{\href{Link curiosità}{Titolo curiosità}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{SEZIONE 6: DUE COLONNE (testo, immagine)}
+
+\begin{frame}{TITOLO SLIDE}
+    \begin{columns}
+        \column{.5\textwidth}
+            \justifying
+%           testo a sinistra dell'immagine
+%           \bigskip
+%           \tiny{\textbf{curiosità}}\\
+%           \tiny{LINK CURIOSITA'}{TITOLO CURIOSITA'}}
+        \column{.5\textwidth}
+%           \begin{figure}
+%               \includegraphics[width=\linewidth]{img/immagine1.png}
+%               \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
+%           \end{figure}
+    \end{columns}
+\end{frame}
+
+\end{document}
