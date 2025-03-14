@@ -27,7 +27,7 @@
 \makeatother
 
 \title{TRASMISSIONE DATI}
-\subtitle{wired VS wireless, tipologie di trasmissione}
+\subtitle{wired, wireless, modalità di trasmissione}
 \date{}
 \institute{\textit{
         Fonti:
@@ -45,7 +45,67 @@
 \end{frame}
 
 
-\section{WIRED VS WIRELESS}
+\section{MEZZI DI TRASMISSIONE DATI WIRED}
+
+\begin{frame}{MEZZI DI TRASMISSIONE DATI WIRED}
+    \begin{columns}
+        \column{.5\textwidth}
+        \begin{alertblock}{DOPPINO TELEFONICO}
+            \begin{minipage}{0.97\linewidth}
+                \justifying
+                Formato da \textbf{due fili intrecciati} (in genere di colore rosso e bianco) composti da 
+                molteplici filamenti solitamente in \textbf{rame}. La velocità di propagazione del segnale 
+                dipende dalla velocità di conduzione del materiale utilizzato.
+            \end{minipage}
+        \end{alertblock}
+        \column{.5\textwidth}
+           \begin{figure}
+               \includegraphics[width=\linewidth]{img/doppino_telefonico.png}
+               \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+           \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{MEZZI DI TRASMISSIONE DATI WIRED}
+    \begin{columns}
+        \column{.5\textwidth}
+        \begin{alertblock}{CAVO ETHERNET}
+            \begin{minipage}{0.97\linewidth}
+                \justifying
+                Formato da \textbf{quattro coppie} di filamenti di rame che aumentano moltissimo 
+                la capacità di trasmissione del cavo rispetto al singolo doppino telefonico. 
+                Alle estremità del cavo sono presenti connettori solitamente di standard \textbf{RJ45}. 
+                Esistono differenti tipologie di cavi Ethernet, ognuna delle quali garantisce prestazioni 
+                sempre maggiori (Cat5, Cat5e, Cat6, Cat7, Cat8).
+            \end{minipage}
+        \end{alertblock}
+        \column{.5\textwidth}
+           \begin{figure}
+               \includegraphics[width=\linewidth]{img/cavo_ethernet.png}
+               \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+           \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{MEZZI DI TRASMISSIONE DATI WIRED}
+    \begin{columns}
+        \column{.5\textwidth}
+        \begin{alertblock}{FIBRA OTTICA}
+            \begin{minipage}{0.97\linewidth}
+                \justifying
+                La Fibra Ottica, diversamente dai precedenti, non trasmette un segnale elettrico 
+                su cavi di rame, ma trasmette un \textbf{segnale luminoso} che può potenzialmente raggiungere 
+                la velocità della luce. La velocità e affidabilità del segnale di trasmissione è quindi 
+                estremamente alta.
+            \end{minipage}
+        \end{alertblock}
+        \column{.5\textwidth}
+           \begin{figure}
+               \includegraphics[width=\linewidth]{img/fibra_ottica.png}
+               \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+           \end{figure}
+    \end{columns}
+\end{frame}
 
 \begin{frame}{VELOCIT\'A DI TRASMISSIONE}
     \begin{alertblock}{DEFINIZIONE}
@@ -73,7 +133,7 @@
             \hline
             \uncover<1->{Doppino telefonico (ADSL)} & \uncover<1->{fino a 24 Mbps (effettivo)} \\
             \hline
-            \uncover<2->{Cavo UTP/STP (Ethernet)} & \uncover<2->{4 Mbps - 40Gbps (teorico)} \\ 
+            \uncover<2->{Cavo Ethernet (LAN)} & \uncover<2->{4 Mbps - 40Gbps (teorico)} \\ 
             \hline
             \uncover<3->{Fibra Ottica FTTC (Cabinet)} & \uncover<3->{50 Mbps - 200 Mbps (effettivo)} \\
             \hline
@@ -82,6 +142,8 @@
         \end{tabular}
     \end{center}
 \end{frame}
+
+\section{MEZZI DI TRASMISSIONE DATI WIRELESS}
 
 \begin{frame}{FREQUENZA}
     \begin{alertblock}{DEFINIZIONE}
