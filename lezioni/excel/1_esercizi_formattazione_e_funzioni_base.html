@@ -1,79 +1,75 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <title> lelecazza </title>
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title> INFORMATICA </title>
-    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-    <script src="../../js/footer&header.js"></script>
-    <script src="../../js/slideshow.js"></script>
-    <script src="../../js/blocchi&testo.js"></script>
+    <script src="/js/footer&header.js"></script>
+    <script src="/js/slideshow.js"></script>
+    <script src="/js/blocchi&testo.js"></script>
 </head>
 
-<script>
-    function CaricaTesto(numEsercizio) {
-        Testo("esercizio" + numEsercizio, "materiale/esercizi/esercizi_funzioni_base/esercizio" + numEsercizio + "/esercizio.html");
-    }
+<style> h1 {font-family: "Monofett", monospace;}</style>
 
-    function CaricaImmagine(numEsercizio) {
-        var img = document.getElementById("immagine" + numEsercizio);
-        img.src = "materiale/esercizi/esercizi_funzioni_base/esercizio" + numEsercizio + "/esercizio.png";
-        img.style.width = "100%";
-        img.style.maxWidth = "700px";
-    }
-</script>
+<body class="w3-monospace">
+<div class="wrapper">
+    <div id="header"></div>
 
-<body>
-    <div class="wrapper">
-        <div id="header" class="colore"></div>
-        <div class="main">
+    <div class="main">
+    <script>
 
-            <script>InizioBloccoEsercizio()</script>
-            <h2>ESERCIZIO 1</h2>
-            <div id="esercizio1"></div>
-            <div style="text-align: center;"><img id="immagine1"/></div><br>
-            <script>CaricaTesto(1)</script>
-            <script>CaricaImmagine(1)</script>
-            <script>FineBlocco()</script>
+        const NOME_CARTELLA_ESERCIZI = "esercizi_funzioni_base";
+        const NUMERO_DI_ESERCIZI = 5;
+        
+        CreaBloccoIntro();
+        CaricaIntro();
+        for (let i = 1; i <= NUMERO_DI_ESERCIZI; i++) {
+            CreaBloccoEsercizio(i);
+            CaricaEsercizio(i);                  
+        }
 
-            <script>InizioBloccoEsercizio()</script>
-            <h2>ESERCIZIO 2</h2>
-            <div id="esercizio2"></div>
-            <div style="text-align: center;"><img id="immagine2"/></div><br>
-            <script>CaricaTesto(2)</script>
-            <script>CaricaImmagine(2)</script>
-            <script>FineBlocco()</script>
+        function CaricaIntro() {
+            var div = document.getElementById("intro");
+            div.innerHTML +=
+                '<br><table width="100%">'+
+                '    <tr>'+
+                '        <td>'+
+                '            <a href="https://support.google.com/docs/topic/9054603?hl=it" style="text-decoration: none;">'+
+                '                <button display="block" class="w3-btn w3-block w3-border w3-round-large" style="margin-bottom: 10px;">GUIDA FOGLI</button>'+
+                '            </a>'+
+                '        </td>'+
+                '        <td>'+
+                '            <a href="https://support.microsoft.com/it-it/excel" style="text-decoration: none;">'+
+                '                <button display="block" class="w3-btn w3-block w3-border w3-round-large" style="margin-bottom: 10px;">GUIDA EXCEL</button>'+
+                '            </a>'+ 
+                '        </td>'+
+                '    </tr>'+
+                '</table><br>';
+        };
 
-            <script>InizioBloccoEsercizio()</script>
-            <h2>ESERCIZIO 3</h2>
-            <div id="esercizio3"></div>
-            <script>CaricaTesto(3)</script>
-            <script>FineBlocco()</script>
-
-            <script>InizioBloccoEsercizio()</script>
-            <h2>ESERCIZIO 4</h2>
-            <div id="esercizio4"></div>
-            <script>CaricaTesto(4)</script>
-            <script>FineBlocco()</script>
-
-            <script>InizioBloccoEsercizio()</script>
-            <h2>ESERCIZIO 5</h2>
-            <div id="esercizio5"></div>
-            <div style="text-align: center;"><img id="immagine5"/></div><br>
-            <script>CaricaTesto(5)</script>
-            <script>CaricaLink(5)</script>
-            <script>CaricaImmagine(5)</script>
-            <script>FineBlocco()</script>
-
-        </div>
-
-        <div id="footer" class="colore"></div>
+        function CaricaEsercizio(numEsercizio) {
+            $("#esercizio" + numEsercizio).load("materiale/esercizi/"+NOME_CARTELLA_ESERCIZI+"/esercizio" + numEsercizio + "/esercizio.html", function(){
+                $("#esercizio" + numEsercizio + " a").each(function () {
+                    let href = $(this).attr("href");
+                    if(href != null)
+                        $(this).attr("href", "materiale/esercizi/"+NOME_CARTELLA_ESERCIZI+"/esercizio" + numEsercizio + '/' + href);
+                    console.debug(href);
+                });
+            });
+        }
+    </script>
     </div>
-</body>
 
+    <div id="footer"></div>
+</div>
+</body>
 </html>
