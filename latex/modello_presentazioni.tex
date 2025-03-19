@@ -3,6 +3,7 @@
 \usepackage{ragged2e}
 \usepackage{xcolor}
 \usepackage[italian]{babel}
+\usepackage{multirow}
 \usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
 \setbeamertemplate{frame numbering}[fraction]
 \setbeamercovered{dynamic}
@@ -88,15 +89,15 @@
 \section{SEZIONE 4: SEQUENZA IMMAGINI}
 
 \begin{frame}{TITOLO SLIDE}
-%   \only<1>{\begin{figure}
+%   \only<1 | handout:0>{\begin{figure}
 %       \includegraphics[width=\linewidth]{img/immagine1.png}
 %       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
 %   \end{figure}}
-%   \only<2>{\begin{figure}
+%   \only<2 | handout:1>{\begin{figure}
 %       \includegraphics[width=\linewidth]{img/immagine2.png}
 %       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
 %   \end{figure}}
-%   \only<3>{\begin{figure}
+%   \only<3 | handout:2>{\begin{figure}
 %       \includegraphics[width=\linewidth]{img/immagine3.png}
 %       \caption{{creata con \href{LINK SOFTWARE DI CREAZIONE}{NOME SOFTWARE}}}
 %   \end{figure}}
