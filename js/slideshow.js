@@ -21,7 +21,7 @@ function renderPage(pageNum, id) {
     pdfDoc.getPage(pageNum).then(function (page) {
         const canvas = document.getElementById(id);
         const context = canvas.getContext('2d');
-        const viewport = page.getViewport({ scale: 1 });
+        const viewport = page.getViewport({ scale: 2 });
         canvas.width = viewport.width;
         canvas.height = viewport.height;
         const container = canvas.parentElement;
