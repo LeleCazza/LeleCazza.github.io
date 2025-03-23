@@ -3,10 +3,8 @@ body {
     background-color: black;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+h1 {
+    font-family: "Monofett", monospace;
 }
 
 .main {
@@ -19,4 +17,10 @@ body {
     padding: 0;
     cursor: pointer;
     color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
