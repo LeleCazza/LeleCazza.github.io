@@ -1,5 +1,5 @@
 function openMenu() {
-    $("#menu").load("/menu.html");
+    $("#menu").load("/pagine/menu.html");
     document.getElementById("menu").style.display = "block";
     document.getElementById("overlay").style.display = "block"; 
 }
@@ -10,6 +10,6 @@ function closeMenu() {
 }
 
 $(function(){
-    $("#footer").load("/footer.html");
-    $("#header").load("/header.html");
+    $("#footer").load("/pagine/footer.html");
+    $("#header").load("/pagine/header.html");
 });
