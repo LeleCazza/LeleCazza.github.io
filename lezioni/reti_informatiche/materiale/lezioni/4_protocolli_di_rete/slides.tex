@@ -28,13 +28,14 @@
 \makeatother
 
 \title{PROTOCOLLI DI RETE}
-\subtitle{HTTP, IP, DHCP, DNS}
+\subtitle{HTTP, IP, DHCP, DNS e risorse URL}
 \date{}
 \institute{\textit{
         Fonti:
         \begin{itemize}
             \item[-] \href{https://it.wikipedia.org/wiki/Protocollo_di_rete}{Wikipedia}
             \item[-] \href{https://www.forbes.com/advisor/it/business/software/ipv6-protocollo-vpn/}{Forbes}
+            \item[-] \href{https://www.fastweb.it/fastweb-plus/digital-magazine/cose-url/}{Fastweb Plus} 
         \end{itemize}
     }
 }
@@ -255,5 +256,75 @@
         \end{minipage}
     \end{alertblock}
 \end{frame}
+
+\begin{frame}{URL}
+    \begin{alertblock}{COMPOSIZIONE DEGLI URL}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un \textbf{URL} è composto da tre sezioni fondamentali, ognuna delle quali svolge un ruolo determinante per identificare una risorsa in maniera precisa:
+            \begin{itemize}
+                \pause
+                \item \textbf{Schema}: Indica il protocollo da utilizzare per accedere alla risorsa. Esempi: http, https, ftp.
+                \pause
+                \item \textbf{Authority}: Identifica il server che ospita la risorsa. L'\textbf{hostname} o \textbf{nome di dominio}, ad esempio: www.scuola.it. 
+                Quest'ultimo si compone a sua volta di tre elementi, dei quali il più importante è il \textbf{\href{https://it.wikipedia.org/wiki/Dominio\_di\_primo\_livello}{Top-Level Domain (TLD)}}, nell'esempio la particella ``it", 
+                che indica il dominio di primo livello. 
+                \pause
+                \item \textbf{Path}: Specifica il percorso della risorsa all'interno del server tramite caratteri speciali, come: ?, \#, \&.
+            \end{itemize}
+            \bigskip
+            \tiny{\textbf{Curiosità}}\\
+            \tiny{\href{https://www.ilpost.it/2023/10/07/domini-siti-web-anguilla-tuvalu/}{Anguilla, nei Caraibi, sta facendo un sacco di soldi}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{URL}
+    \only<1 | handout:0>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url1.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<2 | handout:0>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url2.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<3 | handout:0>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url3.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<4 | handout:0>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url4.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<5 | handout:1>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url5.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<6 | handout:2>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url6.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<7 | handout:3>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url7.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<8 | handout:4>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url8.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<9 | handout:5>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url9.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<10 | handout:6>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url10.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+    \only<11 | handout:7>{\begin{figure}
+        \includegraphics[width=\linewidth]{img/url11.png}
+        \caption{{creata con \href{https://www.canva.com/}{Canva}}}
+    \end{figure}}
+\end{frame}
+
 
 \end{document}

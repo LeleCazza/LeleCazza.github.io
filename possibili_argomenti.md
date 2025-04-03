@@ -1,26 +1,11 @@
 # RETE
 - STORIA DI INTERNET E SUA STRUTTURA
-    - https://attivissimo.blogspot.com/2022/01/hacker-nel-far-west.html
-    - https://www.geopop.it/la-prima-chiamata-transatlantica-7-gennaio-1927-come-cambiata-la-telefonia-quasi-100-anni-dopo/
-    - https://www.geopop.it/cose-e-come-funziona-la-rete-cellulare-dalla-prima-generazione-al-5g/
-    - https://www.fastweb.it/fastweb-plus/digital-dev-security/cosa-sono-e-come-funzionano-le-telecomunicazioni/
-    - https://www.isoc.it/storia-di-internet
-    - https://attivissimo.blogspot.com/2022/04/podcast-rsi-la-dannazione-del-default.html
-    - https://www.submarinecablemap.com/
-    - https://www.geopop.it/serie/cavi-sottomarini/
-    - https://blog.google/intl/it-it/prodotti/esplora-trova-risposte/project-loon-accesso-internet-tramite/
-    - https://www.ilpost.it/2021/01/22/alphabet-loon-palloni-aerostatici/
-    - https://www.geopop.it/5g-vs-4g-quali-sono-le-differenze-e-i-vantaggi-della-nuova-generazione/
-    - https://www.ilpost.it/2023/10/07/domini-siti-web-anguilla-tuvalu/
-    - https://www.wired.it/article/stati-uniti-pallone-spia-cinese/
+    
     - https://www.linkiesta.it/blog/2015/11/la-storia-della-regola-34-di-internet/
-    - https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
-    - https://www.wired.it/article/trump-scarcerazione-ross-ulbricht-silk-road/
-    - https://it.wikipedia.org/wiki/Social_network
-    - https://www.wired.it/article/cavi-sottomarini-baltico-russia/
-    - https://www.startmag.it/economia/worldline-problemi-pagamenti-pos/
-    - https://techcrunch.com/2024/11/29/meta-plans-to-build-a-10b-subsea-cable-spanning-the-world-sources-say/
     - https://www.ilpost.it/2024/12/02/data-center-mancano-norme/
+
+
+
 - SPLINTERNET E ROTTURA DELLA RETE
     - https://www.cybersecurity360.it/cybersecurity-nazionale/lera-di-splinternet-cosi-la-geopolitica-sta-fratturando-il-cyberspazio/
     - https://www.ilpost.it/massimomantellini/2021/10/11/internet-in-effetti-si-e-rotta/
@@ -55,6 +40,7 @@
     - https://it.wikipedia.org/wiki/Operazione_Doppelg%C3%A4nger
     - https://www.wired.it/article/meta-fine-fact-checking-reazioni-partner/
 - UTILIZZO CORRETTO DELLA RETE E DEI SOCIAL NETWORK
+    - https://it.wikipedia.org/wiki/Social_network
     - https://www.youtube.com/watch?v=UVo9DsmaexE
     - https://joinmastodon.org/it
     - https://lucysullacultura.com/linformazione-sta-sparendo-dai-social-ed-e-un-problema/
@@ -151,6 +137,7 @@
     - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
     - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
 - STORIA DELL'IA
+    - https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
     - https://www.youtube.com/watch?v=C3B_OqDKJXQ&list=PLE2sPzBZPl7ABcaFLrQfE5Jt-8P0k724H
     - https://www.wired.it/article/marvin-minsky-intelligenza-artificiale/
     - https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
@@ -312,6 +299,7 @@
     - https://www.insic.it/privacy-e-sicurezza/information-security/passkey-lalternativa-alla-password-cose-e-come-funziona/#:~:text=La%20vera%20grande%20differenza%20tra,facciale%20o%20tramite%20impronta%20digitale.
     - https://it.wikipedia.org/wiki/0-day
 - CURIOSITA' E ATTACCHI INFORMATICI
+    - https://www.wired.it/article/trump-scarcerazione-ross-ulbricht-silk-road/
     - https://inchiostrovirtuale.it/crittografia-maria-stuarda/
     - https://www.ilpost.it/2024/03/28/sam-bankman-fried-condanna-frode/
     - https://www.agendadigitale.eu/sanita/data-breach-cosa-rischia-il-responsabile-del-trattamento-e-come-puo-tutelarsi-le-indicazioni-del-garante/
