@@ -1,11 +1,7 @@
 # RETE
 - IDENTIFICARE FAKE NEWS E SCAM, RIMUOVERE CONTENUTI INDESIDERATI
-    - https://toolbox.google.com/factcheck/explorer/search/list:recent;hl=it
-    - https://www.scamadviser.com/it/check-email-for-phishing-viruses-scams
     - https://takeitdown.ncmec.org/it/
     - https://www.pandasecurity.com/it/mediacenter/disinformazione-deep-fake/
-    - https://haveibeenpwned.com/
-    - https://getgophish.com/
     - https://www.wired.it/article/meta-chiude-crowdtangle-disinformazione/
     - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-panico-per-la-guerra.html?m=1
     - https://www.newsguardtech.com/it/
@@ -37,8 +33,7 @@
 
 # INTELLIGENZA ARTIFICIALE
 - PROBLEMI CREAZIONE IA
-    - https://www.ilpost.it/2016/03/25/tay-microsoft-ai-razzista/
-    - https://www.agi.it/lifestyle/news/2016-03-25/tay_utente_virtuale_microsoft_diventa_ninfomane_e_nazista-643587/
+    - https://www.hwupgrade.it/news/sistemi/microsoft-spegne-tay-il-chatbot-twitter-diventato-razzista-e-misantropo-in-24-ore_61756.html 
     - https://forbes.it/2019/06/19/intelligenza-artificiale-e-lavoro-etichettatori-nuovi-schiavi-silicon-valley/
     - https://www.ai-aware.eu/https-spectrum-ieee-org-the-alignment-problem-openaiutm_sourcetldrai/
     - https://www.wired.it/attualita/tech/2020/12/10/google-censura-intelligenza-artificiale-ricercatrice-timnit-gebru/
