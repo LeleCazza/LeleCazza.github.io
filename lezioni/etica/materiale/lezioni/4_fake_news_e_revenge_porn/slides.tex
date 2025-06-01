@@ -1,0 +1,265 @@
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{FAKE NEWS, DEEP FAKE E REVENGE PORN}
+\subtitle{informazione libera, identificare e proteggersi dai fake e rimozione di contenuti indesiderati}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-panico-per-la-guerra.html}{Il Disinformatico}
+            \item[-] \href{https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9845178}{Cerrina Feroni (Garante privacy): ``Cosa fare contro la dittatura del pensiero dominante''} 
+            \item[-] \href{https://www.garanteprivacy.it/temi/revengeporn}{Garante per la protezione dei dati personali}
+            \item[-] \href{https://lucysullacultura.com/linformazione-sta-sparendo-dai-social-ed-e-un-problema/}{Andrea Daniele Signorelli (Lucysullacultura)} 
+            \item[-] \href{https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/}{Riccardo Laurenti (ICT Security Magazine)} 
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\section{FAKE NEWS}
+
+\begin{frame}{FAKE NEWS STORICA}
+    \begin{alertblock}{LA GUERRA DEI MONDI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Sono le otto di sera della vigilia di Halloween del 1938. 
+            Negli Stati Uniti, la rete radiofonica Columbia Broadcasting Systems (CBS), 
+            trasmette un adattamento del libro di Herbert George Wells ``La Guerra dei Mondi''. 
+            Il radiodramma inizia come se fosse un programma musicale e poi sembra interrompersi per 
+            un notiziario urgente:
+        \end{minipage}
+    \end{alertblock}
+    \pause
+    \begin{alertblock}{}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \textit{Signore e signori, vogliate scusarci per l'interruzione del nostro programma 
+            di musica da ballo, ma ci è appena pervenuto uno speciale bollettino della 
+            Intercontinental Radio News. Alle 7:40, ora centrale, il professor Farrell 
+            dell'Osservatorio di Mount Jennings, Chicago, Illinois, ha rilevato diverse 
+            esplosioni di gas incandescente che si sono succedute ad intervalli regolari 
+            sul pianeta Marte. Le indagini spettroscopiche hanno stabilito che il gas 
+            in questione è idrogeno e si sta muovendo verso la Terra ad enorme velocità.}\\
+            \bigskip
+            \tiny{\textbf{``La Guerra dei Mondi'' di Orson Welles}}\\
+            \tiny{\href{https://www.youtube.com/watch?v=Xs0K4ApWl4g}{Orson Welles - War Of The Worlds - Radio Broadcast 1938 - Complete Broadcast.}}\\
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{FAKE NEWS}
+    \begin{alertblock}{MISINFORMATION}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Si verifica quando contenuti falsi vengono diffusi accidentalmente da 
+            utenti inconsapevoli, convinti di divulgare contenuti che corrispondono 
+            a un reale interesse sociale.\\
+            \bigskip
+            \tiny{\textbf{Come proteggersi?}}\\
+            \tiny{\href{https://www.newsguardtech.com/it/}{Newsguardtech.com}}\\
+        \end{minipage}
+    \end{alertblock}
+    \pause
+    \begin{alertblock}{MALINFORMATION}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Si verifica quando informazioni veritiere vengono pubblicate 
+            con lo specifico scopo di creare conseguenze avverse.
+        \end{minipage}
+    \end{alertblock}
+    \pause
+    \begin{alertblock}{DISINFORMATION}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Si verifica quando il contenuto della notizia diffusa è 
+            intenzionalmente falso e trasmesso ad hoc per causare conseguenze dannose.\\
+            \bigskip
+            \tiny{\textbf{Come proteggersi?}}\\
+            \tiny{\href{https://www.bufale.net/}{Bufale.net}}\\
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{SOCIAL NETWORK COME FONTE DI INFORMAZIONE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{RICERCA ALGORITMICA PASSIVA}: la ricerca dell’informazione sui social non è quasi mai attiva: 
+        le notizie compaiono sul nostro feed a seconda di quanto l’algoritmo ci ritenga interessati a politica, 
+        temi sociali, ecc (o quanto l’abbiamo addestrato a farlo, seguendo varie testate, giornalisti, 
+        divulgatori e così via);
+        \pause
+        \item \textbf{SHADOW BAN (``divieto ombra'')}: meccanismo con cui le piattaforme social 
+        riducono drasticamente - e senza dichiararlo - la visibilità di alcuni utenti e dei contenuti 
+        che producono;
+        \pause
+        \item \textbf{OPT OUT CONTENUTI POLITICI}: Meta nella sezione “Privacy” ha inserito un pulsante 
+        - attivato di default - che ``limita i contenuti di natura politica''. Instagram si limita poi a 
+        definire, con vaghezza, ``politici'' i contenuti che ``potrebbero menzionare governi, elezioni o 
+        argomenti sociali che interessano un gruppo di persone e/o la società in generale''.
+    \end{itemize}
+    \bigskip
+    \tiny{\textbf{E i gionali/siti/app di news online?}}\\
+    \tiny{\href{https://www.feltrinellieducation.it/magazine/l-economia-dell-attenzione-e-il-paradosso-che-sta-uccidendo-i-giornali}{L’economia dell’attenzione}}\\
+\end{frame}
+
+\begin{frame}{SOCIAL NETWORK COME FONTE DI INFORMAZIONE}
+    \begin{columns}
+        \column{.6\textwidth}
+            \justifying
+            \textbf{Social networking che non è in vendita}.\\
+            La tua home feed dovrebbe essere riempita con ciò che conta di più per te, 
+            non con ciò che una corporazione pensa che dovresti vedere. Social media 
+            radicalmente diverso, di nuovo nelle mani delle persone.\\
+            \bigskip
+            \tiny{\textbf{MASTODON}}\\
+            \tiny{\href{https://joinmastodon.org/it}{Cos'è e come funziona Mastodon?}}\\
+        \column{.4\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/mastodon.png}
+                \caption{{Fonte: \href{https://joinmastodon.org/it}{Mastodon}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{FEED RSS}
+    \begin{columns}
+        \column{.6\textwidth}
+            \justifying
+            l'\textbf{RSS} è uno dei più popolari formati per la distribuzione di contenuti Web. 
+            L'applicazione principale per cui è noto sono i flussi che permettono di \textbf{essere aggiornati su 
+            nuovi articoli o commenti pubblicati nei siti di interesse senza doverli visitare manualmente 
+            a uno a uno}. Visto che il formato è predefinito, un qualunque lettore RSS potrà presentare 
+            in una maniera omogenea notizie provenienti dalle fonti più diverse.\\
+            \bigskip
+            \tiny{\textbf{RSS Feed Reader}}\\
+            \tiny{\href{https://f-droid.org/it/packages/com.nononsenseapps.feeder/}{Feeder}}
+        \column{.4\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/rss.png}
+                \caption{{Fonte: \href{https://commons.wikimedia.org/wiki/File:Rss-feed.svg}{Wikimedia Commons}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\section{IA E FAKE NEWS}
+
+\begin{frame}{IA E FAKE NEWS}
+    \begin{columns}        
+        \column{.4\textwidth}
+            \begin{figure}
+                \href{https://www.youtube.com/watch?v=oxXpB9pSETo}{\includegraphics[width=\linewidth]{img/play.png}}
+                \caption{{Fonte: \href{https://www.youtube.com/watch?v=oxXpB9pSETo}{Diep Nep: This is not Morgan Freeman}}}
+            \end{figure}
+        \column{.6\textwidth}
+            \begin{alertblock}{DEEP FAKE}
+                \begin{minipage}{0.98\linewidth}
+                    \justifying
+                    I \textbf{deepfake sono contenuti multimediali manipolati}, spesso video, \textbf{che utilizzano la tecnologia 
+                    dell’intelligenza artificiale} per creare immagini realistiche di persone o situazioni che 
+                    in realtà non sono accadute.\\
+                    \bigskip
+                    \tiny{\textbf{Whitepaper (06/2022) di Francesco Arruzzoli}}\\
+                    \tiny{\href{https://www.ictsecuritymagazine.com/pubblicazioni/deepfake-cyber-intelligence/}{Deepfake \& cyber intelligence}}
+                \end{minipage}
+            \end{alertblock}
+            \pause
+            \begin{alertblock}{QUIZ}
+                \begin{minipage}{0.98\linewidth}
+                    \tiny{\href{https://detectfakes.kellogg.northwestern.edu/}{AI-GENERATED OR REAL?}}
+                \end{minipage}
+            \end{alertblock}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{ALCUNE TIPOLOGIE DI DEEP FAKE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{FACE SWAPS}: il viso di una persona di origine (source) viene 
+        sovrapposto su una persona destinataria (target).
+        \pause
+        \item \textbf{LIP-SYNCING}: un video viene modificato per far sembrare che la persona 
+        destinataria pronunci frasi fittizie. Questo processo coinvolge l’utilizzo della voce 
+        registrata da una o più fonti, sincronizzata con un altro video per renderlo autentico. 
+        \pause
+        \item \textbf{PUPPET MASTER}: imposizione dell’aspetto di una persona destinataria (puppet) 
+        su un’altra persona che compie azioni.\\
+        \tiny{\textbf{Curiosità}}\\
+        \tiny{\href{https://www.netflix.com/it/title/81123425}{Verso il futuro, espisodio 7: La vita dopo la morte}}\\
+        \pause
+        \normalsize
+        \item \textbf{DEEP FAKE AUDIO}: manipola e genera file audio falsi che sembrano autentici. 
+        Questa tecnologia può essere utilizzata per alterare voci, creare discorsi o dialoghi inventati, 
+        o persino imitare voci di persone specifiche in modo convincente.\\
+        \tiny{\textbf{Curiosità}}\\
+        \tiny{\href{https://www.wired.it/article/alexa-imita-voci-morti}{Imitazioni di Alexa}}\\
+        \pause
+        \normalsize
+        \item \textbf{DEEP NUDE}: le immagini vengono manipolate con lo scopo di rimuovere 
+        gli indumenti di una persona, creando immagini finte e sessualmente esplicite.
+    \end{itemize}
+\end{frame}
+
+\section{REVENGE PORN}
+
+\begin{frame}{REVENGE PORN}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il revenge porn, consiste nell’invio, consegna, cessione, pubblicazione o diffusione, 
+            da parte di chi li ha realizzati o sottratti e \textbf{senza il consenso della persona} cui si riferiscono, 
+            di immagini o video a contenuto sessualmente esplicito destinati a rimanere privati. 
+            Tale diffusione avviene di solito a scopo vendicativo, per denigrare pubblicamente, 
+            ricattare, bullizzare o molestare. Si tratta quindi di una \textbf{pratica che può avere effetti 
+            drammatici a livello psicologico, sociale e anche materiale sulla vita delle persone che ne sono vittime}.\\
+            \bigskip
+            \tiny{\textbf{Come segnalare un abuso?}}\\
+            \tiny{\href{https://servizi.gpdp.it/diritti/s/revenge-porn-scelta-auth}{Segalazione al Garante per la protezione dei dati personali}}\\
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{COME DIFENDERSI?}
+    \begin{minipage}{0.98\linewidth}
+        \centering
+        \huge
+        \textit{``LA PRIMA E PI\'U IMPORTANTE FORMA DI DIFESA SONO SEMPRE LA CONSAPEVOLEZZA E LA PRUDENZA.''}\\
+    \end{minipage}\\
+    \bigskip
+    \tiny{\textbf{Come rimuovere i contenuti?}}\\
+    \tiny{\href{https://takeitdown.ncmec.org/it/}{Take It Down (servizio per minorenni)}}\\
+    \tiny{\href{https://stopncii.org/}{Stop Non-Consensual Intimate Image Abuse (servizio per maggiorenni)}}
+\end{frame}
+\end{document}

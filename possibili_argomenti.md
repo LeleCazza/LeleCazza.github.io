@@ -1,27 +1,3 @@
-# RETE
-- IDENTIFICARE FAKE NEWS E SCAM, RIMUOVERE CONTENUTI INDESIDERATI
-    - https://takeitdown.ncmec.org/it/
-    - https://www.pandasecurity.com/it/mediacenter/disinformazione-deep-fake/
-    - https://www.wired.it/article/meta-chiude-crowdtangle-disinformazione/
-    - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-panico-per-la-guerra.html?m=1
-    - https://www.newsguardtech.com/it/
-    - https://www.permessonegato.it/
-    - https://www.bufale.net/
-    - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9845178
-    - https://it.wikipedia.org/wiki/Operazione_Doppelg%C3%A4nger
-    - https://www.wired.it/article/meta-fine-fact-checking-reazioni-partner/
-- UTILIZZO CORRETTO DELLA RETE E DEI SOCIAL NETWORK
-    - https://it.wikipedia.org/wiki/Social_network
-    - https://www.youtube.com/watch?v=UVo9DsmaexE
-    - https://joinmastodon.org/it
-    - https://lucysullacultura.com/linformazione-sta-sparendo-dai-social-ed-e-un-problema/
-    - https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
-    - https://www.feltrinellieducation.it/magazine/l-economia-dell-attenzione-e-il-paradosso-che-sta-uccidendo-i-giornali
-    - https://downdetector.it/
-    - https://www.wired.it/article/australia-divieto-social-network-minori-16-anni/
-    - https://www.wired.it/article/meta-indagini-multa-evasione-fiscale/
-    - https://www.youtube.com/watch?v=TozMwhgf50U&ab_channel=Rai
-
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
     - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
@@ -32,7 +8,9 @@
     - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
 
 # INTELLIGENZA ARTIFICIALE
+
 - PROBLEMI CREAZIONE IA
+
     - https://www.hwupgrade.it/news/sistemi/microsoft-spegne-tay-il-chatbot-twitter-diventato-razzista-e-misantropo-in-24-ore_61756.html 
     - https://forbes.it/2019/06/19/intelligenza-artificiale-e-lavoro-etichettatori-nuovi-schiavi-silicon-valley/
     - https://www.ai-aware.eu/https-spectrum-ieee-org-the-alignment-problem-openaiutm_sourcetldrai/
@@ -57,20 +35,15 @@
     - https://www.macsis.unimib.it/wp-content/uploads/sites/105/2021/05/Automation-Bias_WP_1_2020.pdf
     - https://www.rsi.ch/cultura/La-pericolosa-filosofia-dei-giganti-dell%E2%80%99IA--2423004.html
     - https://www.hwupgrade.it/news/web/meta-sotto-accusa-avrebbe-usato-contenuti-pirata-ottenuti-via-torrent-per-allenare-l-ia_134519.html
+
 - PROBLEMI UTILIZZO IA
-    - https://www.ictsecuritymagazine.com/articoli/deepfake-e-intelligenza-artificiale-tra-rischi-di-sicurezza-e-vantaggi/
     - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
     - https://siamomine.com/solitudine-salute-mentale-chat-bot-ia-artificiale/
     - https://medium.com/@austin-stubbs/llm-security-types-of-prompt-injection-d7ad8d7d75a3
     - https://digitalinnovationdays.com/news/digital-afterlife-continuare-a-vivere-oltre-la-morte
-    - https://detectfakes.kellogg.northwestern.edu/
     - https://www.ninja.it/la-campagna-the-shotline-le-vittime-di-armi-con-l-ai/
-    - https://www.wired.it/article/alexa-imita-voci-morti/
-    - https://www.ilpost.it/2024/05/07/griefbot-lutto-intelligenza-artificiale/
-    - https://www.wired.it/article/intelligenza-artificiale-avatar-persone-morte-cina-griefbot/
     - https://www.agendadigitale.eu/cultura-digitale/lascesa-dei-virtual-influencer-cosa-ci-dicono-sul-concetto-di-umanita/
     - https://www.agendadigitale.eu/scuola-digitale/lia-in-classe-cambia-tutto-esempi-e-approcci-per-preparare-docenti-e-studenti/
-    - https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
     - https://www.wired.it/article/amazon-personale-intelligenza-artificiale/
     - https://www.wired.it/article/minority-report-20-anni-analisi/
     - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-perche-le-tesla.html
@@ -100,12 +73,14 @@
     - https://www.agendadigitale.eu/sanita/intelligenza-artificiale-per-le-assicurazioni-sanitarie-in-italia-e-negli-usa-il-quadro-luci-e-ombre/
     - https://open.spotify.com/episode/0kzpygrXdTSJQmryfxynwd
     - https://www.ansa.it/canale_tecnologia/notizie/future_tech/2023/11/27/riapre-way-of-the-future-la-chiesa-che-venera-gli-algoritmi_a5077e2f-7f13-410a-ad5d-5052988040dc.html
+
 - REGOLAMENTAZIONE DELL'IA
     - https://www.youtube.com/watch?v=j2GcfGXg5wo
     - https://www.caidp.org/
     - https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
     - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
     - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
+
 - STORIA DELL'IA
     - https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
     - https://www.youtube.com/watch?v=C3B_OqDKJXQ&list=PLE2sPzBZPl7ABcaFLrQfE5Jt-8P0k724H
@@ -136,6 +111,7 @@
     - https://open.spotify.com/episode/5C0ybbZMqT9WuVMXMPCExx
     - https://it.cointelegraph.com/news/elon-musk-xai-colossus-ai-training-cluster
     - https://it.wikipedia.org/wiki/Singolarit%C3%A0_tecnologica
+
 - GAN (Generative Adversarial Networks)
     - https://deepdreamgenerator.com/
     - https://openai.com/
@@ -143,6 +119,7 @@
     - https://midjourney.com/
     - https://www.anthropic.com/
     - https://www.anthropic.com/research/mapping-mind-language-model
+
 - TOOL DI IA 
     - CHAT
         - https://www.perplexity.ai/
@@ -157,7 +134,8 @@
         - https://www.deborahmilano.com/it/products/virtual-try-on/
 
 # PRIVACY, LIBERTA' E PROFILAZIONE
-  
+
+- https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
 - https://www.gameifications.com/gamification-per-la-vita-dei-cittadini-cinesi/
 - https://www.studiolegaledelliponti.eu/chi-bello-vuole-apparire-la-privacy-deve-seguire-il-caso-douglas/#Veniamo_al_Caso_Douglas
 - https://www.ictsecuritymagazine.com/articoli/una-volta-che-la-privacy-e-invasa-la-privacy-e-perduta/
@@ -269,6 +247,7 @@
     - https://www.insic.it/privacy-e-sicurezza/information-security/passkey-lalternativa-alla-password-cose-e-come-funziona/#:~:text=La%20vera%20grande%20differenza%20tra,facciale%20o%20tramite%20impronta%20digitale.
     - https://it.wikipedia.org/wiki/0-day
 - CURIOSITA' E ATTACCHI INFORMATICI
+    - https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
     - https://www.wired.it/article/trump-scarcerazione-ross-ulbricht-silk-road/
     - https://inchiostrovirtuale.it/crittografia-maria-stuarda/
     - https://www.ilpost.it/2024/03/28/sam-bankman-fried-condanna-frode/
