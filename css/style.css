@@ -4,6 +4,12 @@ body {
     font-size: larger;
 }
 
+@media (min-width: 768px) {
+  body {
+    text-align: justify;
+  }
+}
+
 h1 {
     font-family: "Monofett", monospace;
 }
