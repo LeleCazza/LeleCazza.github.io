@@ -48,7 +48,7 @@ function IniziaTemplateBloccoSlide(idBlocco) {
     var codiceHTML = 
     '   <div id="blocco'+idBlocco+'" class="w3-cell w3-padding w3-mobile">'+
     '       <div class="w3-panel w3-display-container w3-card-4 w3-black w3-round-large w3-border-white w3-border" style="height: 100%;">'+
-    '           <div class="w3-display-container w3-center" style="height: 100%;">'
+    '           <div class="w3-display-container w3-center" style="text-align: justify; height: 100%;">'
     document.write(codiceHTML);
 }
 

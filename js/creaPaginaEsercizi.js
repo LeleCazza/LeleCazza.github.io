@@ -38,7 +38,7 @@ function IniziaTemplateBloccoEsercizio() {
         '<div class="w3-cell-row">'+
         '   <div class="w3-container w3-cell w3-mobile">'+
         '       <div class="w3-panel w3-card-4 w3-black w3-round-large w3-border-white w3-border">'+
-        '           <div class="w3-container">';
+        '           <div class="w3-container" style="text-align: justify;">';
     document.write(codiceHTML);
 }
 
