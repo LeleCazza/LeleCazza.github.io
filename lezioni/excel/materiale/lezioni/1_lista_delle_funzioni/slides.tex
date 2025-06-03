@@ -1,0 +1,156 @@
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{LISTA DELLE FUNZIONI}
+\subtitle{Fogli di calcolo}
+\date{}
+\institute{}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{FORMATI BASE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{VALUTA (€)} esempio: 23,01€ (ventitré euro e un centesimo)
+        \item \textbf{DURATA (hh.mm.ss)} esempio: 2.30.00 (due ore, 30 minuti, 0 secondi)
+        \item \textbf{PERCENTUALE (\%)} esempio: 15\% (quindici percento)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{OPERATORI BASE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Somma tra due celle:} = cella1 + cella2
+        \item \textbf{Sottrazione tra due celle:} = cella1 - cella2
+        \item \textbf{Moltiplicazione tra due celle:} = cella1 * cella2
+        \item \textbf{Divisione tra due celle:} = cella1 / cella2
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FUNZIONI BASE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Somma tra N celle:} = SOMMA (cella1 : cellaN)
+        \item \textbf{Media tra N celle:} = MEDIA (cella1 : cellaN)
+        \item \textbf{Massimo tra N celle:} = MAX (cella1 : cellaN)
+        \item \textbf{Minimo tra N celle:} = MIN (cella1 : cellaN)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{RIFERIMENTI}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Relativi:} riferimenti semplici alle celle (es. A1, B2, C3). I 
+        riferimenti relativi cambiano in base alla direzione del completamento automatico.
+    \item \textbf{Assoluti:} riferimenti assoluti alle celle (es. \$A\$1, \$B\$2, \$C\$3). 
+        I riferimenti assoluti in caso di completamenti automatici rimangono invariati.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{OPERATORI DI CONFRONTO}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Confronta se la prima cella è uguale alla seconda cella:} \\ = cella1 = cella2
+        \item \textbf{Confronta se la prima cella è maggiore della seconda cella:} \\ = cella1 \textgreater{} cella2
+        \item \textbf{Confronta se la prima cella è maggiore o uguale alla seconda cella:} \\ = cella1 \textgreater= cella2
+        \item \textbf{Confronta se la prima cella è minore della seconda cella:} \\ = cella1 \textless{} cella2
+        \item \textbf{Confronta se la prima cella è minore o uguale alla seconda cella:} \\ = cella1 \textless= cella2
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FUNZIONI LOGICHE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Restituisce VERO se tutte le condizioni hanno valore VERO, 
+        FALSO altrimenti:} = E (condizione1 ; condizione2 ; ecc.)
+        \item \textbf{Restituisce VERO se una delle condizioni ha valore VERO, FALSO 
+        altrimenti:} = O (condizione1 ; condizione2 ; ecc.)
+        \item \textbf{Inverte in valore logico dell\textquotesingle argomento, 
+        restituisce FALSO per un argomento VERO e VERO per un argomento FALSO:} = NON (argomento)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FUNZIONE CASUALE E DI SCELTA}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Numero casuale compreso tra due valori:} = CASUALE.TRA (num1 ; num2)
+        \item \textbf{Seleziona un valore o un\textquotesingle azione da eseguire da 
+        un elenco di valori in base a un\textquotesingle indice:} = SCEGLI (indice ; valore1 ; valore2 ; ecc.)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FORMATTAZIONE CONDIZIONALE}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Formula preimpostata}: formatta le celle desiderate in base a 
+        funzioni preimpostate. La creazione delle regole di formattazione deve 
+        essere impostata scegliendo la funzione preimpostata da utilizzare 
+        tramite gli strumenti messi a disposizione dal software per la 
+        gestione del foglio di calcolo.
+        \item \textbf{Formula personalizzata}: formatta le celle desiderate in base 
+        a funzioni personalizzate. La creazione delle regole di formattazione 
+        deve essere impostata personalizzando la funzione da utilizzare 
+        tramite gli strumenti messi a disposizione dal software per la 
+        gestione del foglio di calcolo.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FUNZIONI CONDIZIONALI}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Nel caso la condizione sia verificata, effettua i comandi 
+        presenti nella sezione vero, in alternativa, effettua i comandi 
+        presenti nella sezione falso:} \\
+        = SE ( condizione ; vero ; falso )
+        \item \textbf{Somma le celle specificate secondo una condizione assegnata a un determinato intervallo di celle:} 
+        = SOMMA.SE ( intervallo\_da\_considerare ; criterio\_per\_la\_somma ; intervallo\_effettivo\_da\_sommare)
+        \item \textbf{Conta il numero di celle di un determinato intervallo che soddisfano la condizione espressa nel campo criterio:} 
+        = CONTA.SE ( intervallo ; criterio )
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FUNZIONI AGGREGATE CONDIZIONALI}
+    \begin{itemize}
+        \justifying
+        \item \textbf{Somma le celle presenti in un intervallo specificato solamente 
+        nel caso in cui vengano soddisfatte un determinato insieme di 
+        condizioni su determinati intervalli di celle:}  = SOMMA.PIÙ.SE ( intervallo\_effettivo\_da\_sommare ; 
+        intervallo\_criterio\_1 ; criterio\_1 ; intervallo\_criterio\_2 ; criterio\_2 ; ecc. )
+        \item \textbf{Conta il numero di celle presenti in intervalli specificati 
+        solamente nel caso in cui vengano soddisfatte un determinato insieme 
+        di condizioni su determinati intervalli di celle:} =CONTA.PIÙ.SE ( intervallo\_criterio\_1 ; 
+        criterio\_1 ; intervallo\_criterio\_2 ; criterio\_2 ; ecc.)
+    \end{itemize}
+\end{frame}
+\end{document}
