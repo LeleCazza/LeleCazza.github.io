@@ -1,10 +1,15 @@
 body {
     height: 100%;
     background-color: black;
+    font-size: larger;
 }
 
 h1 {
     font-family: "Monofett", monospace;
+}
+
+ul, ol{
+    padding-left: 1em;
 }
 
 .main {
