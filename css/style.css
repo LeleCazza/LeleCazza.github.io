@@ -14,9 +14,14 @@ h1 {
     font-family: "Monofett", monospace;
 }
 
-ul, ol{
+ul {
     padding-left: 1em;
 }
+
+ol {
+    padding-left: 2;
+}
+
 
 .main {
     flex-grow: 1;
