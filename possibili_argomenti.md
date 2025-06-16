@@ -6,6 +6,7 @@
     - https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
     - https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
     - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
+    - https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
 
 # INTELLIGENZA ARTIFICIALE
 
@@ -307,3 +308,6 @@
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-nasa-monitor-giganti-piatti.html
 - https://leonardo-supercomputer.cineca.eu/it/top500-leonardo-quarto/
 - https://www.redhotcyber.com/post/la-macchina-di-turing-realizzata-con-i-mattoncini-lego-il-progetto-pubblicato-su-lego-ideas/#:~:text=Un%20designer%20conosciuto%20con%20lo,e%20abilit%C3%A0%20tecnica%20dell'autore.
+
+# BINARIO
+- https://www.asciiart.eu/
