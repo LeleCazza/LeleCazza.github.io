@@ -46,14 +46,14 @@ SAGGI
 
 ### 2024
 
+*   Memorie del digitale. Cronache, storie e aneddoti della trasformazione digitale (Giovanni Manca) 
 *   L’algoritmo di Babele (Andrea Colamedici)
 *   Welcome to the cyber jungle (Marco Schiaffino)
 *   Violenza virtuale (Francesco Striano)
 *   Machina Sapiens (Nello Cristianini)
-*   Nexus (Yuval Noah Harari) 
+*   La mente dell'hacker. (Bruce Schneier)
 *   Chip war (Chris Miller)
 *   Sopravvivere nell'era dell'intelligenza artificiale (Walter Ferri)
-*   La mente dell'hacker. (Bruce Schneier)
 *   Intelligenza artificiale e democrazia. (Oreste Pollicino)
 *   L’etica dell’intelligenza artificiale spiegata a mio figlio (Enrico Panai)
 *   Geopolitica dello spazio (Emilio Cozzi)
