@@ -1,0 +1,108 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{tikz}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{DAL DECIMALE AL BINARIO}
+\subtitle{Conversioni tra sistemi di numerazione}
+\date{}
+\institute{}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{COVERSIONE BINARIO - DECIMALE}
+    \centering
+    \huge
+    \begin{tabular}{c c c c}
+        1 & 3 & 1 & 2 \\
+    \end{tabular}
+\end{frame}
+
+\begin{frame}{COVERSIONE DECIMALE - BINARIO}
+    \centering
+    \begin{tabular}{r||c|c}
+        \textbf{NUMERO DECIMALE} & 1312 & \textbf{RESTO} \\
+        \hline
+        \pause
+        1312 : \textbf{2} = & 656 & \textbf{0} \\
+        \hline
+        \pause
+        656 : \textbf{2} = & 328 & \textbf{0} \\
+        \hline
+        \pause
+        328 : \textbf{2} = & 164 & \textbf{0} \\
+        \hline
+        \pause
+        164 : \textbf{2} = & 82 & \textbf{0} \\
+        \hline
+        \pause
+        82 : \textbf{2} = & 41 & \textbf{0} \\
+        \hline
+        \pause
+        41 : \textbf{2} = & 20 & \textbf{1} \\
+        \hline
+        \pause
+        20 : \textbf{2} = & 10 & \textbf{0} \\
+        \hline
+        \pause
+        10 : \textbf{2} = & 5 & \textbf{0} \\
+        \hline
+        \pause
+        5 : \textbf{2} = & 2 & \textbf{1} \\
+        \hline
+        \pause
+        2 : \textbf{2} = & 1 & \textbf{0} \\
+        \hline
+        \pause
+        1 : \textbf{2} = & \textcolor{red}{\textbf{0}} & \textbf{1} \\
+    \end{tabular}
+    \pause
+    \begin{minipage}{0.25\linewidth}
+        \begin{tikzpicture}[remember picture,overlay]
+            \draw[->, ultra thick, rosso] (0.5,-3.4) -- (0.5,2.8) node[above] {};
+        \end{tikzpicture}
+    \end{minipage}
+    \begin{alertblock}{COVERSIONE DECIMALE - BINARIO}
+        \begin{minipage}{0.98\linewidth}
+            \centering
+            \huge
+            $(1312)_{10} = (10100100000)_{2}$
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}

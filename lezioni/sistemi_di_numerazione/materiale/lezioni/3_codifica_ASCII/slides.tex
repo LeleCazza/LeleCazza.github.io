@@ -1,0 +1,112 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{RAPPRESENTAZIONE CARATTERI}
+\subtitle{La codifica ASCII}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://catalogo.sanoma.it/si-op-104157-dal-bit-all-intelligenza-artificiale.html}{Dal BIT all'INTELLIGENZA ARTIFICIALE}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{TITOLO SLIDE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Per rappresentare i caratteri (lettere, numeri, simboli), deve essere utilizzato un 
+            \textbf{sistema di codifica} che associ ad ogni carattere un numero. 
+            L'\textbf{ASCII} (American Standard Code for Information Interchange) è uno dei più 
+            diffusi sistemi di codifica, che associa ad ogni carattere un numero compreso tra 0 e 127 (7 bit).\\
+            \pause
+            Siccome l'ASCII non è in grado di codificare tutti i caratteri di tutte le lingue mondiali, 
+            sono stati sviluppati sistemi di codifica più estesi, i più utilizzati sono:
+            \begin{itemize}
+                \pause
+                \item \href{https://it.wikipedia.org/wiki/ASCII_esteso}{\textbf{Extended ASCII}}: utilizza 8 bit e può rappresentare fino a 256 caratteri;
+                \pause
+                \item \href{https://it.wikipedia.org/wiki/Unicode}{\textbf{Unicode}}: utilizza 16 bit e può rappresentare 65536 caratteri differenti;
+                \pause
+                \item \href{https://it.wikipedia.org/wiki/UTF-8}{\textbf{UTF-8}}: codifica che utilizza gruppi di byte per rappresentare i caratteri Unicode. 
+            \end{itemize}
+            \bigskip
+            \tiny{\textbf{Curiosità}}\\
+            \tiny{\href{https://www.asciiart.eu/}{ASCII Art}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{TABELLA ASCII (lettere maiuscole)}
+    \centering
+    \begin{tabular}{c|c||c|c}
+        \textbf{DECIMALE} & \textbf{CARATTERE} & \textbf{DECIMALE} & \textbf{CARATTERE} \\
+        \hline
+        \hline
+        65 & A & 78 & N \\
+        \hline
+        66 & B & 79 & O \\
+        \hline
+        67 & C & 80 & P \\
+        \hline
+        68 & D & 81 & Q \\
+        \hline
+        69 & E & 82 & R \\
+        \hline
+        70 & F & 83 & S \\
+        \hline
+        71 & G & 84 & T \\
+        \hline
+        72 & H & 85 & U \\
+        \hline
+        73 & I & 86 & V \\
+        \hline
+        74 & J & 87 & W \\
+        \hline
+        75 & K & 88 & X \\
+        \hline
+        76 & L & 89 & Y \\
+        \hline
+        77 & M & 90 & Z \\
+    \end{tabular}
+\end{frame}
+
+\end{document}
