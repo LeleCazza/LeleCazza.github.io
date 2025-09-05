@@ -1,3 +1,6 @@
+POSSIBILI ARGOMENTI
+================
+
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
     - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/

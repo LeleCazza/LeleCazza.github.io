@@ -13,6 +13,7 @@ document.write(
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
 <script src="/js/caricaFooter&Header.js"></script>
+<script src="/js/creaElenco.js"></script>
 <script src="/js/creaPaginaEsercizi.js"></script>
 <script src="/js/creaPaginaLezioni.js"></script>
 <script src="/js/slideshow.js"></script>
