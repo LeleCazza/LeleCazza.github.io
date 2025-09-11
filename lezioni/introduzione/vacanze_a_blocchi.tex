@@ -1,0 +1,120 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{tikz}
+\usepackage[normalem]{ulem}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{VACANZE A BLOCCHI}
+\subtitle{Gioco a quattro squadre}
+\date{}
+\institute{}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{VACANZE A BLOCCHI - CREAZIONE DEI DATI (5 MINUTI) }
+    \begin{itemize}
+        \item Creare cinque bigliettini, uno per ciascuno dei seguenti temi:
+              \begin{enumerate}
+                  \item \textbf{Luogo} visitato durante le vacanze;
+                  \item \textbf{Mezzo} di trasporto utilizzato durante le vacanze;
+                  \item \textbf{Persona} con la quale si è andati in vacanza;
+                  \item \textbf{Attività} svolta durante le vacanze;
+                  \item \textbf{Oggetto} tipico utilizzato durante le vacanze.
+              \end{enumerate}
+        \pause
+        \item Mettete i bigliettini sulla cattedra.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{VACANZE A BLOCCHI - FORMAZIONE DELLE SQUADRE (5 MINUTI)}
+    \begin{enumerate}
+        \item Dividetevi in quattro squadre, posizionandovi nei quattro angoli dell'aula;
+        \pause
+        \item Scegliete un capitano;
+        \pause
+        \item Ogni capitano sceglie il colore della squadra.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{VACANZE A BLOCCHI - ASSEGNAZIONE DEI DATI (5 MINUTI)} 
+    \begin{enumerate}
+        \item Ogni capitano pesca cinque bigliettini;
+        \pause
+        \item Ogni squadra inventa un elemento \textbf{segreto} aggiuntivo a scelta tra i cinque temi precedenti: luogo, mezzo, persona, attività, oggetto;
+        \pause
+        \item Ogni squadra scrive su un foglio le cinque variabili assegnandone i valori pescati e l'elemento segreto:
+                \begin{itemize}
+                    \item[-] Luogo = X
+                    \item[-] Mezzo = [Y,\textbf{Z}]
+                    \item[-] \sout{Persona} =
+                    \item[-] Attività =
+                    \item[-] Oggetto =
+                \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{VACANZE A BLOCCHI - CREAZIONE STORIA (15 MINUTI)}
+    \begin{minipage}{0.98\linewidth}
+        \centering
+        \huge
+        \textit{Ogni squadra scrive una storia sul foglio utilizzando tutte le variabili a sua disposizione, includendo 
+        necessariamente un termine informatico utilizzato nel precedente anno scolastico.}\\
+    \end{minipage}\\
+\end{frame}
+
+\begin{frame}{VACANZE A BLOCCHI - PRESENTAZIONE (3 MINUTI A SQUADRA)}
+    \begin{itemize}
+        \item A turno i capitani delle squadre trascrivono le variabili alla lavagna (senza rivelare quale sia l'elemento segreto);
+        \pause
+        \item A turno i capitani raccontano a voce la storia della propria squadra;
+        \pause
+        \item Ogni squadra avversaria scommette su quale sia l'elemento segreto della squadra che sta presentando.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{VACANZE A BLOCCHI - PUNTEGGI}
+    \begin{itemize}
+        \item Le squadre avversarie devono dare un voto alla storia raccontata, da 1 a 10;
+        \pause
+        \item Ogni squadra che indovina l'elemento segreto della squadra che sta presentando guadagna 5 punti;
+        \pause
+        \item La squadra che ha raccontato la storia guadagna 2 punti per ogni squadra che non ha indovinato l'elemento segreto;
+        \pause
+        \item 5 punti bonus alla squadra che include nella propria storia il nome esatto di un luogo specifico nel quale è stato in vacanza il Prof.
+    \end{itemize}
+\end{frame}
+\end{document}
