@@ -1,0 +1,122 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{DEFINIZIONE DI ALGORITMO}
+\subtitle{Che cos'è un algoritmo?}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://it.wikipedia.org/wiki/The_Art_of_Computer_Programming}{The Art of Computer Programming - Donald E. Knuth}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{DEFINIZIONE DI ALGORITMO}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un algoritmo è un insieme finito di regole che determinano una 
+            sequenza di passi per risolvere uno specifico tipo di problemi o per 
+            svolgere uno specifico tipo di compiti.\\
+            \bigskip
+            \pause
+            Per essere definito tale, un algoritmo deve inoltre soddisfare quattro 
+            proprietà fondamentali:
+            \begin{itemize}
+                \item Finitezza;
+                \item Precisione;
+                \item Dati in ingresso e in uscita;
+                \item Fattibilità.
+            \end{itemize}
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{DEFINIZIONE DI ALGORITMO}
+    \begin{alertblock}{FINITEZZA}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un algoritmo deve terminare dopo un numero finito di passi. Una procedura 
+            che non termina non andrebbe chiamata algoritmo, ma metodo computazionale. 
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{DEFINIZIONE DI ALGORITMO}
+    \begin{alertblock}{PRECISIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Ogni passo di un algoritmo deve essere definito precisamente; le azioni da 
+            eseguire devono essere specificate rigorosamente e in maniera non ambigua 
+            per ogni caso possibile.
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{DEFINIZIONE DI ALGORITMO}
+    \begin{alertblock}{DATI IN INGRESSO E IN USCITA}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un algoritmo ha zero o più input presi da un insieme specificato di oggetti.\\
+            Un algoritmo ha uno o più output, ovvero risultati che stanno in una relazione 
+            specificata con l’input. Dati certi input, l’algoritmo produce sempre gli stessi output.
+            Quando l’algoritmo non ha nessun dato in ingresso, l’output prodotto è sempre lo stesso.
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{DEFINIZIONE DI ALGORITMO}
+    \begin{alertblock}{FATTIBILIT\'A}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un algoritmo per poter essere tale deve essere effettivamente eseguibile, nel senso che
+            tutte le sue operazioni devono essere sufficientemente elementari da poter
+            essere svolte in maniera esatta e in un periodo di tempo finito.
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}
