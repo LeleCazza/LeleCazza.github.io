@@ -156,7 +156,9 @@
             da applicazioni diverse nello stesso momento.
         \end{minipage}
     \end{alertblock}
-    \pause
+\end{frame}
+
+\begin{frame}{PROPRIET\'A DA GARANTIRE}
     \begin{alertblock}{SICUREZZA}
         \begin{minipage}{0.98\linewidth}
             \justifying
@@ -164,38 +166,6 @@
             predisposto un meccanismo di protezione da interventi non autorizzati o da
             eventi accidentali non dovuti all’intervento umano che possono causare
             perdite di dati, come per esempio un blackout.
-        \end{minipage}
-    \end{alertblock}
-\end{frame}
-
-\begin{frame}{PROPRIET\'A DA GARANTIRE}
-    \begin{alertblock}{INTEGRIT\'A}
-        \begin{minipage}{0.98\linewidth}
-            \justifying
-            La base di dati deve garantire l’accesso agli utenti autorizzati, ma deve
-            anche essere in grado di proteggere i dati da eventi accidentali causati dalle
-            applicazioni (errori di sistema) o dagli utenti stessi (per inesperienza o
-            fatalità) che possono produrre inconsistenza dei dati.
-        \end{minipage}
-    \end{alertblock}
-    \pause
-    \begin{alertblock}{ELIMINAZIONE DELLA RIDONDANZA}
-        \begin{minipage}{0.98\linewidth}
-            \justifying
-            La base di dati non deve presentare lo stesso dato in archivi diversi o dati 
-            simili che permettano di ricavare le stesse informazioni.
-        \end{minipage}
-    \end{alertblock}
-\end{frame}
-
-\begin{frame}{PROPRIET\'A DA GARANTIRE}
-    \begin{alertblock}{CONSISTENZA}
-        \begin{minipage}{0.98\linewidth}
-            \justifying
-            I dati devono essere affidabili e reali, quindi non è possibile avere lo stesso
-            dato con valori diversi in archivi diversi, inoltre l'aggiornamento degli stessi
-            deve avvenire in tempo reale per evitare che operazioni successive
-            agiscano su dati non effettivi.
         \end{minipage}
     \end{alertblock}
     \pause
