@@ -63,22 +63,33 @@ function CaricaEsercizio(numEsercizio, nomeCartellaEsercizi) {
 }
 
 function CaricaSoluzione(numEsercizio, nomeCartellaEsercizi, nomiFileSoluzioni) {
+    const pwd = "1312";
     var div = document.getElementById("soluzione" + numEsercizio);
     div.innerHTML += 'Soluzioni:<br><i>';
     nomiFileSoluzioni.forEach(soluzione => {
         let titolo = GeneraTitoli(soluzione.split(".")[0]);
+        let url = "materiale/esercizi/" 
+                    + nomeCartellaEsercizi 
+                    + "/esercizio" 
+                    + numEsercizio 
+                    + "/" 
+                    + soluzione;
         div.innerHTML += 
-            '<a href="materiale/esercizi/'
-                + nomeCartellaEsercizi
-                + '/esercizio'
-                + numEsercizio
-                + '/'
-                + soluzione
-                + '" target=_blank>'
-                + titolo
-                + '</a><br>';
+            '<a href="#" onclick="CheckPwd(\'' + url + '\', \'' + pwd + '\')">' 
+            + titolo 
+            + '</a><br>';
     });
+
     div.innerHTML += '</i><br>';
+}
+
+function CheckPwd(url, pwd) {
+    let inserita = prompt("Inserisci la password per visualizzare la soluzione:");
+    if (inserita === pwd) {
+        window.open(url, "_blank");
+    } else {
+        alert("G A M E O V E R");
+    }
 }
 
 function FineTemplateBloccoEsercizio() {
