@@ -3,7 +3,11 @@ LIBRI DA LEGGERE
 
 FANTASCIENZA/CYBERPUNK/ROMANZI
 ------------------------------
-
+*   Klara e il Sole (Kazuo Ishiguro)
+*   Il Golem (Gustav Meyrink)
+*   Solaris (Stanislaw Lem)
+*   Ubik (Philip K. Dick)
+*   La macchina si ferma e altri racconti (Edward Morgan Forster)
 *   Il ciclo di vita degli oggetti software (Ted Chiang)
 *   Cyberpunk. Antologia assoluta (William Gibson, Neal Stephenson, Bruce Sterling)
 *   Via lattea per negati (Nicola Catellani)

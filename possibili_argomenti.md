@@ -1,6 +1,82 @@
 POSSIBILI ARGOMENTI
 ================
 
+# INTELLIGENZA ARTIFICIALE
+
+## REGOLAMENTAZIONE
+- https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
+- https://www.youtube.com/watch?v=j2GcfGXg5wo
+- https://www.caidp.org/
+- https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
+- https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
+- https://digital-strategy.ec.europa.eu/it/policies/ai-pact
+
+## ROBA ASSURDA
+- https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
+- Etica itelligenza artificiale attivisti: Timnit Gebru, Joy Buolamwini, Kate Crawford, Emily M. Bender
+- https://www.fondazioneleonardo.com/stories/postumanesimo-metaumanesimo-transumanesimo-come-andare-oltre-lumano
+- https://www.ingenio-web.it/articoli/intelligenza-artificiale-e-transumanesimo-l-ambizione-umana-di-sostituire-dio/
+- https://disf.org/educational/faq/grion-transumanesimo-cyborg
+- https://www.iltascabile.com/scienze/superintelligenza-artificiale/
+- https://www.rsi.ch/cultura/La-pericolosa-filosofia-dei-giganti-dell%E2%80%99IA--2423004.html
+- 
+- https://www.ninja.it/la-campagna-the-shotline-le-vittime-di-armi-con-l-ai/
+- https://open.spotify.com/episode/1aqGqKWSveG3KICcO8aPmS
+- https://open.spotify.com/episode/0kzpygrXdTSJQmryfxynwd
+
+## STORIA DELL'IA
+- https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
+- https://www.youtube.com/watch?v=C3B_OqDKJXQ&list=PLE2sPzBZPl7ABcaFLrQfE5Jt-8P0k724H
+- https://www.wired.it/article/marvin-minsky-intelligenza-artificiale/
+- https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
+- https://www.ai4business.it/intelligenza-artificiale/yann-lecun-chi-e-il-pioniere-dellintelligenza-artificiale-e-del-deep-learning/
+- https://it.wikipedia.org/wiki/AlphaZero
+- https://www.notizie.ai/i-red-team-alla-prova-dellai/
+- https://www.geopop.it/il-test-di-turing-e-da-considerarsi-superato-per-valutare-lintelligenza-artificiale/
+- https://forbes.it/2023/11/03/elon-musk-domani-prima-intelligenza-artificiale-xai/
+- https://www.masayume.it/blog9/web/content/la-mossa-37-google-deepmind-alphago
+- https://www.ultimouomo.com/intelligenza-artificiale-go/
+- https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
+- https://www.ansa.it/osservatorio_intelligenza_artificiale/notizie/approfondimenti/2024/04/23/ecco-minerva-la-prima-famiglia-di-llm-addestrati-da-zero-in-italiano_ac6cc4b0-6c65-4cef-a7e3-dfca7bc3c2c4.html
+- https://ilmanifesto.it/minerva-lia-italiana-al-bivio-tra-vannacci-e-manzoni
+- https://www.rivistastudio.com/chatgpt-nuova-versione/
+- https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html
+- https://tecnicafotografica.dndcom.com/articoli/fotografia-computazionale.html
+- https://it.wikipedia.org/wiki/Amazon_Mechanical_Turk
+- https://docs.aws.amazon.com/it_it/sagemaker/latest/dg/sms-workforce-management-public.html
+- https://www.wired.it/article/joseph-weizenbaum-chatbot-eliza/
+- https://open.spotify.com/episode/1p9hsiQuAzTsFfKu91z4pV
+- https://lucysullacultura.com/da-outsider-a-nobel-storia-dei-pionieri-dellintelligenza-artificiale/
+- https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
+- https://it.wikipedia.org/wiki/TESCREAL
+- https://www.wired.it/article/jerry-kaplan-intervista-ai-generativa/
+- https://www.economyup.it/automotive/ecco-come-le-auto-senza-conducente-sono-in-realta-guidate-da-umani-ma-da-remoto/
+- https://open.spotify.com/episode/5C0ybbZMqT9WuVMXMPCExx
+- https://it.cointelegraph.com/news/elon-musk-xai-colossus-ai-training-cluster
+- https://it.wikipedia.org/wiki/Singolarit%C3%A0_tecnologica
+
+- GAN (Generative Adversarial Networks)
+- https://deepdreamgenerator.com/
+- https://openai.com/
+- https://deepmind.google/
+- https://midjourney.com/
+- https://www.anthropic.com/
+- https://www.anthropic.com/research/mapping-mind-language-model
+
+- TOOL DI IA 
+- CHAT
+    - https://www.perplexity.ai/
+- VOCE
+    - https://www.voicemod.net/it/
+    - https://speechify.com/it/
+- EDITOR IMMAGINI
+    - https://cleanup.pictures/
+- BROWSER
+    - https://arc.net/
+- FILTRI
+    - https://www.deborahmilano.com/it/products/virtual-try-on/
+
+
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
     - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
@@ -10,132 +86,6 @@ POSSIBILI ARGOMENTI
     - https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
     - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
     - https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
-
-# INTELLIGENZA ARTIFICIALE
-
-- PROBLEMI CREAZIONE IA
-
-    - https://www.hwupgrade.it/news/sistemi/microsoft-spegne-tay-il-chatbot-twitter-diventato-razzista-e-misantropo-in-24-ore_61756.html 
-    - https://forbes.it/2019/06/19/intelligenza-artificiale-e-lavoro-etichettatori-nuovi-schiavi-silicon-valley/
-    - https://www.ai-aware.eu/https-spectrum-ieee-org-the-alignment-problem-openaiutm_sourcetldrai/
-    - https://www.wired.it/attualita/tech/2020/12/10/google-censura-intelligenza-artificiale-ricercatrice-timnit-gebru/
-    - Etica itelligenza artificiale attivisti: Timnit Gebru, Joy Buolamwini, Kate Crawford, Emily M. Bender
-    - https://www.geopop.it/le-ai-hanno-un-grosso-problema-con-i-dati-e-con-i-copyright-cosa-sta-succedendo/
-    - https://www.wired.it/article/chatgpt-lavoratori-umani-addestramento-intelligenza-artificiale/
-    - https://www.dday.it/redazione/44807/il-lato-oscuro-di-chatgpt-lavoratori-pagati-meno-di-2-dollari-lora-ed-esposti-alle-peggiori-nefandezze-di-internet
-    - https://medium.com/pagopa-spa/effetto-bruxelles-europa-hub-globale-per-policy-sul-digitale-anu-bradford-28a6d4f729bd
-    - https://www.cefriel.com/news/intelligenza-artificiale-come-progettarla-e-svilupparla-nelle-imprese-e-nelle-pa/
-    - https://www.fondazioneleonardo.com/stories/postumanesimo-metaumanesimo-transumanesimo-come-andare-oltre-lumano
-    - https://www.ingenio-web.it/articoli/intelligenza-artificiale-e-transumanesimo-l-ambizione-umana-di-sostituire-dio/
-    - https://disf.org/educational/faq/grion-transumanesimo-cyborg
-    - https://www.iltascabile.com/scienze/superintelligenza-artificiale/
-    - https://www.we-wealth.com/news/intelligenza-artificiale-diritto-autore
-    - https://www.mondoemissione.it/giugno-luglio/gli-schiavi-di-chatgpt/
-    - https://www.andreaminini.com/
-    - https://www.ai4business.it/intelligenza-artificiale/i-bias-nellintelligenza-artificiale-quando-i-dati-diventano-discriminatori/
-    - https://www.ilgiornale.it/news/nuove-frontiere/meta-ha-lanciato-e-poi-ritirato-galactica-l-enciclopedia-2088036.html
-    - https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry
-    - https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
-    - https://www.macsis.unimib.it/wp-content/uploads/sites/105/2021/05/Automation-Bias_WP_1_2020.pdf
-    - https://www.rsi.ch/cultura/La-pericolosa-filosofia-dei-giganti-dell%E2%80%99IA--2423004.html
-    - https://www.hwupgrade.it/news/web/meta-sotto-accusa-avrebbe-usato-contenuti-pirata-ottenuti-via-torrent-per-allenare-l-ia_134519.html
-
-- PROBLEMI UTILIZZO IA
-    - https://www.hwupgrade.it/news/web/stanchi-delle-risposte-filtrate-e-limitate-di-chatgpt-ecco-la-versione-jailbreak-dan_113918.html
-    - https://siamomine.com/solitudine-salute-mentale-chat-bot-ia-artificiale/
-    - https://medium.com/@austin-stubbs/llm-security-types-of-prompt-injection-d7ad8d7d75a3
-    - https://digitalinnovationdays.com/news/digital-afterlife-continuare-a-vivere-oltre-la-morte
-    - https://www.ninja.it/la-campagna-the-shotline-le-vittime-di-armi-con-l-ai/
-    - https://www.agendadigitale.eu/cultura-digitale/lascesa-dei-virtual-influencer-cosa-ci-dicono-sul-concetto-di-umanita/
-    - https://www.agendadigitale.eu/scuola-digitale/lia-in-classe-cambia-tutto-esempi-e-approcci-per-preparare-docenti-e-studenti/
-    - https://www.wired.it/article/amazon-personale-intelligenza-artificiale/
-    - https://www.wired.it/article/minority-report-20-anni-analisi/
-    - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-perche-le-tesla.html
-    - https://www.agendadigitale.eu/sicurezza/lintelligenza-artificiale-al-servizio-degli-hacker-cosa-rischiamo-con-chatgpt/
-    - https://attivissimo.blogspot.com/2023/12/podcast-rsi-influencer-virtuali-da.html
-    - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
-    - https://www.lavorodirittieuropa.it/dottrina/principi-e-fonti/1524-le-discriminazioni-algoritmiche
-    - https://www.agendadigitale.eu/cultura-digitale/algoritmi-troppo-invasivi-contro-le-frodi-fiscali-la-lezione-delle-dimissioni-del-governo-olandese/
-    - https://www.who.int/campaigns/s-a-r-a-h
-    - https://www.wired.it/article/chatgpt-diffamazione-molestie-problema/
-    - https://www.irpa.eu/riconoscimento-facciale-secondo-uno-studio-la-polizia-del-regno-unito-non-rispetta-gli-standard-minimi-etici-e-legali/
-    - https://www.wired.com/story/moscow-safe-city-ntechlab/
-    - https://valori.it/wp-content/uploads/2024/04/Lintelligenza-artificiale-va-al-fronte.pdf
-    - https://www.corriere.it/esteri/24_giugno_23/mcdonalds-abbandona-intelligenza-artificiale-e67cd9a6-7ebd-4436-9ff0-de55eb486xlk.shtml
-    - https://deepfakelab.theglassroom.org/index-it_IT.html
-    - https://dirittoaldigitale.com/2024/08/22/rischio-ai/
-    - https://privacy-network.it/news/segnalazione/segnalazione-a-character-ai/
-    - https://www.wired.it/article/lavender-intelligenza-artificiale-israele-palestina/
-    - https://open.spotify.com/episode/1aqGqKWSveG3KICcO8aPmS
-    - https://www.giornalelavoce.it/news/italia/550942/la-mascotte-del-giubileo-luce-trasformata-in-icona-porno-dallintelligenza-artificiale.html
-    - https://www.ferpress.it/nel-luglio-2021-nella-metro-di-mosca-il-sistema-di-riconoscimento-facciale-sfera-ha-identificato-piu-di-200-persone-nella-lista-dei-ricercati/
-    - https://www.wired.it/attualita/tech/2018/05/21/cina-scuola-attenzione-studenti-riconoscimento-facciale/
-    - https://www.aiopenmind.it/ArtificialIntelligence/pubblicita-su-perplexity-un-nuovo-modello-per-sostenere-la-curiosita-globale/#:~:text=Perplexity%2C%20piattaforma%20di%20ricerca%20basata,delle%20risposte%20fornite%20agli%20utenti.
-    - https://www.wired.it/article/gesu-virtuale-ai-svizzera/
-    - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9751323
-    - https://www.tomshw.it/hardware/arriva-la-mascherina-digitale-inganna-i-sistemi-biometrici-2024-12-02
-    - https://www.agendadigitale.eu/sanita/intelligenza-artificiale-per-le-assicurazioni-sanitarie-in-italia-e-negli-usa-il-quadro-luci-e-ombre/
-    - https://open.spotify.com/episode/0kzpygrXdTSJQmryfxynwd
-    - https://www.ansa.it/canale_tecnologia/notizie/future_tech/2023/11/27/riapre-way-of-the-future-la-chiesa-che-venera-gli-algoritmi_a5077e2f-7f13-410a-ad5d-5052988040dc.html
-
-- REGOLAMENTAZIONE DELL'IA
-    - https://www.youtube.com/watch?v=j2GcfGXg5wo
-    - https://www.caidp.org/
-    - https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
-    - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
-    - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
-
-- STORIA DELL'IA
-    - https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
-    - https://www.youtube.com/watch?v=C3B_OqDKJXQ&list=PLE2sPzBZPl7ABcaFLrQfE5Jt-8P0k724H
-    - https://www.wired.it/article/marvin-minsky-intelligenza-artificiale/
-    - https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
-    - https://www.ai4business.it/intelligenza-artificiale/yann-lecun-chi-e-il-pioniere-dellintelligenza-artificiale-e-del-deep-learning/
-    - https://it.wikipedia.org/wiki/AlphaZero
-    - https://www.notizie.ai/i-red-team-alla-prova-dellai/
-    - https://www.geopop.it/il-test-di-turing-e-da-considerarsi-superato-per-valutare-lintelligenza-artificiale/
-    - https://forbes.it/2023/11/03/elon-musk-domani-prima-intelligenza-artificiale-xai/
-    - https://www.masayume.it/blog9/web/content/la-mossa-37-google-deepmind-alphago
-    - https://www.ultimouomo.com/intelligenza-artificiale-go/
-    - https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
-    - https://www.ansa.it/osservatorio_intelligenza_artificiale/notizie/approfondimenti/2024/04/23/ecco-minerva-la-prima-famiglia-di-llm-addestrati-da-zero-in-italiano_ac6cc4b0-6c65-4cef-a7e3-dfca7bc3c2c4.html
-    - https://ilmanifesto.it/minerva-lia-italiana-al-bivio-tra-vannacci-e-manzoni
-    - https://www.rivistastudio.com/chatgpt-nuova-versione/
-    - https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html
-    - https://tecnicafotografica.dndcom.com/articoli/fotografia-computazionale.html
-    - https://it.wikipedia.org/wiki/Amazon_Mechanical_Turk
-    - https://docs.aws.amazon.com/it_it/sagemaker/latest/dg/sms-workforce-management-public.html
-    - https://www.wired.it/article/joseph-weizenbaum-chatbot-eliza/
-    - https://open.spotify.com/episode/1p9hsiQuAzTsFfKu91z4pV
-    - https://lucysullacultura.com/da-outsider-a-nobel-storia-dei-pionieri-dellintelligenza-artificiale/
-    - https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
-    - https://it.wikipedia.org/wiki/TESCREAL
-    - https://www.wired.it/article/jerry-kaplan-intervista-ai-generativa/
-    - https://www.economyup.it/automotive/ecco-come-le-auto-senza-conducente-sono-in-realta-guidate-da-umani-ma-da-remoto/
-    - https://open.spotify.com/episode/5C0ybbZMqT9WuVMXMPCExx
-    - https://it.cointelegraph.com/news/elon-musk-xai-colossus-ai-training-cluster
-    - https://it.wikipedia.org/wiki/Singolarit%C3%A0_tecnologica
-
-- GAN (Generative Adversarial Networks)
-    - https://deepdreamgenerator.com/
-    - https://openai.com/
-    - https://deepmind.google/
-    - https://midjourney.com/
-    - https://www.anthropic.com/
-    - https://www.anthropic.com/research/mapping-mind-language-model
-
-- TOOL DI IA 
-    - CHAT
-        - https://www.perplexity.ai/
-    - VOCE
-        - https://www.voicemod.net/it/
-        - https://speechify.com/it/
-    - EDITOR IMMAGINI
-        - https://cleanup.pictures/
-    - BROWSER
-        - https://arc.net/
-    - FILTRI
-        - https://www.deborahmilano.com/it/products/virtual-try-on/
 
 # PRIVACY, LIBERTA' E PROFILAZIONE
 
@@ -264,6 +214,7 @@ POSSIBILI ARGOMENTI
     - https://www.ilsole24ore.com/art/l-app-criptata-era-controllata-dall-fbi-centinaia-arresti-mondo-AErrgCP?refresh_ce=1
     - https://www.bugbountyhunter.com/
     - https://www.cybersecitalia.it/carmelo-miano-storia-di-un-hacker-molto-poco-romantico-e-se-il-male-fosse-anche-la-cura/39524/
+    - https://www.agendadigitale.eu/sicurezza/lintelligenza-artificiale-al-servizio-degli-hacker-cosa-rischiamo-con-chatgpt/
 - CYPHERPUNK
     - https://it.wikipedia.org/wiki/Cypherpunk
 - SICUREZZA INFORMATICA
