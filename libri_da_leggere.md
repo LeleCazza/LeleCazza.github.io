@@ -44,13 +44,27 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 *   Xenofemminismo (Helen Hester)
 *   La matematica degli dei e gli algoritmi degli uomini (Paolo Zellini)
 *   Logicomix (Apostolos Doxiadis)
+*   Macchine come me (Ian McEwan)
+*   Fahrenheit 451 (Ray Bradbury)
 
 SAGGI
------
+----
+
+### 2025
+
+* Algoritmi per resistere. La lotta quotidiana contro il potere delle piattaforme (Tiziano Bonini, Emiliano Trerè)
+* Segreto (Massimo Cerulo)
+* Prompting. Poetiche e politiche dell'intelligenza artificiale (Niccolò Monti)
+* Macchine calcolatrici e intelligenza (Alan M. Turing)
+* Il tao delle macchine. Dieci racconti cinesi di androidi, IA e altri futuri possibili (Chen Qiufan)
+* Simulacri digitali (Andrea Daniele Signorelli)
+* L’intelligenza condivisa (Ethan Mollick)
+
 
 ### 2024
 
 *   Memorie del digitale. Cronache, storie e aneddoti della trasformazione digitale (Giovanni Manca) 
+*   Hacking del sé. Disertare il capitalismo del controllo (Ippolita)
 *   L’algoritmo di Babele (Andrea Colamedici)
 *   Welcome to the cyber jungle (Marco Schiaffino)
 *   Violenza virtuale (Francesco Striano)
@@ -79,6 +93,7 @@ SAGGI
 *   Quando i dati discriminano. Bias e pregiudizi in grafici, statistiche e algoritmi (Donata Columbro)
 *   Generative A.I. Conoscere, capire e usare l'intelligenza artificiale generativa (Jerry Kaplan)
 *   Le persone non servono. Lavoro e ricchezza nell'era dell'intelligenza artificiale (Jerry Kaplan)
+*   Tecnologie dell'impero. AI, quantum computing, 6G e la nuova geopolitica del potere (Francesca Balestrieri)
 
 ### 2023
 
@@ -124,6 +139,7 @@ SAGGI
 *   Novacene. L'età dell'iperintelligenza (James Lovelock)
 *   Propaganda. Come manipolare l’opinione pubblica (Edward L. Bernays)
 *   Collasso (Nick Land)
+*   Il GDPR e come attuarlo (Idraulici della Privacy)
 
 ### PRIMA DEL 2020
 
@@ -200,3 +216,4 @@ LINK
 *   [https://www.ibs.it/libri/autori/carlo-rovelli](https://www.ibs.it/libri/autori/carlo-rovelli)
 *   [https://www.ibs.it/libri/autori/nello-cristianini](https://www.ibs.it/libri/autori/nello-cristianini)
 *   [https://www.ibs.it/libri/autori/luciano-floridi](https://www.ibs.it/libri/autori/luciano-floridi)
+*   [https://www.ibs.it/libri/autori/donata-columbro](https://www.ibs.it/libri/autori/donata-columbro)

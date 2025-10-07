@@ -1,9 +1,11 @@
 POSSIBILI ARGOMENTI
 ================
 
-# INTELLIGENZA ARTIFICIALE
+# RETI INFORMATICHE
+- https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
+- https://www.hwupgrade.it/news/telefonia/5g-in-italia-sogno-o-incubo-digitale-ecco-perche-siamo-tra-i-peggiori-d-europa_141118.html
 
-## REGOLAMENTAZIONE
+# REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
 - https://www.youtube.com/watch?v=j2GcfGXg5wo
 - https://www.caidp.org/
@@ -11,248 +13,136 @@ POSSIBILI ARGOMENTI
 - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
 - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
 
-## ROBA ASSURDA
-- https://open.spotify.com/episode/4WziFSwkAMIoHLfMDc6iaw
-- Etica itelligenza artificiale attivisti: Timnit Gebru, Joy Buolamwini, Kate Crawford, Emily M. Bender
-- https://www.fondazioneleonardo.com/stories/postumanesimo-metaumanesimo-transumanesimo-come-andare-oltre-lumano
-- https://www.ingenio-web.it/articoli/intelligenza-artificiale-e-transumanesimo-l-ambizione-umana-di-sostituire-dio/
-- https://disf.org/educational/faq/grion-transumanesimo-cyborg
-- https://www.iltascabile.com/scienze/superintelligenza-artificiale/
-- https://www.rsi.ch/cultura/La-pericolosa-filosofia-dei-giganti-dell%E2%80%99IA--2423004.html
-- 
-- https://www.ninja.it/la-campagna-the-shotline-le-vittime-di-armi-con-l-ai/
-- https://open.spotify.com/episode/1aqGqKWSveG3KICcO8aPmS
-- https://open.spotify.com/episode/0kzpygrXdTSJQmryfxynwd
-
-## STORIA DELL'IA
-- https://www.hwupgrade.it/news/web/microsoft-energia-da-un-impianto-nucleare-per-alimentare-i-suoi-datacenter-ia_130984.html
-- https://www.youtube.com/watch?v=C3B_OqDKJXQ&list=PLE2sPzBZPl7ABcaFLrQfE5Jt-8P0k724H
-- https://www.wired.it/article/marvin-minsky-intelligenza-artificiale/
-- https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
-- https://www.ai4business.it/intelligenza-artificiale/yann-lecun-chi-e-il-pioniere-dellintelligenza-artificiale-e-del-deep-learning/
-- https://it.wikipedia.org/wiki/AlphaZero
-- https://www.notizie.ai/i-red-team-alla-prova-dellai/
-- https://www.geopop.it/il-test-di-turing-e-da-considerarsi-superato-per-valutare-lintelligenza-artificiale/
-- https://forbes.it/2023/11/03/elon-musk-domani-prima-intelligenza-artificiale-xai/
-- https://www.masayume.it/blog9/web/content/la-mossa-37-google-deepmind-alphago
-- https://www.ultimouomo.com/intelligenza-artificiale-go/
-- https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
-- https://www.ansa.it/osservatorio_intelligenza_artificiale/notizie/approfondimenti/2024/04/23/ecco-minerva-la-prima-famiglia-di-llm-addestrati-da-zero-in-italiano_ac6cc4b0-6c65-4cef-a7e3-dfca7bc3c2c4.html
-- https://ilmanifesto.it/minerva-lia-italiana-al-bivio-tra-vannacci-e-manzoni
-- https://www.rivistastudio.com/chatgpt-nuova-versione/
-- https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html
-- https://tecnicafotografica.dndcom.com/articoli/fotografia-computazionale.html
-- https://it.wikipedia.org/wiki/Amazon_Mechanical_Turk
-- https://docs.aws.amazon.com/it_it/sagemaker/latest/dg/sms-workforce-management-public.html
-- https://www.wired.it/article/joseph-weizenbaum-chatbot-eliza/
-- https://open.spotify.com/episode/1p9hsiQuAzTsFfKu91z4pV
-- https://lucysullacultura.com/da-outsider-a-nobel-storia-dei-pionieri-dellintelligenza-artificiale/
-- https://www.wired.it/article/frank-rosenblatt-perceptron-intelligenza-artificiale/
-- https://it.wikipedia.org/wiki/TESCREAL
-- https://www.wired.it/article/jerry-kaplan-intervista-ai-generativa/
-- https://www.economyup.it/automotive/ecco-come-le-auto-senza-conducente-sono-in-realta-guidate-da-umani-ma-da-remoto/
-- https://open.spotify.com/episode/5C0ybbZMqT9WuVMXMPCExx
-- https://it.cointelegraph.com/news/elon-musk-xai-colossus-ai-training-cluster
-- https://it.wikipedia.org/wiki/Singolarit%C3%A0_tecnologica
-
-- GAN (Generative Adversarial Networks)
-- https://deepdreamgenerator.com/
-- https://openai.com/
-- https://deepmind.google/
-- https://midjourney.com/
-- https://www.anthropic.com/
-- https://www.anthropic.com/research/mapping-mind-language-model
-
-- TOOL DI IA 
-- CHAT
-    - https://www.perplexity.ai/
-- VOCE
-    - https://www.voicemod.net/it/
-    - https://speechify.com/it/
-- EDITOR IMMAGINI
-    - https://cleanup.pictures/
-- BROWSER
-    - https://arc.net/
-- FILTRI
-    - https://www.deborahmilano.com/it/products/virtual-try-on/
-
-
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
-- INQUINAMENTO CLOUD, INFRASTRUTTURE E IA
-    - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
-    - https://formiche.net/2021/08/climate-tech/#content
-    - Infomaniak.com
-    - https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
-    - https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
-    - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
-    - https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
+- https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
+- https://formiche.net/2021/08/climate-tech/#content
+- Infomaniak.com
+- https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
+- https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
+- https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
+- https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
 
-# PRIVACY, LIBERTA' E PROFILAZIONE
-
+# PROFILAZIONE E SOCIAL NETWORK
 - https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
-- https://www.gameifications.com/gamification-per-la-vita-dei-cittadini-cinesi/
-- https://www.studiolegaledelliponti.eu/chi-bello-vuole-apparire-la-privacy-deve-seguire-il-caso-douglas/#Veniamo_al_Caso_Douglas
-- https://www.ictsecuritymagazine.com/articoli/una-volta-che-la-privacy-e-invasa-la-privacy-e-perduta/
-- https://www.geopop.it/lesperimento-di-asch-sul-conformismo-sociale-e-la-volonta-di-essere-uguali-agli-altri/
-- https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
-- https://ilmanifesto.it/privacy-lignoranza-non-e-una-virtu
-- https://www.insightful.io/ (controllo dipendenti, quantificare la produttività)
-- https://privacy-network.it/
-- https://www.garanteprivacy.it/
-- https://algorithmwatch.org/
-- https://www.sorprendo.it/ (futuro lavorativo bambini?)
-- https://www.wired.it/attualita/media/2018/08/27/reality-winner-whistleblower-trump-russiagate/
 - https://www.enbilab.com/it/blog/pubblicita-comportamentale-o-contestuale-ecco-le-differenze
 - https://www.fanpage.it/innovazione/tecnologia/multa-da-520-milioni-di-dollari-per-fortnite-usava-schemi-oscuri-per-costringere-a-fare-acquisti/
 - https://www.ilpost.it/2023/10/19/shadow-ban-palestina-instagram/
 - https://www.wired.it/article/facebook-peggiori-scandali-cambridge-analytica-pubblicita-trump/
-- https://www.guerredirete.it/le-leggi-che-vogliono-regolare-laccesso-social-ai-minori/#:~:text=L'Italia%2C%20dal%20canto%20suo,abbia%20meno%20di%2014%20anni
-- https://www.edpb.europa.eu/edpb_it
-- https://transparency.meta.com/it-it/researchtools/meta-content-library/
+- https://arenaphilosophika.it/linferno-sono-gli-altri/
+- https://www.cybersecurity360.it/news/il-pay-or-okay-non-va-bene-dalledpb-stretta-sul-nodo-del-consenso-per-le-grandi-piattaforme-online/
+- https://attivissimo.blogspot.com/2024/09/podcast-rsi-gli-smartphone-ci-ascoltano.html
+- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
+- https://www.motoricerca.net/contextual-marketing/
+- https://attivissimo.blogspot.com/2023/01/cory-doctorow-e-la-enshittification.html
+- https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys
+- https://socialini.it/
+- https://www.wired.it/article/meta-fact-checking-regole-europee-scorza/
+- https://attivissimo.me/2025/02/18/podcast-rsi-social-network-senza-algoritmi-e-senza-padroni-grazie-al-fediverso/
+- https://www.unimib.it/news/presentata-milano-bicocca-ricerca-eyes-dedicata-agli-effetti-sul-rendimento-scolastico-dellaccesso
+  
+# PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
+- https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
+- https://www.insightful.io/ (controllo dipendenti, quantificare la produttività)
 - https://www.riskmanagement360.it/analisti-ed-esperti/sanzioni-gdpr-ecco-le-maggiori-degli-ultimi-dodici-mesi/
 - https://www.garanteprivacy.it/data-breach
 - https://protezionedatipersonali.it/finalita-del-trattamento
-- https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/#:~:text=Il%20PSN%20ospiter%C3%A0%20dati%20e,Ulteriori%20misure%20urgenti%20per%20la
-- https://www.geopop.it/tim-vende-parte-della-sua-rete-al-fondo-usa-kkr-per-circa-20-miliardi-di-euro-cosa-succedera-ora/#:~:text=12%3A00-,TIM%20vende%20parte%20della%20sua%20rete%20al%20fondo%20USA%20KKR,TIM%2C%20per%20circa%2020%20miliardi.
-- https://neurorightsfoundation.org/
-- https://www.wired.it/article/mente-lettura-cervello-progetti-big-tech/
 - https://www.altalex.com/documents/news/2022/10/11/neurodiritti-cile-prima-legge-tutelarli
 - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9992700
-- https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
-- https://sites.google.com/berniericonsulting.com/berniericonsulting/home
-- https://www.corrierecomunicazioni.it/digital-economy/cloud/polo-strategico-nazionale-fra-ricorsi-e-polemiche-cui-prodest/
-- https://www.agendadigitale.eu/infrastrutture/polo-strategico-nazionale-il-difficile-viene-ora-perche-la-migrazione-delle-pa-non-sara-semplice/
+- https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9822195
 - https://techtalking.it/windows-recall-microsoft-corre-ai-ripari/
-- https://www.wired.it/article/stella-assange-wired-next-fest-2024-milano/
-- https://protezionedatipersonali.it/data-protection-officer
-- https://www.altalex.com/documents/news/2023/08/31/la-privacy-a-scuola
-- https://arenaphilosophika.it/linferno-sono-gli-altri/
-- https://www.redhotcyber.com/post/pavel-durov-telegram-la-liberta-di-espressione-non-e-priva-di-responsabilta/
-- https://www.cybersecurity360.it/news/il-pay-or-okay-non-va-bene-dalledpb-stretta-sul-nodo-del-consenso-per-le-grandi-piattaforme-online/
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-strana-mail-di-meta-windows.html
-- https://open.spotify.com/episode/1VYvKAe2se8jh2gGnE7Edk
-- https://open.spotify.com/episode/5y8sRzZkyk63sDPo5bkFMf
+- https://protezionedatipersonali.it/data-protection-officer
 - https://signalfoundation.org/it/
-- https://attivissimo.blogspot.com/2024/09/podcast-rsi-gli-smartphone-ci-ascoltano.html
-- https://garantepiracy.it/
-- [Ddb Life Is a game, rider e algoritmi (ia governa già l'uomo)](https://openddb.it/film/life-is-a-game/)
 - https://www.wired.it/attualita/tech/2020/11/24/citofono-smart-amazon-ring-sorveglianza/
-- https://www.futuroprossimo.it/2024/03/starshield-musk-allestisce-una-rete-di-satelliti-spia-per-gli-usa/
-- https://www.wired.it/internet/regole/2020/05/25/gdpr-privacy/
-- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
 - https://www.wired.it/article/glovo-multa-gdpr/
-- https://open.spotify.com/episode/6Dqr5ENrZZAwh41IATKICt
-- https://open.spotify.com/episode/090JLO9EyCr4FSuW80ZRlC
-- https://irpimedia.irpi.eu/spiarelowcost/
-- https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10074840
 - https://nintendon.it/2024/11/20/niantic-utilizza-i-dati-di-pokemon-go-per-addestrare-lia-alla-navigazione-del-mondo-reale-298709
-- https://www.motoricerca.net/contextual-marketing/
-- https://www.wired.it/article/fuga-dati-posizione-volkswagen/
+- https://privacy-network.it/
 - https://privacy-network.it/digital-literacy/privacy-kit/
+- https://www.garanteprivacy.it/
+- https://algorithmwatch.org/
+- https://www.edpb.europa.eu/edpb_it
+- https://neurorightsfoundation.org/
+- https://www.wired.it/article/chat-control-grido-allarme-attivisti-privacy/
+- https://www.wired.it/article/data-act-portabilita-dati-europa-funzionamento/
+- https://www.amnesty.it/israele-il-riconoscimento-facciale-rafforza-lapartheid-contro-i-palestinesi/
+- https://it.wikipedia.org/wiki/Great_Firewall
+- https://www.wired.it/article/siri-spia-utenti-francia/
+- https://www.geopop.it/e-vero-che-le-smart-tv-ci-spiano-e-raccolgono-dati-personali-come-tutelare-la-nostra-privacy/
+- https://pimeyes.com/en
 
-# VIDEOGAMES E MUSICA
-- CRACK E CURIOSITA'
-    - https://balotta.org/event/cracktro
-    - https://www.theguardian.com/technology/2004/jan/24/games.gameswatch
-    - https://www.vigamusacademy.com/videogiochi-aaa-la-storia-e-come-riconoscerli/#:~:text=In%20contrapposizione%20ai%20titoli%20AAA,fasi%20di%20vita%20del%20prodotto
-    - https://www.mariocastle.it/super-mario-bros-nuovo-tas-col-minor-numero-di-pressioni-del-pulsante-a/#:~:text=Un%20%22TAS%22%20o%20%22Tool,input%20per%20riprodurli%20in%20seguito.
-    - https://www.wired.it/gadget/videogiochi/2018/12/21/pokemon-plaguemon-rom-hacking/
-    - https://www.smwcentral.net/
-    - https://multiplayer.it/articoli/doom-e-le-sue-mod-una-lunga-storia-damore-e-condivisione-nel-segno-delletica-hacker.html
-    - https://www.romhacking.net/
-    - https://www.mamedev.org/
-    - https://www.insertcoinbologna.it/
-    - https://www.gamesoul.it/roguelike-e-roguelite-cosa-significano-e-qual-e-la-differenza/
-    - https://iideassociation.com/
-    - https://oldgamesitalia.net/content/intervista-paolo-paglianti
-    - https://romhack.io/
-    - https://www.cybersaiyan.it/
-    - https://www.forteprenestino.net/attivita/3085-zona-warpa-2024
-    - https://video.zonawarpa.it/w/1BAe35P5Basokqd1Nzm2yV
-    - https://www.pigneto.it/eventi/incontri/che-senso-ha-videogiocare-in-un-mondo-che-e-sullorlo-del-collasso-conversazioni-con-ex-machina/
-- COMPETIZIONI
-    - https://demozoo.org/
-    - https://www.demoparty.net/
-    - https://indiecup.net/
-- MUSICA
-    - https://www.rockit.it/intervista/solar-kenobit-game-boy-contro-capitalismo
-- CREAZIONE VIDEOGAMES
-    - https://twinery.org/
-    - https://archive.org/details/art-of-atari
-- VIDEOGIOCHI
-    - https://multiplayer.it/articoli/il-ritorno-di-dys4ia-uno-dei-videogiochi-che-hanno-definito-la-rivoluzione-indie.html
-    - https://www.exposalutementale.it/bluethroot-un-videogioco-per-le-scuole-sulla-salute-mentale-intervista-a-fortuna-imperatore/
-    - http://callofsalveenee.it/wordpress/product/call-of-salveenee/
-    - https://giochipenosi.it/
-    - https://ifdb.org/
-    - https://www.playgwent.com/it/play-gog
-    - https://it.wikipedia.org/wiki/MOBA
+# SOVRANITA' DIGITALE
+- https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
+- https://european-alternatives.eu/
+- https://www.ictsecuritymagazine.com/articoli/data-act-e-cloud-act/
 
-# REALTA' VIRTUALE E AUMENTATA
-- https://www.artsteps.com/
-- https://www.wired.it/article/teoria-della-simulazione/
-- https://mergeedu.com/cube?cr=3709
+# VIDEOGAMES
+- https://www.smwcentral.net/ 
+- https://www.romhacking.net/
+- https://www.mamedev.org/
+- https://www.insertcoinbologna.it/
+- https://romhack.io/
+- https://www.cybersaiyan.it/
+- https://zonawarpa.it/
+- https://www.kenobit.it/
+- https://twinery.org/
+- https://www.bluethroot.it/
+- http://callofsalveenee.it/wordpress/product/call-of-salveenee/
+- https://giochipenosi.it/
+- https://ifdb.org/
+- https://www.playgwent.com/it/join
+- https://thepowerofplay.it/evento/
+- https://archive.org/details/xbox-spot-life-is-short-play-more-hd-2
 
 # CRITTOGRAFIA E SICUREZZA INFORMATICA
-- TEORIA
-    - https://it.wikipedia.org/wiki/Blockchain
-    - https://it.wikipedia.org/wiki/Criptovaluta
-    - https://it.wikipedia.org/wiki/Non-fungible_token    
-    - https://www.insic.it/privacy-e-sicurezza/information-security/passkey-lalternativa-alla-password-cose-e-come-funziona/#:~:text=La%20vera%20grande%20differenza%20tra,facciale%20o%20tramite%20impronta%20digitale.
-    - https://it.wikipedia.org/wiki/0-day
-- CURIOSITA' E ATTACCHI INFORMATICI
-    - https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
-    - https://www.wired.it/article/trump-scarcerazione-ross-ulbricht-silk-road/
-    - https://inchiostrovirtuale.it/crittografia-maria-stuarda/
-    - https://www.ilpost.it/2024/03/28/sam-bankman-fried-condanna-frode/
-    - https://www.agendadigitale.eu/sanita/data-breach-cosa-rischia-il-responsabile-del-trattamento-e-come-puo-tutelarsi-le-indicazioni-del-garante/
-    - https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware/
-    - https://attivissimo.blogspot.com/2022/09/podcast-rsi-story-big-rick-storia-di-un.html
-    - https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
-    - https://attivissimo.blogspot.com/2023/05/podcast-rsi-story-uno-scandalo.html
-    - https://flipperzero.one/
-    - https://www.ilsole24ore.com/art/l-app-criptata-era-controllata-dall-fbi-centinaia-arresti-mondo-AErrgCP?refresh_ce=1
-    - https://www.bugbountyhunter.com/
-    - https://www.cybersecitalia.it/carmelo-miano-storia-di-un-hacker-molto-poco-romantico-e-se-il-male-fosse-anche-la-cura/39524/
-    - https://www.agendadigitale.eu/sicurezza/lintelligenza-artificiale-al-servizio-degli-hacker-cosa-rischiamo-con-chatgpt/
-- CYPHERPUNK
-    - https://it.wikipedia.org/wiki/Cypherpunk
-- SICUREZZA INFORMATICA
-    - https://defcon.org/
-    - https://www.shodan.io/
-    - https://www.commissariatodips.it/notizie/articolo/report-safer-internet-day-2024/index.html
-    - https://www.ncsc.admin.ch/ncsc/it/home.html
-    - https://attivissimo.blogspot.com/2024/05/podcast-rsi-svizzera-rapporto-federale.html
-    - https://attivissimo.blogspot.com/2024/05/podcast-rsi-svizzera-rapporto-federale_16.html
-    - https://attivissimo.blogspot.com/2024/07/podcast-rsi-svizzera-allarme-per-la.html
-    - https://www.nationalcrimeagency.gov.uk/news/nca-shuts-down-major-fraud-platform-responsible-for-1-8-million-scam-calls
-    - https://www.wired.com/story/hacker-lexicon-what-is-a-supply-chain-attack/
-    - https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
-    - https://www.ibm.com/it-it/topics/digital-operational-resilience-act
-    - https://www.tomshw.it/videogioco/allarme-pedofilia-su-roblox-il-rapporto-shock-di-hindenburg-research-2024-10-09
-    - https://open.spotify.com/episode/3m0YsD0xPXzqE5RGzFfIlr
-    - https://www.augustsolution.it/servizi/cyber-security/penetration-test/
-    - https://www.wired.it/article/equalize-aziende-clienti-dossier-erg-barilla/
-    - https://www.keepersecurity.com/blog/it/2024/08/20/qr-code-scams-you-should-be-aware-of/
-    - https://www.ultralytics.com/it/blog/how-to-tell-if-an-image-is-ai-generated
-    - https://ugo.legal/lo-schema-ponzi-digitale-le-nuove-frontiere-della-truffa-piu-vecchia-del-mondo/
-    - https://www.ncsc.admin.ch/ncsc/it/home/aktuell/im-fokus/2024/2024-meteosuisse.html
-    - https://www.cybersecurity360.it/nuove-minacce/pegasus-continua-a-diffondersi-i-motivi-e-le-best-practice-per-difendersi/
-    - https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
-    - https://www.agendadigitale.eu/cultura-digitale/ransomware-gang-leconomia-segreta-della-mala-digitale/
-    - https://www.wired.it/article/attacco-ransomware-bologna-fc/
-    - https://www.cybersecurity360.it/news/attacco-a-inps-servizi-non-ce-rivendicazione-ma-la-grande-assente-e-la-trasparenza/
-    - https://thesubmarine.it/2017/07/16/australia-il-paese-dove-la-matematica-non-vale/
-    - https://www.geopop.it/arriva-il-trojan-delle-app-bancarie-su-android-che-svuota-il-conto-come-difendersi-da-droidbot/
+- https://it.wikipedia.org/wiki/Blockchain
+- https://it.wikipedia.org/wiki/Criptovaluta
+- https://it.wikipedia.org/wiki/Non-fungible_token    
+- https://www.fastweb.it/fastweb-plus/digital-dev-security/passkey-cose-e-come-funziona/
+- https://it.wikipedia.org/wiki/0-day
+- https://www.cybersecitalia.it/
+- https://it.wikipedia.org/wiki/Cypherpunk
+- https://defcon.org/
+- https://www.shodan.io/
+- https://www.augustsolution.it/servizi/cyber-security/penetration-test/
+- https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
+- https://thesubmarine.it/2017/07/16/australia-il-paese-dove-la-matematica-non-vale/
+- https://it.wikipedia.org/wiki/Moneta_meme
+- https://www.pcmag.com/explainers/is-your-antivirus-spying-on-you-yes-and-some-are-worse-than-others
+- https://support.apple.com/it-it/122234
+- https://friendlycaptcha.com/it/insights/bot-protection/
+- https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
+- https://www.cve.org/
 
-# COMPUTER QUANTISTICI
-- https://www.wired.it/article/computer-quantistico-semiconduttori-italia-napoli/
+# ATTACCHI INFORMATICI
+- https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
+- https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
+- https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
+- https://flipperzero.one/
+- https://www.ilsole24ore.com/art/l-app-criptata-era-controllata-dall-fbi-centinaia-arresti-mondo-AErrgCP?refresh_ce=1
+- https://www.bugbountyhunter.com/
+- https://irpimedia.irpi.eu/carmelo-miano-hacker-ministero-giustizia/
+- https://www.commissariatodips.it/notizie/articolo/report-safer-internet-day-2024/index.html
+- https://www.ncsc.admin.ch/ncsc/it/home.html
+- https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
+- https://www.wired.com/story/hacker-lexicon-what-is-a-supply-chain-attack/
+- https://www.keepersecurity.com/blog/it/2024/08/20/qr-code-scams-you-should-be-aware-of/
+- https://www.ncsc.admin.ch/ncsc/it/home/aktuell/im-fokus/2024/2024-meteosuisse.html
+- https://ugo.legal/lo-schema-ponzi-digitale-le-nuove-frontiere-della-truffa-piu-vecchia-del-mondo/
+- https://www.agendadigitale.eu/cultura-digitale/ransomware-gang-leconomia-segreta-della-mala-digitale/
+- https://www.wired.it/article/attacco-ransomware-bologna-fc/
+- https://www.cybersecurity360.it/news/attacco-a-inps-servizi-non-ce-rivendicazione-ma-la-grande-assente-e-la-trasparenza/
+- https://www.geopop.it/arriva-il-trojan-delle-app-bancarie-su-android-che-svuota-il-conto-come-difendersi-da-droidbot/
+- https://www.wired.it/article/prompt-injection-cosa-e-gemini-a-rischio/
+- https://it.wikipedia.org/wiki/Stuxnet
+- https://www.acn.gov.it/portale/documents/20119/728444/ACN_Ransomware_2024_CLEAR.pdf/76f76c2e-4c5e-e3cf-e76c-9f8032eea749?t=1734622549825
+- https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
 
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score
 - https://apply.42firenze.it/users/sign_up
 - https://www.gameludere.it/2021/05/05/teoria-informazione-primo-teorema-di-shannon/
 - https://adventofcode.com/
+- https://openddb.it/film/life-is-a-game/
 
 # STORIA INFORMATICA
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
@@ -261,7 +151,3 @@ POSSIBILI ARGOMENTI
 - https://disf.org/files/doc/longo-test-turing.pdf
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-nasa-monitor-giganti-piatti.html
 - https://leonardo-supercomputer.cineca.eu/it/top500-leonardo-quarto/
-- https://www.redhotcyber.com/post/la-macchina-di-turing-realizzata-con-i-mattoncini-lego-il-progetto-pubblicato-su-lego-ideas/#:~:text=Un%20designer%20conosciuto%20con%20lo,e%20abilit%C3%A0%20tecnica%20dell'autore.
-
-# BINARIO
-- https://www.asciiart.eu/
