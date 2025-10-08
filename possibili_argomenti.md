@@ -4,6 +4,10 @@ POSSIBILI ARGOMENTI
 # RETI INFORMATICHE
 - https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
 - https://www.hwupgrade.it/news/telefonia/5g-in-italia-sogno-o-incubo-digitale-ecco-perche-siamo-tra-i-peggiori-d-europa_141118.html
+- https://www.marconinosignal.it/
+
+# INTELLIGENZA ARTIFICIALE
+- https://realitycheckk.com/week2
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
@@ -12,6 +16,7 @@ POSSIBILI ARGOMENTI
 - https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
 - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
 - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
+- https://hermescenter.org/iniziative/una-legge-sullia-che-non-ci-protegge-piu-potere-al-governo-e-meno-diritti/
 
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
@@ -21,6 +26,8 @@ POSSIBILI ARGOMENTI
 - https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
 - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
 - https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
+- https://www.climatiq.io/data
+- https://www.agendadigitale.eu/smart-city/la-sfida-dei-data-center-alimentare-lai-senza-distruggere-il-pianeta/
 
 # PROFILAZIONE E SOCIAL NETWORK
 - https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
@@ -39,6 +46,10 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/meta-fact-checking-regole-europee-scorza/
 - https://attivissimo.me/2025/02/18/podcast-rsi-social-network-senza-algoritmi-e-senza-padroni-grazie-al-fediverso/
 - https://www.unimib.it/news/presentata-milano-bicocca-ricerca-eyes-dedicata-agli-effetti-sul-rendimento-scolastico-dellaccesso
+- https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
+- https://attivissimo.me/2025/09/02/podcast-rsi-proteggere-i-giovani-da-smartphone-e-social-network-e-un-imperativo-globale-secondo-i-dati-scientifici/
+- https://finto-consenso.hermescenter.org/
+- https://www.theguardian.com/technology/2025/sep/20/parents-outraged-meta-uses-photos-schoolgirls-ads-man
   
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 - https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
@@ -69,11 +80,15 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/siri-spia-utenti-francia/
 - https://www.geopop.it/e-vero-che-le-smart-tv-ci-spiano-e-raccolgono-dati-personali-come-tutelare-la-nostra-privacy/
 - https://pimeyes.com/en
+- https://www.wired.it/article/violazioni-privacy-multe-garante-privacy-deepfake-call-center/
+- https://fightchatcontrol.eu/
+- https://www.gpdp.it/garante/doc.jsp?ID=10171128
 
 # SOVRANITA' DIGITALE
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
 - https://european-alternatives.eu/
 - https://www.ictsecuritymagazine.com/articoli/data-act-e-cloud-act/
+- https://www.internazionale.it/notizie/paris-marx/2025/08/08/tecnologie-app-programmi-non-americani
 
 # VIDEOGAMES
 - https://www.smwcentral.net/ 
@@ -92,6 +107,7 @@ POSSIBILI ARGOMENTI
 - https://www.playgwent.com/it/join
 - https://thepowerofplay.it/evento/
 - https://archive.org/details/xbox-spot-life-is-short-play-more-hd-2
+- https://whitesock.it/project/inundo/
 
 # CRITTOGRAFIA E SICUREZZA INFORMATICA
 - https://it.wikipedia.org/wiki/Blockchain
@@ -112,6 +128,12 @@ POSSIBILI ARGOMENTI
 - https://friendlycaptcha.com/it/insights/bot-protection/
 - https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
 - https://www.cve.org/
+- https://www.redhat.com/it/topics/security/security-for-iot-devices
+- https://it.wikipedia.org/wiki/Project_Zero_(Google)
+- https://it.wikipedia.org/wiki/Programma_Bug_bounty
+- https://www.cryptokitties.co/
+- https://www.acn.gov.it/portale/documents/20119/967511/Vademecum_Cybersecurity+di+base.pdf/01250655-1c9e-626f-ddd6-ff126b2d01f6?t=1753203906549
+- https://password1234.it/
 
 # ATTACCHI INFORMATICI
 - https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
@@ -136,6 +158,8 @@ POSSIBILI ARGOMENTI
 - https://it.wikipedia.org/wiki/Stuxnet
 - https://www.acn.gov.it/portale/documents/20119/728444/ACN_Ransomware_2024_CLEAR.pdf/76f76c2e-4c5e-e3cf-e76c-9f8032eea749?t=1734622549825
 - https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
+- https://www.ransomfeed.it/
+- https://www.wired.it/internet/web/2019/07/31/wannacry-marcus-hutchins/
 
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score
@@ -151,3 +175,5 @@ POSSIBILI ARGOMENTI
 - https://disf.org/files/doc/longo-test-turing.pdf
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-nasa-monitor-giganti-piatti.html
 - https://leonardo-supercomputer.cineca.eu/it/top500-leonardo-quarto/
+- https://www.ansa.it/sito/notizie/economia/2025/09/26/morto-pistorio-porto-la-stm-tra-aziende-leader-mondiali_a6514cc8-9462-4c4e-ba95-5dbbf6b94f54.html
+- https://it.wikipedia.org/wiki/Giovanni_Degli_Antoni

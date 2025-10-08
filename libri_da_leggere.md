@@ -59,7 +59,9 @@ SAGGI
 * Il tao delle macchine. Dieci racconti cinesi di androidi, IA e altri futuri possibili (Chen Qiufan)
 * Simulacri digitali (Andrea Daniele Signorelli)
 * L’intelligenza condivisa (Ethan Mollick)
-
+* L'inganno dell'automa (Carola Frediani)
+* La fortezza automatica. Se l'IA decide chi può varcare i confini (Fabio Chiusi)
+* Lettera a Jeff Bezos. (Marisandra Lizzi)
 
 ### 2024
 
@@ -121,6 +123,7 @@ SAGGI
 *   Algoritmi, monaci e mercanti. Il calcolo nella vita quotidiana del Medioevo (Giorgio Ausiello)
 *   Dal cyborg al postumano. Biopolitica del corpo artificiale (Antonio Caronia)
 *   Le macchine di Dio. Gli algoritmi predittivi e l'illusione del controllo (Helga Nowotny)
+*   Tecnologie conviviali (Carlo Milani)
 
 ### 2021
 
@@ -129,6 +132,7 @@ SAGGI
 *   Breve e universale storia degli algoritmi (Luigi Laura)
 *   Hello world! L'informatica dall'aritmometro allo smartphone (Pisa University Press)
 *   Il secolo della solitudine. L'importanza della comunità nell'economia e nella vita di tutti i giorni (Noreena Hertz)
+*   Il potere segreto. Perché vogliono distruggere Julian Assange e WikiLeaks (Stefania Maurizi)
 
 ### 2020
 
@@ -140,6 +144,8 @@ SAGGI
 *   Propaganda. Come manipolare l’opinione pubblica (Edward L. Bernays)
 *   Collasso (Nick Land)
 *   Il GDPR e come attuarlo (Idraulici della Privacy)
+*   Schiavi del clic. Perché lavoriamo tutti per il nuovo capitalismo? (Antonio A. Casilli)
+*   Server ribelli. R-esistenza digitale e hacktivismo nel Fediverso in Italia (Giuliana Sorci)
 
 ### PRIMA DEL 2020
 
@@ -183,6 +189,7 @@ INFORMATICA
 *   La rivoluzione elettronica (Andrea Frova)
 *   Il manuale della crittografia. Applicazioni pratiche dei protocolli crittografici (Niels Ferguson, Bruce Schneier, Tadayoshi Kohno)
 *   The Chinese Computer: A Global History of the Information Age (Thomas S. Mullaney)
+*   Federico Faggin. Il padre del microprocessore (Angelo Gallippi)
 
 VIDEOGIOCHI
 -----------
@@ -217,3 +224,4 @@ LINK
 *   [https://www.ibs.it/libri/autori/nello-cristianini](https://www.ibs.it/libri/autori/nello-cristianini)
 *   [https://www.ibs.it/libri/autori/luciano-floridi](https://www.ibs.it/libri/autori/luciano-floridi)
 *   [https://www.ibs.it/libri/autori/donata-columbro](https://www.ibs.it/libri/autori/donata-columbro)
+*   [https://www.ibs.it/libri/autori/david-lyon](https://www.ibs.it/libri/autori/david-lyon)
