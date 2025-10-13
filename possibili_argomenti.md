@@ -112,7 +112,8 @@ POSSIBILI ARGOMENTI
 # CRITTOGRAFIA E SICUREZZA INFORMATICA
 - https://it.wikipedia.org/wiki/Blockchain
 - https://it.wikipedia.org/wiki/Criptovaluta
-- https://it.wikipedia.org/wiki/Non-fungible_token    
+- https://it.wikipedia.org/wiki/Non-fungible_token
+- https://it.wikipedia.org/wiki/Doxing
 - https://www.fastweb.it/fastweb-plus/digital-dev-security/passkey-cose-e-come-funziona/
 - https://it.wikipedia.org/wiki/0-day
 - https://www.cybersecitalia.it/

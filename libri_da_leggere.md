@@ -46,6 +46,7 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 *   Logicomix (Apostolos Doxiadis)
 *   Macchine come me (Ian McEwan)
 *   Fahrenheit 451 (Ray Bradbury)
+*   Furore (John Steinbeck)
 
 SAGGI
 ----
