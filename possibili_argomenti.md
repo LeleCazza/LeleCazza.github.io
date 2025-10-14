@@ -9,6 +9,8 @@ POSSIBILI ARGOMENTI
 # INTELLIGENZA ARTIFICIALE
 - https://realitycheckk.com/week2
 - https://www.wired.it/article/sora-2-openai-video-celebrita-morte-michael-jackson-tupac-stephen-hawking/
+- https://attivissimo.me/2025/10/13/podcast-rsi-arriva-sora-il-chatgpt-dei-video-ed-e-caos/
+
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
 - https://www.youtube.com/watch?v=j2GcfGXg5wo
