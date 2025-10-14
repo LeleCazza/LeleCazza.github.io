@@ -1,6 +1,9 @@
 POSSIBILI ARGOMENTI
 ================
 
+# DISPLAY
+- https://www.youtube.com/watch?v=ynvKWYvyCqw
+
 # RETI INFORMATICHE
 - https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
 - https://www.hwupgrade.it/news/telefonia/5g-in-italia-sogno-o-incubo-digitale-ecco-perche-siamo-tra-i-peggiori-d-europa_141118.html
@@ -31,29 +34,8 @@ POSSIBILI ARGOMENTI
 - https://www.climatiq.io/data
 - https://www.agendadigitale.eu/smart-city/la-sfida-dei-data-center-alimentare-lai-senza-distruggere-il-pianeta/
 
-# PROFILAZIONE E SOCIAL NETWORK
-- https://www.wired.it/attualita/tech/2020/09/24/social-dilemma-dopamina-effetto-smartphone-cervello/
-- https://www.enbilab.com/it/blog/pubblicita-comportamentale-o-contestuale-ecco-le-differenze
-- https://www.fanpage.it/innovazione/tecnologia/multa-da-520-milioni-di-dollari-per-fortnite-usava-schemi-oscuri-per-costringere-a-fare-acquisti/
-- https://www.ilpost.it/2023/10/19/shadow-ban-palestina-instagram/
-- https://www.wired.it/article/facebook-peggiori-scandali-cambridge-analytica-pubblicita-trump/
-- https://arenaphilosophika.it/linferno-sono-gli-altri/
-- https://www.cybersecurity360.it/news/il-pay-or-okay-non-va-bene-dalledpb-stretta-sul-nodo-del-consenso-per-le-grandi-piattaforme-online/
-- https://attivissimo.blogspot.com/2024/09/podcast-rsi-gli-smartphone-ci-ascoltano.html
-- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
-- https://www.motoricerca.net/contextual-marketing/
-- https://attivissimo.blogspot.com/2023/01/cory-doctorow-e-la-enshittification.html
-- https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys
-- https://socialini.it/
-- https://www.wired.it/article/meta-fact-checking-regole-europee-scorza/
-- https://attivissimo.me/2025/02/18/podcast-rsi-social-network-senza-algoritmi-e-senza-padroni-grazie-al-fediverso/
-- https://www.unimib.it/news/presentata-milano-bicocca-ricerca-eyes-dedicata-agli-effetti-sul-rendimento-scolastico-dellaccesso
-- https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
-- https://attivissimo.me/2025/09/02/podcast-rsi-proteggere-i-giovani-da-smartphone-e-social-network-e-un-imperativo-globale-secondo-i-dati-scientifici/
-- https://finto-consenso.hermescenter.org/
-- https://www.theguardian.com/technology/2025/sep/20/parents-outraged-meta-uses-photos-schoolgirls-ads-man
-  
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
+- https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
 - https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
 - https://www.insightful.io/ (controllo dipendenti, quantificare la produttività)
 - https://www.riskmanagement360.it/analisti-ed-esperti/sanzioni-gdpr-ecco-le-maggiori-degli-ultimi-dodici-mesi/
@@ -85,6 +67,7 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/violazioni-privacy-multe-garante-privacy-deepfake-call-center/
 - https://fightchatcontrol.eu/
 - https://www.gpdp.it/garante/doc.jsp?ID=10171128
+- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
 
 # SOVRANITA' DIGITALE
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
