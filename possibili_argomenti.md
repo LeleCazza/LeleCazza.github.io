@@ -4,6 +4,10 @@ POSSIBILI ARGOMENTI
 # DISPLAY
 - https://www.youtube.com/watch?v=ynvKWYvyCqw
 
+# FAKE NEWS
+- https://urielfanelli.altervista.org/keinpfusch/la-teoria-della-montagna-di-merda/2010-03-26/
+- https://urielfanelli.altervista.org/keinpfusch/la-teoria-della-montagna-di-merda-4/2023-07-17/
+
 # RETI INFORMATICHE
 - https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
 - https://www.hwupgrade.it/news/telefonia/5g-in-italia-sogno-o-incubo-digitale-ecco-perche-siamo-tra-i-peggiori-d-europa_141118.html
@@ -33,6 +37,16 @@ POSSIBILI ARGOMENTI
 - https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
 - https://www.climatiq.io/data
 - https://www.agendadigitale.eu/smart-city/la-sfida-dei-data-center-alimentare-lai-senza-distruggere-il-pianeta/
+- https://www.editorialedomani.it/tecnologia/intelligenza-artificiale-quanto-inquina-miniere-litio-discariche-kinx6xvj
+- https://theanthropocene.org/film/
+- https://www.geopop.it/terre-rare-cosa-sono-dove-si-estraggono-e-il-monopolio-cinese/
+- https://www.agendadigitale.eu/smart-city/terre-rare-lo-sporco-segreto-della-transizione-energetica-ecologica/
+- https://www.tomshw.it/smartphone/il-lago-tossico-dellhi-tech-il-prezzo-che-paga-la-cina-della-crescita-a-doppia-cifra
+- https://www.lifegate.it/indonesia-miniere-abbandonate
+- https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications
+- https://luissuniversitypress.it/inquinamento-cloud-articolo-andrea-daniele-signorelli-digitalizzazione-lmdp/
+- STORIA CAVI SOTTOMARINI: 61-62 nè intelligente nè artificiale
+- DEFINIZIONE CLOUD: 64 nè intelligente nè artificiale
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 - https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
@@ -68,6 +82,7 @@ POSSIBILI ARGOMENTI
 - https://fightchatcontrol.eu/
 - https://www.gpdp.it/garante/doc.jsp?ID=10171128
 - https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
+- Irpiedia Laura Carrer Stalkerware
 
 # SOVRANITA' DIGITALE
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
@@ -120,6 +135,7 @@ POSSIBILI ARGOMENTI
 - https://www.cryptokitties.co/
 - https://www.acn.gov.it/portale/documents/20119/967511/Vademecum_Cybersecurity+di+base.pdf/01250655-1c9e-626f-ddd6-ff126b2d01f6?t=1753203906549
 - https://password1234.it/
+- https://www.wired.it/article/satelliti-senza-protezioni-intercettati-messaggi-privati-dati-militari-dallo-spazio/
 
 # ATTACCHI INFORMATICI
 - https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
