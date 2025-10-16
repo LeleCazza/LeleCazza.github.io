@@ -63,7 +63,6 @@ function CaricaEsercizio(numEsercizio, nomeCartellaEsercizi) {
 }
 
 function CaricaSoluzione(numEsercizio, nomeCartellaEsercizi, nomiFileSoluzioni) {
-    const pwd = "1312";
     var div = document.getElementById("soluzione" + numEsercizio);
     div.innerHTML += 'Soluzioni:<br><i>';
     nomiFileSoluzioni.forEach(soluzione => {
@@ -75,7 +74,7 @@ function CaricaSoluzione(numEsercizio, nomeCartellaEsercizi, nomiFileSoluzioni) 
                     + "/" 
                     + soluzione;
         div.innerHTML += 
-            '<a href="#" onclick="CheckPwd(\'' + url + '\', \'' + pwd + '\')">' 
+            '<a href="#" onclick="CheckPwd(\'' + url + '\')">' 
             + titolo 
             + '</a><br>';
     });
@@ -83,9 +82,10 @@ function CaricaSoluzione(numEsercizio, nomeCartellaEsercizi, nomiFileSoluzioni) 
     div.innerHTML += '</i><br>';
 }
 
-function CheckPwd(url, pwd) {
+function CheckPwd(url) {
+    const d = new Date();
     let inserita = prompt("Inserisci la password per visualizzare la soluzione:");
-    if (inserita === pwd) {
+    if (inserita === d.getDay().toString()) {
         window.open(url, "_blank");
     } else {
         alert("G A M E O V E R");
