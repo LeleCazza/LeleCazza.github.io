@@ -85,7 +85,7 @@ function CaricaSoluzione(numEsercizio, nomeCartellaEsercizi, nomiFileSoluzioni) 
 function CheckPwd(url) {
     const d = new Date();
     let inserita = prompt("Inserisci la password per visualizzare la soluzione:");
-    if (inserita === d.getDay().toString()) {
+    if (inserita === d.getDate().toString().concat((d.getMonth()+1).toString()).concat(d.getUTCFullYear().toString())) {
         window.open(url, "_blank");
     } else {
         alert("G A M E O V E R");
