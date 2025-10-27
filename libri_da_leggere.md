@@ -117,6 +117,7 @@ SAGGI
 
 ### 2022
 
+*   Macchine ingannevoli. Comunicazione, tecnologia, intelligenza artificiale (Simone Natale)
 *   Etica dell'intelligenza artificiale (Luciano Floridi)
 *   L'intelligenza artificiale. Una guida per esseri umani pensanti (Melanie Mitchell)
 *   L'isola sospesa. Taiwan e gli equilibri del mondo (Stefano Pelaggi)
@@ -150,6 +151,7 @@ SAGGI
 
 ### PRIMA DEL 2020
 
+*   I Social Network (Giuseppe Riva)
 *   Capitalismo immateriale (Stefano Quintarelli)
 *   Armi di distruzione matematica (Cathy O'Neil)
 *   #Cybercrime (Carola Frediani)

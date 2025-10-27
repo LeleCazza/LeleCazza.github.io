@@ -12,11 +12,9 @@ POSSIBILI ARGOMENTI
 - https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
 - https://www.hwupgrade.it/news/telefonia/5g-in-italia-sogno-o-incubo-digitale-ecco-perche-siamo-tra-i-peggiori-d-europa_141118.html
 - https://www.marconinosignal.it/
-
-# INTELLIGENZA ARTIFICIALE
-- https://realitycheckk.com/week2
-- https://www.wired.it/article/sora-2-openai-video-celebrita-morte-michael-jackson-tupac-stephen-hawking/
-- https://attivissimo.me/2025/10/13/podcast-rsi-arriva-sora-il-chatgpt-dei-video-ed-e-caos/
+- https://www.fastweb.it/fastweb-plus/digital-magazine/network-time-protocol-cos-e-e-come-funziona/
+- https://gpswise.aero/
+- https://pdst.fm/e/chrt.fm/track/7D7D8B/prfx.byspotify.com/e/pscrb.fm/rss/p/traffic.megaphone.fm/MNTHA7216906871.mp3 storia dei motori di ricerca e IA
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
@@ -45,8 +43,11 @@ POSSIBILI ARGOMENTI
 - https://www.lifegate.it/indonesia-miniere-abbandonate
 - https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications
 - https://luissuniversitypress.it/inquinamento-cloud-articolo-andrea-daniele-signorelli-digitalizzazione-lmdp/
-- STORIA CAVI SOTTOMARINI: 61-62 nè intelligente nè artificiale
-- DEFINIZIONE CLOUD: 64 nè intelligente nè artificiale
+- https://es.wired.com/articulos/onu-pide-frenar-la-expansion-de-los-centros-de-datos-que-alimentan-la-ia
+- https://it.wikipedia.org/wiki/Sindrome_di_Kessler
+- STORIA CAVI SOTTOMARINI: palaquium gutta
+- DEFINIZIONE CLOUD citazione di Tung-Hui Hu dal suo libro A Prehistory of the Cloud:"Il Cloud è una tecnologia estrattiva ad alta intensità di risorse che converte l'acqua e l'elettricità in potenza computazionale, lasciando dietro di sé una quantità considerevole di danni ambientali che poi cela alla vista".
+- https://www.agendadigitale.eu/smart-city/il-digitale-non-e-un-pasto-gratis-quanto-inquinano-i-data-center-e-come-ridurne-limpatto/
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 - https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
@@ -82,13 +83,19 @@ POSSIBILI ARGOMENTI
 - https://fightchatcontrol.eu/
 - https://www.gpdp.it/garante/doc.jsp?ID=10171128
 - https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
+- https://www.cybersecurity360.it/legal/privacy-dati-personali/opt-in-e-opt-out-nellonline-advertising-ecco-gli-impatti-privacy/
+- https://www.dday.it/redazione/31369/recaptcha-v3-google-sicurezza-privacy
+- https://www.corriere.it/tecnologia/21_maggio_23/ring-nuove-accuse-citofono-connesso-amazon-il-maggior-sistema-sorveglianza-usa-3b37d84c-b890-11eb-86a2-256e95d23aef.shtml
 - Irpiedia Laura Carrer Stalkerware
+- Palantir (spionaggio civile) e Vigilant (tracciamento veicoli), amazon ring e controllo propri lavoratori
 
 # SOVRANITA' DIGITALE
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
 - https://european-alternatives.eu/
 - https://www.ictsecuritymagazine.com/articoli/data-act-e-cloud-act/
 - https://www.internazionale.it/notizie/paris-marx/2025/08/08/tecnologie-app-programmi-non-americani
+- https://www.wired.it/article/caso-amazon-aws-dipendenza-dalle-grandi-piattaforme-rischio/
+- https://www.agendadigitale.eu/infrastrutture/down-del-cloud-amazon-la-sovranita-digitale-europea-e-una-presa-in-giro/
 
 # VIDEOGAMES
 - https://www.smwcentral.net/ 
@@ -136,6 +143,7 @@ POSSIBILI ARGOMENTI
 - https://www.acn.gov.it/portale/documents/20119/967511/Vademecum_Cybersecurity+di+base.pdf/01250655-1c9e-626f-ddd6-ff126b2d01f6?t=1753203906549
 - https://password1234.it/
 - https://www.wired.it/article/satelliti-senza-protezioni-intercettati-messaggi-privati-dati-militari-dallo-spazio/
+- https://www.geopop.it/cose-la-crittografia-come-funziona-e-perche-serve-a-proteggere-la-confidenzialita-dei-dati/
 
 # ATTACCHI INFORMATICI
 - https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
@@ -169,6 +177,7 @@ POSSIBILI ARGOMENTI
 - https://www.gameludere.it/2021/05/05/teoria-informazione-primo-teorema-di-shannon/
 - https://adventofcode.com/
 - https://openddb.it/film/life-is-a-game/
+- https://it.wikipedia.org/wiki/Vibe_coding
 
 # STORIA INFORMATICA
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
