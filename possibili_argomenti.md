@@ -48,6 +48,7 @@ POSSIBILI ARGOMENTI
 - STORIA CAVI SOTTOMARINI: palaquium gutta
 - DEFINIZIONE CLOUD citazione di Tung-Hui Hu dal suo libro A Prehistory of the Cloud:"Il Cloud è una tecnologia estrattiva ad alta intensità di risorse che converte l'acqua e l'elettricità in potenza computazionale, lasciando dietro di sé una quantità considerevole di danni ambientali che poi cela alla vista".
 - https://www.agendadigitale.eu/smart-city/il-digitale-non-e-un-pasto-gratis-quanto-inquinano-i-data-center-e-come-ridurne-limpatto/
+- https://www.youtube.com/watch?v=I-MMteT9YTM
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 - https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
