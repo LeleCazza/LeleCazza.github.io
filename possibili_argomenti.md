@@ -14,7 +14,6 @@ POSSIBILI ARGOMENTI
 - https://www.marconinosignal.it/
 - https://www.fastweb.it/fastweb-plus/digital-magazine/network-time-protocol-cos-e-e-come-funziona/
 - https://gpswise.aero/
-- https://pdst.fm/e/chrt.fm/track/7D7D8B/prfx.byspotify.com/e/pscrb.fm/rss/p/traffic.megaphone.fm/MNTHA7216906871.mp3 storia dei motori di ricerca e IA
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html

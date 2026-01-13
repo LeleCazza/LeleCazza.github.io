@@ -1,0 +1,155 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{BROWSER E MOTORE DI RICERCA}
+\subtitle{Software Client e Server per la navigazione sul Web}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://it.wikipedia.org/wiki/Browser}{Wikipedia: definizione di Browser}
+            \item[-] \href{https://it.wikipedia.org/wiki/Motore_di_ricerca}{Wikipedia: definizione di Motore di Ricerca}
+            \item[-] \href{https://www.fastweb.it/fastweb-plus/work-tools-creativity/tutto-sui-browser/}{Fastweb Plus}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\section{BROWSER}
+
+\begin{frame}{BROWSER}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il \textbf{Browser} è un'applicazione \textbf{Client} usata principalmente per \textbf{l'acquisizione, la presentazione e 
+            la navigazione di risorse sul Web}. Tali risorse (come pagine web, immagini o video) sono messe 
+            a disposizione sul World Wide Web, su una rete locale o sullo stesso computer dove il 
+            browser è in esecuzione. Il programma implementa da un lato le \textbf{funzionalità di Client} per 
+            il protocollo HTTP, dall'altro quelle di \textbf{visualizzazione e riproduzione di contenuti multimediali 
+            e ipertestuali}.
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESEMPI DI BROWSER}
+    \begin{figure}
+        \includegraphics[width=.8\linewidth]{img/browser.png}
+        \caption{{creata con \href{www.canva.com}{Canva}}}
+    \end{figure}
+    \tiny{\textbf{Curiosità}}\\
+    \tiny{\href{https://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg}{Timeline of web browsers}}\\
+    \tiny{\href{https://it.wikipedia.org/wiki/Guerra_dei_browser}{Guerra dei browser}}\\
+    \tiny{\href{https://www.wired.it/article/browser-privacy-duckduckgo-firefox-safari-brave-tor-ghostery}{Come difendersi dalla sorveglianza dei browser}}
+\end{frame}
+
+\begin{frame}{FUNZIONALIT\'A PRINCIPALI DEI BROWSER}    
+    \begin{itemize}
+        \justifying
+        \item \textbf{NAVIGAZIONE IN INCOGNITO}: consente di navigare senza salvare la \textbf{cronologia}, i \textbf{cookie} e i dati dei siti web, 
+        non è da confondere con la navigazione in incognito che nasconde l'attività dell'utente al provider di 
+        servizi Internet (ISP) o ad altri soggetti esterni;
+        \bigskip
+        \pause
+        \item \textbf{GESTIONE DEI COOKIE}: i cookie sono piccoli file di testo che i siti web salvano 
+        nella memoria del dispositivo dell'utente per memorizzare informazioni sulle sue preferenze e 
+        attività di navigazione; i browser offrono opzioni per gestire, bloccare o eliminare i cookie.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{FUNZIONALIT\'A PRINCIPALI DEI BROWSER}
+    \begin{itemize}
+        \justifying
+        \item \textbf{ESTENSIONI}: sono piccoli programmi che aggiungono funzionalità extra al browser, 
+        come bloccare pubblicità, gestire password o migliorare la sicurezza online. Esempi:
+        \begin{itemize}
+            \pause
+            \justifying
+            \item[-] \href{https://ublockorigin.com/}{uBlock Origin}: Permette di bloccare tutte le pubblicità e gli elementi 
+            traccianti sui siti web. Inoltre, consente di nascondere elementi di una pagina web indesiderati.
+            \pause
+            \item[-] \href{https://www.eff.org/https-everywhere}{HTTPS Everywhere}: Indirizza il traffico HTTP su una connessione HTTPS, 
+            ogni qualvolta sia possibile. Il protocollo HTTPS garantisce la confidenzialità e l’integrità della comunicazione.
+            \pause
+            \item[-] \href{https://github.com/ClearURLs/Addon}{ClearURLs}: Rimuove dagli indirizzi URL tutti gli elementi non 
+            necessari. Questo, oltre a impedire alcune pratiche di tracciamento, consente di ottenere URL più corti e 
+            leggibili per essere condivisi.
+            \pause
+            \item[-] \href{https://www.i-dont-care-about-cookies.eu/}{I don’t care about cookies}: Rimuove gli avvisi per l’accettazione dei cookie di un 
+            sito e rifiuta automaticamente la raccolta di dati attraverso cookie, ogni qualvolta sia possibile.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\section{MOTORE DI RICERCA}
+
+\begin{frame}{MOTORE DI RICERCA}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un \textbf{motore di ricerca} è un sistema automatico che analizza dati testuali o 
+            multimediali e \textbf{restituisce contenuti indicizzati e ordinati in base alla loro rilevanza 
+            rispetto alla chiave di ricerca}. Funziona come un’\textbf{applicazione web Server}: il browser 
+            dell’utente invia una richiesta a un server che elabora la query interrogando database, 
+            spesso distribuiti. Un ruolo fondamentale è svolto dal  \textbf{Crawler} o spider, che esplora e 
+            indicizza le risorse della rete. Un buon motore di ricerca fornisce risultati 
+            pertinenti, organizzati per importanza e coerenza con la richiesta.\\
+            \pause
+            \textbf{Motore di ricerca e intelligenza artificiale:} 
+            \begin{itemize}
+                \item \href{https://blog.google/intl/it-it/lia-generativa-nella-ricerca-lasciate-che-sia-google-a-cercare-per-voi/}{AI Overview};
+                \item \href{https://www.wired.it/article/nuova-ricerca-ai-mode-google-fine-del-web/}{AI Mode}.
+            \end{itemize}
+            \bigskip
+            \tiny{\textbf{Curiosità}}\\
+            \tiny{\href{https://www.wired.it/article/i-migliori-motori-di-ricerca-basati-su-intelligenza-artificiale/}{Principali motori di ricerca basati su AI}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESEMPI DI MOTORI DI RICERCA}
+    \begin{figure}
+        \includegraphics[width=.8\linewidth]{img/motori di ricerca.png}
+        \caption{{creata con \href{www.canva.com}{Canva}}}
+    \end{figure}
+    \tiny{\textbf{Curiosità}}\\
+    \tiny{\href{https://www.qwant.com/?l=it}{Qwant: motore di ricerca europeo}}\\
+    \tiny{\href{https://trends.google.com/trends/}{Google Trends: scopri le tendenze del momento}}\\
+\end{frame}
+
+\end{document}
