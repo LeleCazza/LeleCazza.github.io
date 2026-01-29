@@ -1,0 +1,503 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{MODELLO RSA}
+\subtitle{Crittografia a chiave pubblica}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://it.wikipedia.org/wiki/RSA_(crittografia)}{Wikipedia}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{SCHEMA RSA}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/2.jpg}
+    \end{figure}
+\end{frame}
+
+\section{CHIAVI}
+
+\begin{frame}{CHIAVI}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/4.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CHIAVI}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/5.jpg}
+    \end{figure}
+\end{frame}
+
+\section{CONFIDENZIALITÀ}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Nel campo della sicurezza la confidenzialità (trasposizione del termine inglese \textbf{confidentiality}), 
+            oppure riservatezza, è la \textbf{``proprietà delle informazioni di non essere rese disponibili o 
+            divulgate a individui, entità o processi non autorizzati''}.\\
+            \bigskip
+            \tiny{\textbf{Approfondimento}}\\
+            \tiny{\href{https://www.ictsecuritymagazine.com/notizie/triade-cia/}{La triade CIA}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/7.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/8.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/9.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/10.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/11.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/12.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CONFIDENZIALITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/13.jpg}
+    \end{figure}
+\end{frame}
+
+\section{AUTENTICITÀ}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            L'autenticità è un'altra proprietà della sicurezza ed è quella tale per cui \textbf{un'entità è 
+            riconosciuta correttamente (ovvero è verificata essere esattamente ciò che afferma di essere)}. 
+            Non va confusa con un'altra proprietà che è quella della non ripudiabilità ovvero la proprietà 
+            tale per cui un'entità non può negare di aver eseguito (o essere stata oggetto di) una 
+            determinata operazione/transazione.
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/15.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/16.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/17.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/18.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/19.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/20.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{AUTENTICITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/21.jpg}
+    \end{figure}
+\end{frame}
+
+\section{INTEGRITÀ}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Nel campo della sicurezza l'integrità è la \textbf{protezione dei dati e delle informazioni 
+            nei confronti delle modifiche del contenuto, accidentali (involontarie) 
+            oppure effettuate volontariamente da una terza parte}, essendo compreso 
+            nell'alterazione anche il caso limite della generazione ex novo di dati ed informazioni.
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{PROBLEMA}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/24.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/25.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/26.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/27.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/28.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/29.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/30.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/31.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/32.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/33.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/34.jpg}
+    \end{figure}
+\end{frame}
+
+\section{SOLUZIONE}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/36.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/37.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/38.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/39.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/41.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/42.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/43.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/44.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/45.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{INTEGRITÀ}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/46.jpg}
+    \end{figure}
+\end{frame}
+
+\section{MAN IN THE MIDDLE}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/48.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/49.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/50.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/51.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/52.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/53.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/54.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/55.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/56.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/57.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/58.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/59.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/60.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/61.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/62.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/63.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/64.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/65.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/66.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/67.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{MAN IN THE MIDDLE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/68.jpg}
+    \end{figure}
+\end{frame}
+
+\section{CERTIFICATO DIGITALE}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/70.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/71.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/72.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/73.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/74.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/75.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{CERTIFICATO DIGITALE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/76.jpg}
+    \end{figure}
+\end{frame}
+
+\end{document}
