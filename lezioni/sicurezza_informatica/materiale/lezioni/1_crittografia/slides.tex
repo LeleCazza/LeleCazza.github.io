@@ -29,13 +29,17 @@
 \makeatother
 
 \title{CRITTOGRAFIA}
-\subtitle{https, cifrari a chiave simmetrica}
+\subtitle{https, cifrari e applicazioni della crittografia}
 \date{}
 \institute{\textit{
         Fonti:
         \begin{itemize}
             \item[-] \href{https://www.treccani.it/enciclopedia/crittografia\_(Enciclopedia-della-Scienza-e-della-Tecnica)/}{Treccani}
-            \item[-] \href{https://it.wikipedia.org/wiki/Storia\_della\_crittografia}{Wikipedia}
+            \item[-] \href{https://it.wikipedia.org/wiki/Crittografia_asimmetrica}{Wikipedia - crittografia asimmetrica}
+            \item[-] \href{https://it.wikipedia.org/wiki/Non-fungible_token}{Wikipedia - NFT}
+            \item[-] \href{https://www.fastweb.it/fastweb-plus/digital-dev-security/cose-la-blockchain-tutto-quello-che-devi-sapere/?fwp_login_type=3}{Fastweb Plus}
+            \item[-] \href{https://www.ibm.com/it-it/think/topics/blockchain}{IBM - blockchain}
+            \item[-] \href{https://www.kaspersky.it/resource-center/definitions/what-is-cryptocurrency}{Kaspersky - criptovalute} 
         \end{itemize}
     }
 }
@@ -120,4 +124,135 @@
     \end{alertblock}
 \end{frame}
 
+\section{CIFRARIO ASIMMETRICO}
+
+\begin{frame}{CIFRARIO ASIMMETRICO}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            La \textbf{crittografia asimmetrica} è un tipo di crittografia nel quale ad ogni attore 
+            coinvolto nella comunicazione è associata una \textbf{coppia di chiavi}:
+            \begin{itemize}
+                \item La \textbf{chiave pubblica}, che deve essere distribuita;
+                \item La \textbf{chiave privata}, personale e segreta.
+            \end{itemize}
+            La crittografia asimmetrica evita il problema classico della crittografia simmetrica connesso 
+            alla necessità di uno scambio in modo sicuro dell'unica chiave utile alla cifratura/decifratura.
+            Il meccanismo della crittografia asimmetrica si basa invece sulle seguenti assunzioni:
+            \begin{itemize}
+                \item La chiave privata non è ricavabile dalla chiave pubblica;
+                \item Se con una delle due chiavi si cifra un messaggio, allora quest'ultimo sarà decifrato solo con l'altra.
+            \end{itemize}
+            \bigskip
+            \tiny{\textbf{Esempio}}\\
+            \tiny{\href{http://www.crittologia.eu/critto/rsa/rsa_demo.phtml}{Cifrario RSA}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{CRITTOGRAFIA: VIDEO}
+    \begin{figure}
+        \href{https://www.geopop.it/cose-la-crittografia-come-funziona-e-perche-serve-a-proteggere-la-confidenzialita-dei-dati/}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Fonte \href{https://www.geopop.it/cose-la-crittografia-come-funziona-e-perche-serve-a-proteggere-la-confidenzialita-dei-dati/}{Cos'è la crittografia, come funziona e perché serve a proteggere i dati e la confidenzialità (Geopop)}}}
+    \end{figure}
+\end{frame}
+
+\section{APPLICAZIONI BASATE SULLA CRITTOGRAFIA}
+
+\begin{frame}{BLOCKCHAIN}
+    \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    La \textbf{blockchain} funziona come un \textbf{database distribuito decentralizzato}, con dati 
+                    archiviati su più computer, rendendolo resistente alle manomissioni. Le transazioni 
+                    vengono convalidate attraverso un \textbf{meccanismo di consenso}, che garantisce l’accordo 
+                    in tutta la rete. Nella tecnologia blockchain, \textbf{ogni transazione è raggruppata in blocchi}, 
+                    che vengono poi collegati tra loro, formando una catena sicura e trasparente.\\
+                    \bigskip
+                    \tiny{\textbf{Video di approfondimento}}\\
+                    \tiny{\href{https://telospiegovideo.it/blockchain-telospiego/}{Te lo spiego - Che cos'è è come funziona una blockchain}}
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/blockchain.png}
+                \caption{{creata con \href{www.chatgpt.com}{ChatGPT}}}
+                \bigskip
+                \tiny{\textbf{Funzione di Hash}}\\
+                \tiny{\href{https://it.wikipedia.org/wiki/Funzione_di_hash}{Wikipedia}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{CRIPTOVALUTE}
+    \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    La \textbf{criptovaluta} è una forma di valuta digitale che \textbf{usa 
+                    la crittografia per proteggere le transazioni}. Anziché avere un'autorità emittente o 
+                    regolatrice centrale, le criptovalute \textbf{utilizzano una blockchain pubblica} per 
+                    registrare le transazioni ed emettere nuove unità. 
+                    Le unità di criptovaluta vengono \textbf{create tramite un processo chiamato mining}, 
+                    che fa leva sull'elaborazione informatica per risolvere complicati problemi matematici 
+                    da cui vengono generate le monete.\\
+                    \bigskip
+                    \tiny{\textbf{Video di approfondimento}}\\
+                    \tiny{\href{https://telospiegovideo.it/che-cosa-sono-e-come-funzionano-i-bitcoin-telospiego/}{Te lo spiego - Che cosa sono e come funzionano i Bitcoin}}
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/criptovaluta.png}
+                \caption{{creata con \href{www.chatgpt.com}{ChatGPT}}}
+                \bigskip
+                \tiny{\textbf{Prezzi delle criptovalute}}\\
+                \tiny{\href{https://www.coingecko.com/}{Andamento delle principali criptovalute}}\\
+                \tiny{\href{https://www.coingecko.com/it/categories/meme-token}{Andamento dei principali Meme Coin}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{NON-FUNGIBLE TOKEN (NFT)}
+    \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    Un non-fungible token (\textbf{NFT}) è un tipo speciale di token, 
+                    che rappresenta un \textbf{bene unico non fungibile}. 
+                    A differenza di un bene fungibile (come una banconota), non può essere scambiato 
+                    uno a uno con altri beni dello stesso tipo in modo indistinto. Gli NFT sono un tipo 
+                    di bene non fungibile che possiede dati unici e possono essere \textbf{utilizzati per 
+                    registrare e verificare la proprietà tramite la tecnologia della blockchain}.\\
+                    \bigskip
+                    \tiny{\textbf{Esempio di NFT}}\\
+                    \tiny{\href{https://www.cryptokitties.co/}{CryptoKitties}}
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/nft.png}
+                \caption{{fonte \href{https://it.wikipedia.org/wiki/Non-fungible_token}{Wikipedia}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{CYPHERPUNKS}
+    \begin{minipage}{0.98\linewidth}
+        \centering
+        \Large
+        \textit{``Privacy is necessary for an open society in the electronic age. 
+        Privacy is not secrecy. A private matter is something one doesn't want the whole 
+        world to know, but a secret matter is something one doesn't want anybody to know. 
+        Privacy is the power to selectively reveal oneself to the world.''}\\
+    \end{minipage}\\
+    \bigskip
+    \tiny{\textbf{Curiosità}}\\
+    \tiny{\href{https://it.wikipedia.org/wiki/Cypherpunk}{Chi sono i Cypherpunks?}}\\
+    \tiny{\href{https://www.activism.net/cypherpunk/manifesto.html}{A Cypherpunk's Manifesto}}
+\end{frame}
 \end{document}

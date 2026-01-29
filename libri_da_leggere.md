@@ -3,6 +3,7 @@ LIBRI DA LEGGERE
 
 FANTASCIENZA/CYBERPUNK/ROMANZI
 ------------------------------
+*   Lasciate fare a Elvis (Laura Silvestri)
 *   Klara e il Sole (Kazuo Ishiguro)
 *   Il Golem (Gustav Meyrink)
 *   Solaris (Stanislaw Lem)
@@ -170,6 +171,7 @@ SAGGI
 INFORMATICA
 -----------
 
+*   Maniac (Benjamín Labatut)
 *   Il potere del computer e la ragione umana (Joseph Weizenbaum)
 *   Le tessitrici. Mitologia dell'informatica (Loreta Minutilli)
 *   L'uomo venuto dal futuro (Amanyo Bhattacharya)

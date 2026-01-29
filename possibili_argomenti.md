@@ -1,12 +1,17 @@
 POSSIBILI ARGOMENTI
 ================
 
+# LEZIONE CREAZIONE PAGINE WEB 
+- https://it.wikipedia.org/wiki/RTFM
+
 # DISPLAY
 - https://www.youtube.com/watch?v=ynvKWYvyCqw
 
 # FAKE NEWS
 - https://urielfanelli.altervista.org/keinpfusch/la-teoria-della-montagna-di-merda/2010-03-26/
 - https://urielfanelli.altervista.org/keinpfusch/la-teoria-della-montagna-di-merda-4/2023-07-17/
+- https://corp.oup.com/news/the-oxford-word-of-the-year-2025-is-rage-bait/
+- https://aulascienze.scuola.zanichelli.it/multimedia-scienze/come-te-lo-spiego-scienze/come-tenere-a-bada-l-istinto-della-negativita-grazie-ai-dati/
 
 # RETI INFORMATICHE
 - https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
@@ -14,6 +19,7 @@ POSSIBILI ARGOMENTI
 - https://www.marconinosignal.it/
 - https://www.fastweb.it/fastweb-plus/digital-magazine/network-time-protocol-cos-e-e-come-funziona/
 - https://gpswise.aero/
+- https://www.wired.it/article/shutdown-internet-iran-2026/
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
@@ -23,6 +29,11 @@ POSSIBILI ARGOMENTI
 - https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
 - https://digital-strategy.ec.europa.eu/it/policies/ai-pact
 - https://hermescenter.org/iniziative/una-legge-sullia-che-non-ci-protegge-piu-potere-al-governo-e-meno-diritti/
+
+# PROBLEMI INTELLIGENZA ARTIFICIALE
+- https://www.wired.it/article/in-the-belly-of-ai-documentario-data-worker-intelligenza-artificiale-henri-poulain-intervista/
+- https://diecichilidiperle.blogspot.com/2022/10/perche-mai-noi-umani-dovremmo-affidarci.html
+- https://www.wired.it/article/meta-16-dicembre-messaggi-privati-pubblicita-chatbot-privacy/
 
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
@@ -48,8 +59,12 @@ POSSIBILI ARGOMENTI
 - DEFINIZIONE CLOUD citazione di Tung-Hui Hu dal suo libro A Prehistory of the Cloud:"Il Cloud è una tecnologia estrattiva ad alta intensità di risorse che converte l'acqua e l'elettricità in potenza computazionale, lasciando dietro di sé una quantità considerevole di danni ambientali che poi cela alla vista".
 - https://www.agendadigitale.eu/smart-city/il-digitale-non-e-un-pasto-gratis-quanto-inquinano-i-data-center-e-come-ridurne-limpatto/
 - https://www.youtube.com/watch?v=I-MMteT9YTM
+- https://www.wired.it/gallery/supercomputer-olivia-norvegia-miniera/
+- https://www.ilpost.it/2026/01/09/intelligenza-artificiale-consumo-acqua/
+- https://www.geopop.it/intelligenza-artificiale-consumi-energia/
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
+- https://www.redhotcyber.com/post/la-dichiarazione-di-indipendenza-del-cyberspazio/
 - https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
 - https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
 - https://www.insightful.io/ (controllo dipendenti, quantificare la produttività)
@@ -88,6 +103,10 @@ POSSIBILI ARGOMENTI
 - https://www.corriere.it/tecnologia/21_maggio_23/ring-nuove-accuse-citofono-connesso-amazon-il-maggior-sistema-sorveglianza-usa-3b37d84c-b890-11eb-86a2-256e95d23aef.shtml
 - Irpiedia Laura Carrer Stalkerware
 - Palantir (spionaggio civile) e Vigilant (tracciamento veicoli), amazon ring e controllo propri lavoratori
+- https://www.internazionale.it/notizie/alberto-puliafito/2025/12/03/ai-act-retromarcia-digital-omnibus
+- https://www.rainews.it/articoli/2025/04/unione-europea-multe-da-500-e-200-mnl-ad-apple-e-meta-per-violazione-delle-regole-c4372da2-d292-4360-8814-a7b9f4768740.html
+- https://it.wikipedia.org/wiki/Sentenze_Schrems
+- https://support.apple.com/it-it/122234
 
 # SOVRANITA' DIGITALE
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
@@ -96,6 +115,7 @@ POSSIBILI ARGOMENTI
 - https://www.internazionale.it/notizie/paris-marx/2025/08/08/tecnologie-app-programmi-non-americani
 - https://www.wired.it/article/caso-amazon-aws-dipendenza-dalle-grandi-piattaforme-rischio/
 - https://www.agendadigitale.eu/infrastrutture/down-del-cloud-amazon-la-sovranita-digitale-europea-e-una-presa-in-giro/
+- https://www.agendadigitale.eu/sicurezza/privacy/cloud-act-la-norma-usa-che-fa-a-pugni-con-la-privacy-europea-i-nodi/
 
 # VIDEOGAMES
 - https://www.smwcentral.net/ 
@@ -117,35 +137,28 @@ POSSIBILI ARGOMENTI
 - https://whitesock.it/project/inundo/
 
 # CRITTOGRAFIA E SICUREZZA INFORMATICA
-- https://it.wikipedia.org/wiki/Blockchain
-- https://it.wikipedia.org/wiki/Criptovaluta
-- https://it.wikipedia.org/wiki/Non-fungible_token
-- https://it.wikipedia.org/wiki/Doxing
 - https://www.fastweb.it/fastweb-plus/digital-dev-security/passkey-cose-e-come-funziona/
 - https://it.wikipedia.org/wiki/0-day
 - https://www.cybersecitalia.it/
-- https://it.wikipedia.org/wiki/Cypherpunk
 - https://defcon.org/
 - https://www.shodan.io/
 - https://www.augustsolution.it/servizi/cyber-security/penetration-test/
 - https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
-- https://thesubmarine.it/2017/07/16/australia-il-paese-dove-la-matematica-non-vale/
-- https://it.wikipedia.org/wiki/Moneta_meme
 - https://www.pcmag.com/explainers/is-your-antivirus-spying-on-you-yes-and-some-are-worse-than-others
-- https://support.apple.com/it-it/122234
 - https://friendlycaptcha.com/it/insights/bot-protection/
 - https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
 - https://www.cve.org/
 - https://www.redhat.com/it/topics/security/security-for-iot-devices
 - https://it.wikipedia.org/wiki/Project_Zero_(Google)
 - https://it.wikipedia.org/wiki/Programma_Bug_bounty
-- https://www.cryptokitties.co/
 - https://www.acn.gov.it/portale/documents/20119/967511/Vademecum_Cybersecurity+di+base.pdf/01250655-1c9e-626f-ddd6-ff126b2d01f6?t=1753203906549
 - https://password1234.it/
 - https://www.wired.it/article/satelliti-senza-protezioni-intercettati-messaggi-privati-dati-militari-dallo-spazio/
-- https://www.geopop.it/cose-la-crittografia-come-funziona-e-perche-serve-a-proteggere-la-confidenzialita-dei-dati/
+- https://www.cloudflare.com/it-it/ddos/
+- https://it.wikipedia.org/wiki/Doxing
 
 # ATTACCHI INFORMATICI
+- https://sphinx.acast.com/p/open/s/645e735a3699f60011be3431/e/656c8bd8c27dae0012573dd7/media.mp3
 - https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
 - https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
 - https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
@@ -170,6 +183,8 @@ POSSIBILI ARGOMENTI
 - https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
 - https://www.ransomfeed.it/
 - https://www.wired.it/internet/web/2019/07/31/wannacry-marcus-hutchins/
+- https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
+- https://multiplayer.it/notizie/openai-prompt-injection-minaccia-strutturale-browser-agenti-ia.html
 
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score
