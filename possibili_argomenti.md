@@ -20,6 +20,7 @@ POSSIBILI ARGOMENTI
 - https://www.fastweb.it/fastweb-plus/digital-magazine/network-time-protocol-cos-e-e-come-funziona/
 - https://gpswise.aero/
 - https://www.wired.it/article/shutdown-internet-iran-2026/
+- https://www.geopop.it/cose-la-vpn-come-funziona-e-perche-e-utile-contro-i-rischi-del-wi-fi-pubblico/
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
@@ -136,55 +137,64 @@ POSSIBILI ARGOMENTI
 - https://archive.org/details/xbox-spot-life-is-short-play-more-hd-2
 - https://whitesock.it/project/inundo/
 
-# CRITTOGRAFIA E SICUREZZA INFORMATICA
-- https://www.fastweb.it/fastweb-plus/digital-dev-security/passkey-cose-e-come-funziona/
-- https://it.wikipedia.org/wiki/0-day
-- https://www.cybersecitalia.it/
-- https://defcon.org/
-- https://www.shodan.io/
-- https://www.augustsolution.it/servizi/cyber-security/penetration-test/
-- https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
-- https://www.pcmag.com/explainers/is-your-antivirus-spying-on-you-yes-and-some-are-worse-than-others
-- https://friendlycaptcha.com/it/insights/bot-protection/
-- https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
-- https://www.cve.org/
-- https://www.redhat.com/it/topics/security/security-for-iot-devices
-- https://it.wikipedia.org/wiki/Project_Zero_(Google)
-- https://it.wikipedia.org/wiki/Programma_Bug_bounty
-- https://www.acn.gov.it/portale/documents/20119/967511/Vademecum_Cybersecurity+di+base.pdf/01250655-1c9e-626f-ddd6-ff126b2d01f6?t=1753203906549
-- https://password1234.it/
-- https://www.wired.it/article/satelliti-senza-protezioni-intercettati-messaggi-privati-dati-militari-dallo-spazio/
-- https://www.cloudflare.com/it-it/ddos/
-- https://it.wikipedia.org/wiki/Doxing
+
+###########################################################################################################
 
 # ATTACCHI INFORMATICI
-- https://sphinx.acast.com/p/open/s/645e735a3699f60011be3431/e/656c8bd8c27dae0012573dd7/media.mp3
-- https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
-- https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
+
+## BOT e DdoS
+- https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
+- https://www.cloudflare.com/it-it/ddos/
+- https://friendlycaptcha.com/it/insights/bot-protection/
+
+## PHISHING
+GUERRA
 - https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
-- https://flipperzero.one/
+
+GOVERNO
 - https://www.ilsole24ore.com/art/l-app-criptata-era-controllata-dall-fbi-centinaia-arresti-mondo-AErrgCP?refresh_ce=1
-- https://www.bugbountyhunter.com/
-- https://irpimedia.irpi.eu/carmelo-miano-hacker-ministero-giustizia/
-- https://www.commissariatodips.it/notizie/articolo/report-safer-internet-day-2024/index.html
-- https://www.ncsc.admin.ch/ncsc/it/home.html
-- https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
-- https://www.wired.com/story/hacker-lexicon-what-is-a-supply-chain-attack/
+
+QR CODE
 - https://www.keepersecurity.com/blog/it/2024/08/20/qr-code-scams-you-should-be-aware-of/
 - https://www.ncsc.admin.ch/ncsc/it/home/aktuell/im-fokus/2024/2024-meteosuisse.html
+
+SCHEMA PONZI
 - https://ugo.legal/lo-schema-ponzi-digitale-le-nuove-frontiere-della-truffa-piu-vecchia-del-mondo/
+
+AI E DEEPFAKE
+- https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
+- https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
+
+## SUPPLY CHAIN ATTACK
+- https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
+- https://www.wired.com/story/hacker-lexicon-what-is-a-supply-chain-attack/ 
+
+## PROMPT INJECTION
+- https://www.wired.it/article/prompt-injection-cosa-e-gemini-a-rischio/
+- https://multiplayer.it/notizie/openai-prompt-injection-minaccia-strutturale-browser-agenti-ia.html
+
+# MALWARE
+
+## ZERO CLICK
+- https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
+
+## RANSOMWARE
+- https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
 - https://www.agendadigitale.eu/cultura-digitale/ransomware-gang-leconomia-segreta-della-mala-digitale/
 - https://www.wired.it/article/attacco-ransomware-bologna-fc/
-- https://www.cybersecurity360.it/news/attacco-a-inps-servizi-non-ce-rivendicazione-ma-la-grande-assente-e-la-trasparenza/
-- https://www.geopop.it/arriva-il-trojan-delle-app-bancarie-su-android-che-svuota-il-conto-come-difendersi-da-droidbot/
-- https://www.wired.it/article/prompt-injection-cosa-e-gemini-a-rischio/
-- https://it.wikipedia.org/wiki/Stuxnet
 - https://www.acn.gov.it/portale/documents/20119/728444/ACN_Ransomware_2024_CLEAR.pdf/76f76c2e-4c5e-e3cf-e76c-9f8032eea749?t=1734622549825
-- https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
 - https://www.ransomfeed.it/
+
+# MALWARE FAMOSI
+- https://it.wikipedia.org/wiki/Stuxnet
+- https://it.wikipedia.org/wiki/WannaCry
+
+# STORIE DI HACKER
+- https://irpimedia.irpi.eu/carmelo-miano-hacker-ministero-giustizia/
+- https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
 - https://www.wired.it/internet/web/2019/07/31/wannacry-marcus-hutchins/
-- https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
-- https://multiplayer.it/notizie/openai-prompt-injection-minaccia-strutturale-browser-agenti-ia.html
+
+###########################################################################################################
 
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score

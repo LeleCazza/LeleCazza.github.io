@@ -1,0 +1,225 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{GLOSSARIO}
+\subtitle{Terminologia e definizioni fondamentali nel campo della sicurezza informatica}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://storiespettinate.it/io-hacker-podcast-storie-spettinate/}{Joda - Io Hacker}
+            \item[-] \href{https://www.treccani.it/enciclopedia/antivirus/}{Treccani - Antivirus}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{0-DAY (ZERO-DAY)}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \'E una \textbf{qualsiasi vulnerabilità di sicurezza informatica non espressamente nota} allo 
+            sviluppatore o alla casa che ha prodotto un determinato sistema informatico; definisce 
+            anche il \textbf{programma} detto \href{https://it.wikipedia.org/wiki/Exploit}{\textbf{exploit}}, che sfrutta questa vulnerabilità informatica 
+            per consentire l'esecuzione anche parziale di azioni non normalmente permesse da chi ha 
+            progettato il sistema in questione. \textbf{Vengono chiamati 0-day proprio perché sono passati zero 
+            giorni da quando la vulnerabilità è stata conosciuta dallo sviluppatore e quindi lo 
+            sviluppatore ha avuto ``zero giorni" per riparare la falla nel programma prima che qualcuno 
+            possa scrivere un exploit per essa}.\\
+            \bigskip
+            \tiny{\textbf{Curiosità}}\\
+            \tiny{\href{https://it.wikipedia.org/wiki/Project_Zero_(Google)}{Project Zero}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ANTIVIRUS}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Applicazione informatica che svolge una \textbf{funzione di blocco, controllo ed eventualmente 
+            rimozione di altre applicazioni} progettate per attaccare e danneggiare in vario modo il 
+            software di base e applicativo di un computer. L’antivirus contiene funzionalità che ne 
+            permettono l’\textbf{aggiornamento frequente via Internet}, per garantire una tempestiva protezione 
+            anche dai più recenti attacchi.\\
+            \bigskip
+            \tiny{\textbf{Approfondimento}}\\
+            \tiny{\href{https://www.cybersecurity360.it/news/perche-avast-venduto-dati-utenti/}{Il tuo Antivirus potrebbe spiarti}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{CRACKER}
+    \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    Termine che deriva dall'inglese ``to crack" ovvero ``rompere"", identifica genericamente i \textbf{criminali 
+                    informatici}. Viene spesso sostituito erroneamente con il termine hacker.\\
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/cracker.png}
+                \caption{{creata con \href{gemini.google.com}{Gemini}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{DOXING}
+    \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    Pratica di \textbf{raccogliere e pubblicare online informazioni personali e sensibili su un 
+                    individuo senza il suo consenso}, spesso con l'intento di molestare, intimidire o danneggiare 
+                    quella persona. Queste informazioni possono includere indirizzi, numeri di telefono, 
+                    dettagli finanziari e altro ancora.\\
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/doxing.png}
+                \caption{{creata con \href{gemini.google.com}{Gemini}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{HACKER}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Termine che rappresenta una comunità di \textbf{esperti informatici} molto vasta, 
+            con competenze comuni, approcci comuni alla risoluzione dei problemi, con dei tratti 
+            simili per alcuni comportamenti, ma molto diversi tra loro. Si differenziano soprattutto 
+            per le intenzioni e le modalità con cui agiscono.\\
+            \bigskip
+            \begin{itemize}
+                \justifying
+                \pause
+                \item \textbf{Black Hat}: Hacker che non agisce secondo la legge, infrangendola con scopi 
+                malevoli per recare danno a persone, cose, aziende o governi. Agisce di solito per un 
+                proprio tornaconto personale (denaro, gloria, fama o ideologie estreme);
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{HACKER}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \begin{itemize}
+                \justifying
+                \item \textbf{White Hat}: Hacker che agisce all'interno della legalità e quando viola i 
+                sistemi, le reti o i software, lo fa su richiesta di aziende, polizia o governi, oppure 
+                per verificare la vulnerabilità e tenuta dei sistemi e garantire una maggiore sicurezza 
+                informatica. Agisce come un Black Hat ma per motivi opposti.\\
+                Oggi si definiscono \href{https://www.fastweb.it/fastweb-plus/digital-dev-security/quali-sono-le-competenze-per-diventare-un-ethical-hacker/}{Etical Hacker};\\
+                \bigskip
+                \tiny{\textbf{Curiosità}\\
+                \href{https://it.wikipedia.org/wiki/Programma_Bug_bounty}{Programma Bug bounty}}
+                \pause
+                \item \normalsize{\textbf{Gray Hat}: Hacker solitamente attivista che animato da buone intenzioni infrange la legge, ad 
+                esempio per segnalare ad aziende delle vulnerabilità che in mano a Black Hat potrebbero 
+                causare gravi danni. A volte crea un dilemma etico che la legge, gli avvocati, 
+                i giudici, ma anche la gente comune, deve affrontare per giudicare le sue azioni: 
+                Quando non si tratta di Black Hat ma di Gray Hat? Qual è il confine tra etica e illegalità?}
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{LAMER}
+    \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    In italiano: ``Zoppo", viene utilizzato per indicare qualcosa o qualcuno di rozzo. 
+                    Le attività dei Lamer sono grossolane, anche se riescono a fare dei danni o a violare 
+                    delle reti o rubare delle password, \textbf{in genere sono persone molto poco preparate e poco 
+                    propense allo studio, che usano tool inventati da altri per fare danni}.\\
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/lamer.png}
+                \caption{{creata con \href{gemini.google.com}{Gemini}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{PENETRATION TEST}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il \textbf{Penetration Test} viene condotto su più fasi dal punto di vista di un 
+            potenziale attaccante e \textbf{simula l’attacco informatico di un utente malintenzionato}. 
+            Il test sfrutta le \href{https://www.cve.org/}{\textbf{vulnerabilità conosciute}} o rilevate, aiutando così a determinare se le 
+            difese del sistema sono sufficienti o se invece sono presenti altre vulnerabilità, elencando 
+            in questo caso in un report quali difese il test ha sconfitto.\\
+            \bigskip
+            \tiny{\textbf{Approfondimento}}\\
+            \tiny{\href{https://www.augustsolution.it/servizi/cyber-security/penetration-test/}{Esempio di azienda che offre Penetration Test}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{TOOLS DI RETE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            I \textbf{tools di rete} sono \textbf{software progettati per monitorare, analizzare e gestire 
+            le reti informatiche}. Questi strumenti aiutano gli amministratori di rete a garantire la 
+            sicurezza, l'efficienza e la funzionalità delle reti. Di sequito alcuni tools comunemente usati:
+            \begin{itemize}
+                \pause
+                \item \href{https://www.shodan.io/}{\textbf{Shodan}}: motore di ricerca per 
+                dispositivi connessi a Internet, utile per identificare vulnerabilità e configurazioni errate;
+                \pause
+                \item \href{https://www.wireshark.org/}{\textbf{Wireshark}}: analizzatore di protocolli di rete 
+                che consente di catturare e analizzare il traffico di rete; 
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}

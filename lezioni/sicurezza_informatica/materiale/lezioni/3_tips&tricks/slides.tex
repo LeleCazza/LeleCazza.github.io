@@ -1,0 +1,281 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{TIPS \& TRICKS}
+\subtitle{Buone pratiche per migliorare la sicurezza informatica}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://support.google.com/accounts/answer/32040?hl=it}{Google - creare una password efficace}
+            \item[-] \href{https://it.wikipedia.org/wiki/Password}{Wikipedia - Password}
+            \item[-] \href{https://www.geopop.it/cosa-sono-i-password-manager-come-funzionano-e-quanto-sono-sicuri-i-gestori-di-password/}{Geopop - Password Manager} 
+            \item[-] \href{https://www.fastweb.it/fastweb-plus/digital-dev-security/passkey-cose-e-come-funziona/?fwp_login_type=3}{Fastweb Plus - Passkey}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\section{PASSWORD}
+
+\begin{frame}{PASSWORD}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Una \textbf{password} è una sequenza di caratteri alfanumerici e di simboli utilizzata 
+            per \textbf{accedere in modo esclusivo a una risorsa informatica}. Si parla più 
+            propriamente di \textbf{passphrase} se la chiave è costituita da una frase o da 
+            una sequenza sufficientemente lunga di caratteri (non meno di 20/30).\\
+            Una password efficace può essere facile da ricordare per te, ma quasi impossibile da 
+            indovinare per gli altri.\\
+            \bigskip
+            \tiny{\textbf{Curiosità}}\\
+            \tiny{\href{https://it.wikipedia.org/wiki/Automated_Password_Generator}{Automated Password Generator (APG)}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{SUGGERIMENTI GOOGLE PER CREARE UNA PASSWORD EFFICACE}
+    \begin{itemize}
+        \item \textbf{Crea una password univoca}: Usa una password diversa per ogni account importante;
+        \pause
+        \item \textbf{Crea una password più lunga e facile da ricordare}: imposta una password di almeno 12 caratteri. 
+        Prova a usare:
+        \begin{itemize}
+            \item Testo di una canzone o una poesia
+            \item Una citazione significativa di un film o un discorso
+            \item Un passaggio di un libro
+            \item Una serie di parole significative per te
+            \item Un'abbreviazione: crea una password usando la prima lettera di ogni parola di una frase
+        \end{itemize}
+        Evita di scegliere password che possano essere intuite da persone che conosci o che guardano informazioni 
+        facilmente accessibili (come il tuo profilo sui social media);
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{SUGGERIMENTI GOOGLE PER CREARE UNA PASSWORD EFFICACE}
+    \begin{itemize}
+        \item \textbf{Evita informazioni personali}: Evita di creare password usando informazioni note 
+        ad altre persone o facilmente indovinabili. Esempi:
+        \begin{itemize}
+            \item Il tuo nickname o le tue iniziali;
+            \item Il nome di tuo figlio o del tuo animale domestico;
+            \item Compleanni o anni importanti;
+            \item Il nome della tua via;
+            \item Numeri del tuo indirizzo;
+            \item Il tuo numero di telefono.
+        \end{itemize}
+        \pause
+        \item \textbf{Evita parole o sequenze comuni}: Evita parole, espressioni e sequenze facili da indovinare. Esempi:
+        \begin{itemize}
+            \item Parole e frasi ovvie come "password" e "fammiaccedere";
+            \item Sequenze come "abcd" o "1234";
+            \item Sequenze della tastiera come "qwerty" o "qazwsx".
+        \end{itemize}
+        \pause
+        \item \textbf{Nascondi le password scritte}: Se devi annotarti la password, non lasciarla sul 
+        computer o sulla scrivania. Assicurati di conservare le password scritte in posti 
+        segreti o chiusi a chiave.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{PASSWORD MANAGER}
+    \begin{columns}
+        \column{.55\textwidth}
+            \begin{alertblock}{DEFINIZIONE}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    Applicazione progettata per \textbf{gestire e automatizzare tutte le credenziali di accesso ai propri 
+                    account per diversi siti e servizi}. L’obiettivo principale è facilitare la creazione e l'utilizzo 
+                    di password complesse e uniche per ogni account, senza doverle ricordare tutte.
+                    \begin{itemize}
+                        \item Password manager locali \\(esempio: \href{https://keepassxc.org/}{KeePassXC})
+                        \item Password manager basati sul cloud: \\(esempio: \href{https://bitwarden.com/}{Bitwarden})
+                        \item Password manager dei browser: \\(esempio: \href{https://passwords.google.com/}{Google Chrome})
+                        \item Password manager basati su hardware
+                    \end{itemize}
+                \end{minipage}
+            \end{alertblock}
+        \column{.45\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{img/passwordmanager.png}
+                \caption{{creata con \href{gemini.google.com}{Gemini}}}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{PASSKEY}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Una \textbf{passkey} è un metodo di autenticazione alternativo alle password, che permette di 
+            accedere ad app, programmi, siti web o servizi digitali. L’autenticazione passkey \textbf{ricorre 
+            ai dati biometrici dell’utente}. Quando si accede, \textbf{il dispositivo utilizza i dati 
+            biometrici o un PIN per verificare che si tratti dell’utente legittimo}. 
+            Dopo la verifica, il dispositivo invia una risposta sicura, generata a partire da 
+            tale passkey univoca, al servizio richiesto.\\
+            \bigskip
+            \tiny{\textbf{Approfondimento}}\\
+            \tiny{\href{https://www.kaspersky.it/blog/full-guide-to-passkeys-in-2025-part-1/29790/}{Guida alle passkey}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{AUTENTICAZIONE A DUE FATTORI (2FA)}
+    \centering
+    \begin{tabular}{c||c}
+        \textbf{TIPOLOGIA} & \textbf{DESCRIZIONE} \\
+        \hline
+        \hline
+        \pause
+        \multirow{2}{5.5cm}{\textbf{MESSAGGIO TELEFONO}} & \multirow{2}{8cm}{OTP inviato per SMS al numero di telefono specificato dall’utente in fase di registrazione} \\
+        & \\
+        \hline
+        \pause
+        \multirow{2}{5.5cm}{\textbf{INDIRIZZO MAIL}} & \multirow{2}{8cm}{OTP inviato per MAIL all’indirizzo specificato dall’utente in fase di registrazione} \\
+        & \\
+        \hline
+        \pause
+        \multirow{2}{5.5cm}{\textbf{DISPOSITIVO HARDWARE}} & \multirow{2}{8cm}{OTP generato tramite hardware specifico} \\
+        & \\
+        \hline
+        \pause
+        \multirow{2}{5.5cm}{\textbf{APPLICAZIONE}} & \multirow{2}{8cm}{OTP inviato tramite app installata sullo smartphone (esempio: \href{https://getaegis.app/}{Aegis Authenticator})} \\
+        & \\
+        \hline
+    \end{tabular}
+\end{frame}
+
+\begin{frame}{HAVE I BEEN PWNED?}
+    \begin{figure}
+        \href{https://haveibeenpwned.com/}{\includegraphics[width=.5\linewidth]{img/haveibeenpwned.png}}
+        \caption{{creata con \href{gemini.google.com}{Gemini}}}
+    \end{figure}
+\end{frame}
+
+\section{GESTIONE ACCOUNT}
+
+\begin{frame}{GESTIONE ACCOUNT}
+    \begin{alertblock}{BUONE NORME DA SEGUIRE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            COMPITO: Esegui una revisione completa di tutti gli account online e applicazioni che possiedi e 
+            delle password associate ad essi, installando un password manager.
+            \bigskip
+            \begin{enumerate}
+                \pause
+                \item Eliminare tutti gli account inutilizzati;
+                \pause
+                \item Eliminare tutte le applicazioni inutilizzate;
+                \pause
+                \item Cambiare le password a tutti gli account rimasti e utilizzare un password manager;
+                \pause
+                \item Disattivare dalle impostazioni di ogni account/applicazione rimasta tutti i 
+                permessi/opzioni di condivisione dati non strettamente necessari.
+            \end{enumerate}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{GESTIONE ACCOUNT}
+    \begin{alertblock}{BUONE NORME DA SEGUIRE}
+        \begin{minipage}{0.98\linewidth}
+            \begin{enumerate}
+                \item Prima di iscriverti a un nuovo servizio online, verifica se ne hai davvero bisogno 
+                utilizzando una mail temporanea per la registrazione (esempio: \href{https://10minutemail.com/}{10 Minute Mail});
+                \pause
+                \item Quando ti iscrivi ad un sito web o ad un servizio online, rimuovi tutte le spunte 
+                relative a newsletter, pubblicità o condivisione dei tuoi dati con terze parti, inserendo 
+                solamente i consensi o i dati obbligatori (*);
+                \pause
+                \item Pulisci la posta elettronica disiscrivendoti dalle newsletter/spam non desiderati 
+                (in genere cliccando sul link "Unsubscribe" in fondo alla mail).
+            \end{enumerate}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{PRIVACY}
+
+\begin{frame}{PRIVACY}
+    \begin{alertblock}{TIPS\&TRICKS}
+        \begin{minipage}{0.98\linewidth}
+            \begin{enumerate}
+                \item Utilizza software alternativo ai classici per ottenere una navigazione più privata e sicura 
+                (esempio: \href{https://www.privacytools.io}{PrivacyTools});
+                \pause
+                \item Utilizza un intermediario Proxy o una VPN per nascondere il tuo indirizzo IP reale 
+                e visualizzare pagine web in modo ``più anonimo'' (esempio: \href{https://hide.me/it/proxy}{Hide me});
+                \pause
+                \item Utilizza un account ospite con navigazione in incognito per non memorizzare sul dispositivo 
+                cookies, account e cronologia delle ricerche effettuate;
+                \pause
+                \item \textbf{Non dare mai per scontato che sia impossibile violare i dispositivi \href{https://it.wikipedia.org/wiki/Internet_delle_cose}{IoT}.}
+            \end{enumerate}
+            \bigskip
+            \tiny{\textbf{Approfondimento}}\\
+            \tiny{\href{https://www.redhat.com/it/topics/security/security-for-iot-devices}{La sicurezza per i dispositivi IoT}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{INFORMAZIONE}
+
+\begin{frame}{INFORMAZIONE}
+    \begin{alertblock}{FONTI AFFIDABILI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Esistono numerose fonti online affidabili per rimanere aggiornati sulle ultime novità 
+            e tendenze nel campo della sicurezza informatica. Di seguito alcune delle più rinomate e rispettate:
+            \bigskip
+            \begin{itemize}
+                \pause
+                \item \href{https://www.acn.gov.it/portale/home}{\textbf{ACN}}: Agenzia per la Cybersicurezza Nazionale italiana;
+                \pause
+                \item \href{https://www.ncsc.admin.ch/ncsc/it/home.html}{\textbf{NCSC}}: National Cyber Security Centre Svizzera;
+                \pause
+                \item \href{https://www.cybersecitalia.it/}{\textbf{CyberSecurity Italia}}: Quotidiano online dedicato alla sicurezza informatica;
+                \pause
+                \item \href{https://www.wired.it/topic/cybersecurity/}{\textbf{Wired}}: Sezione Cybersecurity della rivista di tecnologia Wired.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}
