@@ -141,28 +141,10 @@ POSSIBILI ARGOMENTI
 
 # ATTACCHI INFORMATICI
 
-## BOT e DdoS
-- https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
-- https://www.cloudflare.com/it-it/ddos/
-- https://friendlycaptcha.com/it/insights/bot-protection/
-
-## PHISHING
-GUERRA
-- https://www.ilgiornale.it/news/mondo/nuova-strategia-hamas-adescare-sul-web-i-soldati-israeliani-1827801.html
-
-GOVERNO
-- https://www.ilsole24ore.com/art/l-app-criptata-era-controllata-dall-fbi-centinaia-arresti-mondo-AErrgCP?refresh_ce=1
-
-QR CODE
-- https://www.keepersecurity.com/blog/it/2024/08/20/qr-code-scams-you-should-be-aware-of/
-- https://www.ncsc.admin.ch/ncsc/it/home/aktuell/im-fokus/2024/2024-meteosuisse.html
-
-SCHEMA PONZI
-- https://ugo.legal/lo-schema-ponzi-digitale-le-nuove-frontiere-della-truffa-piu-vecchia-del-mondo/
-
-AI E DEEPFAKE
+## AI E DEEPFAKE
 - https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
 - https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
+- https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
 
 ## SUPPLY CHAIN ATTACK
 - https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
