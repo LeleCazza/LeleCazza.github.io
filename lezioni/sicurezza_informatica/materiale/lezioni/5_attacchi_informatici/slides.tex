@@ -28,8 +28,8 @@
 \setlength{\metropolis@titleseparator@linewidth}{1pt}
 \makeatother
 
-\title{MALWARE \& ATTACKS}
-\subtitle{Attacchi informatici e Malware più diffusi}
+\title{ATTACCHI INFORMATICI}
+\subtitle{Attacchi informatici più diffusi}
 \date{}
 \institute{\textit{
         Fonti:
@@ -265,47 +265,6 @@
     \end{itemize}
     \tiny{\textbf{Curiosità}}\\
     \tiny{\href{https://it.wikipedia.org/wiki/Kevin_Mitnick}{L'hacker più famoso della storia}}
-\end{frame}
-
-\section{MALWARE}
-
-\begin{frame}{RABBIT}
-    \begin{alertblock}{DEFINIZIONE}
-        \begin{minipage}{0.98\linewidth}
-            \justifying
-            Tipo di malware che \textbf{attacca le risorse del sistema} duplicando in continuazione la propria 
-            immagine su disco, o attivando nuovi processi a partire dal proprio eseguibile, 
-            in modo da \textbf{consumare tutte le risorse disponibili} sul sistema in pochissimo tempo. 
-            Il nome si riferisce proprio alla prolificità di questo "infestante".\\
-            \bigskip
-            \tiny{\textbf{Esempio}}\\
-            \tiny{\href{https://it.wikipedia.org/wiki/Fork_bomb}{Fork Bomb}}
-        \end{minipage}
-    \end{alertblock}
-\end{frame}
-
-\begin{frame}{RABBIT - ESEMPIO FORK BOMB}
-    \begin{enumerate}
-        \item Creare un file di testo RABBIT.txt;
-        \pause
-        \item Inserire la Fork Bomb nel file digitando: \textbf{start cmd /k echo BOMB \textbf{$\mid$} \%0}
-        \pause
-        \item Modificare l’estensione del ﬁle da .txt a .bat
-        \pause
-        \item Preparare un teminale con l'istruzione: \textbf{taskkill /F /IM cmd.exe} per stoppare il malware;
-        \pause
-        \item Eseguire il file RABBIT.bat e terminarlo con il comando preparato sul terminale.
-    \end{enumerate}                        
-\end{frame}
-
-\begin{frame}{EFFETTUA UNA RICERCA SUI SEGUENTI MALWARE\\(definizione e un esempio per ogni tipologia)}
-    \begin{itemize}
-        \item \textbf{BACKDOOR};
-        \item \textbf{RANSOMWARE};
-        \item \textbf{TROJAN};
-        \item \textbf{VIRUS};
-        \item \textbf{WORM}.
-    \end{itemize}                        
 \end{frame}
 
 \begin{frame}{Prof. Eugene Howard Spafford (Spaf)}

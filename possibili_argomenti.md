@@ -137,7 +137,6 @@ POSSIBILI ARGOMENTI
 - https://archive.org/details/xbox-spot-life-is-short-play-more-hd-2
 - https://whitesock.it/project/inundo/
 
-
 ###########################################################################################################
 
 # ATTACCHI INFORMATICI
@@ -173,27 +172,6 @@ AI E DEEPFAKE
 - https://www.wired.it/article/prompt-injection-cosa-e-gemini-a-rischio/
 - https://multiplayer.it/notizie/openai-prompt-injection-minaccia-strutturale-browser-agenti-ia.html
 
-# MALWARE
-
-## ZERO CLICK
-- https://www.kaspersky.it/resource-center/definitions/what-is-zero-click-malware
-
-## RANSOMWARE
-- https://www.cybersecurity360.it/outlook/dalla-cifratura-allesfiltrazione-dei-dati-cosi-si-evolve-il-ricatto-ransomware
-- https://www.agendadigitale.eu/cultura-digitale/ransomware-gang-leconomia-segreta-della-mala-digitale/
-- https://www.wired.it/article/attacco-ransomware-bologna-fc/
-- https://www.acn.gov.it/portale/documents/20119/728444/ACN_Ransomware_2024_CLEAR.pdf/76f76c2e-4c5e-e3cf-e76c-9f8032eea749?t=1734622549825
-- https://www.ransomfeed.it/
-
-# MALWARE FAMOSI
-- https://it.wikipedia.org/wiki/Stuxnet
-- https://it.wikipedia.org/wiki/WannaCry
-
-# STORIE DI HACKER
-- https://irpimedia.irpi.eu/carmelo-miano-hacker-ministero-giustizia/
-- https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
-- https://www.wired.it/internet/web/2019/07/31/wannacry-marcus-hutchins/
-
 ###########################################################################################################
 
 # ALGORITMI
@@ -213,3 +191,8 @@ AI E DEEPFAKE
 - https://leonardo-supercomputer.cineca.eu/it/top500-leonardo-quarto/
 - https://www.ansa.it/sito/notizie/economia/2025/09/26/morto-pistorio-porto-la-stm-tra-aziende-leader-mondiali_a6514cc8-9462-4c4e-ba95-5dbbf6b94f54.html
 - https://it.wikipedia.org/wiki/Giovanni_Degli_Antoni
+
+# STORIE DI HACKER
+- https://irpimedia.irpi.eu/carmelo-miano-hacker-ministero-giustizia/
+- https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
+- https://www.wired.it/internet/web/2019/07/31/wannacry-marcus-hutchins/
