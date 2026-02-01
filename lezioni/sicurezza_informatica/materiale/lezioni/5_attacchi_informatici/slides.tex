@@ -37,8 +37,11 @@
             \item[-] \href{https://it.wikipedia.org/wiki/Attacco\_informatico}{Wikipedia}
             \item[-] \href{https://www.geopop.it/cose-lo-spoofing-come-funziona-e-come-difendersi/
             https://www.geopop.it/}{Geopop} 
-            \item[-] \href{https://www.kaspersky.it/resource-center/definitions/what-is-social-engineering}{Kaspersky}
+            \item[-] \href{https://www.kaspersky.it/resource-center/definitions/what-is-social-engineering}{Kaspersky: Social Engineering}
+            \item[-] \href{https://www.kaspersky.it/resource-center/preemptive-safety/supply-chain-security}{Kaspersky: Supply Chain Attack}
             \item[-] \href{https://www.cloudflare.com/it-it/ddos/}{Cloudflare: DDoS}
+            \item[-] \href{https://www.sentinelone.com/it/cybersecurity-101/cybersecurity/injection-attacks}{SentinelOne}
+            \item[-] \href{https://www.w3schools.com/sql/sql_injection.asp}{W3Schools: SQL Injection}
         \end{itemize}
     }
 }
@@ -148,6 +151,77 @@
     \bigskip
     \tiny{\textbf{Come difendersi?}}\\
     \tiny{\href{https://www.cloudflare.com/it-it/ddos/}{Cloudflare: Protezione DDoS}}
+\end{frame}
+
+\section{SUPPLY CHAIN ATTACK}
+
+\begin{frame}{SUPPLY CHAIN ATTACK}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Gli attacchi alla \textbf{catena di approvvigionamento} sono minacce informatiche specifiche che 
+            mirano a \textbf{colpire o manomettere la rete di un'organizzazione} sfruttando le vulnerabilità 
+            nella relativa catena di approvvigionamento. La maggior parte delle aziende deve infatti 
+            collaborare con fornitori e servizi di terze parti per realizzare i propri prodotti, 
+            \textbf{se il fornitore viene compromesso, anche tutti i suoi clienti e le aziende con cui lavorano, 
+            potrebbero subire violazioni}.\\
+            \bigskip
+            \tiny{\textbf{Esempio}}\\
+            \tiny{\href{https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/}{Esplosioi in Libano e in Siria}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{INJECTION ATTACK}
+
+\begin{frame}{INJECTION ATTACK}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un \textbf{Injection Attack} è un tipo di attacco informatico in cui un attaccante \textbf{inietta 
+            del codice malevolo} in un'applicazione, con l'obiettivo di compromettere la sicurezza del 
+            sistema o di ottenere l'accesso non autorizzato a dati sensibili. Questi \textbf{attacchi sfruttano 
+            le vulnerabilità presenti nei sistemi di input dell'applicazione}, come i campi di testo 
+            o i parametri delle query.\\
+            \bigskip
+            \begin{enumerate}
+                \pause
+                \item \textbf{SQL Injection}: l'attaccante inserisce comandi SQL malevoli in un campo di input;
+                \pause
+                \item \textbf{Prompt Injection}: l'attaccante inietta comandi o input malevoli in un prompt o un'interfaccia utente 
+                (esempio: \href{https://www.wired.it/article/prompt-injection-cosa-e-gemini-a-rischio/}{attacco tramite AI generativa}).\\
+                \bigskip
+                \tiny{\textbf{Esempio}}\\
+                \tiny{\href{https://multiplayer.it/notizie/openai-prompt-injection-minaccia-strutturale-browser-agenti-ia.html}{Prompt Injection in Browser AI}}
+            \end{enumerate}
+            \bigskip
+            \tiny{\textbf{Come difendersi?}}\\
+            \tiny{\href{https://sqlmap.org/}{SQLMap: penetration testing per SQL Injection}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{SQL INJECTION - ESEMPIO}
+    \only<1 | handout:0>{\begin{figure}
+        \includegraphics[width=.8\linewidth]{img/sqlInj1.png}
+        \caption{{creata con \href{www.cava.com}{Canva}}}
+    \end{figure}}
+    \only<2 | handout:1>{\begin{figure}
+        \includegraphics[width=.8\linewidth]{img/sqlInj2.png}
+        \caption{{creata con \href{www.cava.com}{Canva}}}
+    \end{figure}}
+    \only<3 | handout:2>{\begin{figure}
+        \includegraphics[width=.8\linewidth]{img/sqlInj3.png}
+        \caption{{creata con \href{www.cava.com}{Canva}}}
+    \end{figure}}
+    \only<4 | handout:3>{\begin{figure}
+        \includegraphics[width=.8\linewidth]{img/sqlInj4.png}
+        \caption{{creata con \href{www.cava.com}{Canva}}}
+    \end{figure}}
+    \only<5 | handout:4>{\begin{figure}
+        \includegraphics[width=.8\linewidth]{img/sqlInj5.png}
+        \caption{{creata con \href{www.cava.com}{Canva}}}
+    \end{figure}}
 \end{frame}
 
 \section{SPOOFING}

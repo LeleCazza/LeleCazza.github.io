@@ -35,6 +35,7 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/in-the-belly-of-ai-documentario-data-worker-intelligenza-artificiale-henri-poulain-intervista/
 - https://diecichilidiperle.blogspot.com/2022/10/perche-mai-noi-umani-dovremmo-affidarci.html
 - https://www.wired.it/article/meta-16-dicembre-messaggi-privati-pubblicita-chatbot-privacy/
+- https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
 
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
 - https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
@@ -136,25 +137,6 @@ POSSIBILI ARGOMENTI
 - https://thepowerofplay.it/evento/
 - https://archive.org/details/xbox-spot-life-is-short-play-more-hd-2
 - https://whitesock.it/project/inundo/
-
-###########################################################################################################
-
-# ATTACCHI INFORMATICI
-
-## AI E DEEPFAKE
-- https://www.cybersecitalia.it/deepfake-operatore-finanziario-trasferisce-26-milioni-di-dollari-a-cybercriminali-tramite-una-videocall-generata-con-lai/33677/
-- https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
-- https://www.hwupgrade.it/news/web/lei-e-daisy-la-nonna-bot-ai-contro-i-truffatori-telefonici_132803.html
-
-## SUPPLY CHAIN ATTACK
-- https://attivissimo.me/2024/09/19/podcast-rsi-no-i-telefonini-non-esplodono-spontaneamente/
-- https://www.wired.com/story/hacker-lexicon-what-is-a-supply-chain-attack/ 
-
-## PROMPT INJECTION
-- https://www.wired.it/article/prompt-injection-cosa-e-gemini-a-rischio/
-- https://multiplayer.it/notizie/openai-prompt-injection-minaccia-strutturale-browser-agenti-ia.html
-
-###########################################################################################################
 
 # ALGORITMI
 - https://en.m.wikipedia.org/wiki/Weissman_score
