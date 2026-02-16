@@ -118,6 +118,7 @@ SAGGI
 
 ### 2022
 
+*   Inferno digitale (Guillaume Pitron)
 *   Macchine ingannevoli. Comunicazione, tecnologia, intelligenza artificiale (Simone Natale)
 *   Etica dell'intelligenza artificiale (Luciano Floridi)
 *   L'intelligenza artificiale. Una guida per esseri umani pensanti (Melanie Mitchell)

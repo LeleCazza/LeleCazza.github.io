@@ -21,6 +21,8 @@ POSSIBILI ARGOMENTI
 - https://gpswise.aero/
 - https://www.wired.it/article/shutdown-internet-iran-2026/
 - https://www.geopop.it/cose-la-vpn-come-funziona-e-perche-e-utile-contro-i-rischi-del-wi-fi-pubblico/
+- https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
+- https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
@@ -37,33 +39,62 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/meta-16-dicembre-messaggi-privati-pubblicita-chatbot-privacy/
 - https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
 
+
+
+*******************************************************************************************************
+*******************************************************************************************************
+*******************************************************************************************************
+
+
+
 # INQUINAMENTO E CAMBIAMENTO CLIMATICO
-- https://www.agendadigitale.eu/smart-city/quanto-inquina-il-cloud-ecco-perche-lopacita-dei-vendor-non-e-piu-sostenibile/
-- https://formiche.net/2021/08/climate-tech/#content
-- Infomaniak.com
-- https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
-- https://open.spotify.com/episode/1eBgqXHGfv8cOjjAsb2Zmy
-- https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
-- https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
+
+## DATI CLIMA
+- https://www.iqair.com/it/world-air-quality
+- https://waqi.info/it
+- https://www.climatewatchdata.org/sectors/coming-soon
 - https://www.climatiq.io/data
+
+## INQUINAMENTO DATACENTER E AI
+- https://www.wired.it/article/google-emissioni-aumento-intelligenza-artificiale/
+- https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
+- https://www.ilpost.it/2026/01/09/intelligenza-artificiale-consumo-acqua/
 - https://www.agendadigitale.eu/smart-city/la-sfida-dei-data-center-alimentare-lai-senza-distruggere-il-pianeta/
+- https://www.agendadigitale.eu/smart-city/il-digitale-non-e-un-pasto-gratis-quanto-inquinano-i-data-center-e-come-ridurne-limpatto/
+- https://www.wired.it/gallery/supercomputer-olivia-norvegia-miniera/
+- https://www.geopop.it/intelligenza-artificiale-consumi-energia/
+
+## ESTRAZIONE MINIERE E TERRE RARE + (CASO PALAQUIUMGUTTA SFRUTTAMENTO RISORSE)
 - https://www.editorialedomani.it/tecnologia/intelligenza-artificiale-quanto-inquina-miniere-litio-discariche-kinx6xvj
-- https://theanthropocene.org/film/
+- https://www.agendadigitale.eu/smart-city/lai-consuma-il-pianeta-la-guerra-nascosta-per-energia-e-potere-digitale/
 - https://www.geopop.it/terre-rare-cosa-sono-dove-si-estraggono-e-il-monopolio-cinese/
 - https://www.agendadigitale.eu/smart-city/terre-rare-lo-sporco-segreto-della-transizione-energetica-ecologica/
 - https://www.tomshw.it/smartphone/il-lago-tossico-dellhi-tech-il-prezzo-che-paga-la-cina-della-crescita-a-doppia-cifra
-- https://www.lifegate.it/indonesia-miniere-abbandonate
 - https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications
-- https://luissuniversitypress.it/inquinamento-cloud-articolo-andrea-daniele-signorelli-digitalizzazione-lmdp/
-- https://es.wired.com/articulos/onu-pide-frenar-la-expansion-de-los-centros-de-datos-que-alimentan-la-ia
+- VIDEO COLTAN: https://www.geopop.it/coltan-il-minerale-essenziale-per-gli-smartphone-estratto-da-minatori-sfruttati-in-congo/
+
+## ANTROPOCENE
+- https://www.mimesisedizioni.it/libro/9788857586489
+- https://earth.google.com/web/data=MkEKPwo9CiExa25uLXJXdmFrM0RmR29zRHM5Z1daVW1jUVBPSVR6N1kSFgoUMDM5QTJDQTc4RDEyQjQ1QzMxMDkgAUICCABKCAiBldHGBhAB
+- https://it.chili.com/content/antropocene-l-epoca-umana-2018/04eee8dc-face-48c4-9b51-bed21df91d80
+
+## INQUINAMENTO SPAZIALE
 - https://it.wikipedia.org/wiki/Sindrome_di_Kessler
-- STORIA CAVI SOTTOMARINI: palaquium gutta
-- DEFINIZIONE CLOUD citazione di Tung-Hui Hu dal suo libro A Prehistory of the Cloud:"Il Cloud è una tecnologia estrattiva ad alta intensità di risorse che converte l'acqua e l'elettricità in potenza computazionale, lasciando dietro di sé una quantità considerevole di danni ambientali che poi cela alla vista".
-- https://www.agendadigitale.eu/smart-city/il-digitale-non-e-un-pasto-gratis-quanto-inquinano-i-data-center-e-come-ridurne-limpatto/
-- https://www.youtube.com/watch?v=I-MMteT9YTM
-- https://www.wired.it/gallery/supercomputer-olivia-norvegia-miniera/
-- https://www.ilpost.it/2026/01/09/intelligenza-artificiale-consumo-acqua/
-- https://www.geopop.it/intelligenza-artificiale-consumi-energia/
+
+## RICICLO DISPOSITIVI ELETTRONICI
+- DISCARICA GHANA: https://www.geopop.it/la-piu-grande-discarica-di-rifiuti-elettronici-al-mondo-si-trova-in-ghana/
+- RICICLO RIFIUTI ELETTRONICI: https://www.geopop.it/come-si-riciclano-i-rifiuti-elettronici/
+- RICICLO BATTERIE: https://www.geopop.it/come-si-riciclano-le-batterie/
+- https://www.europarl.europa.eu/topics/it/article/20201208STO93325/rifiuti-elettronici-nell-ue-dati-e-cifre-infografica
+
+
+
+*******************************************************************************************************
+*******************************************************************************************************
+*******************************************************************************************************
+
+
+
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 - https://www.redhotcyber.com/post/la-dichiarazione-di-indipendenza-del-cyberspazio/
