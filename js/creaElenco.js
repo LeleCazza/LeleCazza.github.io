@@ -10,7 +10,7 @@ function creaElenco(elenco, icona) {
                     <div class="w3-display-container w3-center" style="text-align: justify; height: 100%;">
                         <a href="${elenco[i].link}" style="text-decoration: none;">
                             <br>
-                            ${elenco[i].copertina ? '<img src=' + elenco[i].copertina + ' class="w3-round w3-image" style="max-width:100px">' : '<h1>' + icona + '</h1>'}
+                            ${elenco[i].copertina ? '<img src=' + elenco[i].copertina + ' class="w3-round w3-image" style="max-height:80px">' : '<h1>' + icona + '</h1>'}
                             <div class="w3-container">
                                 <p>
                                     <b>${elenco[i].nome}</b>
