@@ -1,6 +1,9 @@
 POSSIBILI ARGOMENTI
 ================
 
+# HARDWARE E SUPERCOMPUTER
+- https://www.wired.it/gallery/supercomputer-olivia-norvegia-miniera/
+
 # LEZIONE CREAZIONE PAGINE WEB 
 - https://it.wikipedia.org/wiki/RTFM
 
@@ -39,62 +42,8 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/meta-16-dicembre-messaggi-privati-pubblicita-chatbot-privacy/
 - https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
 
-
-
-*******************************************************************************************************
-*******************************************************************************************************
-*******************************************************************************************************
-
-
-
-# INQUINAMENTO E CAMBIAMENTO CLIMATICO
-
-## DATI CLIMA
-- https://www.iqair.com/it/world-air-quality
-- https://waqi.info/it
-- https://www.climatewatchdata.org/sectors/coming-soon
-- https://www.climatiq.io/data
-
-## INQUINAMENTO DATACENTER E AI
-- https://www.wired.it/article/google-emissioni-aumento-intelligenza-artificiale/
-- https://attivissimo.blogspot.com/2024/08/anteprima-podcast-rsi-lia-ha-troppa.html
-- https://www.ilpost.it/2026/01/09/intelligenza-artificiale-consumo-acqua/
-- https://www.agendadigitale.eu/smart-city/la-sfida-dei-data-center-alimentare-lai-senza-distruggere-il-pianeta/
-- https://www.agendadigitale.eu/smart-city/il-digitale-non-e-un-pasto-gratis-quanto-inquinano-i-data-center-e-come-ridurne-limpatto/
-- https://www.wired.it/gallery/supercomputer-olivia-norvegia-miniera/
-- https://www.geopop.it/intelligenza-artificiale-consumi-energia/
-
-## ESTRAZIONE MINIERE E TERRE RARE + (CASO PALAQUIUMGUTTA SFRUTTAMENTO RISORSE)
-- https://www.editorialedomani.it/tecnologia/intelligenza-artificiale-quanto-inquina-miniere-litio-discariche-kinx6xvj
-- https://www.agendadigitale.eu/smart-city/lai-consuma-il-pianeta-la-guerra-nascosta-per-energia-e-potere-digitale/
-- https://www.geopop.it/terre-rare-cosa-sono-dove-si-estraggono-e-il-monopolio-cinese/
-- https://www.agendadigitale.eu/smart-city/terre-rare-lo-sporco-segreto-della-transizione-energetica-ecologica/
-- https://www.tomshw.it/smartphone/il-lago-tossico-dellhi-tech-il-prezzo-che-paga-la-cina-della-crescita-a-doppia-cifra
-- https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications
-- VIDEO COLTAN: https://www.geopop.it/coltan-il-minerale-essenziale-per-gli-smartphone-estratto-da-minatori-sfruttati-in-congo/
-
-## ANTROPOCENE
-- https://www.mimesisedizioni.it/libro/9788857586489
-- https://earth.google.com/web/data=MkEKPwo9CiExa25uLXJXdmFrM0RmR29zRHM5Z1daVW1jUVBPSVR6N1kSFgoUMDM5QTJDQTc4RDEyQjQ1QzMxMDkgAUICCABKCAiBldHGBhAB
-- https://it.chili.com/content/antropocene-l-epoca-umana-2018/04eee8dc-face-48c4-9b51-bed21df91d80
-
 ## INQUINAMENTO SPAZIALE
 - https://it.wikipedia.org/wiki/Sindrome_di_Kessler
-
-## RICICLO DISPOSITIVI ELETTRONICI
-- DISCARICA GHANA: https://www.geopop.it/la-piu-grande-discarica-di-rifiuti-elettronici-al-mondo-si-trova-in-ghana/
-- RICICLO RIFIUTI ELETTRONICI: https://www.geopop.it/come-si-riciclano-i-rifiuti-elettronici/
-- RICICLO BATTERIE: https://www.geopop.it/come-si-riciclano-le-batterie/
-- https://www.europarl.europa.eu/topics/it/article/20201208STO93325/rifiuti-elettronici-nell-ue-dati-e-cifre-infografica
-
-
-
-*******************************************************************************************************
-*******************************************************************************************************
-*******************************************************************************************************
-
-
-
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 - https://www.redhotcyber.com/post/la-dichiarazione-di-indipendenza-del-cyberspazio/
