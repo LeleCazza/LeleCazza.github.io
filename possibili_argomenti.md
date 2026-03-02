@@ -26,6 +26,8 @@ POSSIBILI ARGOMENTI
 - https://www.geopop.it/cose-la-vpn-come-funziona-e-perche-e-utile-contro-i-rischi-del-wi-fi-pubblico/
 - https://blog.quintarelli.it/2024/10/quanto-costa-fare-un-datacenter/
 - https://www.geopop.it/come-funziona-la-ricerca-su-google-algoritmo-data-centers-e-consumo-energetico/
+- https://www.garanteprivacy.it/data-breach
+- https://it.wikipedia.org/wiki/Great_Firewall
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
@@ -45,50 +47,86 @@ POSSIBILI ARGOMENTI
 ## INQUINAMENTO SPAZIALE
 - https://it.wikipedia.org/wiki/Sindrome_di_Kessler
 
+*************************************************************************************************
+*************************************************************************************************
+*************************************************************************************************
+*************************************************************************************************
+
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
+
+# INTRO ALLA INTERNET LIBERA
 - https://www.redhotcyber.com/post/la-dichiarazione-di-indipendenza-del-cyberspazio/
+
+# TRACCIAMENTO UTENTI
 - https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
+- https://www.dday.it/redazione/31369/recaptcha-v3-google-sicurezza-privacy
+
+# OPT IN E OPT OUT
+- https://www.cybersecurity360.it/legal/privacy-dati-personali/opt-in-e-opt-out-nellonline-advertising-ecco-gli-impatti-privacy/
+
+# SORVEGLIANZA VS LIBERTA'
 - https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
-- https://www.insightful.io/ (controllo dipendenti, quantificare la produttività)
+- Palantir (spionaggio civile)
+- Vigilant (tracciamento veicoli)
+
+# GDPR
+## DPO
+- https://protezionedatipersonali.it/data-protection-officer
+## MULTE GDPR
+- https://it.wikipedia.org/wiki/Sentenze_Schrems
 - https://www.riskmanagement360.it/analisti-ed-esperti/sanzioni-gdpr-ecco-le-maggiori-degli-ultimi-dodici-mesi/
-- https://www.garanteprivacy.it/data-breach
-- https://protezionedatipersonali.it/finalita-del-trattamento
+- https://www.wired.it/article/glovo-multa-gdpr/
+- https://www.rainews.it/articoli/2025/04/unione-europea-multe-da-500-e-200-mnl-ad-apple-e-meta-per-violazione-delle-regole-c4372da2-d292-4360-8814-a7b9f4768740.html
+# ePrivacy Directive
+
+# DSA ACT, DMA ACT, DNA ACT, DGA ACT
+
+# DATA ACT
+- https://www.wired.it/article/data-act-portabilita-dati-europa-funzionamento/
+
+# AI ACT
+-https://www.internazionale.it/notizie/alberto-puliafito/2025/12/03/ai-act-retromarcia-digital-omnibus
+
+# Digital Omnibus
+
+# NEURODIRITTI
+- https://neurorightsfoundation.org/
 - https://www.altalex.com/documents/news/2022/10/11/neurodiritti-cile-prima-legge-tutelarli
+
+# ATTENZIONE ALLA PRIVACY E POSSIBILE ABUSO DEI DATI
 - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9992700
-- https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9822195
 - https://techtalking.it/windows-recall-microsoft-corre-ai-ripari/
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-strana-mail-di-meta-windows.html
-- https://protezionedatipersonali.it/data-protection-officer
-- https://signalfoundation.org/it/
 - https://www.wired.it/attualita/tech/2020/11/24/citofono-smart-amazon-ring-sorveglianza/
-- https://www.wired.it/article/glovo-multa-gdpr/
 - https://nintendon.it/2024/11/20/niantic-utilizza-i-dati-di-pokemon-go-per-addestrare-lia-alla-navigazione-del-mondo-reale-298709
+- - https://www.wired.it/article/siri-spia-utenti-francia/
+- https://www.geopop.it/e-vero-che-le-smart-tv-ci-spiano-e-raccolgono-dati-personali-come-tutelare-la-nostra-privacy/
+- https://www.gpdp.it/garante/doc.jsp?ID=10171128
+- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
+- https://www.corriere.it/tecnologia/21_maggio_23/ring-nuove-accuse-citofono-connesso-amazon-il-maggior-sistema-sorveglianza-usa-3b37d84c-b890-11eb-86a2-256e95d23aef.shtml
+- https://support.apple.com/it-it/122234
+
+# CHAT CONTROL 
+- https://www.wired.it/article/chat-control-grido-allarme-attivisti-privacy/
+- https://fightchatcontrol.eu/
+
+# RIMEDI PRIVACY
+- https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9822195
+- https://signalfoundation.org/it/
 - https://privacy-network.it/
 - https://privacy-network.it/digital-literacy/privacy-kit/
 - https://www.garanteprivacy.it/
 - https://algorithmwatch.org/
 - https://www.edpb.europa.eu/edpb_it
-- https://neurorightsfoundation.org/
-- https://www.wired.it/article/chat-control-grido-allarme-attivisti-privacy/
-- https://www.wired.it/article/data-act-portabilita-dati-europa-funzionamento/
-- https://www.amnesty.it/israele-il-riconoscimento-facciale-rafforza-lapartheid-contro-i-palestinesi/
-- https://it.wikipedia.org/wiki/Great_Firewall
-- https://www.wired.it/article/siri-spia-utenti-francia/
-- https://www.geopop.it/e-vero-che-le-smart-tv-ci-spiano-e-raccolgono-dati-personali-come-tutelare-la-nostra-privacy/
-- https://pimeyes.com/en
-- https://www.wired.it/article/violazioni-privacy-multe-garante-privacy-deepfake-call-center/
-- https://fightchatcontrol.eu/
-- https://www.gpdp.it/garante/doc.jsp?ID=10171128
-- https://attivissimo.me/2024/11/25/podcast-rsi-microsoft-accusata-di-leggere-i-documenti-degli-utenti-di-word-per-addestrare-la-sua-ia-i-fatti-fin-qui/
-- https://www.cybersecurity360.it/legal/privacy-dati-personali/opt-in-e-opt-out-nellonline-advertising-ecco-gli-impatti-privacy/
-- https://www.dday.it/redazione/31369/recaptcha-v3-google-sicurezza-privacy
-- https://www.corriere.it/tecnologia/21_maggio_23/ring-nuove-accuse-citofono-connesso-amazon-il-maggior-sistema-sorveglianza-usa-3b37d84c-b890-11eb-86a2-256e95d23aef.shtml
-- Irpiedia Laura Carrer Stalkerware
-- Palantir (spionaggio civile) e Vigilant (tracciamento veicoli), amazon ring e controllo propri lavoratori
-- https://www.internazionale.it/notizie/alberto-puliafito/2025/12/03/ai-act-retromarcia-digital-omnibus
-- https://www.rainews.it/articoli/2025/04/unione-europea-multe-da-500-e-200-mnl-ad-apple-e-meta-per-violazione-delle-regole-c4372da2-d292-4360-8814-a7b9f4768740.html
-- https://it.wikipedia.org/wiki/Sentenze_Schrems
-- https://support.apple.com/it-it/122234
+- https://pimeyes.com/en 
+
+# FRONTIERE UE PRIVACY
+- libro 
+
+*************************************************************************************************
+*************************************************************************************************
+*************************************************************************************************
+*************************************************************************************************
 
 # SOVRANITA' DIGITALE
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
