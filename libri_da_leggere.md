@@ -3,6 +3,10 @@ LIBRI DA LEGGERE
 
 FANTASCIENZA/CYBERPUNK/ROMANZI
 ------------------------------
+*   La strada (Corman McCarthy)
+*   Il vagabondo delle stelle (Jack London)
+*   La peste scarlatta (Jack London)
+*   Noi (Evgenij Zamjátin)
 *   Lasciate fare a Elvis (Laura Silvestri)
 *   Klara e il Sole (Kazuo Ishiguro)
 *   Il Golem (Gustav Meyrink)
@@ -46,7 +50,6 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 *   La matematica degli dei e gli algoritmi degli uomini (Paolo Zellini)
 *   Logicomix (Apostolos Doxiadis)
 *   Macchine come me (Ian McEwan)
-*   Fahrenheit 451 (Ray Bradbury)
 *   Furore (John Steinbeck)
 
 SAGGI
@@ -59,10 +62,7 @@ SAGGI
 * Prompting. Poetiche e politiche dell'intelligenza artificiale (Niccolò Monti)
 * Macchine calcolatrici e intelligenza (Alan M. Turing)
 * Il tao delle macchine. Dieci racconti cinesi di androidi, IA e altri futuri possibili (Chen Qiufan)
-* Simulacri digitali (Andrea Daniele Signorelli)
 * L’intelligenza condivisa (Ethan Mollick)
-* L'inganno dell'automa (Carola Frediani)
-* La fortezza automatica. Se l'IA decide chi può varcare i confini (Fabio Chiusi)
 * Lettera a Jeff Bezos. (Marisandra Lizzi)
 
 ### 2024
@@ -212,6 +212,7 @@ VIDEOGIOCHI
 LINK
 ----
 
+*   [https://www.ibs.it/libri/autori/nassim-nicholas-taleb](https://www.ibs.it/libri/autori/nassim-nicholas-taleb)
 *   [https://www.amazon.it/shop/fjonacakalli/list/1J9R6M83YS4D3?language=en\_US](https://www.amazon.it/shop/fjonacakalli/list/1J9R6M83YS4D3?language=en_US)
 *   [https://ziccardi.eu/index.php/books/](https://ziccardi.eu/index.php/books/)
 *   [https://cesarealemanni.com/books/](https://cesarealemanni.com/books/)
