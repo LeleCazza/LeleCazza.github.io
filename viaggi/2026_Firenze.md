@@ -40,7 +40,7 @@ cortile degli Uffizi, Piazza Signoria).
 
 > - **Pranzo libero** nei pressi della Porta Romana (**20 minuti a piedi**)
 
-> - Ingresso al **Giardino di Boboli** tramite Palazzo Pitti
+> - Ingresso al **Giardino di Boboli** tramite Palazzo Pitti alle ore **13:00**
 
 > - Ore **15:00** Rientro in hotel (**40 minuti a piedi**) per recupero bagagli
 > - Ore **16:00** Tragitto per la **stazione** Firenze S.M. (**20 minuti a piedi**)
