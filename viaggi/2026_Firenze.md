@@ -1,4 +1,6 @@
-# GIORNO 30/03/2026
+# FIRENZE 30/03 - 01/04
+
+## GIORNO 30/03/2026
 > - Ritrovo ore **06:30** presso la stazione di **Calolziocorte Olginate**
 > - Partenza ore **07:03** TRENORD 2813 per Milano Centrale (ora di arrivo: 07:40)
 > - Cambio treno ore **08:10** a Milano Centrale FRECCIAROSSA 9519 per Firenze S.M. 
@@ -16,7 +18,7 @@ cortile degli Uffizi, Piazza Signoria).
 
 > - **Cena in hotel** e pernottamento
 
-# GIORNO 31/03/2026
+## GIORNO 31/03/2026
 > - **Colazione** in hotel ore **08:30**
 
 > - Prenotazione ore **10:30** salita alla **Cupola di Brunelleschi** dalla Cattedrale di Santa Maria del Fiore (**30 minuti a piedi**). Successivamente visite tramite **Brunelleschi Pass**:
@@ -33,7 +35,7 @@ cortile degli Uffizi, Piazza Signoria).
 
 > - **Rientro in hotel** (**60 minuti a piedi**), **cena** e pernottamento
 
-# GIORNO 01/04/2026
+## GIORNO 01/04/2026
 > - **Colazione** in hotel ore **07:30**
 
 >  - Ingresso agli **Uffizi** primo gruppo ore **09:00** (**30 minuti a piedi**), secondo e terzo gruppo ore (9:45).
