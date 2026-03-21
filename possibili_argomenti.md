@@ -35,7 +35,6 @@ POSSIBILI ARGOMENTI
 - https://www.geopop.it/bitchat-app-messaggistica-come-funziona-bluetooth-jack-dorsey/
 - https://www.whois.com/whois/
 - Web 3.0 contenuto liquido: liquid content, che il Reuters Institute for the Study of Journalism definisce così:«Un contenuto o storia che non è statico, ma che si adatta in tempo reale in base al contesto, alla posizione, al momento o al comportamento dell’utente»: https://open.substack.com/pub/ellissi/p/il-contenuto-liquido-potrebbe-cambiare?utm_source=share&utm_medium=android&r=2xiwco
-- 
 
 # SISTEMI OPERATIVI
 - Keepandroidopen.com
