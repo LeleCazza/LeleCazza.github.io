@@ -1,0 +1,355 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{TUTORIAL SCRATCH}
+\subtitle{Esercizi base per imparare a programmare con Scratch}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://scratch.mit.edu/ideas}{Scratch Get Started}
+            \item[-] \href{https://www.scratchfoundation.org/learn/learning-library}{Scratch Learning Library}
+            \item[-] \href{https://www.youtube.com/@ScratchTeam}{Scratch Team YouTube Channel}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{TUTORIAL SCRATCH}
+    \begin{alertblock}{SITI DI RIFERIMENTO}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \item \textbf{\href{https://scratch.mit.edu/ideas}{Scratch Get Started}}: una sezione del sito ufficiale di Scratch dedicata a 
+                fornire guide passo-passo per iniziare a programmare con Scratch, con esempi di progetti 
+                e attività per principianti.
+                \pause
+                \item \textbf{\href{https://www.scratchfoundation.org/learn/learning-library}{Scratch Learning Library}}: una raccolta di risorse, tutorial e progetti 
+                creati dalla comunità di Scratch per aiutare i principianti a imparare a programmare.
+                \pause
+                \item \textbf{\href{https://www.youtube.com/@ScratchTeam}{Scratch Team YouTube Channel}}: il canale ufficiale di Scratch su YouTube, 
+                dove è possibile trovare tutorial video, dimostrazioni di progetti e aggiornamenti sulle 
+                nuove funzionalità di Scratch.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{ESERCIZI BASE}
+
+\begin{frame}{ESERCIZIO 1: PERIMETRO DI CLONI}
+    \begin{figure}
+        \href{video/esercizio1.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio1.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 1}
+    \begin{alertblock}{PERIMETRO DI CLONI}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Seleziona un personaggio a scelta
+                \pause
+                \item Inizializzalo nell'angolo in alto a sinistra dello schermo in direzione 90° (rivolto a destra)
+                \pause
+                \item Fagli effettuare il perimetro dello schermo ruotando ad ogni angolo di 90°
+                \pause
+                \item Una volta completato il giro il personaggio si duplica e il suo clone effettua gli stessi 
+                passi con un ritardo di 0.5 secondi
+                \pause
+                \item l'esecuzione deve proseguire per sempre
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 2: SALTA L'OSTACOLO}
+    \begin{figure}
+        \href{video/esercizio2.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio2.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 2}
+    \begin{alertblock}{SALTA L'OSTACOLO}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Seleziona un personaggio a scelta e un ostacolo a scelta
+                \pause
+                \item Inizializza il personaggio sulla sinistra dello schermo e l'ostacolo sulla destra dello schermo
+                \pause
+                \item Fai in modo che alla pressione di un tasto il personaggio effettui un salto (movimento in alto, attesa, movimento in basso)
+                \pause
+                \item Fai in modo che l'ostacolo si muovi per sempre in direzione orizzontale partendo da destra e arrivando alla sinistra del personaggio; ritorni in posizione di partenza, e ricominci il suo spostamento verso sinistra
+                \pause
+                \item Fai in modo che se il personaggio tocca l'ostacolo, avverta in output che la partita è stata persa, avverta l'ostacolo di bloccarsi tramite un messaggio e arresti l'esecuzione del programma
+                \pause
+                \item Crea una variabile punteggio e aggiornala aumentandola di 1 ogni volta che l'ostacolo ripete la sua esecuzione (il personaggio ha quindi evitato l'ostacolo)
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 3: SEMPLICE ANIMAZIONE}
+    \begin{figure}
+        \href{video/esercizio3.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio3.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 3}
+    \begin{alertblock}{SEMPLICE ANIMAZIONE}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Seleziona un personaggio a scelta e due sfondi a scelta, uno iniziale e uno di arrivo
+                \pause
+                \item Inizializza il personaggio sulla sinistra dello schermo
+                \pause
+                \item Disegna nella parte destra dello sfondo iniziale un elemento che il personaggio deve raggiungere (es: una porta)
+                \pause
+                \item Fai in modo che allo start il personaggio si muova fino a raggiungere l'elemento disegnato sullo sfondo
+                \pause
+                \item Crea uno script in modo che il personaggio effettui un'animazione (cammini) cambiandone i costumi fino a che non raggiunge la posizione desiderata
+                \pause
+                \item Una volta raggiunta la posizione, cambia lo sfondo selezionando lo sfondo di arrivo
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}    
+\end{frame}
+
+\begin{frame}{ESERCIZIO 4: DOMANDA E RISPOSTA}
+    \begin{figure}
+        \href{video/esercizio4.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio4.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 4}
+    \begin{alertblock}{DOMANDA E RISPOSTA}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Seleziona due personaggi a scelta e uno sfondo a scelta
+                \pause
+                \item Inizializza un personaggio (meno intelligente) sulla sinistra e l'altro (più intelligente) sulla destra
+                \pause
+                \item Il personaggio meno intelligente chiede sempre: ``quanto fa 2+2?'' ed è in grado di rispondere corretto/sbagliato solo a questa domanda
+                \pause
+                \item Il personaggio più intelligente è in grado di chiedere la somma tra due numeri casuali compresi tra 1 e 10 ed è in grado di verificarne se il risultato è corretto o sbagliato
+                \pause
+                \item Per sincronizzare i due personaggi utilizza dei messaggi
+                \pause
+                \item Per memorizzare i contenuti dei valori utilizza variabili e domande con risposta.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 5: SNAKE CON START}
+    \begin{figure}
+        \href{video/esercizio5.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio5.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 5}
+    \begin{alertblock}{SNAKE CON START}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Seleziona o carica cinque sprite a scelta: snake, oggetto, pulsante start, pulsante difficile, pulsante facile
+                \pause
+                \item Seleziona due sfondi a scelta: sfondoIniziale e sfondoDiGioco
+                \pause
+                \item Rendi lo sfondoIniziale visibile, lo sprite snake invisibile, lo sprite oggetto invisibile, i pulsanti di start e difficoltà visibili
+                \pause
+                \item Inizializza lo snake a sinistra dello schermo e l'oggetto a desta dello schermo
+                \pause
+                \item Inizialmente è visibile l'informazione del record del gioco (punteggio massimo)
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 5}
+    \begin{alertblock}{SNAKE CON START}
+        \begin{minipage}{0.96\linewidth}
+            Sprite pulsante start:
+            \begin{itemize}
+                \justifying
+                \item Quando clicco su start, il pulsante diventa invisibile, coordina gli altri elementi nascondendoli o mostrandoli e da inizio al gioco
+                \pause
+                \item Inizializza il punteggio a zero
+                \pause
+            \end{itemize}
+            Sprite pulsante difficile:
+            \begin{itemize}
+                \justifying
+                \item Quando clicco sul pulsante viene impostata la variabile difficoltà al valore 15
+                \pause
+                \item Il pulsante si colora evidenziando che la difficoltà attualmente impostata è quella difficile
+                \pause
+            \end{itemize}
+            Sprite pulsante facile:
+            \begin{itemize}
+                \justifying
+                \item Quando clicco sul pulsante viene impostata la variabile difficoltà al valore 5
+                \pause
+                \item Il pulsante si colora evidenziando che la difficoltà attualmente impostata è quella facile
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 5}
+    \begin{alertblock}{SNAKE CON START}
+        \begin{minipage}{0.96\linewidth}
+            Sprite snake:
+            \begin{itemize}
+                \justifying
+                \item Utilizzando i sensori e i controlli opportuni fai in modo che lo snake sia controllabile 
+                (su, giù, sinistra, destra) e che si muova con la velocità impostata inizialmente utilizzando i bottoni
+                \pause
+                \item Se lo snake tocca il bordo il gioco termina, viene mostrato il game over e il gioco si riposiziona nella schermata iniziale
+                \pause
+                \item Viene settato, se necessario, il nuovo record ottenuto
+                \pause
+            \end{itemize}
+            Sprite oggetto:
+            \begin{itemize}
+                \justifying
+                \item Quando l'oggetto viene toccato si sposta in una posizione causale dello schermo
+                \pause
+                \item Quando l'oggetto viene toccato aumenta il punteggio di uno
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{ESERCIZI AVANZATI}
+
+\begin{frame}{ESERCIZIO 6: PAC-MAN}
+    \begin{figure}
+        \href{video/esercizio6.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio6.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 6}
+    \begin{alertblock}{PAC-MAN}
+        \begin{minipage}{0.96\linewidth}
+            L'obiettivo del gioco è quello di far mangiare al Pac-Man tutte le 15 caramelle che compariranno all'interno del labirinto ogni 2 secondi in posizioni casuali. 
+            Il Pac-Man è governato dall'utente che lo può muovere all'interno del labirinto utilizzando le frecce (su, giù, destra, sinistra). Il punteggio presente sullo schermo 
+            aumenta ogni volta che il Pac-Man mangia una caramella. Quando il punteggio raggiunge il valore 15, il gioco termina mostrando una schermata di ``You Win''. Nel gioco sono presenti anche dei nemici 
+            che si muovono nelle quattro direzioni in modo casuale, fino a che non vengono ostacolati da un bordo del labirinto. Quando accade, scelgono un'altra direzione casuale e continuano fino a che non riescono 
+            a catturare il Pac-Man. Se il Pac-Man viene catturato, il gioco termina mostrando una schermata di ``Game Over''.
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 6}
+    \begin{alertblock}{PAC-MAN}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                    \item Per importare gli sprite nel progetto, posizionarsi sull'icona degli sprite in scratch e cliccare sulla voce: importa sprite.
+                    \item Per importare gli sfondi nel progetto, posizionarsi sull'icona degli sfondi in scratch e cliccare sulla voce: importa sfondo.
+            \end{itemize}
+            Assets necessari:
+            \begin{itemize}
+                \justifying
+                \item \href{assets/esercizio6/pacman.sprite3}{sprite pacman}
+                \item \href{assets/esercizio6/nemico.sprite3}{sprite nemico}
+                \item \href{assets/esercizio6/labirinto.svg}{sfondo labirinto}
+                \item \href{assets/esercizio6/youWin.svg}{sfondo vittoria}
+                \item \href{assets/esercizio6/gameOver.svg}{sfondo sconfitta}
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 7: SPACE DOG}
+    \begin{figure}
+        \href{video/esercizio7.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{soluzioni/esercizio7.sb3}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 7}
+    \begin{alertblock}{SPACE DOG}
+        \begin{minipage}{0.96\linewidth}
+            L'obiettivo del gioco è quello di proteggere la terra dai missili alieni che cercano di distruggerla 
+            cercando di ottenere il record più alto possibile. Per farlo lo Space Dog può sparare cliccando 
+            il tasto spazio e muoversi nell'ambiente utilizzando le frecce (su, giù, destra, sinistra). 
+            I missili compaiono in posizioni casuali dello schermo muovendosi da destra verso sinistra. 
+            L'obiettivo dei missili è colpire la terra, uno sprite che si trova alla sinistra dello schermo. 
+            Se i missili vengono colpiti dal proiettile dello Space Dog, vengono annientati e il punteggio viene 
+            incrementato. Lo Space Dog può sparare un solo colpo alla volta, ovvero finché il colpo non raggiungerà 
+            la fine dello schermo, non potranno essere sparati altri colpi. Se i missili colpiscono la terra, 
+            viene mostrata un'animazione che determina la fine del gioco.
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 7}
+    \begin{alertblock}{SPACE DOG}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                    \item Per importare gli sprite nel progetto, posizionarsi sull'icona degli sprite in scratch e cliccare sulla voce: importa sprite.
+                    \item Per importare gli sfondi nel progetto, posizionarsi sull'icona degli sfondi in scratch e cliccare sulla voce: importa sfondo.
+            \end{itemize}
+            Assets necessari:
+            \begin{itemize}
+                \justifying
+                \item \href{assets/esercizio7/spaceDog.sprite3}{sprite space dog}
+                \item \href{assets/esercizio7/proiettile.sprite3}{sprite proiettile}
+                \item \href{assets/esercizio7/missile.sprite3}{sprite missile}
+                \item \href{assets/esercizio7/terra.sprite3}{sprite terra}
+                \item \href{assets/esercizio7/uno.sprite3}{sprite uno}
+                \item \href{assets/esercizio7/due.sprite3}{sprite due}
+                \item \href{assets/esercizio7/tre.sprite3}{sprite tre}
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+\end{document}

@@ -222,6 +222,7 @@ POSSIBILI ARGOMENTI
 - https://openddb.it/film/life-is-a-game/
 - https://it.wikipedia.org/wiki/Vibe_coding
 - https://www.pygame.org/news
+- https://blockly.games/
 
 # STORIA INFORMATICA
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
