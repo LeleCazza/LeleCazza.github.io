@@ -31,8 +31,17 @@ function renderPage(pageNum, id) {
             .promise.then(() => {
                 return page.getAnnotations();
             }).then((annotations) => {
+                const pdfBaseUrl = pdfUrl ? new URL(pdfUrl, window.location.href).href : window.location.href;
                 annotations.forEach(annotation => {
-                    if (annotation.subtype === 'Link' && annotation.url) {
+                    if (annotation.subtype === 'Link') {
+                        const rawUrl = annotation.url || annotation.unsafeUrl || (annotation.action && annotation.action.uri);
+                        if (!rawUrl) return;
+                        let resolvedUrl;
+                        try {
+                            resolvedUrl = new URL(rawUrl, pdfBaseUrl).href;
+                        } catch (e) {
+                            resolvedUrl = rawUrl;
+                        }
                         const [x1, y1, x2, y2] = annotation.rect;
                         const scale = viewport.scale;
                         const x = x1 * scale;
@@ -43,7 +52,7 @@ function renderPage(pageNum, id) {
                         const scaleY = rect.height / canvas.height;
                         const link = document.createElement('a');
                         link.className = 'pdf-link';
-                        link.href = annotation.url;
+                        link.href = resolvedUrl;
                         link.target = '_blank';
                         link.style.position = 'absolute';
                         link.style.left = `${canvas.offsetLeft + x * scaleX}px`;
