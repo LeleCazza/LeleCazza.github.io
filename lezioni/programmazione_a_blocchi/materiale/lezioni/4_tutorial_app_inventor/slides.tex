@@ -157,4 +157,51 @@
     \end{alertblock}
 \end{frame}
 
+\begin{frame}{ESERCIZIO 3: PASTASCIUTTA}
+    \begin{figure}
+        \href{https://lelecazza.it/lezioni/programmazione_a_blocchi/materiale/lezioni/4_tutorial_app_inventor/video/esercizio3.mp4}{\includegraphics[width=\linewidth]{img/play.png}}
+        \caption{{Scarica la \href{https://lelecazza.it/lezioni/programmazione_a_blocchi/materiale/lezioni/4_tutorial_app_inventor/soluzioni/esercizio3.aia}{soluzione}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 3}
+    \begin{alertblock}{PASTASCIUTTA}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Inserisci un blocco impaginazione di tipo ``DisposizioneOrizzontale'' e al suo interno 
+                inserisci tre blocchi ``Etichetta'' per gestire i minuti e i secondi (modificane nome e dimensione)
+                \pause
+                \item Inserisci un blocco Sensori ``Orologio'' e tutti i blocchi ``Pulsanti'' necessari (modificane nome e dimensione)
+                \pause
+                \item Crea tre variabili globali: una per gestire lo stato del timer (attivo o non attivo) inizializzato a ``falso'' 
+                e due per gestire i minuti e i secondi (inizializzati a 0)
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{ESERCIZIO 3}
+    \begin{alertblock}{PASTASCIUTTA}
+        \begin{minipage}{0.96\linewidth}
+            \begin{itemize}
+                \justifying
+                \item Fai in modo che alla pressione di ogni pulsante pastasciutta se il timer non è attivo vengano 
+                impostati i minuti e i secondi corrispondenti alla pastasciutta selezionata e vengano modificate 
+                le etichette dei minuti e dei secondi con i valori appena impostati
+                \pause
+                \item Fai in modo che alla pressione del tasto di start (se è stato settato un tempo di cottura) il timer 
+                venga attivato (variabile di stato a ``vero'') e venga reimpostato il colore di sfondo bianco
+                \pause
+                \item Fai in modo che quando l'orologio segna un secondo in più (evento ``TimerConcluso'' dell'orologio) 
+                se il timer è attivo venga decrementato di un secondo il tempo di cottura (decrementando i minuti se i secondi arrivano a 0) 
+                e vengano aggiornate le etichette dei minuti e dei secondi con i nuovi valori
+                \pause
+                \item Fai in modo che quando il tempo di cottura arriva a 0 venga disattivato il timer (variabile di stato a ``falso'') e venga
+                modificato il colore di sfondo in rosso per segnalare che la pastasciutta è pronta.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
 \end{document}
