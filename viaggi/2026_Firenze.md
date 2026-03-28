@@ -1,8 +1,11 @@
 # FIRENZE 30/03 - 01/04
 
 ## GIORNO 30/03/2026
-> - Ritrovo ore **06:30** presso la stazione di **Calolziocorte Olginate**
-> - Partenza ore **07:03** TRENORD 2813 per Milano Centrale (ora di arrivo: 07:40)
+> - Ritrovo ore **06:00** presso la stazione di **Calolziocorte Olginate**
+> (**Adam** Airuno, **Sara** Cernusco)
+> - Partenza ore **06:16** TRENORD 24821 per Monza (ora di arrivo: 06:51)
+> - Cambio treno ore **07:07** a Monza 25507 per Milano Centrale (ora di arrivo 07:17)
+> - Colazione
 > - Cambio treno ore **08:10** a Milano Centrale FRECCIAROSSA 9519 per Firenze S.M. 
 > - Arrivo a **Firenze S.M.** ore **10:04**
 
