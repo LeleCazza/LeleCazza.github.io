@@ -3,6 +3,7 @@ LIBRI DA LEGGERE
 
 FANTASCIENZA/CYBERPUNK/ROMANZI
 ------------------------------
+*   Macchine come me (Ian McEwan)
 *   La strada (Corman McCarthy)
 *   Il vagabondo delle stelle (Jack London)
 *   La peste scarlatta (Jack London)
@@ -55,8 +56,16 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 SAGGI
 ----
 
+### 2026
+
+* Internet, mon amour Pentamerone hacker, sci-fi, femminista (Agnese Trocchi)
+* Onnipotenti. Chi sono, cosa vogliono e in che modo i tecnofascisti stanno plasmando il nostro futuro (Irene Doda)
+
 ### 2025
 
+* Il teatro delle macchine pensanti. 10 falsi miti sull'intelligenza artificiale e come superarli (Stefano Epifani)
+* Antropocene digitale. Rischiare insieme sulle soglie del futuro (Adam Arvidsson)
+* Assalto alle piattaforme (Kenobit)
 * Algoritmi per resistere. La lotta quotidiana contro il potere delle piattaforme (Tiziano Bonini, Emiliano Trerè)
 * Segreto (Massimo Cerulo)
 * Prompting. Poetiche e politiche dell'intelligenza artificiale (Niccolò Monti)
@@ -98,9 +107,12 @@ SAGGI
 *   Generative A.I. Conoscere, capire e usare l'intelligenza artificiale generativa (Jerry Kaplan)
 *   Le persone non servono. Lavoro e ricchezza nell'era dell'intelligenza artificiale (Jerry Kaplan)
 *   Tecnologie dell'impero. AI, quantum computing, 6G e la nuova geopolitica del potere (Francesca Balestrieri)
+*   Sopravvivere nell'era dell'intelligenza artificiale (Walter Ferri)
 
 ### 2023
 
+*   Identità personale e algoritmi. Una questione di filosofia morale (Simona Tiribelli)
+*   Contro lo smartphone (Juan Carlos De Martin)
 *   Black Box (Laura Carrer)
 *   Il visconte cibernetico (Andrea Prencipe, Massimo Sideri)
 *   La guerra dei metalli rari (Guillaume Pitron)
@@ -118,6 +130,7 @@ SAGGI
 
 ### 2022
 
+*   Simulacri e impostura (Jean Baudrillard)
 *   Inferno digitale (Guillaume Pitron)
 *   Macchine ingannevoli. Comunicazione, tecnologia, intelligenza artificiale (Simone Natale)
 *   Etica dell'intelligenza artificiale (Luciano Floridi)
@@ -128,9 +141,11 @@ SAGGI
 *   Dal cyborg al postumano. Biopolitica del corpo artificiale (Antonio Caronia)
 *   Le macchine di Dio. Gli algoritmi predittivi e l'illusione del controllo (Helga Nowotny)
 *   Tecnologie conviviali (Carlo Milani)
+*   Benvenuti nel deserto del reale (Slavoj Žižek)
 
 ### 2021
 
+*   Tubi. Viaggio al centro di internet (Andrew Blum)
 *   Profilazione e pubblicità targettizzata online. Real-Time Bidding e behavioural advertising (Guido D'Ippolito)
 *   Technosapiens. Come l'essere umano si trasforma in macchina (Andrea Daniele Signorelli)
 *   Breve e universale storia degli algoritmi (Luigi Laura)
@@ -153,6 +168,8 @@ SAGGI
 
 ### PRIMA DEL 2020
 
+*   Internet, mon amour. Cronache prima del crollo di ieri (Agnese Trocchi)
+*   Nuova era oscura (James Bridle)
 *   I Social Network (Giuseppe Riva)
 *   Capitalismo immateriale (Stefano Quintarelli)
 *   Armi di distruzione matematica (Cathy O'Neil)
@@ -211,7 +228,8 @@ VIDEOGIOCHI
 
 LINK
 ----
-
+*   [https://www.ibs.it/libri/autori/evgeny-morozov](https://www.ibs.it/libri/autori/evgeny-morozov)
+*   [https://www.ibs.it/libri/autori/cathy-o'neil](https://www.ibs.it/libri/autori/cathy-o'neil)
 *   [https://www.ibs.it/libri/autori/nassim-nicholas-taleb](https://www.ibs.it/libri/autori/nassim-nicholas-taleb)
 *   [https://www.amazon.it/shop/fjonacakalli/list/1J9R6M83YS4D3?language=en\_US](https://www.amazon.it/shop/fjonacakalli/list/1J9R6M83YS4D3?language=en_US)
 *   [https://ziccardi.eu/index.php/books/](https://ziccardi.eu/index.php/books/)
