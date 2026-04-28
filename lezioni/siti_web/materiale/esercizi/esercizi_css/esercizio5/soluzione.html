@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ESEMPIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+<div class="w3-top">
+    <div class="w3-bar w3-yellow w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" onclick="navMobile()">&#9776;</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOMEPAGE</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTI</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOVE MANGIARE</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOVE DORMIRE</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    </div>
+    <div id="navMobile" class="w3-bar-block w3-yellow w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="navMobile()">HOMEPAGE</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="navMobile()">EVENTI</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="navMobile()">DOVE MANGIARE</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="navMobile()">DOVE DORMIRE</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="navMobile()">NEWS</a>
+    </div>
+</div>
+<div class="w3-content w3-display-container">
+    <img class="mySlides" src="https://picsum.photos/seed/1/600" style="width:100%; display:none">
+    <img class="mySlides" src="https://picsum.photos/seed/2/600" style="width:100%; display:none">
+    <img class="mySlides" src="https://picsum.photos/seed/3/600" style="width:100%; display:none">
+    <img class="mySlides" src="https://picsum.photos/seed/4/600" style="width:100%; display:none">
+    <img class="mySlides" src="https://picsum.photos/seed/5/600" style="width:100%; display:none">
+    <button class="w3-button w3-yellow w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-yellow w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+    function navMobile() {
+        var x = document.getElementById("navMobile");
+        if (x.className.indexOf("w3-show") == -1)
+            x.className += " w3-show";
+        else 
+            x.className = x.className.replace(" w3-show", "");
+    }
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length)
+            slideIndex = 1
+        if (n < 1)
+            slideIndex = x.length
+        for (i = 0; i < x.length; i++)
+            x[i].style.display = "none";
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
+</body>
+</html>
