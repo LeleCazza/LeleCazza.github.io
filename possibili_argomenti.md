@@ -60,6 +60,7 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/blackout-internet-diffusi-nazioni-stesse/
 - https://librespeed.org/
 - https://www.garr.it/it
+- https://restofworld.org/2026/chile-china-america-google-cable/
 
 # SISTEMI OPERATIVI
 
@@ -95,6 +96,7 @@ POSSIBILI ARGOMENTI
 - https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/
 - https://hermescenter.org/iniziative/garantire-i-diritti-nellera-dellia-fuori-ora-il-paper-sui-redress-mechanisms/
 - https://digital-strategy.ec.europa.eu/it/library/digital-omnibus-ai-regulation-proposal
+- https://www.vatican.va/content/leo-xiv/it/encyclicals/documents/20260515-magnifica-humanitas.html
 
 # PROBLEMI INTELLIGENZA ARTIFICIALE
 
@@ -133,11 +135,17 @@ POSSIBILI ARGOMENTI
 - https://www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra/
 - https://sha.africauncensored.online/
 - https://www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi/
+- https://world.emergence.ai/
+- https://www.ilpost.it/2026/02/09/anthropic-ha-distrutto-milioni-di-libri/
+- https://petapixel.com/2026/05/14/someone-shared-a-real-monet-painting-as-ai-and-asked-for-critiques/?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4
+- https://www.ahidaonline.com/post/guerre-6?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4
+- https://gaming.hwupgrade.it/news/videogames/pokemon-go-utilizzato-per-addestrare-i-droni-militari-cosa-emerso-sui-dati-niantic_154743.html
 
 ## IMPATTI AMBIENTALI
 
 - https://greentogrey.eu/
 - https://dataguessr.com/
+- https://www.geopop.it/quanta-acqua-consuma-lai-entro-il-2030-i-data-center-potrebbero-arrivare-a-93-bilioni-di-litri-allanno/
 
 ## INQUINAMENTO SPAZIALE
 
@@ -253,6 +261,9 @@ POSSIBILI ARGOMENTI
 - https://www.wired.it/article/metadati-foto-posizione-dove-trovarli-come-eliminarli/
 - https://www.agendadigitale.eu/sicurezza/privacy/il-no-ai-cookie-non-basta-lopt-out-ignorato-da-google-meta-e-microsoft/
 - https://webxray.ai/
+- https://www.futuroprossimo.it/2026/05/la-tua-auto-connessa-ti-spia-10-dati-che-non-immaginavi/
+- https://www.theguardian.com/technology/2026/jun/12/pokemon-go-data-trained-ai-that-could-assist-military-drones-in-war-zones
+- https://attivissimo.me/podcast-rsi-ia-militare-sconfitta-con-una-scatola-di-cartone-storia-leggendaria-con-conseguenze-universali/
 
 # CHAT CONTROL
 
@@ -276,6 +287,10 @@ POSSIBILI ARGOMENTI
 - https://grapheneos.org/
 - https://privacyletters.substack.com/p/privacy-letters-66?r=2xiwco%20%20Privacy%20non%20%C3%A8%20sparire%3A%20%C3%A8%20governare%20le%20proprie%20tracce%20digitali&triedRedirect=true
 - https://www.br1s.com/windowsprivacy.html
+- https://activistchecklist.org/checklists/
+- https://lealternative.net/
+- https://www.amnesty.it/nasce-la-rete-diritti-umani-digitali/
+- https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.92477.28-05-2026-12-49-33.901.pdf
 
 # FRONTIERE UE E NON PRIVACY
 
@@ -323,6 +338,7 @@ POSSIBILI ARGOMENTI
 - https://ransomnews.online/
 - https://clusit.it/pubblicazioni/
 - https://www.cybersecitalia.it/edward-snowden-10-anni-dopo-non-ho-nessun-rimpianto-la-sorveglianza-di-massa-nel-2013-giochi-da-bambini-rispetto-alla-tecnologia-di-oggi/25143/
+- https://www.punto-informatico.it/kinetic-cyber-range-finta-citta-simulare-cyberattacchi/
 
 # SICUREZZA IoT
 
@@ -337,6 +353,7 @@ POSSIBILI ARGOMENTI
 - https://www.orizzontescuola.it/whatsapp-il-codice-a-8-caratteri-che-consegna-laccount-allattaccante-la-truffa-del-voto-teatrale-colpisce-litalia/
 - https://www.wired.it/article/truffe-whatsapp-2026-ballerina-dentista-come-difendersi/
 - https://www.ansa.it/sito/notizie/topnews/2026/03/30/data-breach-garante-privacy-sanzione-intesa-sanpaolo-per-318-milioni_f3b20a1a-645f-404a-a997-0ea1c655f4ee.html
+- https://www.punto-informatico.it/messaggio-ai-meta-bastava-rubare-account-instagram/
 
 # SOVRANITA' DIGITALE
 

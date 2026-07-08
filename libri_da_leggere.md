@@ -53,6 +53,7 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 * Logicomix (Apostolos Doxiadis)
 * Macchine come me (Ian McEwan)
 * Furore (John Steinbeck)
+* Alla fine dell'arcobaleno (Vernor Vinge)
 
 SAGGI
 -----
@@ -63,6 +64,9 @@ SAGGI
 * Onnipotenti. Chi sono, cosa vogliono e in che modo i tecnofascisti stanno plasmando il nostro futuro (Irene Doda)
 * La tua solitudine è il nostro business. Come l'intelligenza artificiale sta trasformando le nostre relazioni (Serena Mazzini)
 * Nutrire la macchina. Come alimentiamo l’intelligenza artificiale (James Muldoon, Mark Graham, Callum Cant)
+* I lupi di Shenzhen (Eva Dou)
+* Guerra profonda (Arturo Di Corinto)
+* Digicrazia (Mauro Calise, Fortunato Musella)
 
 ### 2025
 
@@ -77,6 +81,7 @@ SAGGI
 * L’intelligenza condivisa (Ethan Mollick)
 * Lettera a Jeff Bezos. (Marisandra Lizzi)
 * Sovranità digitale. Cos'è e quali sono le principali minacce al cyberspazio nazionale (Roberto Baldoni)
+* Perché contare i femminicidi è un atto politico (Donata Columbro)
 
 ### 2024
 
@@ -133,6 +138,7 @@ SAGGI
 * Maniac (Benjamín Labatut)
 * Il capitalismo della sorveglianza. Il futuro dell'umanità nell'era dei nuovi poteri (Shoshana Zuboff)
 * Contro lo smartphone. Per una tecnologia più democratica (Juan Carlos De Martin)
+* La fine dei social. E dopo che succede? (Mario Moroni)
 
 ### 2022
 
