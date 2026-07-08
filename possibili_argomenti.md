@@ -1,35 +1,43 @@
 POSSIBILI ARGOMENTI
-================
+===================
 
 # COMPITI VACANZE
+
 - https://app.codemonkey.com/banana-tales/challenges/1
 
 # COMPETENZA DIGITALE (TEST INGRESSO)
+
 - https://mydigiskills.eu/it/index
 - https://europa.eu/europass/digitalskills/screen/home?referrer=epass&route=%2Fit&lang=it
 - https://ruotadigitale.it/
 
 # HARDWARE E SUPERCOMPUTER
+
 - https://www.wired.it/gallery/supercomputer-olivia-norvegia-miniera/
 - https://www.punto-informatico.it/rammageddon/
 - https://it.wikipedia.org/wiki/Prodotto_a_duplice_uso
 - https://www.agendadigitale.eu/mercati-digitali/tecnologie-dual-use-dal-militare-al-civile-un-mercato-boom/
 - https://www.hwupgrade.it/news/web/copia-privata-arriva-la-tassa-sul-cloud-pagheremo-anche-per-lo-spazio-online_150590.html
 - https://it.wikipedia.org/wiki/Uncanny_valley
+- https://www.geopop.it/cose-e-come-funziona-le-ink-presente-e-futuro-dellinchiostro-elettronico/
 
-# LEZIONE CREAZIONE PAGINE WEB 
+# LEZIONE CREAZIONE PAGINE WEB
+
 - https://it.wikipedia.org/wiki/RTFM
 
 # DISPLAY
+
 - https://www.youtube.com/watch?v=ynvKWYvyCqw
 
 # FAKE NEWS
+
 - https://urielfanelli.altervista.org/keinpfusch/la-teoria-della-montagna-di-merda/2010-03-26/
 - https://urielfanelli.altervista.org/keinpfusch/la-teoria-della-montagna-di-merda-4/2023-07-17/
 - https://corp.oup.com/news/the-oxford-word-of-the-year-2025-is-rage-bait/
 - https://aulascienze.scuola.zanichelli.it/multimedia-scienze/come-te-lo-spiego-scienze/come-tenere-a-bada-l-istinto-della-negativita-grazie-ai-dati/
 
 # RETI INFORMATICHE
+
 - https://theedge.wallife.com/internet-uccisa-dai-bot-la-dead-internet-theory/
 - https://www.hwupgrade.it/news/telefonia/5g-in-italia-sogno-o-incubo-digitale-ecco-perche-siamo-tra-i-peggiori-d-europa_141118.html
 - https://www.marconinosignal.it/
@@ -50,11 +58,15 @@ POSSIBILI ARGOMENTI
 - 9 Gennaio 2007, Steve Jobs presentazione IPhone, Internet Mobile, fusione online e offline, fisico e virtuale. La nostra realtà È il vero metaverso. SIMULACRI DIGITALI DA PAG.218.
 - https://metaverso.prosciuttosandaniele.it/
 - https://www.wired.it/article/blackout-internet-diffusi-nazioni-stesse/
+- https://librespeed.org/
+- https://www.garr.it/it
 
 # SISTEMI OPERATIVI
+
 - Keepandroidopen.com
 
 # SOCIAL NETWORK
+
 - https://www.iltquotidiano.it/articoli/censura-online-la-denuncia-di-andrea-lorenzon-cartoni-morti-il-mio-video-dellice-non-si-puo-piu-vedere-negli-usa/
 - https://www.birdy.chat/
 - https://www.moltbook.com/
@@ -67,8 +79,12 @@ POSSIBILI ARGOMENTI
 - https://www.agendadigitale.eu/sicurezza/privacy/il-design-manipolativo-delle-piattaforme-alla-resa-dei-conti-globale/
 - https://www.eff.org/issues/cda230 SECTION 230
 - https://www.agendadigitale.eu/cultura-digitale/manosfera-ecco-come-funziona-lecosistema-online-della-misoginia/
+- https://jointhefediverse.net/?lang=it
+- https://blog.elenarossini.com/fediverse-video/
+- https://www.informapirata.it/2022/04/29/guida-galattica-per-twitter-stoppisti-finiti-su-mastodon/
 
 # REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
+
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
 - https://www.youtube.com/watch?v=j2GcfGXg5wo
 - https://www.caidp.org/
@@ -78,8 +94,10 @@ POSSIBILI ARGOMENTI
 - https://hermescenter.org/iniziative/una-legge-sullia-che-non-ci-protegge-piu-potere-al-governo-e-meno-diritti/
 - https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/
 - https://hermescenter.org/iniziative/garantire-i-diritti-nellera-dellia-fuori-ora-il-paper-sui-redress-mechanisms/
+- https://digital-strategy.ec.europa.eu/it/library/digital-omnibus-ai-regulation-proposal
 
 # PROBLEMI INTELLIGENZA ARTIFICIALE
+
 - https://www.rizzolieducation.it/content/uploads/2022/10/11_brown_10_novembre.pdf
 - https://it.wikipedia.org/wiki/Tre_leggi_di_Clarke
 - Esponenti del Tech Right e Palmer Luckey: https://www.wired.it/article/accelerazionismo-efficace-intelligenza-artificiale-musk-silicon-valley/
@@ -108,34 +126,52 @@ POSSIBILI ARGOMENTI
 - MATTEO FLORA CIAO INTERNET!:" Walter Quattrociocchi, che dirige il laboratorio di Computational Social Science alla Sapienza di Roma, parla di “epistemia”: la malattia del processo di conoscenza, quella condizione in cui perdiamo la capacità stessa di stabilire criteri per distinguere il vero dal falso. L’AI sycophantic accelera questo processo in modo esponenziale, perché rimuove l’ultimo baluardo epistemico che ci restava: il dubbio su noi stessi. Ne parlo spesso nei miei corsi: quando analizzo i sistemi di governo delle narrative, la prima cosa che insegno è che la manipolazione più pericolosa non è quella che ti racconta una bugia, ma quella che ti conferma una verità parziale facendoti credere che sia tutta la storia."
 - MATTEO FLORA CIAO INTERNET!:" Lo studio stesso suggerisce un intervento minimale ma efficace: basta chiedere all’AI “aspetta un momento, considerala anche dall’altro punto di vista” per ridurre significativamente l’effetto validante. Non è una soluzione; è un cerotto."
 - https://www.theverge.com/transportation/907478/robotaxi-remote-assistance-markey-investigation-waymo-tesla
+- https://deepmind.google/research/publications/231971/
+- https://www.ilsole24ore.com/art/meta-registra-movimenti-mouse-e-tasti-premuti-dipendenti-usa-per-addestrare-l-ia-AIFGKSdC
+- Character AI e Replica come AI Companion
+- https://it.lovense.com/interactive-ai-robot-sex-doll
+- https://www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra/
+- https://sha.africauncensored.online/
+- https://www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi/
 
 ## IMPATTI AMBIENTALI
+
 - https://greentogrey.eu/
 - https://dataguessr.com/
 
 ## INQUINAMENTO SPAZIALE
-- https://it.wikipedia.org/wiki/Sindrome_di_Kessler
 
-*************************************************************************************************
-*************************************************************************************************
-*************************************************************************************************
-*************************************************************************************************
+- https://it.wikipedia.org/wiki/Sindrome_di_Kessler
+- https://blog.quintarelli.it/2026/05/crash-clock-outer-space-institute-valutare-la-sindrome-di-kessler/
+
+---
+
+---
+
+---
+
+---
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 
 # INTRO ALLA INTERNET LIBERA
+
 - https://www.redhotcyber.com/post/la-dichiarazione-di-indipendenza-del-cyberspazio/
 - https://www.4good-finds.com/p/how-to-delete-99-of-your-digital
 
 # TRACCIAMENTO UTENTI
+
 - https://www.agendadigitale.eu/sicurezza/tutto-quello-che-dobbiamo-sapere-sui-cookie-per-la-privacy-da-utenti-o-gestori/
 - https://www.dday.it/redazione/31369/recaptcha-v3-google-sicurezza-privacy
 - Terza legge di zubfoff: ogni tecnologia che può essere utilizzata per sorveglianza o controllo verrà utilizzata per questo.
+- https://www.wired.it/internet/web/2018/05/21/google-motto/
 
 # OPT IN E OPT OUT
+
 - https://www.cybersecurity360.it/legal/privacy-dati-personali/opt-in-e-opt-out-nellonline-advertising-ecco-gli-impatti-privacy/
 
 # SORVEGLIANZA VS LIBERTA'
+
 - https://it.wikipedia.org/wiki/Effetto_cobra
 - https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
 - https://thediplomat.com/2026/01/vietnam-is-close-to-launching-its-own-version-of-a-china-style-social-credit-system/
@@ -148,42 +184,54 @@ POSSIBILI ARGOMENTI
 - https://www.youtube.com/watch?v=OheUzrXsKrY
 
 # GDPR
+
 ## DPO
+
 - https://protezionedatipersonali.it/data-protection-officer
+
 ## MULTE GDPR
+
 - https://it.wikipedia.org/wiki/Sentenze_Schrems
 - https://www.riskmanagement360.it/analisti-ed-esperti/sanzioni-gdpr-ecco-le-maggiori-degli-ultimi-dodici-mesi/
 - https://www.wired.it/article/glovo-multa-gdpr/
 - https://www.rainews.it/articoli/2025/04/unione-europea-multe-da-500-e-200-mnl-ad-apple-e-meta-per-violazione-delle-regole-c4372da2-d292-4360-8814-a7b9f4768740.html
 - https://www.repubblica.it/tecnologia/2026/01/27/news/google-patteggia-causa-privacy-multa-68-milioni-dollari-425121491/
+
 # ePrivacy Directive
 
-# DSA ACT, DMA ACT, DNA ACT, DGA ACT
+# DSA ACT, DMA ACT, DNA ACT, DGA ACT, DFA ACT
 
 # DATA ACT
+
 - https://www.wired.it/article/data-act-portabilita-dati-europa-funzionamento/
 
 # AI ACT
+
 - https://www.internazionale.it/notizie/alberto-puliafito/2025/12/03/ai-act-retromarcia-digital-omnibus
 - https://www.agendadigitale.eu/sicurezza/cyber-resilience-act-e-ai-act-guida-al-coordinamento-normativo/
 - https://www.agendadigitale.eu/cultura-digitale/ai-act-perche-leuropa-prepara-correzioni-alla-sua-legge-sullia/
 
 # DIGITAL OMNIBUS
+
 - https://edri.org/our-work/the-digital-omnibus-a-step-back-from-the-brink-but-the-risks-remain/
 - https://www.agendadigitale.eu/sicurezza/privacy/riforma-gdpr-cosa-cambia-se-il-dato-personale-diventa-un-concetto-relativo/
 - https://noyb.eu/it/digital-omnibus-reality-check-835-access-requests-not-properly-answered
 
 # TCF (Transparency & Consent Framework)
+
 - https://www.agendadigitale.eu/sicurezza/privacy/pubblicita-online-la-piattaforma-iab-europe-nel-mirino-dellautorita-belga-cause-ed-effetti/
 
 # Direttiva (UE) 2024/2853 sulla responsabilità per danno da prodotti difettosi
+
 - https://eur-lex.europa.eu/IT/legal-content/summary/defective-products-liability.html
 
 # NEURODIRITTI
+
 - https://neurorightsfoundation.org/
 - https://www.altalex.com/documents/news/2022/10/11/neurodiritti-cile-prima-legge-tutelarli
 
 # ATTENZIONE ALLA PRIVACY E POSSIBILE ABUSO DEI DATI
+
 - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9992700
 - https://techtalking.it/windows-recall-microsoft-corre-ai-ripari/
 - https://attivissimo.blogspot.com/2024/06/podcast-rsi-strana-mail-di-meta-windows.html
@@ -206,13 +254,15 @@ POSSIBILI ARGOMENTI
 - https://www.agendadigitale.eu/sicurezza/privacy/il-no-ai-cookie-non-basta-lopt-out-ignorato-da-google-meta-e-microsoft/
 - https://webxray.ai/
 
-# CHAT CONTROL 
+# CHAT CONTROL
+
 - https://www.wired.it/article/chat-control-grido-allarme-attivisti-privacy/
 - https://fightchatcontrol.eu/
 - https://blog.lealternative.net/2025/04/08/perche-usare-signal-al-posto-di-whatsapp/#footnote_3_60433
 - https://www.marcosbox.com/2026/03/26/fine-del-chat-control-il-parlamento-ue-ferma-la-sorveglianza-di-massa-delle-chat/
 
 # RIMEDI PRIVACY
+
 - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9822195
 - https://signalfoundation.org/it/
 - https://privacy-network.it/
@@ -220,7 +270,7 @@ POSSIBILI ARGOMENTI
 - https://www.garanteprivacy.it/
 - https://algorithmwatch.org/
 - https://www.edpb.europa.eu/edpb_it
-- https://pimeyes.com/en 
+- https://pimeyes.com/en
 - https://blog.lealternative.net/
 - https://devol.it/degooglizzazione/
 - https://grapheneos.org/
@@ -228,6 +278,7 @@ POSSIBILI ARGOMENTI
 - https://www.br1s.com/windowsprivacy.html
 
 # FRONTIERE UE E NON PRIVACY
+
 - https://algorithmwatch.org/en/border-surveillance-on-the-move/
 - https://www.washingtonpost.com/technology/interactive/2026/ice-surveillance-immigrants-protesters/
 - https://www.trespass-etn.eu/
@@ -239,20 +290,26 @@ POSSIBILI ARGOMENTI
 - Pag 112, 113 La fortezza automatica: Full Spectrum Dominance
 
 # DIGITAL AFTERLIFE
+
 - Industria dell'aldilà digitale, digital afterlife, da PAG. 124 Simulacri Digitali.
 - https://www.wired.it/article/zephorum-piattaforma-eredita-digitale-michela-murgia/
 - https://www.zephorum.com/
 
-*************************************************************************************************
-*************************************************************************************************
-*************************************************************************************************
-*************************************************************************************************
+---
+
+---
+
+---
+
+---
 
 # CRITTOGRAFIA
+
 - https://encryptitalready.org/
 - https://support.apple.com/it-it/102651
 
 # SICUREZZA INFORMATICA
+
 - https://open.substack.com/pub/privacyletters/p/privacy-letters-64?utm_source=share&utm_medium=android&r=2xiwco
 - https://weakpass.com/wordlists/rockyou.txt
 - https://baited.io/it
@@ -262,12 +319,19 @@ POSSIBILI ARGOMENTI
 - https://www.ictsecuritymagazine.com/articoli/la-sicurezza-cognitiva-in-contesti-di-cybersecurity/
 - https://abtechno.org/index.php/2011/09/25/ted_talks_b_schneier_miraggio_sicurezza
 - https://identifai.net/
+- John Chambers, the executive chairman and former CEO of Cisco Systems, once stated, "There are two types of companies: those who have been hacked, and those who don't yet know they have been hacked."
+- https://ransomnews.online/
+- https://clusit.it/pubblicazioni/
+- https://www.cybersecitalia.it/edward-snowden-10-anni-dopo-non-ho-nessun-rimpianto-la-sorveglianza-di-massa-nel-2013-giochi-da-bambini-rispetto-alla-tecnologia-di-oggi/25143/
 
 # SICUREZZA IoT
+
 - https://www.ilpost.it/2026/02/26/aspirapolvere-robot-romo-falla-sicurezza/
 - https://open.substack.com/pub/signorina37/p/social-debug-la-lavatrice-non-ti?utm_source=share&utm_medium=android&r=2xiwco
+- https://it.ntc.swiss/hubfs/ntc-rapporto-di-sintesi-dispositivi-periferici-it-1.0.pdf
 
 # ATTACCHI INFORMATICI
+
 - https://www.ansa.it/sito/notizie/cronaca/2026/02/11/potresti-votare-mia-nipote-ecco-il-ghost-pairing-la-truffa-su-whatsapp_aee4ccfa-30d3-4606-aa88-b1f4e419b98a.html
 - https://www.wired.it/article/darksword-nuova-tecnica-per-violare-iphone-ios-18/
 - https://www.orizzontescuola.it/whatsapp-il-codice-a-8-caratteri-che-consegna-laccount-allattaccante-la-truffa-del-voto-teatrale-colpisce-litalia/
@@ -275,6 +339,7 @@ POSSIBILI ARGOMENTI
 - https://www.ansa.it/sito/notizie/topnews/2026/03/30/data-breach-garante-privacy-sanzione-intesa-sanpaolo-per-318-milioni_f3b20a1a-645f-404a-a997-0ea1c655f4ee.html
 
 # SOVRANITA' DIGITALE
+
 - https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
 - https://european-alternatives.eu/
 - https://www.ictsecuritymagazine.com/articoli/data-act-e-cloud-act/
@@ -284,7 +349,8 @@ POSSIBILI ARGOMENTI
 - https://www.agendadigitale.eu/sicurezza/privacy/cloud-act-la-norma-usa-che-fa-a-pugni-con-la-privacy-europea-i-nodi/
 
 # VIDEOGAMES
-- https://www.smwcentral.net/ 
+
+- https://www.smwcentral.net/
 - https://www.romhacking.net/
 - https://www.mamedev.org/
 - https://www.insertcoinbologna.it/
@@ -303,6 +369,7 @@ POSSIBILI ARGOMENTI
 - https://whitesock.it/project/inundo/
 
 # ALGORITMI
+
 - https://en.m.wikipedia.org/wiki/Weissman_score
 - https://apply.42firenze.it/users/sign_up
 - https://www.gameludere.it/2021/05/05/teoria-informazione-primo-teorema-di-shannon/
@@ -317,6 +384,7 @@ POSSIBILI ARGOMENTI
 - https://pucs.it/
 
 # STORIA INFORMATICA
+
 - https://www.fastweb.it/fastweb-plus/digital-magazine/storia-di-blackberry/
 - Donne nella tecnologia: Ada Lovelace, Hedy Lamarr, Elizabeth Feinler, Annie Easley
 - https://www.wired.it/gadget/computer/2019/03/02/storia-tastiera-qwerty/
@@ -330,6 +398,7 @@ POSSIBILI ARGOMENTI
 - https://lucysuimondi.com/la-partita-che-ha-cambiato-lintelligenza-artificiale/
 
 # STORIE DI HACKER
+
 - https://irpimedia.irpi.eu/carmelo-miano-hacker-ministero-giustizia/
 - https://attivissimo.me/2025/02/24/podcast-rsi-fuori-in-48-minuti-cronaca-di-un-attacco-informatico-iperveloce/
 - https://www.wired.it/internet/web/2019/07/31/wannacry-marcus-hutchins/
@@ -343,5 +412,9 @@ POSSIBILI ARGOMENTI
 - https://en.wikipedia.org/wiki/Michael_Calce
 
 # ATTACCHI INFORMATICI FAMOSI
+
 - https://en.wikipedia.org/wiki/DDoS_attacks_on_Dyn
 - https://en.wikipedia.org/wiki/Mirai_(malware)
+
+# SISTEMA OPERATIVO
+- https://virtualosmuseum.org/
