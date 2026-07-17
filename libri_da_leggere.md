@@ -5,7 +5,6 @@ FANTASCIENZA/CYBERPUNK/ROMANZI
 ------------------------------
 
 * Macchine come me (Ian McEwan)
-* La strada (Corman McCarthy)
 * Il vagabondo delle stelle (Jack London)
 * La peste scarlatta (Jack London)
 * Noi (Evgenij Zamjátin)
@@ -60,7 +59,7 @@ SAGGI
 
 ### 2026
 
-* Internet, mon amour Pentamerone hacker, sci-fi, femminista (Agnese Trocchi)
+* Assalto alle piattaforme (Kenobit)
 * Onnipotenti. Chi sono, cosa vogliono e in che modo i tecnofascisti stanno plasmando il nostro futuro (Irene Doda)
 * La tua solitudine è il nostro business. Come l'intelligenza artificiale sta trasformando le nostre relazioni (Serena Mazzini)
 * Nutrire la macchina. Come alimentiamo l’intelligenza artificiale (James Muldoon, Mark Graham, Callum Cant)
@@ -72,7 +71,6 @@ SAGGI
 
 * Il teatro delle macchine pensanti. 10 falsi miti sull'intelligenza artificiale e come superarli (Stefano Epifani)
 * Antropocene digitale. Rischiare insieme sulle soglie del futuro (Adam Arvidsson)
-* Assalto alle piattaforme (Kenobit)
 * Algoritmi per resistere. La lotta quotidiana contro il potere delle piattaforme (Tiziano Bonini, Emiliano Trerè)
 * Segreto (Massimo Cerulo)
 * Prompting. Poetiche e politiche dell'intelligenza artificiale (Niccolò Monti)
@@ -81,39 +79,32 @@ SAGGI
 * L’intelligenza condivisa (Ethan Mollick)
 * Lettera a Jeff Bezos. (Marisandra Lizzi)
 * Sovranità digitale. Cos'è e quali sono le principali minacce al cyberspazio nazionale (Roberto Baldoni)
-* Perché contare i femminicidi è un atto politico (Donata Columbro)
 
 ### 2024
 
+* Geopolitica dello spazio (Emilio Cozzi)
+* Come distruggere il capitalismo della sorveglianza (Cory Doctorow)
 * Pedagogia hacker (Davide Fant, Carlo Milani)
 * Memorie del digitale. Cronache, storie e aneddoti della trasformazione digitale (Giovanni Manca)
 * Hacking del sé. Disertare il capitalismo del controllo (Ippolita)
 * L’algoritmo di Babele (Andrea Colamedici)
 * Welcome to the cyber jungle (Marco Schiaffino)
-* Violenza virtuale (Francesco Striano)
 * Machina Sapiens (Nello Cristianini)
-* La mente dell'hacker. (Bruce Schneier)
 * Chip war (Chris Miller)
 * Sopravvivere nell'era dell'intelligenza artificiale (Walter Ferri)
 * Intelligenza artificiale e democrazia. (Oreste Pollicino)
 * L’etica dell’intelligenza artificiale spiegata a mio figlio (Enrico Panai)
-* Geopolitica dello spazio (Emilio Cozzi)
 * Noi e la macchina (Paolo Benanti, Sebastiano Maffettone)
 * 2100 (Simone Pieranni)
-* La società della ricompensa (Adrian Hon)
 * L’utopia dei miliardari. Analisi e critica del lungotermismo (Irene Doda)
 * Hacking, fughe di dati e rivelazioni (Micah Lee)
-* Il transumanesimo. Una sfida antropologica alla scienza e alla fede (Claudio Bonito, Alberto Carrara)
 * Lo spirito del mondo come un salmone. La Cina e l'intelligenza artificiale (Moritz Rudolph)
 * Tradire il Grande Fratello. Il risveglio femminista in Cina (Leta Hong Fincher)
-* Come distruggere il capitalismo della sorveglianza (Cory Doctorow)
-* Riavviare il sistema. Come abbiamo rotto Internet e perché tocca a noi riaggiustarla (Valerio Bassan)
 * Il re invisibile. Storia, economia e sconfinato potere del microchip (Cesare Alemanni)
 * L' uomo senza proprietà. Chi possiede veramente gli oggetti digitali? (Jacopo Franchi)
 * Tutti i mondi che vedo. Curiosità, scoperta e meraviglia all'alba dell'intelligenza artificiale (Fei-Fei Li)
 * Algoritmi e preghiere. L'umanità tra mistica e cultura digitale (Guerino Nuccio Bovalino)
 * Umano, poco umano. Esercizi spirituali contro l'intelligenza artificiale (Mauro Crippa, Giuseppe Girgenti)
-* Quando i dati discriminano. Bias e pregiudizi in grafici, statistiche e algoritmi (Donata Columbro)
 * Generative A.I. Conoscere, capire e usare l'intelligenza artificiale generativa (Jerry Kaplan)
 * Le persone non servono. Lavoro e ricchezza nell'era dell'intelligenza artificiale (Jerry Kaplan)
 * Tecnologie dell'impero. AI, quantum computing, 6G e la nuova geopolitica del potere (Francesca Balestrieri)
@@ -121,22 +112,17 @@ SAGGI
 
 ### 2023
 
+* Techgnosis. Mito magia e misticismo nell'era dell'informazione (Erik Davis)
 * Identità personale e algoritmi. Una questione di filosofia morale (Simona Tiribelli)
 * Contro lo smartphone (Juan Carlos De Martin)
-* Black Box (Laura Carrer)
 * Il visconte cibernetico (Andrea Prencipe, Massimo Sideri)
 * La guerra dei metalli rari (Guillaume Pitron)
 * Divertirsi da morire (Neil Postman)
 * Summa Technologiae (Stanislaw Lem)
 * Ai 2041. Scenari dal futuro dell'intelligenza artificiale (Qiufan Chen, Kai-Fu Lee)
-* Chimera. Il corpo espanso per una nuova ecosofia dell'arte (Marco Mancuso)
 * La fine della morte. Vita eterna nell'era dell'intelligenza artificiale (Moritz Riesewieck, Hans Block)
-* Internet fatta a pezzi. Sovranità digitale, nazionalismi e big tech (Vittorio Bertola, Stefano Quintarelli)
-* Techgnosis. Mito magia e misticismo nell'era dell'informazione (Erik Davis)
 * L'arte dell'invisibilità. (Kevin D. Mitnick, Robert Vamosi)
 * Tecnocina. Storia della tecnologia cinese dal 1949 a oggi (Simone Pieranni)
-* Maniac (Benjamín Labatut)
-* Il capitalismo della sorveglianza. Il futuro dell'umanità nell'era dei nuovi poteri (Shoshana Zuboff)
 * Contro lo smartphone. Per una tecnologia più democratica (Juan Carlos De Martin)
 * La fine dei social. E dopo che succede? (Mario Moroni)
 
@@ -151,7 +137,6 @@ SAGGI
 * Google liquido. Verso una nuova Internet (Giorgio Taverniti)
 * Algoritmi, monaci e mercanti. Il calcolo nella vita quotidiana del Medioevo (Giorgio Ausiello)
 * Dal cyborg al postumano. Biopolitica del corpo artificiale (Antonio Caronia)
-* Le macchine di Dio. Gli algoritmi predittivi e l'illusione del controllo (Helga Nowotny)
 * Tecnologie conviviali (Carlo Milani)
 * Benvenuti nel deserto del reale (Slavoj Žižek)
 
@@ -180,7 +165,6 @@ SAGGI
 
 ### PRIMA DEL 2020
 
-* Internet, mon amour. Cronache prima del crollo di ieri (Agnese Trocchi)
 * Nuova era oscura (James Bridle)
 * I Social Network (Giuseppe Riva)
 * Capitalismo immateriale (Stefano Quintarelli)
@@ -202,7 +186,6 @@ SAGGI
 INFORMATICA
 -----------
 
-* Maniac (Benjamín Labatut)
 * Il potere del computer e la ragione umana (Joseph Weizenbaum)
 * Le tessitrici. Mitologia dell'informatica (Loreta Minutilli)
 * L'uomo venuto dal futuro (Amanyo Bhattacharya)
@@ -223,7 +206,6 @@ INFORMATICA
 * Italian Crackdown. BBS amatoriali, volontari telematici, censure e sequestri nell'Italia degli anni '90 (Carlo Gubitosa)
 * Hackers sulle tracce di Kevin (Shimomura Tsutomu)
 * La rivoluzione elettronica (Andrea Frova)
-* Il manuale della crittografia. Applicazioni pratiche dei protocolli crittografici (Niels Ferguson, Bruce Schneier, Tadayoshi Kohno)
 * The Chinese Computer: A Global History of the Information Age (Thomas S. Mullaney)
 * Federico Faggin. Il padre del microprocessore (Angelo Gallippi)
 
@@ -262,5 +244,4 @@ LINK
 * [https://www.ibs.it/libri/autori/carlo-rovelli](https://www.ibs.it/libri/autori/carlo-rovelli)
 * [https://www.ibs.it/libri/autori/nello-cristianini](https://www.ibs.it/libri/autori/nello-cristianini)
 * [https://www.ibs.it/libri/autori/luciano-floridi](https://www.ibs.it/libri/autori/luciano-floridi)
-* [https://www.ibs.it/libri/autori/donata-columbro](https://www.ibs.it/libri/autori/donata-columbro)
 * [https://www.ibs.it/libri/autori/david-lyon](https://www.ibs.it/libri/autori/david-lyon)
