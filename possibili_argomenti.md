@@ -6,10 +6,7 @@ POSSIBILI ARGOMENTI
 - https://app.codemonkey.com/banana-tales/challenges/1
 
 # COMPETENZA DIGITALE (TEST INGRESSO)
-
-- https://mydigiskills.eu/it/index
 - https://europa.eu/europass/digitalskills/screen/home?referrer=epass&route=%2Fit&lang=it
-- https://ruotadigitale.it/
 
 # HARDWARE E SUPERCOMPUTER
 
