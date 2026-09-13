@@ -1,12 +1,7 @@
 POSSIBILI ARGOMENTI
 ===================
 
-# COMPITI VACANZE
-
-- https://app.codemonkey.com/banana-tales/challenges/1
-
-# COMPETENZA DIGITALE (TEST INGRESSO)
-- https://europa.eu/europass/digitalskills/screen/home?referrer=epass&route=%2Fit&lang=it
+GRAFICI CON [quickchart.io](https://quickchart.io/)
 
 # HARDWARE E SUPERCOMPUTER
 
@@ -431,4 +426,5 @@ POSSIBILI ARGOMENTI
 - https://en.wikipedia.org/wiki/Mirai_(malware)
 
 # SISTEMA OPERATIVO
+
 - https://virtualosmuseum.org/

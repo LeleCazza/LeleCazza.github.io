@@ -1,0 +1,7 @@
+Converti la seguente immagine in un'illustrazione minimalista in stile line art.
+Stile: Linee bianche essenziali, pulite e ben definite su sfondo nero puro.
+Dettagli: Mantieni solo le sagome e i contorni principali dei soggetti e dello sfondo. 
+Rimuovi texture complesse, sfumature, ombre, scritte e loghi.
+Volti: Rendere i lineamenti dei volti estremamente stilizzati e solo accennati 
+(no tracciamento fotorealistico di barba, rughe o espressioni dettagliate).
+Formato: Immagine quadrata 500px x 500px, formato PNG.

@@ -1,0 +1,19 @@
+CREAZIONE DI SPRITE/SFONDI:
+
+Pixilart: Editor online per il disegno in pixel art e la creazione di animazioni GIF frame-by-frame. (https://www.pixilart.com/)
+Piskel: Strumento open source per la creazione di sprite animati in pixel art con funzione di anteprima live. (https://www.piskelapp.com/)
+Maze Generator: Generatore algoritmico di labirinti personalizzabili per dimensioni e forma, esportabili in formati vettoriali o bitmap. (https://www.mazegenerator.net/)
+Kleki: Web app per pittura digitale e fotoritocco con supporto a livelli, pennelli e filtri grafici. (https://kleki.com/)
+RPG Map Editor (Deepnight): Editor specializzato nella costruzione di mappe 2D per giochi di ruolo tramite l'uso di tileset predefiniti. (https://deepnight.net/tools/rpg-map/)
+
+ASSETS DI SPRITE/SFONDI:
+Kenney.nl: Archivio di migliaia di asset grafici (2D e 3D), audio e UI rilasciati sotto licenze libere per lo sviluppo di videogiochi. (https://kenney.nl/assets)
+Sprite Repository (PMDCollab): Database collaborativo di sprite e animazioni nel formato specifico della serie Pokémon Mystery Dungeon. (https://sprites.pmdcollab.org)
+The Spriters Resource: Raccolta di sprite estratti direttamente dai file sorgente di videogiochi commerciali per diverse console. (https://www.spriters-resource.com/)
+Itch.io (Game Assets): Marketplace di risorse grafiche, sonore e modelli 3D caricati da artisti indipendenti. (https://itch.io/game-assets)
+
+RIMUOVERE LO SFONDO:
+
+Adobe Express (Remove Background): Strumento automatizzato basato su IA per l'isolamento del soggetto e l'eliminazione dello sfondo dalle immagini. (https://www.adobe.com/it/express/feature/image/remove-background)
+InPixio: Editor online dedicato alla rimozione dello sfondo e alla creazione di trasparenze nelle immagini caricate. (https://www.inpixio.com/remove-background/it/)
+La Digitale: https://ladigitale.dev/digiremovebg/

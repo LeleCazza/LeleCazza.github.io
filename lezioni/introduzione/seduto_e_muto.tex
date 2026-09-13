@@ -1,0 +1,87 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{tikz}
+\usepackage[normalem]{ulem}
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{SEDUTO E MUTO}
+\subtitle{Gioco in solitaria}
+\date{}
+\institute{Materiale necessario: un foglio e una penna, un conto alla rovescia}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{SEDUTO E MUTO - OBIETTIVO DEL GIOCO}
+    \begin{minipage}{0.98\linewidth}
+        \centering
+        \huge
+        \textit{Ogni giocatore deve riuscire entro il tempo limite di 2 minuti a far sedere più compagni 
+        di classe possibile, cercando di lasciare in piedi un solo compagno target.}\\
+    \end{minipage}\\
+\end{frame}
+
+\begin{frame}{SEDUTO E MUTO - REGOLE DEL GIOCO}
+    GIOCATORE:
+    \begin{enumerate}
+        \item Il giocatore va alla cattedra e scrive sul foglio il nome del compagno target da far 
+        rimanere in piedi (non può essere un target già scelto da un altro giocatore);
+        \item Il giocatore avvia il conto alla rovescia di 2 minuti e cerca di far sedere più compagni 
+        possibile ponendo loro delle domande (S\'I/NO);
+        \item Se il compagno target si siede, il giocatore finisce il turno;
+        \item Se tutti i compagni si siedono, il giocatore finisce il turno;
+        \item Se rimane in piedi solo il compagno target, il giocatore finisce il turno.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{SEDUTO E MUTO - REGOLE DEL GIOCO}
+    CLASSE:
+    \begin{enumerate}
+        \item Inizialmente i giocatori devono rimanere in piedi;
+        \item Se la risposta alla domanda del giocatore alla cattedra è affermativa, il giocatore deve sedersi;
+        \item Se la risposta alla domanda del giocatore alla cattedra è negativa, il giocatore deve rimanere in piedi;
+        \item Terminato il turno, il giocatore target prende il posto del giocatore alla cattedra e inizia il suo turno.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{SEDUTO E MUTO - PUNTEGGI}
+    \begin{itemize}
+        \item Per entrare in classifica bisogna riuscire a fare almeno un punto;
+        \item Ogni compagno che rimane in piedi alla fine del turno vale 1 punto;
+        \item Vince chi ottiene il punteggio più basso.
+    \end{itemize}
+\end{frame}
+\end{document}
