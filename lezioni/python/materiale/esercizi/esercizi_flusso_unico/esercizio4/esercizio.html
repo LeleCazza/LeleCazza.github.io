@@ -1,0 +1,31 @@
+<b>Registrazione Giocatore.</b> <br>
+<br>
+Crea uno script Python per registrare la scheda di un giocatore. 
+Il programma deve richiedere all'utente quattro dati tramite input(), 
+applicando direttamente i quattro casting principali (str, int, float, bool):
+<ol>
+    <li>Nome del giocatore: da convertire in stringa (str).</li>
+    <li>Livello raggiunto: da convertire in intero (int).</li>
+    <li>Punteggio totale: da convertire in decimale (float).</li>
+    <li>Stato VIP: da convertire direttamente in booleano (bool), spiegando 
+        all'utente di premere semplicemente Invio per False o digitare un testo 
+        qualsiasi per True.</li>
+</ol>
+Infine, lo script calcola un punteggio finale ottenuto sommando al punteggio totale, il 
+livello raggiunto moltiplicato per 10, e stampa ogni dato raccolto affiancato 
+dal relativo tipo restituito dalla funzione type().
+<b>Funzioni da utilizzare</b>: input(), str(), int(), float(), bool(), print(), type().
+<br><br>
+ESEMPIO INPUT: <br>
+Inserisci il nome del giocatore: Lele <br> 
+Inserisci il livello: 5 <br>
+Inserisci il punteggio: 150.50 <br>
+Sei VIP? (Premi Invio per No, digita un carattere qualsiasi per Si): si <br>
+<br>
+OUTPUT ESERCIZIO: <br>
+--- SCHEDA GIOCATORE --- <br>
+Nome: Lele | Tipo: &lt;class 'str'&gt; <br>
+Livello: 5 | Tipo: &lt;class 'int'&gt; <br>
+Punteggio: 150.5 | Tipo: &lt;class 'float'&gt; <br>
+Stato VIP: True | Tipo: &lt;class 'bool'&gt; <br>
+Punteggio Finale Calcolato: 200.5
