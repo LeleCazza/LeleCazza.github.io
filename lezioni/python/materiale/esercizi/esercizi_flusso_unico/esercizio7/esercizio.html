@@ -1,0 +1,30 @@
+<b>Sistema di Cassa Automatizzata per Supermercati.</b> <br>
+<br>
+Immagina di dover sviluppare il programma per la cassa automatizzata di un supermercato. 
+Il software deve gestire il processo di acquisto dall'inizio alla fine:
+<ul>
+    <li>All'inizio del pagamento, la cassa deve chiedere di inserire su una sola riga 
+        sia la quantità di articoli acquistati sia il prezzo del singolo articolo.</li>
+    <li>Subito dopo, il programma richiede di digitare il codice dell'operatore di cassa.</li>
+    <li>Infine, il programma chiede di inserire la data corrente (GG/MM/AAAA).</li>
+</ul>
+Per dare un feedback visivo all'utente, la cassa mostra un messaggio di elaborazione 
+del conto facendo apparire tre punti di caricamento a intervalli di tempo regolari 
+(ogni 2 secondi) sulla stessa riga. Al termine dell'attesa, viene stampato lo scontrino fiscale 
+in cui viene mostrato il giorno della transazione separato da /. Lo scontrino si chiude con 
+il dettaglio dell'operatore e il totale da pagare con l'importo in euro formattato 
+esattamente a due cifre decimali.<br>
+<br>
+ESEMPIO INPUT: <br>
+=== CASSA AUTOMATICA - TERMINALE 01 === <br>
+Inserisci quantità articoli e prezzo unitario: 3 15.80 <br>
+Inserisci codice operatore cassa: 104 <br>
+Inserisci la data di oggi GG/MM/AAAA: 17/03/1861 <br>
+<br>
+OUTPUT ESERCIZIO: <br>
+Elaborazione scontrino fiscale in corso... COMPLETATA! <br>
+<br>
+--- SCONTRINO FISCALE --- <br>
+Giorno transazione: 17/3/1861 <br>
+Operatore Cassa: 104 <br>
+Totale da pagare: 47.40 €
