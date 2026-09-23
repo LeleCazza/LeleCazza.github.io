@@ -1,0 +1,192 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{listings}
+\definecolor{verde}{rgb}{0,0.6,0}
+\definecolor{grigio}{rgb}{0.5,0.5,0.5}
+\definecolor{rosa}{rgb}{0.58,0,0.82}
+\definecolor{backgroud}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{stilepython}{
+    backgroundcolor=\color{backgroud},
+    commentstyle=\color{verde},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{grigio},
+    stringstyle=\color{rosa},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    literate=
+    {à}{{\'a}}1
+    {è}{{\'e}}1
+    {ì}{{\'i}}1
+    {ò}{{\'o}}1
+    {ù}{{\'u}}1
+}
+\lstset{style=stilepython}
+
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{INPUT E OUTPUT}
+\subtitle{Funzioni Python per l'interazione utente}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://docs.python.org/it/3/tutorial/inputoutput.html}{Documentazione Ufficiale Python}
+            \item[-] \href{https://www.zanichelli.it/ricerca/prodotti/coding-python}{Coding con Python - Zanichelli}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\section{FUNZIONI DI INPUT}
+
+\begin{frame}[fragile]{INPUT}
+    \begin{alertblock}{CASTING DELL'INPUT}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            La funzione \textcolor{red}{\textbf{input(}}prompt\textcolor{red}{\textbf{)}} 
+            sospende l'esecuzione del programma rimanendo in attesa dell'immissione di 
+            dati da parte dell'utente; una volta confermato l'inserimento tramite il 
+            tasto Invio, restituisce la riga acquisita come valore di tipo \textbf{str}, 
+            mostrando preventivamente a schermo l'eventuale testo specificato nell'
+            argomento opzionale prompt.\\
+            \bigskip
+\begin{lstlisting}[language=Python]
+ nome = input("Inserisci il tuo nome: ")
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{INPUT}
+    \begin{alertblock}{CASTING DELL'INPUT}
+        \begin{minipage}{0.98\linewidth}
+\begin{lstlisting}[language=Python]
+ # 1. Casting a Int (numero intero)
+ eta = int(input("Inserisci la tua età: "))
+
+ # 2. Casting a Float (Numero con la virgola)
+ media = float(input("Inserisci la tua media voti (es. 5.75): "))
+ 
+ # 3. Casting a Bool, ovvero, True nel caso sia presente un valore 
+ # diverso da zero o diverso da null, False altrimenti
+ risposta = bool(input("Premi invio per inserire NO, inserisci un 
+ carattere qualsiasi per inserire SI: "))
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{INPUT}
+    \begin{alertblock}{FUNZIONE MAP() E METODO SPLIT()}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il \textbf{metodo .split()} separa la stringa dell'utente in più elementi dividendo per spazi, 
+            mentre la \textbf{funzione map()} applica la conversione in intero (int) a ciascuno di essi; 
+            usati insieme, permettono di estrarre, convertire e assegnare più numeri scritti su 
+            un'unica riga alle variabili num1 e num2 in un solo passaggio.
+            \bigskip
+\begin{lstlisting}[language=Python]
+ # Casting dell'input su più righe ripetute
+ num1 = int(input("inserisci un numero: "))
+ num2 = int(input("inserisci un numero: "))
+ # Si può rendere più compatto utilizzando la funzione map() in
+ # combinazione con input() e il metodo split() fornito dal tipo str
+ num1, num2 = map(int, input("Inserisci due numeri: ").split())
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{FUNZIONI DI OUTPUT}
+
+\begin{frame}[fragile]{OUTPUT}
+    \begin{alertblock}{FORMATTAZIONE DELL'OUTPUT}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            La funzione \textcolor{red}{\textbf{print(}}argomenti\textcolor{red}{\textbf{)}} è lo strumento 
+            principale per inviare dati verso lo schermo (o un qualsiasi flusso di output). Il suo 
+            funzionamento interno è lineare: prende un numero variabile di argomenti, li converte 
+            in stringhe (richiamando implicitamente il metodo str()), li unisce inserendo un separatore 
+            tra di essi, ed emette la stringa finale seguita da un carattere di chiusura.
+            \bigskip
+\begin{lstlisting}[language=Python]
+ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{OUTPUT}
+    \begin{alertblock}{FORMATTAZIONE DELL'OUTPUT}
+        \begin{minipage}{0.98\linewidth}
+\begin{lstlisting}[language=Python]
+ # 1. Stampa base e argomenti multipli
+ nome, eta = "Lele", 32
+ print("Ciao", nome, "hai", eta, "anni.")
+
+ # 2. Personalizzazione dei parametri sep ed end
+ print("1789", "07", "14", sep="-")
+
+ # 3. Personalizzazione del parametro end
+ print("Elaborazione in corso...", end=" ")
+ print("Completata!")
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{OUTPUT}
+    \begin{alertblock}{FORMATTAZIONE DELL'OUTPUT}
+        \begin{minipage}{0.98\linewidth}
+\begin{lstlisting}[language=Python]
+ # 3. Metodo f-Strings, confronto con stampa base e funzione format
+ prod, p, sconto = "Laptop", 899.986, 0.15
+ print(f"Prod: {prod} | Sconto: {p * (1 - sconto):.2f}")
+ # Più comodo che utilizzare la seguente stampa base
+ print("Prod:", prod, "| Sconto:", format(p * (1 - sconto), ".2f"))
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}

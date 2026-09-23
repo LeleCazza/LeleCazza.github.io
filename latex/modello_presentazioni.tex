@@ -7,6 +7,33 @@
 \usepackage[italian]{babel}
 \usepackage{multirow}
 \usepackage{silence}
+\usepackage{listings}
+\definecolor{verde}{rgb}{0,0.6,0}
+\definecolor{grigio}{rgb}{0.5,0.5,0.5}
+\definecolor{rosa}{rgb}{0.58,0,0.82}
+\definecolor{backgroud}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{stilepython}{
+    backgroundcolor=\color{backgroud},
+    commentstyle=\color{verde},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{grigio},
+    stringstyle=\color{rosa},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    literate=
+    {à}{{\'a}}1
+    {è}{{\'e}}1
+    {ì}{{\'i}}1
+    {ò}{{\'o}}1
+    {ù}{{\'u}}1
+}
+\lstset{style=stilepython}
+
 \WarningFilter{beamer}{}
 \WarningFilter{metropolis}{}
 \usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
@@ -146,6 +173,21 @@
     \end{alertblock}
 \end{frame}
 
+\section{SEZIONE: DEFINIZIONE E CODICE}
+
+\begin{frame}[fragile]{TITOLO SLIDE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            testo definizione\\
+            \bigskip
+\begin{lstlisting}[language=Python]
+ testo codice con spazio iniziale per ogni riga
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
 \section{SEZIONE: DEFINIZIONE + ELENCO NUMERATO}
 
 \begin{frame}{TITOLO SLIDE}
@@ -165,6 +207,18 @@
             \bigskip
             \tiny{\textbf{Curiosità}}\\
             \tiny{\href{www.link.com}{Titolo curiosità}}        
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{SEZIONE: CODICE}
+
+\begin{frame}[fragile]{TITOLO SLIDE}
+    \begin{alertblock}{TITOLO BLOCCO CODICE}
+        \begin{minipage}{0.98\linewidth}
+\begin{lstlisting}[language=Python]
+ testo codice con spazio iniziale per ogni riga
+\end{lstlisting}
         \end{minipage}
     \end{alertblock}
 \end{frame}

@@ -12,5 +12,6 @@
     "*.toc",
     "*.snm",
     "*.nav"
-  ]
+  ],
+  "commentTranslate.targetLanguage": "it"
 }
