@@ -1,0 +1,204 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{listings}
+\definecolor{verde}{rgb}{0,0.6,0}
+\definecolor{grigio}{rgb}{0.5,0.5,0.5}
+\definecolor{rosa}{rgb}{0.58,0,0.82}
+\definecolor{backgroud}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{stilepython}{
+    backgroundcolor=\color{backgroud},
+    commentstyle=\color{verde},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{grigio},
+    stringstyle=\color{rosa},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    literate=
+    {à}{{\'a}}1
+    {è}{{\'e}}1
+    {ì}{{\'i}}1
+    {ò}{{\'o}}1
+    {ù}{{\'u}}1
+}
+\lstset{style=stilepython}
+
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{FUNZIONI, METODI, MODULI E LIBRERIE}
+\subtitle{Elementi fondamentali Python}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://docs.python.org/it/3.12/library/functions.html}{Funzioni Incorporate - Documentazione Ufficiale Python}
+            \item[-] \href{https://docs.python.org/it/3.14/builtins/stdtypes.html\#text-and-binary-sequence-type-methods-summary}{Metodi Stringe - Documentazione Ufficiale Python}
+            \item[-] \href{https://docs.python.org/it/3.14/library/math.html}{Modulo Math - Documentazione Ufficiale Python}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\section{FUNZIONI}
+
+\begin{frame}{FUNZIONI BUILT-IN}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Le \textbf{funzioni built-in} sono funzioni predefinite e pronte all'uso, 
+            sempre disponibili. Eseguono le operazioni fondamentali ed essenziali del 
+            linguaggio (ad esempio: input() e print()). Evitano quindi di dover riscrivere 
+            manualmente il codice per le attività di base più frequenti.\\
+            \bigskip
+            \tiny{\textbf{DOCUMENTAZIONE}}\\
+            \tiny{\href{https://docs.python.org/it/3.12/library/functions.html}{Tutte le funzioni Incorporate}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{FUNZIONI}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \textbf{Una funzione} in Python è un \textbf{blocco di codice riutilizzabile} 
+            che \textbf{viene eseguito solo quando viene invocato}. Si \textbf{definisce} mediante la parola chiave \textbf{def}. 
+            Può accettare dati in ingresso (parametri o argomenti) e restituire un risultato tramite \textbf{return}. 
+            Serve per strutturare il programma in modo modulare, evitando duplicazioni di codice e migliorandone la leggibilità.
+\begin{lstlisting}[language=Python]
+ def area_rettangolo(base, altezza):
+    """Calcola e restituisce l'area di un rettangolo"""
+    area = base * altezza
+    return area
+ 
+ # Chiamata alla funzione
+ risultato = area_rettangolo(5,3)
+ print(risultato) # output: 15
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{METODI}
+
+\begin{frame}[fragile]{METODO}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un \textbf{metodo} in Python è una funzione definita 
+            all'\textbf{interno di una classe} e \textbf{associata a uno specifico 
+            oggetto}. Si \textbf{richiama} usando la \textbf{notazione puntata} ovvero:\\ 
+            \bigskip
+            \textbf{oggetto.metodo()}\\
+            \bigskip
+            Un metodo può leggere e modificare lo stato e gli attributi 
+            dell'oggetto a cui appartiene.\\
+            \bigskip
+\begin{lstlisting}[language=Python]
+ txt = "python"
+ txt = txt.upper()
+ print(txt) # output: PYTHON
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{METODI STR}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Nel tipo \textbf{str} di Python, un metodo è una funzione integrata associata 
+            a un oggetto stringa, richiamabile tramite la notazione con il punto. Serve per 
+            analizzare, formattare o trasformare il testo. \textbf{Poiché le stringhe sono immutabili, 
+            un metodo str non altera mai l'oggetto originale, ma restituisce sempre un nuovo valore}.\\
+            \bigskip
+            \tiny{\textbf{DOCUMENTAZIONE}}\\
+            \tiny{\href{https://docs.python.org/it/3.14/builtins/stdtypes.html\#text-and-binary-sequence-type-methods-summary}{Tutti i metodi di str}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{MODULI E LIBRERIE}
+
+\begin{frame}{MODULI E LIBRERIE }
+    \begin{alertblock}{DEFINIZIONI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un \textbf{modulo} in Python è un \textbf{file contenente codice} (funzioni, classi e variabili) 
+            salvato con estensione \textbf{.py}. Il suo scopo principale è organizzare il 
+            codice e favorirne il riutilizzo, dividendo un programma in sezioni logiche e 
+            gestibili. \textbf{Per accedere ai contenuti di un modulo di un altro script si 
+            utilizza la parola chiave: import} (ad esempio, import math).\\
+            \pause
+            Una \textbf{libreria} in Python è una \textbf{raccolta più ampia e complessa 
+            di pacchetti e moduli correlati}, progettata per offrire funzionalità complete su 
+            un determinato argomento. Mentre un modulo è un singolo file .py, una libreria 
+            unisce molti moduli e risorse pronte all'uso. Viene solitamente installata tramite un gestore (es: \textbf{pip}) 
+            e poi importata nei propri progetti.\\
+            \bigskip
+            \tiny{\textbf{DOCUMENTAZIONE}}\\
+            \tiny{\href{https://docs.python.org/it/3.14/library/math.html}{Modulo math}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{IMPORTARE MODULI/FUNZIONI}
+    \begin{alertblock}{IMPORT/FROM}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Se viene importato tutto il modulo, i metodi dei moduli devono essere richiamati 
+            tramite la notazione puntata (che ha come radice il nome del modulo)
+\begin{lstlisting}[language=Python]
+ import math
+ print(math.sqrt(2))
+\end{lstlisting}
+            Per \textbf{importare un singolo metodo} e poterlo utilizzare come se fosse una 
+            funzione built-in è necessario richiamarlo tramite la sintassi: \textbf{from}
+            modulo \textbf{import} metodo.
+\begin{lstlisting}[language=Python]
+ from math import sqrt
+ print(sqrt(2))
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}
