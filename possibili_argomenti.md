@@ -92,6 +92,7 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 
 # PROBLEMI INTELLIGENZA ARTIFICIALE
 
+- [www.wired.it/article/intelligenza-artificiale-dati-addestramento-razzismo-sessismo-colonialismo-digitale](https://www.wired.it/article/intelligenza-artificiale-dati-addestramento-razzismo-sessismo-colonialismo-digitale/)
 - https://www.rizzolieducation.it/content/uploads/2022/10/11_brown_10_novembre.pdf
 - https://it.wikipedia.org/wiki/Tre_leggi_di_Clarke
 - Esponenti del Tech Right e Palmer Luckey: https://www.wired.it/article/accelerazionismo-efficace-intelligenza-artificiale-musk-silicon-valley/
