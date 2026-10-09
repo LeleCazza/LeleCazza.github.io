@@ -182,6 +182,7 @@ SAGGI
 * La singolarità è più vicina (Ray Kurzweil)
 * Abolish Silicon Valley (Wendy Liu)
 * Intervista su privacy e libertà (Stefano Rodotà)
+* The Book of Why (Judea Pearl)
 
 INFORMATICA
 -----------

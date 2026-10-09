@@ -92,53 +92,50 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 
 # PROBLEMI INTELLIGENZA ARTIFICIALE
 
-- [www.wired.it/article/intelligenza-artificiale-dati-addestramento-razzismo-sessismo-colonialismo-digitale](https://www.wired.it/article/intelligenza-artificiale-dati-addestramento-razzismo-sessismo-colonialismo-digitale/)
-- https://www.rizzolieducation.it/content/uploads/2022/10/11_brown_10_novembre.pdf
-- https://it.wikipedia.org/wiki/Tre_leggi_di_Clarke
+APPROFONDIMENTO MIO
+
+Armi autonome: La banalità del male (leggere libro)
+
+[www.youtube.com/watch?v=2GNTTqzIvHsl](https://www.youtube.com/watch?v=2GNTTqzIvHsl)
+
+[it.wikipedia.org/wiki/Bias_cognitivo](https://it.wikipedia.org/wiki/Bias_cognitivo)
+
+[www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra](https://www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra/)
+
+[sha.africauncensored.online](https://sha.africauncensored.online/)
+
+[www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi](https://www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi/)
+
+[world.emergence.ai](https://world.emergence.ai/)
+
+[www.ahidaonline.com/post/guerre-6?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4](https://www.ahidaonline.com/post/guerre-6?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4)
+
+[www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html](https://www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html)
+
+PENSIERO BIG TECH
+
 - Esponenti del Tech Right e Palmer Luckey: https://www.wired.it/article/accelerazionismo-efficace-intelligenza-artificiale-musk-silicon-valley/
-- https://www.wired.it/article/in-the-belly-of-ai-documentario-data-worker-intelligenza-artificiale-henri-poulain-intervista/
-- https://diecichilidiperle.blogspot.com/2022/10/perche-mai-noi-umani-dovremmo-affidarci.html
-- https://www.wired.it/article/meta-16-dicembre-messaggi-privati-pubblicita-chatbot-privacy/
-- https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/
-- https://www.wired.it/article/moltbook-social-agenti-ai-openclaw-come-funziona-rischi/
-- https://www.facta.news/articoli/polizia-ha-diffuso-foto-scontri-torino-intelligenza-artificiale-teoria-complotto
-- https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/
-- https://dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso/
-- Armi autonome: La banalità del male (leggere libro)
-- https://www.rainews.it/articoli/2026/03/anthropic-sfida-il-pentagono-sullia-no-a-sorveglianza-di-massa-e-armi-autonome-b61be820-2b21-4dc0-a767-457065c5b0e9.html
-- https://m.youtube.com/watch?v=2GNTTqzIvHsl
-- https://www.bbc.com/future/article/20260218-i-hacked-chatgpt-and-googles-ai-and-it-only-took-20-minutes
+- [www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes](https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/)
+
+RESPONSABILITA' ERRORI
+
+- [dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso](https://dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso/)
+
+______________________________________________________________________________
+
 - PAG. 148 Eliza parole dal creatore di cose non può fare una macchina: Simulacri digitali.
 - Simulacri digitali PAG.182-184 cortocircuito algoritmi di previsione
-- https://www.techspot.com/news/111686-gig-workers-getting-paid-film-their-daily-chores.html
-- https://www.ilpost.it/2026/03/25/openai-chiude-sora-video/
-- https://www.wired.it/article/chat-erotiche-chatgpt-cancellate-motivi/
-- https://attivissimo.me/podcast-rsi-dietro-le-ia-ce-manodopera-africana-sfruttata/
-- https://www.technology.org/2026/04/08/googles-ai-answers-are-wrong-millions-of-times-per-hour-and-most-people-have-no-idea/
-- https://it.wikipedia.org/wiki/Bias_cognitivo
-- sycophancy: https://www.agendadigitale.eu/cultura-digitale/algoritmi-compiacenti-e-dipendenza-emotiva-i-rischi-delle-ia-mimetiche/
-- https://www.science.org/doi/10.1126/science.aec8352
 - MATTEO FLORA CIAO INTERNET!:" Walter Quattrociocchi, che dirige il laboratorio di Computational Social Science alla Sapienza di Roma, parla di “epistemia”: la malattia del processo di conoscenza, quella condizione in cui perdiamo la capacità stessa di stabilire criteri per distinguere il vero dal falso. L’AI sycophantic accelera questo processo in modo esponenziale, perché rimuove l’ultimo baluardo epistemico che ci restava: il dubbio su noi stessi. Ne parlo spesso nei miei corsi: quando analizzo i sistemi di governo delle narrative, la prima cosa che insegno è che la manipolazione più pericolosa non è quella che ti racconta una bugia, ma quella che ti conferma una verità parziale facendoti credere che sia tutta la storia."
 - MATTEO FLORA CIAO INTERNET!:" Lo studio stesso suggerisce un intervento minimale ma efficace: basta chiedere all’AI “aspetta un momento, considerala anche dall’altro punto di vista” per ridurre significativamente l’effetto validante. Non è una soluzione; è un cerotto."
-- https://www.theverge.com/transportation/907478/robotaxi-remote-assistance-markey-investigation-waymo-tesla
-- https://deepmind.google/research/publications/231971/
-- https://www.ilsole24ore.com/art/meta-registra-movimenti-mouse-e-tasti-premuti-dipendenti-usa-per-addestrare-l-ia-AIFGKSdC
-- Character AI e Replica come AI Companion
-- https://it.lovense.com/interactive-ai-robot-sex-doll
-- https://www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra/
-- https://sha.africauncensored.online/
-- https://www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi/
-- https://world.emergence.ai/
-- https://www.ilpost.it/2026/02/09/anthropic-ha-distrutto-milioni-di-libri/
-- https://petapixel.com/2026/05/14/someone-shared-a-real-monet-painting-as-ai-and-asked-for-critiques/?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4
-- https://www.ahidaonline.com/post/guerre-6?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4
-- https://gaming.hwupgrade.it/news/videogames/pokemon-go-utilizzato-per-addestrare-i-droni-militari-cosa-emerso-sui-dati-niantic_154743.html
 
 ## IMPATTI AMBIENTALI
 
+- [www.rainews.it/speciali/intelligenzaartificiale/impatto-ambientale-dell-ai](https://www.rainews.it/speciali/intelligenzaartificiale/impatto-ambientale-dell-ai)
 - https://greentogrey.eu/
 - https://dataguessr.com/
 - https://www.geopop.it/quanta-acqua-consuma-lai-entro-il-2030-i-data-center-potrebbero-arrivare-a-93-bilioni-di-litri-allanno/
+- `https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/`
+- 
 
 ## INQUINAMENTO SPAZIALE
 
@@ -347,6 +344,7 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - https://www.wired.it/article/truffe-whatsapp-2026-ballerina-dentista-come-difendersi/
 - https://www.ansa.it/sito/notizie/topnews/2026/03/30/data-breach-garante-privacy-sanzione-intesa-sanpaolo-per-318-milioni_f3b20a1a-645f-404a-a997-0ea1c655f4ee.html
 - https://www.punto-informatico.it/messaggio-ai-meta-bastava-rubare-account-instagram/
+- [www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta](https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/)
 
 # SOVRANITA' DIGITALE
 
