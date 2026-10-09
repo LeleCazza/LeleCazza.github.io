@@ -121,13 +121,6 @@ RESPONSABILITA' ERRORI
 
 - [dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso](https://dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso/)
 
-______________________________________________________________________________
-
-- PAG. 148 Eliza parole dal creatore di cose non può fare una macchina: Simulacri digitali.
-- Simulacri digitali PAG.182-184 cortocircuito algoritmi di previsione
-- MATTEO FLORA CIAO INTERNET!:" Walter Quattrociocchi, che dirige il laboratorio di Computational Social Science alla Sapienza di Roma, parla di “epistemia”: la malattia del processo di conoscenza, quella condizione in cui perdiamo la capacità stessa di stabilire criteri per distinguere il vero dal falso. L’AI sycophantic accelera questo processo in modo esponenziale, perché rimuove l’ultimo baluardo epistemico che ci restava: il dubbio su noi stessi. Ne parlo spesso nei miei corsi: quando analizzo i sistemi di governo delle narrative, la prima cosa che insegno è che la manipolazione più pericolosa non è quella che ti racconta una bugia, ma quella che ti conferma una verità parziale facendoti credere che sia tutta la storia."
-- MATTEO FLORA CIAO INTERNET!:" Lo studio stesso suggerisce un intervento minimale ma efficace: basta chiedere all’AI “aspetta un momento, considerala anche dall’altro punto di vista” per ridurre significativamente l’effetto validante. Non è una soluzione; è un cerotto."
-
 ## IMPATTI AMBIENTALI
 
 - [www.rainews.it/speciali/intelligenzaartificiale/impatto-ambientale-dell-ai](https://www.rainews.it/speciali/intelligenzaartificiale/impatto-ambientale-dell-ai)
@@ -170,6 +163,7 @@ ______________________________________________________________________________
 
 # SORVEGLIANZA VS LIBERTA'
 
+- [stopchatcontrol.it/index.php](https://stopchatcontrol.it/index.php)
 - https://it.wikipedia.org/wiki/Effetto_cobra
 - https://www.wired.it/attualita/tech/2021/06/21/sorveglianza-conformisti-privacy/
 - https://thediplomat.com/2026/01/vietnam-is-close-to-launching-its-own-version-of-a-china-style-social-credit-system/

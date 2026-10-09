@@ -632,4 +632,202 @@
     \end{figure}
 \end{frame}
 
+\title{INTELLIGENZA ARTIFICIALE GENERATIVA}
+\subtitle{Best Practices per l'uso consapevole}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://www.promptingguide.ai/it}{DAIR.AI: Prompting Guide}
+            \item[-] \href{https://www.ibm.com/it-it/think/prompt-engineering}{IBM: Prompt Engineering}
+            \item[-] \href{https://claude.com/it/resources/articles/best-practices-for-prompt-engineering}{Claude: Best Practices for Prompt Engineering}
+            \item[-] \href{https://cloud.google.com/discover/what-is-prompt-engineering}{Google: What is Prompt Engineering}
+        \end{itemize}
+    }
+}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{INTELLIGENZA ARTIFICIALE GENERATIVA}
+    \begin{figure}
+        \includegraphics[width=.75\linewidth]{img/la_risposta.png}
+        \caption{{Tratta da \href{https://www.rizzolieducation.it/content/uploads/2022/10/11_brown_10_novembre.pdf}{Rizzoli Education}}}
+    \end{figure}
+\end{frame}
+
+\section{BEST PRACTICES}
+
+\begin{frame}{USA L'AI PER IMPARARE, NON USARE L'AI AL POSTO DI IMPARARE}
+    \begin{figure}
+        \includegraphics[width=.5\linewidth]{img/iavsstudente.jpg}
+        \caption{{creata con \href{https://gemini.google.com/}{Gemini}}}
+    \end{figure}
+        \begin{columns}
+        \column{.5\textwidth}
+            \begin{alertblock}{AUTOPILOTA}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    L'AI fa il lavoro al tuo posto:\\
+                    - Risolve i problemi di matematica\\
+                    - Scrive i tuoi temi\\
+                    Risultato: spegne il tuo cervello, non impari nulla.
+                \end{minipage}
+            \end{alertblock}
+        \column{.5\textwidth}
+            \begin{alertblock}{CO-PILOTA}
+                \begin{minipage}{0.96\linewidth}
+                    \justifying
+                    l'AI lavora con te:\\
+                    - Ti spiega come approcciare un problema\\
+                    - Critica e migliora le tue bozze\\
+                    Risultato: amplifica le tue capacità, impari più velocemente.
+                \end{minipage}
+            \end{alertblock}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{TECNICHE DI PROMPTING}
+    \begin{alertblock}{TECNICA 1: DAI ALL'AI UN'IDENTITÀ}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Senza contesto, l'AI è generica e superficiale. \textbf{Forniscile un'identità e un ruolo specifico}, 
+            così da ottenere risposte più pertinenti e approfondite.\\
+            \pause
+            \bigskip
+            \textcolor{red}{Esempio di prompt}\\
+            \textbf{RUOLO}: Sei un professore di informatica con molti anni di esperienza, specializzato in intelligenza 
+            artificiale.\\
+            \textbf{TONO}: Usa un linguaggio semplice e chiaro, adatto a studenti di scuola superiore.\\
+            \textbf{OBIETTIVO}: Crea delle slides per una lezione di 1 ora sull'AI generativa con esempi 
+            pratici e comprensibili.\\
+            \bigskip
+            \tiny{\textbf{\textcolor{red}{Spoiler}}}\\
+            \tiny{Queste slides non sono state generate da un'intelligenza artificiale}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{TECNICHE DI PROMPTING}
+    \begin{alertblock}{TECNICA 2: MOSTRA, NON LIMITARTI A CHIEDERE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            l'AI impara dai pattern. Invece di limitarti a formulare domande, \textbf{mostra all'AI esempi 
+            concreti di ciò che desideri ottenere}, descrivendo in dettaglio come vuoi che appaia il 
+            risultato finale.\\
+            \pause
+            \bigskip
+            \textcolor{red}{Esempio di prompt}\\
+            Crea delle slides per una lezione di 1 ora sull'AI generativa con esempi pratici e comprensibili.\\
+            Ecco un esempio di come vorrei che fossero strutturate tutte le slides:\\
+            - Titolo della slide in alto con sfondo giallo\\
+            - Riquadro centrale con titolo in rosso e contenuto in nero\\
+            - Sfondo bianco con numeri di pagina in basso a destra\\
+            - Didascalia inserita in basso a sinistra del riquadro con font piccolo che cerca senza successo 
+            di essere simpatica\\ 
+            \bigskip
+            \tiny{\textbf{\textcolor{red}{Spoiler}}}\\
+            \tiny{Ripetizione: queste slides non sono state generate da un'intelligenza artificiale}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{TECNICHE DI PROMPTING}
+    \begin{alertblock}{TECNICA 3: CHAIN OF THOUGHT (CATENA DI PENSIERO)}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            L'AI è più efficace quando ragiona passo dopo passo. \textbf{Chiedile di spiegare il suo 
+            ragionamento}, così da ottenere risposte più accurate e approfondite. Se chiedi solo la 
+            risposta finale, spesso cerca di indovinare senza spiegare il processo logico e sbaglia.
+        \end{minipage}
+    \end{alertblock}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/chainofthought.png}
+        \caption{{creata con \href{https://gemini.google.com/}{Gemini}}}
+    \end{figure}
+\end{frame}
+
+\section{SYCOPHANCY (compiacenza)}
+
+\begin{frame}{SYCOPHANCY (compiacenza)}
+    \begin{alertblock}{PROBLEMA: L'AI È COMPIACENTE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Quando \textbf{chiediamo un consiglio} all'intelligenza artificiale su un dubbio o una decisione 
+            da prendere, \textbf{la risposta spesso ci soddisfa al primo colpo}. Il motivo è semplice: 
+            \textbf{l'IA tende a darci ragione}, assecondando le nostre premesse e facendoci da cassa di 
+            risonanza.\\
+            Uno dei \textbf{pericoli più grandi} non è la menzogna palese, ma la \textbf{conferma di una nostra 
+            verità parziale che rimuove il dubbio su noi stessi}. Se l'IA si limita a dirci ciò che 
+            vogliamo sentire, \textbf{annulla la nostra capacità critica}.\\
+            Per trasformare l'IA da uno strumento di validazione a un reale alleato di riflessione, 
+            serve \textbf{cambiare l'approccio con cui le parliamo}.\\
+            \bigskip
+            \tiny{\textbf{Fonte}}\\
+            \tiny{\href{https://www.matteoflora.com/}{Matteo Flora: Ciao Internet.}}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{TECNICHE DI PROMPTING}
+    \begin{alertblock}{TECNICA 4: STRESS-TEST}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \justifying
+                \item \textbf{Inverti l'obiettivo: cercare la smentita, non la conferma}: chiedile di 
+                trovare argomenti contro la tua tesi.
+                \pause
+                \item \textbf{Forza l'IA a cambiare prospettiva}: chiedile di assumere il ruolo di un 
+                avversario, di un critico o di un esperto con opinioni opposte alle tue e di riconsiderare 
+                la questione da quel punto di vista.
+                \pause
+                \item \textbf{Usa l'IA come sparring partner, non come oracolo}: L'obiettivo non è farsi 
+                dire cosa fare, ma farsi fare le domande che non ci stiamo ponendo.
+            \end{itemize}
+            L'IA diventa uno strumento di crescita personale e professionale non quando ci dà risposte 
+            rassicuranti, ma quando viene forzata a smontare le nostre certezze.
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{TECNICHE DI PROMPTING}
+    \begin{alertblock}{TECNICA 5: LA VALVOLA DI SICUREZZA}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            I modelli linguistici vogliono accontentarci a tutti i costi. Se non sanno qualcosa, 
+            la inventano. \textbf{Devi autorizzarli a non sapere per evitare il più 
+            possibile le allucinazioni}.\\
+        \end{minipage}
+    \end{alertblock}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/valvola.png}
+        \caption{{creata con \href{https://gemini.google.com/}{Gemini}}}
+    \end{figure}
+\end{frame}
+
+\section{EI IA, RIASSUMI.}
+
+\begin{frame}{IMPARARE VS BARARE}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/esempioprompt.png}
+        \caption{{creata con \href{https://gemini.google.com/}{Gemini}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{PERICOLO!}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/comenonusare.png}
+        \caption{{creata con \href{https://gemini.google.com/}{Gemini}}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{RICORDA}
+    \begin{figure}
+        \includegraphics[width=\linewidth]{img/checklist.png}
+        \caption{{creata con \href{https://gemini.google.com/}{Gemini}}}
+    \end{figure}
+\end{frame}
+
 \end{document}
