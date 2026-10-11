@@ -1,41 +1,14 @@
-from math import ceil
+import math
 
-def n_lattine(resa, lunghezza, larghezza, altezza):
-    superficie = ((lunghezza + larghezza) * 2) * altezza
-    return ceil(superficie / resa)
+importo = float(input("Inserisci l'importo puntato in euro: "))
+quota1, quota2 = map(float,(input("Inserisci le quote dei due eventi: ").split()))
 
-def costo_stanza(prezzo_lattina, n_lattine, sconto_lattina):
-    tot = n_lattine * prezzo_lattina * (100 - sconto_lattina) / 100
-    tot += tot * 22 / 100
-    return tot
+quota_finale = quota1 * quota2 * 1.05
+vincita = math.floor(importo * quota_finale)
+netto = vincita - importo
 
-# Inserimento dati
-print("=== INSERIMENTO DATI TINTEGGIATURA ===")
-resa = float(input("Inserisci la resa pittura per lattina (mq): "))
-prezzo = float(input("Inserisci il prezzo per lattina: "))
-sconto = int(input("Inserisci lo sconto per lattina (%): "))
-
-# Calcolo per il Salotto
-lunghezza, larghezza, altezza = map(float, input("Inserisci le dimensioni del Salotto (lunghezza, larghezza, altezza in metri): ").split())
-lattine_salotto = n_lattine(resa, lunghezza, larghezza, altezza)
-costo_salotto = costo_stanza(prezzo, lattine_salotto, sconto)
-
-# Calcolo per la Camera da letto
-lunghezza, larghezza, altezza = map(float, input("Inserisci le dimensioni della Camera da letto (lunghezza, larghezza, altezza in metri): ").split())
-lattine_camera = n_lattine(resa, lunghezza, larghezza, altezza)
-costo_camera = costo_stanza(prezzo, lattine_camera, sconto)
-
-# Calcolo per la Cucina
-lunghezza, larghezza, altezza = map(float, input("Inserisci le dimensioni della Cucina (lunghezza, larghezza, altezza in metri): ").split())
-lattine_cucina = n_lattine(resa, lunghezza, larghezza, altezza)
-costo_cucina = costo_stanza(prezzo, lattine_cucina, sconto)
-
-totale = costo_salotto + costo_camera + costo_cucina
-
-# stampa del preventivo
-print("=== PREVENTIVO TINTEGGIATURA ===")
-print(f"Salotto: {lattine_salotto} lattine necessarie - Costo: {costo_salotto:.2f} €")
-print(f"Camera: {lattine_camera} lattine necessarie - Costo: {costo_camera:.2f} €")
-print(f"Cucina: {lattine_cucina} lattine necessarie - Costo: {costo_cucina:.2f} €")
-print("--------------------------------------------------")
-print(f"Costo totale preventivo (IVA incl.): {totale:.2f} €")
+print("--- RIEPILOGO SCHEDINA ---")
+print(f"Quota finale con bonus 5%: {quota_finale:.2f}")
+print(f"Vincita arrotondata liquidata: {vincita:.2f}€")
+print(f"Profitto netto: {netto:.2f}€")
+print(f"Rendimento percentuale netto: {((netto / importo) * 100):.2f}%")

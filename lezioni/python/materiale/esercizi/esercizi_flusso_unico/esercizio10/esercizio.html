@@ -1,38 +1,24 @@
-<b>Preventivo Tinteggiatura Immobile</b> <br>
+<b>Calcolo Vincita Multipla con Bonus</b> <br>
 <br>
-Sei un assistente tecnico per un'impresa di ristrutturazioni edili. Il tuo compito è 
-realizzare uno script in Python per generare automaticamente il preventivo dei materiali 
-necessari alla tinteggiatura di un appartamento composto da tre ambienti: Salotto, Camera da 
-letto e Cucina. Sviluppa il programma definendo e riutilizzando due funzioni personalizzate e chiedendo 
-in input la resa pittura per lattina, le dimensioni di ciascun ambiente, il prezzo per lattina e 
-la percentuale di sconto applicata alle lattine. <br>
-<ol>
-    <li>
-        PRIMA FUNZIONE: data la resa in metri quadri per lattina e le dimensioni di una stanza, 
-        calcola l'area totale delle quattro pareti di una stanza in metri quadri: 
-        ((lunghezza + larghezza) * 2) * altezza e restituisce il numero intero di lattine di pittura 
-        necessarie per coprire la superficie. <br>
-        Poiché le lattine si acquistano solo intere, occorre approssimare sempre per eccesso 
-        al numero intero superiore tramite la funzione <b>ceil</b> del modulo <b>math</b>.
-    <li>
-        SECONDA FUNZIONE: dato il prezzo per lattina, il numero di lattine da acquistare e la percentuale 
-        di sconto applicato alle lattine, restituisce il costo base totale delle lattine compreso 
-        del 22% di IVA (aggiunta al valore totale scontato).
-    </li>
-</ol>
+Un'agenzia di scommesse sportive offre un bonus del 5% sul moltiplicatore totale 
+per le giocate doppie (schedine da 2 eventi). Inoltre, il regolamento impone che la 
+vincita pagabile venga liquidata arrotondando per difetto all'euro intero (eliminando i centesimi).<br>
+Scrivere un programma in Python che:
+<ul>
+    <li>Richieda all'utente l'importo scommesso in euro e le quote decimali dei due eventi.</li>
+    <li>Calcoli la quota totale moltiplicando le due quote e applicandovi il bonus del 5% (moltiplicatore X 1.05).</li>
+    <li>Calcoli la vincita lorda teorica.</li>
+    <li>Arrotondi la vincita per difetto all'euro intero utilizzando la funzione <b>floor</b> del modulo math.</li>
+    <li>Calcoli il profitto netto e la resa percentuale sull'importo investito.</li>
+    <li>Stampa a schermo il riepilogo con i valori opportunamente arrotondati.</li>
+</ul>
 ESEMPIO INPUT: <br>
-=== INSERIMENTO DATI TINTEGGIATURA ===<br>
-Inserisci la resa pittura per lattina (mq): 15.0 <br>
-Inserisci il prezzo per lattina: 25.0 <br>
-Inserisci lo sconto per lattina (%): 10 <br>
-Inserisci le dimensioni del Salotto (lunghezza, larghezza, altezza in metri): 5.0 4.0 3.0 <br>
-Inserisci le dimensioni della Camera da letto (lunghezza, larghezza, altezza in metri): 4.0 3.0 2.7 <br>
-Inserisci le dimensioni della Cucina (lunghezza, larghezza, altezza in metri): 3.5 3.0 2.7 <br>
+Inserisci l'importo puntato in euro: 300<br>
+Inserisci le quote dei due eventi: 3.1 2.5<br>
 <br>
 OUTPUT ESERCIZIO: <br>
-=== PREVENTIVO TINTEGGIATURA ===<br>
-Salotto: 4 lattine necessarie - Costo: 109.80 € <br>
-Camera: 3 lattine necessarie - Costo: 82.35 € <br>
-Cucina: 3 lattine necessarie - Costo: 82.35 € <br>
---------------------------------------------------<br>
-Costo totale preventivo (IVA incl.): 274.50 €
+--- RIEPILOGO SCHEDINA --- <br>
+Quota finale con bonus 5%: 8.14 <br>
+Vincita arrotondata liquidata: 2441.00€ <br>
+Profitto netto: 2141.00€ <br>
+Rendimento percentuale netto: 713.67% <br>

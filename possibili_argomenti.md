@@ -115,33 +115,8 @@ Armi autonome: La banalità del male (leggere libro)
 PENSIERO BIG TECH
 
 - Esponenti del Tech Right e Palmer Luckey: https://www.wired.it/article/accelerazionismo-efficace-intelligenza-artificiale-musk-silicon-valley/
-- [www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes](https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/)
-
-RESPONSABILITA' ERRORI
-
-- [dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso](https://dirittoaldigitale.com/2025/01/23/direttiva-prodotto-difettoso/)
-
-## IMPATTI AMBIENTALI
-
-- [www.rainews.it/speciali/intelligenzaartificiale/impatto-ambientale-dell-ai](https://www.rainews.it/speciali/intelligenzaartificiale/impatto-ambientale-dell-ai)
-- https://greentogrey.eu/
-- https://dataguessr.com/
-- https://www.geopop.it/quanta-acqua-consuma-lai-entro-il-2030-i-data-center-potrebbero-arrivare-a-93-bilioni-di-litri-allanno/
-- `https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/`
-- 
-
-## INQUINAMENTO SPAZIALE
-
-- https://it.wikipedia.org/wiki/Sindrome_di_Kessler
-- https://blog.quintarelli.it/2026/05/crash-clock-outer-space-institute-valutare-la-sindrome-di-kessler/
-
----
-
----
-
----
-
----
+- [www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes
+  ](https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/)
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 
@@ -352,6 +327,7 @@ RESPONSABILITA' ERRORI
 
 # VIDEOGAMES
 
+- [dataguessr.com](https://dataguessr.com/)
 - https://www.smwcentral.net/
 - https://www.romhacking.net/
 - https://www.mamedev.org/
