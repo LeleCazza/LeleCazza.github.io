@@ -1,0 +1,100 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{listings}
+\definecolor{verde}{rgb}{0,0.6,0}
+\definecolor{grigio}{rgb}{0.5,0.5,0.5}
+\definecolor{rosa}{rgb}{0.58,0,0.82}
+\definecolor{backgroud}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{stilepython}{
+    backgroundcolor=\color{backgroud},
+    commentstyle=\color{verde},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{grigio},
+    stringstyle=\color{rosa},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    literate=
+    {à}{{\'a}}1
+    {è}{{\'e}}1
+    {ì}{{\'i}}1
+    {ò}{{\'o}}1
+    {ù}{{\'u}}1
+}
+\lstset{style=stilepython}
+
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{SOVRANIT\'A DIGITALE}
+\subtitle{Dominio tecnologico vs indipendenza tecnologica}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{www.nomefonte1.it}{NOME FONTE 1}
+            \item[-] \href{www.nomefonte2.it}{NOME FONTE 2}
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\begin{frame}{SOVRANIT\'A DIGITALE VS CAPITALISMO DELLE PIATTAFORME}
+    \begin{alertblock}{SOVRANIT\'A DIGITALE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            La \textbf{sovranità digitale} è la capacità di uno Stato e dei suoi cittadini di 
+            \textbf{mantenere il controllo autonomo sui propri dati e sulle infrastrutture informatiche}.\\
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+    \pause
+    \begin{alertblock}{CAPITALISMO DELLE PIATTAFORME}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Poche \textbf{multinazionali} (Amazon, Apple, ByteDance, Google, Meta, Microsoft, SpaceX) extra-europee 
+            \textbf{controllano l'infrastruttura fondamentale} su cui poggia l'economia e la comunicazione.\\
+            \bigskip
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\end{document}

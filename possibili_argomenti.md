@@ -324,6 +324,8 @@ PENSIERO BIG TECH
 - https://www.wired.it/article/caso-amazon-aws-dipendenza-dalle-grandi-piattaforme-rischio/
 - https://www.agendadigitale.eu/infrastrutture/down-del-cloud-amazon-la-sovranita-digitale-europea-e-una-presa-in-giro/
 - https://www.agendadigitale.eu/sicurezza/privacy/cloud-act-la-norma-usa-che-fa-a-pugni-con-la-privacy-europea-i-nodi/
+- [www.editorialedomani.it/fatti/autistici-inventati-chiude-sanzioni-trump-collettivi-server-w8cb8x1c](https://www.editorialedomani.it/fatti/autistici-inventati-chiude-sanzioni-trump-collettivi-server-w8cb8x1c)
+- [www.wired.it/article/starlink-satelliti-italia-comint-governo-adolfo-urso](https://www.wired.it/article/starlink-satelliti-italia-comint-governo-adolfo-urso/)
 
 # VIDEOGAMES
 
