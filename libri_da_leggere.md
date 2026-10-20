@@ -69,6 +69,8 @@ SAGGI
 
 ### 2025
 
+* Guerra profonda (Arturo Di Corinto)
+* L’isola sospesa (Stefano Pelaggi)
 * Il teatro delle macchine pensanti. 10 falsi miti sull'intelligenza artificiale e come superarli (Stefano Epifani)
 * Antropocene digitale. Rischiare insieme sulle soglie del futuro (Adam Arvidsson)
 * Algoritmi per resistere. La lotta quotidiana contro il potere delle piattaforme (Tiziano Bonini, Emiliano Trerè)

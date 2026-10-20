@@ -315,18 +315,6 @@ PENSIERO BIG TECH
 - https://www.punto-informatico.it/messaggio-ai-meta-bastava-rubare-account-instagram/
 - [www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta](https://www.punto-informatico.it/truffa-truman-show-usa-ai-costruire-realta-finta/)
 
-# SOVRANITA' DIGITALE
-
-- https://www.agendadigitale.eu/sicurezza/privacy/sovranita-digitale-le-mosse-dei-paesi-ue-e-perche-e-una-pericolosa-deriva/
-- https://european-alternatives.eu/
-- https://www.ictsecuritymagazine.com/articoli/data-act-e-cloud-act/
-- https://www.internazionale.it/notizie/paris-marx/2025/08/08/tecnologie-app-programmi-non-americani
-- https://www.wired.it/article/caso-amazon-aws-dipendenza-dalle-grandi-piattaforme-rischio/
-- https://www.agendadigitale.eu/infrastrutture/down-del-cloud-amazon-la-sovranita-digitale-europea-e-una-presa-in-giro/
-- https://www.agendadigitale.eu/sicurezza/privacy/cloud-act-la-norma-usa-che-fa-a-pugni-con-la-privacy-europea-i-nodi/
-- [www.editorialedomani.it/fatti/autistici-inventati-chiude-sanzioni-trump-collettivi-server-w8cb8x1c](https://www.editorialedomani.it/fatti/autistici-inventati-chiude-sanzioni-trump-collettivi-server-w8cb8x1c)
-- [www.wired.it/article/starlink-satelliti-italia-comint-governo-adolfo-urso](https://www.wired.it/article/starlink-satelliti-italia-comint-governo-adolfo-urso/)
-
 # VIDEOGAMES
 
 - [dataguessr.com](https://dataguessr.com/)
