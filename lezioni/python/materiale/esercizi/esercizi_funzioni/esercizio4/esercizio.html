@@ -1,0 +1,54 @@
+<b>Gestione Flotta Logistica</b> <br>
+<br>
+Una società di spedizioni invia droni automatici per consegne urgenti. Quando un operatore 
+imposta la distanza del cliente, il sistema calcola la durata del volo e l'energia residua simulando, 
+tramite sensori casuali, la presenza di vento contrario e il livello attuale di carica della batteria.<br>
+Scrivi un programma che chieda all'utente la distanza della consegna in chilometri di tre diversi droni. 
+Tramite la libreria <b>random</b>, genera un valore casuale (funzione <b>uniform</b>) per la velocità del vento 
+contrario (tra 5 e 15 km/h) da sottrarre alla velocità di base del drone e uno per la percentuale iniziale di carica della batteria (tra 85% e 100%). 
+Passa questi dati a tre funzioni: 
+<ul>
+    <li>PRIMA FUNZIONE: calcola la velocità effettiva del drone, sapendo che i droni hanno una velocità 
+        base costante di 50 km/h;</li>
+    <li>SECONDA FUNZIONE: calcola la durata del volo in minuti arrotondata per eccesso (funzione ceil del 
+        modulo math)</li>
+    <li>TERZA FUNZIONE: calcola la carica residua stimata della batteria alla consegna. Sapendo che i 
+        droni hanno un consumo di batteria costante dello 0.8% al minuto</li>
+</ul>
+ESEMPIO FLUSSO PROGRAMMA: <br>
+=== TELEMETRIA DRONI === <br>
+Inserisci la distanza del cliente in km: 32 <br>
+<br>
+============================================= <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REPORT TELEMETRIA DRONE <br>
+============================================= <br>
+Vento contrario rilevato: 8.8 km/h <br>
+Carica batteria iniziale: 95.8% <br>
+Velocità effettiva drone: 41.2 km/h <br>
+Tempo di volo stimato:&nbsp;&nbsp;&nbsp;&nbsp;47 min <br>
+Batteria residua stimata: 58.2% <br>
+============================================= <br>
+<br>
+Inserisci la distanza del cliente in km: 61 <br>
+<br>
+============================================= <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REPORT TELEMETRIA DRONE <br>
+============================================= <br>
+Vento contrario rilevato: 9.7 km/h <br>
+Carica batteria iniziale: 96.2% <br>
+Velocità effettiva drone: 40.3 km/h <br>
+Tempo di volo stimato:&nbsp;&nbsp;&nbsp;&nbsp;91 min <br>
+Batteria residua stimata: 23.4% <br>
+============================================= <br>
+<br>
+Inserisci la distanza del cliente in km: 12 <br>
+<br>
+============================================= <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REPORT TELEMETRIA DRONE <br>
+============================================= <br>
+Vento contrario rilevato: 13.9 km/h <br>
+Carica batteria iniziale: 88.3% <br>
+Velocità effettiva drone: 36.1 km/h <br>
+Tempo di volo stimato:&nbsp;&nbsp;&nbsp;&nbsp;20 min <br>
+Batteria residua stimata: 72.3% <br>
+============================================= <br>
