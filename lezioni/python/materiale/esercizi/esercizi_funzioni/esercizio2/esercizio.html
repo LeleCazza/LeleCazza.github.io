@@ -1,0 +1,47 @@
+<b>Preventivo Infrastruttura Cloud VPS Multi-Risorsa</b> <br>
+<br>
+Sei un assistente tecnico per una società di infrastrutture Cloud. Il tuo compito è 
+realizzare uno script Python per calcolare automaticamente il preventivo dei Server Virtuali (VPS) 
+necessari per tre progetti aziendali: E-commerce, App Mobile e Portale Intranet. Rispetto al 
+dimensionamento classico, ogni VPS ha dei limiti sia di RAM che di Spazio Disco (SSD). 
+Inoltre, il costo include una licenza per il sistema operativo per ciascun server, mentre 
+lo sconto si applica solo alla parte hardware.<br>
+Sviluppa il programma definendo e riutilizzando due funzioni personalizzate:
+<ol>
+    <li>
+        PRIMA FUNZIONE: data la dimensione della RAM e lo spazio sul disco richiesti totali e per 
+        singola VPS:
+        <ul>
+            <li>Calcola quante VPS servirebbero per coprire la RAM richiesta (usando math.ceil).</li>
+            <li>Calcola quante VPS servirebbero per coprire lo Spazio Disco richiesto (usando math.ceil).</li>
+            <li>Restituisce il valore massimo tra i due calcoli (tramite la funzione max()), 
+                poiché il numero di VPS ordinate deve soddisfare entrambi i requisiti contemporaneamente. </li>
+        </ul>
+    <li>
+        SECONDA FUNZIONE: dato il numero di VPS, il prezzo per ogni VPS, il costo fisso per licenza e la 
+        percentuale di sconto:
+        <ul>
+            <li>Calcola il costo dell'hardware applicando la percentuale di sconto solo al prezzo della VPS.</li>
+            <li>Aggiunge il costo fisso della licenza per ogni VPS.</li>
+            <li>Restituisce il costo mensile totale calcolando l'IVA al 22% sull'imponibile complessivo.</li>
+        </ul>
+    </li>
+</ol>
+ESEMPIO INPUT: <br>
+=== INSERIMENTO SPECIFICHE HOSTING ===<br>
+Inserisci la RAM fornita da una singola VPS (GB): 8.0<br>
+Inserisci lo Spazio Disco fornito da una singola VPS (GB): 100.0<br>
+Inserisci il prezzo mensile per VPS (€): 30.0<br>
+Inserisci il costo licenza software per VPS (€): 10.0<br>
+Inserisci lo sconto hardware (%): 10<br>
+Inserisci RAM (GB) e Disco (GB) per E-commerce: 18.0 450.0 <br>
+Inserisci RAM (GB) e Disco (GB) per App Mobile: 20.0 150.0 <br>
+Inserisci RAM (GB) e Disco (GB) per Intranet: 6.0 80.0 <br>
+<br>
+OUTPUT ESERCIZIO: <br>
+=== PREVENTIVO CLOUD MULTI-RISORSA === <br>
+E-commerce: 5 VPS necessarie - Costo mensile: 225.70 € <br>
+App Mobile: 3 VPS necessarie - Costo mensile: 135.42 € <br>
+Intranet: 1 VPS necessaria - Costo mensile: 45.14 € <br>
+-------------------------------------------------- <br>
+Costo totale mensile preventivo (IVA incl.): 406.26 €
