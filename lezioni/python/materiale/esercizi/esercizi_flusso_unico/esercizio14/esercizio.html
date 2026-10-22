@@ -1,0 +1,48 @@
+<b>Pianificazione Logistica e Noleggio Furgoni per Spedizioni</b> <br>
+<br>
+Un responsabile della logistica di un e-commerce deve organizzare la spedizione di un carico 
+di merci (in kg) utilizzando furgoni con una capienza massima prefissata. Per coprire i costi 
+imprevisti di carburante e traffico, il sistema calcola in modo automatico una percentuale di 
+supplemento casuale tramite la libreria random.<br>
+Scrivere un programma in Python che:
+<ul>
+    <li>Importi il modulo random e generi una percentuale di supplemento carburante casuale 
+        compresa tra il 5% e il 15% (usando la funzione randint).</li>
+    <li>Richieda all'utente:
+        <ul>
+            <li>Il peso totale della merce da spedire (in kg).</li>
+            <li>La capacità massima di un furgone (in kg).</li>
+            <li>Il costo fisso di noleggio/viaggio per singolo furgone (in €).</li>
+            <li>La tariffa incassata dal cliente per ogni kg di merce spedita (in €/kg).</li>
+        </ul>
+    <li>Calcoli il numero di furgoni pieni utilizzati e i kg di merce rimasta in magazzino 
+        non spedita, utilizzando la funzione divmod(x, y).</li>
+    <li>Calcoli il peso effettivo spedito: furgoni_pieni * capacita_furgone.</li>
+    <li>Calcoli il costo base dei furgoni: furgoni_pieni * costo_furgone.</li>
+    <li>Calcoli il costo totale di trasporto comprensivo di supplemento casuale: costo_base * (1 + supplemento / 100).</li>
+    <li>Calcoli il ricavo lordo stimato sui kg effettivamente spediti: peso_spedito * tariffa_al_kg.</li>
+    <li>Calcoli il profitto netto dell'operazione: ricavo_lordo - costo_totale.</li>
+    <li>Calcoli il rendimento percentuale della spedizione (Margine %): (profitto_netto / costo_totale) * 100, arrotondato a 1 cifra decimale con la funzione round(x, n).</li>
+    <li>Utilizzi min(x, y) e max(x, y) per individuare rispettivamente il costo di trasporto minimo (senza supplemento) e il costo massimo (con supplemento generato).</li>
+</ul>
+Stampi a schermo il report finale della spedizione<br>
+<br>
+ESEMPIO INPUT: <br>
+Inserisci il peso totale della merce (in kg): 1350 <br>
+Inserisci la capacità massima del furgone (in kg): 300 <br>
+Inserisci il costo fisso per furgone (in €): 120 <br>
+Inserisci la tariffa incassata al kg (in €): 2.50 <br>
+<br>
+OUTPUT ESERCIZIO: <br>
+--- REPORT LOGISTICA E SPEDIZIONI --- <br>
+Supplemento carburante/traffico applicato: 10% <br>
+Furgoni completi utilizzati: 4 <br>
+Merce rimasta in magazzino: 150 kg <br>
+Peso totale spedito: 1200 kg <br>
+Costo base furgoni: 480.00 € <br>
+Costo totale con supplemento: 528.00 € <br>
+Ricavo lordo spedizioni: 3000.00 € <br>
+Profitto netto: 2472.00 € <br>
+Margine di profitto %: 468.2% <br>
+Spesa minima stimata (senza supplemento): 480.00 € <br>
+Spesa massima stimata (con supplemento): 528.00 €   
