@@ -13,10 +13,6 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - https://it.wikipedia.org/wiki/Uncanny_valley
 - https://www.geopop.it/cose-e-come-funziona-le-ink-presente-e-futuro-dellinchiostro-elettronico/
 
-# LEZIONE CREAZIONE PAGINE WEB
-
-- https://it.wikipedia.org/wiki/RTFM
-
 # DISPLAY
 
 - https://www.youtube.com/watch?v=ynvKWYvyCqw
@@ -54,10 +50,6 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - https://www.garr.it/it
 - https://restofworld.org/2026/chile-china-america-google-cable/
 
-# SISTEMI OPERATIVI
-
-- Keepandroidopen.com
-
 # SOCIAL NETWORK
 
 - https://www.iltquotidiano.it/articoli/censura-online-la-denuncia-di-andrea-lorenzon-cartoni-morti-il-mio-video-dellice-non-si-puo-piu-vedere-negli-usa/
@@ -89,34 +81,7 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - https://hermescenter.org/iniziative/garantire-i-diritti-nellera-dellia-fuori-ora-il-paper-sui-redress-mechanisms/
 - https://digital-strategy.ec.europa.eu/it/library/digital-omnibus-ai-regulation-proposal
 - https://www.vatican.va/content/leo-xiv/it/encyclicals/documents/20260515-magnifica-humanitas.html
-
-# PROBLEMI INTELLIGENZA ARTIFICIALE
-
-APPROFONDIMENTO MIO
-
-Armi autonome: La banalità del male (leggere libro)
-
-[www.youtube.com/watch?v=2GNTTqzIvHsl](https://www.youtube.com/watch?v=2GNTTqzIvHsl)
-
-[it.wikipedia.org/wiki/Bias_cognitivo](https://it.wikipedia.org/wiki/Bias_cognitivo)
-
-[www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra](https://www.guerredirete.it/che-cosa-fa-lintelligenza-artificiale-in-guerra/)
-
-[sha.africauncensored.online](https://sha.africauncensored.online/)
-
-[www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi](https://www.wired.it/article/come-algoritmo-appiattisce-nostre-scelte-raccomandandoci-stessi-luoghi/)
-
-[world.emergence.ai](https://world.emergence.ai/)
-
-[www.ahidaonline.com/post/guerre-6?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4](https://www.ahidaonline.com/post/guerre-6?sh_kit=ddbac3557a1980d241651dee195938d9a8f56e20f4eb6be0c31bd6e6b2ed56e4)
-
-[www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html](https://www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html)
-
-PENSIERO BIG TECH
-
-- Esponenti del Tech Right e Palmer Luckey: https://www.wired.it/article/accelerazionismo-efficace-intelligenza-artificiale-musk-silicon-valley/
-- [www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes
-  ](https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/)
+- [www.diculther.it/blog/2026/01/10/webinar-149-16-gennaio-2026-custodire-il-futuro-intelligenza-artificiale-educazione-cultura-e-responsabilita](https://www.diculther.it/blog/2026/01/10/webinar-149-16-gennaio-2026-custodire-il-futuro-intelligenza-artificiale-educazione-cultura-e-responsabilita/)
 
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 
@@ -276,11 +241,6 @@ PENSIERO BIG TECH
 ---
 
 ---
-
-# CRITTOGRAFIA
-
-- https://encryptitalready.org/
-- https://support.apple.com/it-it/102651
 
 # SICUREZZA INFORMATICA
 
