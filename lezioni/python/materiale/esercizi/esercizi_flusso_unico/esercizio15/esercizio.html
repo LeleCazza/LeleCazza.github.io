@@ -1,0 +1,54 @@
+<b>Sistema di Prenotazione e Gestione Parco Avventura</b> <br>
+<br>
+Scrivi un programma in Python che gestisca la prenotazione e il calcolo dei costi 
+per un Parco Avventura, rispettando le seguenti specifiche:
+<ol>
+    <li>Chiedi all'utente di inserire in un'unica riga, separate da uno spazio, 
+        le coordinate cartesiane di partenza e arrivo del percorso (x1 y1 x2 y2). 
+        Converti le quattro componenti in numeri decimali in una sola istruzione.</li>
+    <li>Chiedi all'utente di inserire in un'unica riga, separate da uno /, le informazioni 
+        sulla data e salvale in tre variabili differenti (giorno, mese, anno).</li>
+    <li>Calcoli Matematici con il modulo math:
+        <ul>Calcola la differenza assoluta delle coordinate dx (distanza tra le x) e 
+            dy (distanza tra le y).</ul>
+        <ul>Calcola la distanza euclidea totale tramite la formula del Teorema di 
+            Pitagora (radice quadrata di dx^2 + dy^2).</ul>
+        <ul>Calcola il tempo stimato in minuti moltiplicando 
+            la distanza per 2.5 e arrotondando per eccesso all'intero superiore.</ul>
+        <ul>Calcola i punti bonus accumulati dividendo la distanza per 3 e arrotondando 
+            per difetto all'intero inferiore.</ul>
+    </li>
+    <li>Stampa il messaggio "Calcolo del percorso e verifica disponibilità in corso..." 
+        e senza andare a capo, fai seguire una pausa di 2 secondi prima di 
+        stampare "Completato!".</li>
+    <li>Genera una percentuale di sconto promozionale casuale compresa tra 5 e 20 (inclusi). 
+        Successivamente, chiedi all'utente di inserire il proprio budget a disposizione 
+        e il numero di partecipanti.</li>
+    <li>Il prezzo fisso di un biglietto è di 18.50 €. Calcola il costo totale lordo e applica 
+        lo sconto casuale generato.</li>
+    <li>Calcola i gruppi completi da 4 persone e i partecipanti rimanenti con un'unica operazione.</li>
+    <li>Calcola la spesa minima e massima tra il budget dell'utente e il costo totale scontato usando min() e max().</li>
+    <li>Arrotonda il costo finale a 2 cifre decimali con round().</li>
+    <li>Stampa la data di emissione formattando i numeri con il separatore "-".</li>
+    <li>Stampa il riepilogo con f-string formattando la distanza, i costi e i confronti di spesa a 2 cifre decimali.</li>
+</ol>
+<br>
+ESEMPIO INPUT: <br>
+=== SISTEMA PRENOTAZIONI PARCO AVVENTURA === <br>
+Inserisci le coordinate x1 y1 x2 y2 della mappa: 1.0 2.0 4.0 6.0 <br>
+Inserisci la data odierna nel formato (gg/mm/aaaa): 25/10/2026 <br>
+Inserisci il tuo budget a disposizione (€): 100.0 <br>
+Inserisci il numero di partecipanti: 7 <br>
+<br>
+OUTPUT ESERCIZIO: <br>
+Calcolo del percorso e verifica disponibilità in corso... Completato! <br>
+<br>
+--- RIEPILOGO BIGLIETTO E TICKET --- <br>
+Data di emissione: 25-10-2026 <br>
+Distanza percorso calcolata: 5.00 km <br>
+Tempo stimato per il percorso: 13 minuti <br>
+Punti bonus accumulati: 1 <br>
+Sconto casuale applicato: 10% <br>
+Gruppi da 4 completi: 1 (Partecipanti singoli: 3) <br>
+Costo totale calcolato: 116.55 € <br>
+Confronto tra Budget e Spesa (Min / Max): 100.00 € / 116.55 €
