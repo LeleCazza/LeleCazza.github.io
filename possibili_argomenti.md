@@ -68,21 +68,6 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - https://blog.elenarossini.com/fediverse-video/
 - https://www.informapirata.it/2022/04/29/guida-galattica-per-twitter-stoppisti-finiti-su-mastodon/
 
-# REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
-
-- https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
-- https://www.youtube.com/watch?v=j2GcfGXg5wo
-- https://www.caidp.org/
-- https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
-- https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
-- https://digital-strategy.ec.europa.eu/it/policies/ai-pact
-- https://hermescenter.org/iniziative/una-legge-sullia-che-non-ci-protegge-piu-potere-al-governo-e-meno-diritti/
-- https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/
-- https://hermescenter.org/iniziative/garantire-i-diritti-nellera-dellia-fuori-ora-il-paper-sui-redress-mechanisms/
-- https://digital-strategy.ec.europa.eu/it/library/digital-omnibus-ai-regulation-proposal
-- https://www.vatican.va/content/leo-xiv/it/encyclicals/documents/20260515-magnifica-humanitas.html
-- [www.diculther.it/blog/2026/01/10/webinar-149-16-gennaio-2026-custodire-il-futuro-intelligenza-artificiale-educazione-cultura-e-responsabilita](https://www.diculther.it/blog/2026/01/10/webinar-149-16-gennaio-2026-custodire-il-futuro-intelligenza-artificiale-educazione-cultura-e-responsabilita/)
-
 # PRIVACY, REGOLAMENTAZIONE, SORVEGLIANZA E ABUSO DEI DATI
 
 # INTRO ALLA INTERNET LIBERA
@@ -143,6 +128,21 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - https://www.agendadigitale.eu/sicurezza/cyber-resilience-act-e-ai-act-guida-al-coordinamento-normativo/
 - https://www.agendadigitale.eu/cultura-digitale/ai-act-perche-leuropa-prepara-correzioni-alla-sua-legge-sullia/
 
+# REGOLAMENTAZIONE INTELLIGENZA ARTIFICIALE
+
+- https://attivissimo.blogspot.com/2024/06/podcast-rsi-instagram-letichetta-creato.html
+- https://www.youtube.com/watch?v=j2GcfGXg5wo
+- https://www.caidp.org/
+- https://digital-strategy.ec.europa.eu/it/policies/digital-services-act-package
+- https://www.agendadigitale.eu/mercati-digitali/digital-markets-act-cose-e-cosa-prevede/
+- https://digital-strategy.ec.europa.eu/it/policies/ai-pact
+- https://hermescenter.org/iniziative/una-legge-sullia-che-non-ci-protegge-piu-potere-al-governo-e-meno-diritti/
+- https://www.diculther.it/blog/2026/02/26/sovranita-della-mente-e-intelligenza-artificiale-diculther-sottoscrive-la-dichiarazione-di-cannes/
+- https://hermescenter.org/iniziative/garantire-i-diritti-nellera-dellia-fuori-ora-il-paper-sui-redress-mechanisms/
+- https://digital-strategy.ec.europa.eu/it/library/digital-omnibus-ai-regulation-proposal
+- https://www.vatican.va/content/leo-xiv/it/encyclicals/documents/20260515-magnifica-humanitas.html
+- [www.diculther.it/blog/2026/01/10/webinar-149-16-gennaio-2026-custodire-il-futuro-intelligenza-artificiale-educazione-cultura-e-responsabilita](https://www.diculther.it/blog/2026/01/10/webinar-149-16-gennaio-2026-custodire-il-futuro-intelligenza-artificiale-educazione-cultura-e-responsabilita/)
+
 # DIGITAL OMNIBUS
 
 - https://edri.org/our-work/the-digital-omnibus-a-step-back-from-the-brink-but-the-risks-remain/
@@ -156,11 +156,16 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 # Direttiva (UE) 2024/2853 sulla responsabilità per danno da prodotti difettosi
 
 - https://eur-lex.europa.eu/IT/legal-content/summary/defective-products-liability.html
+- [eur-lex.europa.eu/eli/dir/2024/2853/oj/ita](https://eur-lex.europa.eu/eli/dir/2024/2853/oj/ita)
 
 # NEURODIRITTI
 
 - https://neurorightsfoundation.org/
 - https://www.altalex.com/documents/news/2022/10/11/neurodiritti-cile-prima-legge-tutelarli
+
+---
+
+---
 
 # ATTENZIONE ALLA PRIVACY E POSSIBILE ABUSO DEI DATI
 
@@ -233,14 +238,6 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 - Industria dell'aldilà digitale, digital afterlife, da PAG. 124 Simulacri Digitali.
 - https://www.wired.it/article/zephorum-piattaforma-eredita-digitale-michela-murgia/
 - https://www.zephorum.com/
-
----
-
----
-
----
-
----
 
 # SICUREZZA INFORMATICA
 
