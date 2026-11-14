@@ -1,0 +1,338 @@
+% FONTE TEMA https://github.com/matze/mtheme
+\documentclass[aspectratio=1610]{beamer}
+%\documentclass[aspectratio=1610, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[italian]{babel}
+\usepackage{multirow}
+\usepackage{silence}
+\usepackage{listings}
+\definecolor{verde}{rgb}{0,0.6,0}
+\definecolor{grigio}{rgb}{0.5,0.5,0.5}
+\definecolor{rosa}{rgb}{0.58,0,0.82}
+\definecolor{backgroud}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{stilepython}{
+    backgroundcolor=\color{backgroud},
+    commentstyle=\color{verde},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{grigio},
+    stringstyle=\color{rosa},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    literate=
+    {à}{{\'a}}1
+    {è}{{\'e}}1
+    {ì}{{\'i}}1
+    {ò}{{\'o}}1
+    {ù}{{\'u}}1
+}
+\lstset{style=stilepython}
+
+\WarningFilter{beamer}{}
+\WarningFilter{metropolis}{}
+\usetheme[progressbar=frametitle,titleformat=smallcaps]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercovered{dynamic}
+\definecolor{rosso}{RGB}{255, 0, 0}
+\definecolor{giallo}{RGB}{254,212,23}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=rosso}
+\setbeamercolor{palette primary}{fg=black, bg=giallo}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{progress bar}{fg=rosso}
+\setbeamercolor{framesubtitle}{fg=rosso}
+\setbeamercolor{normal text .dimmed}{fg=giallo}
+\setbeamercolor{block title alerted}{fg=rosso, bg=giallo}
+\setbeamerfont{caption}{size=\tiny}
+\setbeamerfont{caption name}{size=\tiny}
+\setlength{\abovecaptionskip}{0pt}
+\makeatletter
+\metroset{block=fill}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} 
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+\setlength{\metropolis@titleseparator@linewidth}{1pt}
+\makeatother
+
+\title{STRINGHE E LISTE}
+\subtitle{Metodi principali e strutture dati di base}
+\date{}
+\institute{\textit{
+        Fonti:
+        \begin{itemize}
+            \item[-] \href{https://docs.python.org/it/3.15/builtins/stdtypes.html\#string-methods}{Metodi delle Stringhe - Documentazione Ufficiale Python}
+            \item[-] \href{https://docs.python.org/it/3.15/tutorial/introduction.html\#lists}{Definizione di Lista - Documentazione Ufficiale Python}
+            \item[-] \href{https://docs.python.org/it/3/tutorial/datastructures.html}{Strutture Dati - Documentazione Ufficiale Python} 
+        \end{itemize}
+    }
+}
+
+\begin{document}
+
+\begin{frame}[plain, noframenumbering]
+    \titlepage
+\end{frame}
+
+\section{STRINGHE}
+
+\begin{frame}[fragile]{METODI PRINCIPALI DELLE STRINGHE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Le stringhe in Python sono sequenze di caratteri immutabili. Esse supportano diversi metodi 
+            che permettono di manipolare e analizzare il contenuto delle stringhe stesse. I metodi per essere utilizzati 
+            devono essere invocati su un oggetto stringa, utilizzando la sintassi:
+\begin{lstlisting}[language=Python]
+ stringa.metodo(parametro1, parametro2, ...)
+\end{lstlisting}
+\pause
+Esempio:
+\begin{lstlisting}[language=Python]
+ testo = "Bare Minimum"
+ lista = testo.split()
+ print(lista)  # Output: ['Bare', 'Minimum']
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{METODI PRINCIPALI DELLE STRINGHE}
+    \begin{alertblock}{METODI PRINCIPALI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \item \textbf{split("x")}: Divide la stringa in una lista di sotto-stringhe, utilizzando "x" come delimitatore.
+                \pause
+                \item \textbf{count("x")}: Conta quante volte il carattere o la sotto-stringa "x" appare nella stringa. 
+                \pause
+                \item \textbf{lower()}: Restituisce una nuova stringa con tutti i caratteri convertiti in minuscolo.
+                \pause
+                \item \textbf{upper()}: Restituisce una nuova stringa con tutti i caratteri convertiti in maiuscolo.
+                \pause
+                \item \textbf{strip()}: Rimuove gli spazi bianchi iniziali e finali dalla stringa.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{METODI PRINCIPALI DELLE STRINGHE}
+    \begin{alertblock}{METODI PRINCIPALI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \item \textbf{endswith("x")}: Restituisce True se la stringa termina con "x", altrimenti False.
+                \pause
+                \item \textbf{startswith("x")}: Restituisce True se la stringa inizia con "x", altrimenti False.
+                \pause
+                \item \textbf{isdecimal()}: Restituisce True se tutti i caratteri della stringa sono numeri decimali, altrimenti False.
+                \pause
+                \item \textbf{islower()}: Restituisce True se tutti i caratteri della stringa sono minuscoli, altrimenti False.
+                \pause
+                \item \textbf{isupper()}: Restituisce True se tutti i caratteri della stringa sono maiuscoli, altrimenti False.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{FUNZIONI BUILT-IN PER LE STRINGHE}
+    \begin{alertblock}{FUNZIONI PRINCIPALI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \item \textbf{str(x)}: Converte l'oggetto x in una stringa.
+                \pause
+                \item \textbf{len("x")}: Restituisce la lunghezza della stringa x.
+                \pause
+                \item \textbf{ord("c")}: Restituisce il valore numerico del carattere c.
+                \pause
+                \item \textbf{chr(x)}: Restituisce il carattere corrispondente al valore numerico x.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{STRINGHE E LISTE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Le stringhe possono essere viste come liste di caratteri; per poterle manipolare, 
+            è possibile accedere ai singoli caratteri utilizzando gli indici.\\
+            \textbf{Un indice è un numero intero all'interno di parentesi quadre che rappresenta la posizione di un 
+            elemento all'interno di una sequenza}. Gli indici \textbf{partono da 0}.\\
+\pause
+Esempio:
+\begin{lstlisting}[language=Python]
+ testo = "cyberpunk"
+ carattere = testo[0]  # carattere conterrà 'c'
+ carattere = testo[1]  # carattere conterrà 'y'
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{STRINGHE E LISTE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Lo \textbf{Slicing} permette di estrarre una porzione di una stringa utilizzando la sintassi:\\
+            \center{\textbf{stringa[ inizio : fine : passo ]}}
+            \pause
+            \begin{itemize}
+                \item \textbf{inizio}: indice del primo carattere da includere nello slice (inclusivo).
+                \pause
+                \item \textbf{fine}: indice del primo carattere da escludere dallo slice (esclusivo).
+                \pause
+                \item \textbf{passo}: intervallo tra gli indici da includere nello slice.
+            \end{itemize}
+\pause
+\raggedright
+Esempio:
+\begin{lstlisting}[language=Python]
+ testo = "cyberpunk"
+ substr1 = testo[0:5]  # substr1 conterrà 'cyber'
+ substr2 = testo[0:10:2]  # substr2 conterrà 'cbruk'
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{LISTE}
+
+\begin{frame}[fragile]{LISTE}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Una lista è una struttura dati che può contenere una sequenza di elementi, che possono essere 
+            di qualsiasi tipo (numeri, stringhe, ecc.). Le \textbf{liste sono mutabili}, il che 
+            significa che è possibile modificare i loro elementi dopo la creazione.\\
+            Una lista può essere creata utilizzando le parentesi quadre \textbf{[ ]} e separando 
+            gli elementi con le virgole oppure utilizzando la funzione \textbf{list()}.\\
+            \pause
+            Esempio:
+\begin{lstlisting}[language=Python]
+ lista1 = [1 , 2 , 3 , 4 , 5]
+ lista2 = ["a" , "b" , "c"]
+ lista3 = ["ciao" , 6.7 , True]
+ lista4 = list(range(5))  # lista4 conterrà [0, 1, 2, 3, 4]
+ lista5 = list("ciao")  # lista5 conterrà ['c', 'i', 'a', 'o']
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{LISTE}
+    \begin{alertblock}{ESEMPIO}
+        \begin{minipage}{0.98\linewidth}
+\begin{lstlisting}[language=Python]
+ lista = list(map(int,input("Inserisci numeri interi: ").split()))
+\end{lstlisting}
+\pause
+\begin{enumerate}
+    \item La funzione \textbf{input()} legge una riga di input dall'utente.
+    \pause
+    \item Il metodo \textbf{split()} divide la stringa di input in una lista di sotto-stringhe, utilizzando lo spazio come delimitatore.
+    \pause
+    \item La funzione \textbf{map()} applica la funzione \textbf{int()} a ciascun elemento della lista di sotto-stringhe, convertendoli in numeri interi.
+    \pause
+    \item La funzione \textbf{list()} converte l'oggetto mappa risultante in una lista di numeri interi.
+    \pause
+    \item la lista risultante viene assegnata alla variabile \textbf{lista}.
+\end{enumerate}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{FUNZIONI BUILT-IN PER LE LISTE}
+    \begin{alertblock}{FUNZIONI PRINCIPALI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \item \textbf{len(lista)}: Restituisce il numero di elementi nella lista.
+                \pause
+                \item \textbf{min(lista)}: Restituisce il valore minimo nella lista.
+                \pause
+                \item \textbf{max(lista)}: Restituisce il valore massimo nella lista.
+                \pause
+                \item \textbf{sum(lista)}: Restituisce la somma di tutti gli elementi numerici nella lista.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{METODI PRINCIPALI PER LE LISTE}
+    \begin{alertblock}{METODI PRINCIPALI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            \begin{itemize}
+                \item \textbf{append(x)}: Aggiunge l'elemento x alla fine della lista.
+                \pause
+                \item \textbf{insert(indice, x)}: Inserisce l'elemento x nella posizione indice della lista.
+                \pause
+                \item \textbf{remove(x)}: Rimuove la prima occorrenza dell'elemento x dalla lista.
+                \pause
+                \item \textbf{pop(i)}: Rimuove e restituisce l'elemento nella posizione i della lista. Se i non è specificato, rimuove e restituisce l'ultimo elemento.
+                \pause
+                \item \textbf{clear()}: Rimuove tutti gli elementi dalla lista.
+                \pause
+                \item \textbf{sort()}: Ordina gli elementi della lista in ordine crescente.
+                \pause
+                \item \textbf{reverse()}: Inverte l'ordine degli elementi nella lista.
+            \end{itemize}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{LISTE}
+    \begin{alertblock}{ESEMPIO}
+        \begin{minipage}{0.98\linewidth}
+            Un'app di running registra i tempi in minuti delle sessioni di corsa di un atleta. 
+            Lo script deve inserire una nuova sessione e calcolare il tempo corso totale.
+            Infine, invertire l'ordine della lista per mostrare la cronologia dalla sessione 
+            più recente alla più vecchia.
+\begin{lstlisting}[language=Python]
+tempi = [45, 30, 50, 30, 60, 25]
+tempi.append(35)
+totale = sum(tempi)
+tempi.reverse()
+print("---Tempo totale allenamenti---")
+print(f"{totale} minuti in {len(tempi)} sessioni")
+print("Cronologia allenamenti (dal più recente):", tempi)
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{DIZIONARI}
+
+\begin{frame}[fragile]{DIZIONARI}
+    \begin{alertblock}{DEFINIZIONE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Un dizionario è una struttura dati che memorizza \textbf{coppie chiave-valore}. 
+            \textbf{Ogni chiave deve essere unica e immutabile, mentre i valori possono essere 
+            di qualsiasi tipo}. I dizionari sono mutabili, il che significa che è possibile 
+            aggiungere, modificare o rimuovere coppie chiave-valore dopo la creazione del dizionario.\\
+            La sintassi per creare un dizionario è la seguente:
+            \center{\textbf{dizionario = \{chiave1: valore1 , chiave2: valore2 , ...\}}}\\
+            \pause
+            \raggedright
+            Esempi:
+\begin{lstlisting}[language=Python]
+ tel = {"Ada": 3481234567, "Bea": 3479876543, "Eva": 3456789123}
+ tel = dict(ada=3481234567, Bea=3479876543, Eva=3456789123)
+ tel["Ada"] # Restituisce 3481234567
+ tel["Mia"] = 3498765432 # Aggiunge una nuova coppia chiave-valore
+ list(tel) # Restituisce la lista delle chiavi del dizionario
+ sorted(tel) # Restituisce la lista delle chiavi in ordine alfabetico
+ "Mia" in tel # Restituisce True se presente, False altrimenti
+ del tel["Eva"] # Rimuove la coppia chiave-valore con chiave "Eva"
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+\end{document}
