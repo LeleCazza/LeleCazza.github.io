@@ -1,0 +1,234 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage[top=1.4cm, bottom=1.45cm, left=1.6cm, right=1.6cm, headheight=13pt]{geometry}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[pdfencoding=auto, hidelinks]{hyperref}
+
+\definecolor{testo}{RGB}{25, 28, 34}
+\definecolor{grigio}{RGB}{105, 112, 122}
+\definecolor{linea}{RGB}{175, 180, 188}
+
+\color{testo}
+\pagestyle{empty}
+
+\newcommand{\campotesto}[3][0]{%
+  \raisebox{-1.35mm}{%
+    \TextField[
+      name=#2,
+      width=#3,
+      height=5mm,
+      align=#1,
+      bordercolor={0.68 0.70 0.74},
+      backgroundcolor={0.985 0.987 0.992},
+      charsize=10pt
+    ]{}%
+  }%
+}
+
+\newcommand{\rispostaaperta}[1]{%
+  \TextField[
+    name=#1,
+    multiline=true,
+    donotscroll=true,
+    width=\linewidth,
+    height=5cm,
+    bordercolor={0.68 0.70 0.74},
+    backgroundcolor={0.985 0.987 0.992},
+    charsize=10pt
+  ]{}%
+}
+
+\newcommand{\rispostabreve}[1]{%
+  \TextField[
+    name=#1,
+    multiline=true,
+    donotscroll=true,
+    width=\linewidth,
+    height=1cm,
+    bordercolor={0.55 0.59 0.65},
+    backgroundcolor={0.96 0.97 0.99},
+    charsize=10pt
+  ]{}%
+}
+
+\newcommand{\spaziocorrezioni}{%
+  \noindent\fcolorbox{linea}{white}{%
+    \begin{minipage}[t][2.3cm][t]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+      {\scriptsize\textcolor{grigio}{}}
+    \end{minipage}%
+  }%
+}
+
+\newcommand{\grigliapunti}[1]{%
+  \vspace{0.25em}
+  {\footnotesize\setlength{\tabcolsep}{3.5pt}\renewcommand{\arraystretch}{1.35}%
+  \noindent\begin{tabularx}{\linewidth}{|l|*{5}{>{\centering\arraybackslash}X|}>{\centering\arraybackslash}p{1.8cm}|}
+    \hline
+    \textbf{Valutazione #1} &
+    \textbf{Punto 1} \mbox{\textcolor{grigio}{(5\,pt)}} &
+    \textbf{Punto 2} \mbox{\textcolor{grigio}{(5\,pt)}} &
+    \textbf{Punto 3} \mbox{\textcolor{grigio}{(5\,pt)}} &
+    \textbf{Totale} \\
+    \hline
+    \textbf{Punteggio} & & & & \hfill $/ 15$ \\
+    \hline
+  \end{tabularx}}%
+}
+
+\begin{document}
+\begin{Form}
+
+\begin{center}
+    \Huge
+    VERIFICA DI INFORMATICA
+\end{center}
+
+\vspace{0.2em}
+{\small\renewcommand{\arraystretch}{1.65}%
+\noindent\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash}X|c|c|}
+  \hline
+  \textbf{Cognome e Nome:}\;\campotesto{studente_nome}{6.8cm} &
+  \textbf{Classe:}\;\campotesto{studente_classe}{1.5cm} &
+  \textbf{Data:}\;\campotesto{studente_data}{2.4cm} \\
+  \hline
+\end{tabularx}}
+
+\vspace{0.2em}
+{\renewcommand{\arraystretch}{1.65}%
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|c|c|}
+  \hline
+  \textbf{Tabella di valutazione} & \textbf{Definizioni (20 pt)} & \textbf{Domande (60 pt)} & \textbf{Totale / 80} \\
+  \hline
+  \textcolor{grigio}{Punteggio ottenuto} & & & \\
+  \hline
+\end{tabularx}}
+
+\bigskip
+\noindent{\small\textcolor{testo}{\textbf{ES1. Definisci in modo chiaro, sintetico e tecnicamente corretto i seguenti termini o concetti.} \\
+Punti per definizione: \textbf{2 pt} = corretto $\cdot$ \textbf{1 pt} = incompleto/impreciso $\cdot$ \textbf{0 pt} = errato/non svolto.}}
+
+\vspace{0.6em}
+
+\noindent\textit{}
+
+\begin{enumerate}[leftmargin=1.5em, itemsep=0.55em]
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_01}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_02}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_03}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_04}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_05}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_06}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_07}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_08}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_09}
+
+  \item \textbf{Definizione} testo definizione: \hfill \textcolor{grigio}{(2\,pt)}\\
+  \rispostabreve{def_10}
+\end{enumerate}
+
+\vspace{0.35em}
+{\footnotesize\setlength{\tabcolsep}{1.5pt}\renewcommand{\arraystretch}{1.35}%
+\noindent\begin{tabularx}{\linewidth}{|l|*{10}{>{\centering\arraybackslash}X|}>{\centering\arraybackslash}p{1.4cm}|}
+  \hline
+  \textbf{Valutazione ES1} &
+  \textbf{Def.\,1} &
+  \textbf{Def.\,2} &
+  \textbf{Def.\,3} &
+  \textbf{Def.\,4} &
+  \textbf{Def.\,5} &
+  \textbf{Def.\,6} &
+  \textbf{Def.\,7} &
+  \textbf{Def.\,8} &
+  \textbf{Def.\,9} &
+  \textbf{Def.\,10} &
+  \textbf{Totale} \\
+  \hline
+  \textbf{Punteggio} & & & & & & & & & & & \hfill $/ 20$ \\
+  \hline
+\end{tabularx}}%
+\newpage
+
+\noindent{\small\textcolor{testo}{\textbf{Rispondi in modo chiaro, sintetico e discorsivo, sviluppando tutti i punti guida per ciascuna domanda.} \\
+Criteri per punto: \textbf{5 pt} = corretto $\cdot$ \textbf{2,5 pt} = incompleto/impreciso $\cdot$ \textbf{0 pt} = errato/non svolto.}} \\
+
+\noindent\textbf{ES2. Domanda esercizio} \\
+Analizza TESTO DELLA DOMANDA sviluppando i seguenti punti:
+\begin{enumerate}[leftmargin=1.5em, itemsep=0.08em, topsep=0.15em, label=\arabic*.]
+  \item Punto
+  \item Punto
+  \item Punto
+\end{enumerate}
+\vspace{0.3em}
+\rispostaaperta{aperta_01}
+\spaziocorrezioni
+\grigliapunti{ES2}
+
+\vspace{0.6em}
+
+\noindent\textbf{ES3. Domanda esercizio} \\
+Analizza TESTO DELLA DOMANDA sviluppando i seguenti punti:
+\begin{enumerate}[leftmargin=1.5em, itemsep=0.08em, topsep=0.15em, label=\arabic*.]
+  \item Punto
+  \item Punto
+  \item Punto
+\end{enumerate}
+\vspace{0.3em}
+\rispostaaperta{aperta_02}
+\spaziocorrezioni
+\grigliapunti{ES3}
+
+\newpage
+
+\noindent\textbf{ES4. Domanda esercizio} \\
+Analizza TESTO DELLA DOMANDA sviluppando i seguenti punti:
+\begin{enumerate}[leftmargin=1.5em, itemsep=0.08em, topsep=0.15em, label=\arabic*.]
+  \item Punto
+  \item Punto
+  \item Punto
+\end{enumerate}
+\vspace{0.3em}
+\rispostaaperta{aperta_03}
+\spaziocorrezioni
+\grigliapunti{ES4}
+
+\vspace{0.6em}
+
+\noindent\textbf{ES5. Domanda esercizio} \\
+Analizza TESTO DELLA DOMANDA sviluppando i seguenti punti:
+\begin{enumerate}[leftmargin=1.5em, itemsep=0.08em, topsep=0.15em, label=\arabic*.]
+  \item Punto
+  \item Punto
+  \item Punto
+\end{enumerate}
+\vspace{0.3em}
+\rispostaaperta{aperta_04}
+\spaziocorrezioni
+\grigliapunti{ES5}
+
+\end{Form}
+\end{document}
