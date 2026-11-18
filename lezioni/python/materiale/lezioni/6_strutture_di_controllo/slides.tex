@@ -176,6 +176,135 @@
     \end{alertblock}
 \end{frame}
 
-\section{}
+\section{CICLO FOR}
+
+\begin{frame}[fragile]{CICLO FOR}
+    \begin{alertblock}{CICLO FOR E RANGE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il ciclo di tipo \textbf{for} si utilizza quando \textbf{il numero delle iterazioni da svolgere è 
+            noto} e prefissato, è quindi possibile specificarlo prima dell'inizio del ciclo.\\
+            Una funzione utile per il controllo delle iterazioni del ciclo è \textbf{range(start,stop,step)} che 
+            restituisce una sequenza di numeri da 0 (per impostazione predefinita) con incremento di 1 
+            (per impostazione predefinita) fino al numero specificato.
+            \pause
+\begin{lstlisting}[language=Python]
+ for i in range(0,4,1):
+    print("COD") #output: COD COD COD COD (con i che va da 0 a 3)
+
+ for i in range(4):
+    print("COD") #output: COD COD COD COD (con i che va da 0 a 3)
+
+ for variabile in range(1,10,1):
+    print(variabile) #output: 1 2 3 4 5 6 7 8 9
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{CICLO FOR}
+    \begin{alertblock}{CICLO FOR E STRINGHE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il ciclo di tipo \textbf{for} permette di iterare su tutti i caratteri che formano una stringa.
+\begin{lstlisting}[language=Python]
+ quante_s = 0
+ for c in "Assassin's Creed":
+    if c == "s":
+        quante_s += 1
+ print(f"In totale sono presenti {quante_s} s")
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{CICLO FOR}
+    \begin{alertblock}{CICLO FOR E LISTE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il ciclo di tipo \textbf{for} permette di iterare su tutti gli elementi di una lista.
+\begin{lstlisting}[language=Python]
+ lista = ["Luigi", "Toad", "Peach", "Mario", "Donkey Kong", "Bowser"]
+ for personaggio in lista:
+    print("Io sono", personaggio)
+ #OUTPUT:
+ # Io sono Luigi
+ # Io sono Toad
+ # Io sono Peach
+ # Io sono Mario
+ # Io sono Donkey Kong
+ # Io sono Bowser
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{CICLO FOR}
+    \begin{alertblock}{CICLO FOR E DIZIONARI}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il ciclo di tipo \textbf{for} permette di iterare su tutti gli elementi (chiave, valore) di un dizionario.
+\begin{lstlisting}[language=Python]
+ pokedex = {1 : "Bulbasaur", 2 : "Ivysar", 3 : "Venusaur"}
+ for k,v in pokedex.items():
+    print(f"{k} = {v}")
+ #OUTPUT:
+ # 1 = Bulbasaur
+ # 2 = Ivysar
+ # 3 = Venusaur
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{CICLO FOR}
+    \begin{alertblock}{ISTRUZIONI: BREAK e CONTINUE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            L'istruzione \textbf{break} interrompe l'esecuzione del ciclo e passa il controllo del 
+            programma alla prima istruzione successiva al ciclo (velocizzo l'esecuzione del programma 
+            in alcuni contesti). L'istruzione \textbf{continue} interrompe invece la singola iterazione e 
+            restituisce il controllo all'istruzione iniziale for del ciclo (salta un ciclo).
+            \pause
+\begin{lstlisting}[language=Python]
+calciatori = ["Messi", "Pelè", "Cazzaniga", "Cristiano Ronaldo"]
+ for i in calciatori:
+    if i == "Pelè":
+        continue
+    if i == "Cazzaniga":
+        print("VITTORIA")
+        break
+    print("CALCIATORE:", i)
+ #OUTPUT:
+ #CALCIATORE: Messi
+ #VITTORIA
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
+
+\section{CICLO WHILE}
+
+\begin{frame}[fragile]{CICLO WHILE}
+    \begin{alertblock}{CICLO WHILE}
+        \begin{minipage}{0.98\linewidth}
+            \justifying
+            Il ciclo di tipo \textbf{while} si utilizza quando \textbf{il numero delle iterazioni da svolgere non è 
+            noto}, non è quindi possibile sapere a priori per quante volte dovrà essere ripetuto il ciclo. 
+            Il ciclo controlla ad ogni interazione una condizione iniziale, la quale, se verificata, esegue il 
+            codice presente all'interno del ciclo.\\
+            Le istruzioni \textbf{break} e \textbf{continue} possono essere utilizzate anche per il ciclo \textbf{while}. 
+            \pause
+\begin{lstlisting}[language=Python]
+ somma = 0
+ n = -1
+ while n != 0:
+     n = int(input("Inserisci un numero, zero per terminare: "))
+     somma += n
+ print("La somma dei numeri inseriti è:",somma)
+\end{lstlisting}
+        \end{minipage}
+    \end{alertblock}
+\end{frame}
 
 \end{document}

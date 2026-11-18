@@ -344,3 +344,8 @@ GRAFICI CON [quickchart.io](https://quickchart.io/)
 # SISTEMA OPERATIVO
 
 - https://virtualosmuseum.org/
+
+# PYTHON ARCADE
+https://api.arcade.academy/en/stable/get_started/install.html
+pip install --pre arcade
+https://www.youtube.com/watch?v=qf47Zqs2xSw&list=PL1P11yPQAo7qgk8uk_A5UxiTrMt6obCc5
